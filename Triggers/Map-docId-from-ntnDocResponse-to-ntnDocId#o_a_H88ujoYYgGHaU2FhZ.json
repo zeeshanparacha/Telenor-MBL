@@ -1,0 +1,31 @@
+{
+  "id": "6p1C10ixnexS-p8ABh0NQ",
+  "_id": "o_a_H88ujoYYgGHaU2FhZ",
+  "name": "Map docId from ntnDocResponse to ntnDocId",
+  "old_name": "Map docId from declarationDocResponse to declarationDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "ntnDocId",
+          "sourceBindingKey": "ntnDocResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

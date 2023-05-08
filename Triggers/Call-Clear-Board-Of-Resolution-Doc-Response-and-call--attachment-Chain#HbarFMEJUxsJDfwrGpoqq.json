@@ -1,0 +1,187 @@
+{
+  "id": "Ec5i3hJDGLsUHuC3Bk4hh",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Call Clear Board Of Resolution Doc Response and call  attachment Chain",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "aQLnSEhFRipp5eT55VirO",
+              "_id": "eqSnRIr4VxxaBzFcpOfMX",
+              "name": "Clear Board Of Resolution Doc Response",
+              "old_name": "Clear Board Of Resolution Doc Response",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "dataType": "value",
+                      "destinationBindingKey": "BoardOfResolutionResponse.docId",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": { "if": [true, "", ""] },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/18/2023",
+              "createdAt": "4/18/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "-c_ParFhJHlQmzVyMQhy_",
+              "_id": "YjF_cpZscEmpEozz6gIn6",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "add attachment for private ",
+              "old_name": "add attachment for private ",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "attachmentResponse",
+                      "url": "/pre-corp-reg/attachment",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.boardOfResolutionDocId",
+                          "value": "BoardOfResolutionResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.memorandumOfAssociationDocId",
+                          "value": "memorandumOfAssociationResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.certificateOfIncorporationDocId",
+                          "value": "certificateOfIncorporationResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.certificateOfCommencementDocId",
+                          "value": "certificateOfCommencementResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.formADocId",
+                          "value": "formAResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.czDocId",
+                          "value": "czDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.zakatExemptionDocId",
+                          "value": "zakatExemptionDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.taxExemptionDocId",
+                          "value": "taxExemptionDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.ntnDocId",
+                          "value": "ntnDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.fatcaDocId",
+                          "value": "fatcaDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.crsDocId",
+                          "value": "crsDocResponse.docId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "formId",
+                          "value": "formId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "privateOrPublicDocument.declarationOfChangesDocId",
+                          "value": "declarationDocResponse.docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            }
+          ],
+          "triggerIds": ["aQLnSEhFRipp5eT55VirO", "-c_ParFhJHlQmzVyMQhy_"]
+        }
+      }
+    }
+  ],
+  "_id": "HbarFMEJUxsJDfwrGpoqq",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

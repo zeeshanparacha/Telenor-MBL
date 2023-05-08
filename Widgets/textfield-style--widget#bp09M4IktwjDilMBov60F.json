@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bp09M4IktwjDilMBov60F",
+    "name": "textfield style  widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "AvWe_p3ncgQucpXkpEjQd",
+          "componentType": "10001",
+          "id": "AvWe_p3ncgQucpXkpEjQd",
+          "position": {
+            "i": "AvWe_p3ncgQucpXkpEjQd",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "textfield style ",
+        "id": "AvWe_p3ncgQucpXkpEjQd",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "55DyJK8xJktDyDEXWSD28",
+            "gridProps": [
+              {
+                "id": "3x4f6e-KtlSCV9GyIAK9j",
+                "status": "ACTIVE",
+                "name": "Text Box",
+                "attributes": {
+                  "label": "",
+                  "name": "Text box",
+                  "label-locale-key": "",
+                  "maxLength": "100",
+                  "type": "text",
+                  "variant": "standard",
+                  "value": "",
+                  "readOnly": false,
+                  "tooltip": "",
+                  "font-family": "Verdana",
+                  "mandatory": true,
+                  "tooltipState": "",
+                  "layoutProperties": {
+                    "textField": {
+                      "//": "Use this class to style text field component.",
+                      "borderWidth": "1px",
+                      "borderRadius": "27px",
+                      "background-color": "#f5f5f5",
+                      "color": "rgb(122 122 122)",
+                      "border": "1px solid #ebe7e7",
+                      "width": "90%"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style  text field element.",
+                      "paddingLeft": "10px",
+                      "margin": "8px",
+                      "color": "rgb(122 122 122)"
+                    },
+                    "mainContainer": "textField",
+                    "xl": 6,
+                    "lg": 6,
+                    "md": 6,
+                    "sm": 6,
+                    "xs": 6
+                  },
+                  "validate": {
+                    "required": true,
+                    "errorMsg": "Full name is required",
+                    "bindButton": [
+                      {
+                        "id": "QkXHmQUlBDoP0fvbdnBkK",
+                        "type": "20006",
+                        "name": "Submit_btn",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Submit",
+                          "variant": "contained",
+                          "name": "Submit_btn",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component.",
+                              "color": "#ffffff",
+                              "background": "#DA0006",
+                              "borderRadius": "50px",
+                              "padding": "12px"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "disableCondition": {
+                            "logic": {
+                              "==": [
+                                { "var": "currentScreen.otpResponse.status" },
+                                1
+                              ]
+                            }
+                          }
+                        },
+                        "events": [
+                          {
+                            "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                            "triggerName": "corporate opening details post request",
+                            "name": "On Submit",
+                            "type": "4",
+                            "serviceType": "8"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+                        "version": "1.0.0",
+                        "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+                        "subType": "component",
+                        "projectId": "63f4845e476fc83100e3a899",
+                        "gitBranchName": "master",
+                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                      }
+                    ]
+                  },
+                  "placeholder": "Company Name as per registration",
+                  "stateName": "fullname",
+                  "disableUnderline": true
+                },
+                "icon": "FaWindowMinimize",
+                "group": "Form",
+                "type": "20004",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Text Box", "type": "20004" },
+                "events": [],
+                "path": "0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0"
+              }
+            ],
+            "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          },
+          {
+            "type": "column",
+            "id": "QKkHFE5tBHNbsCwDDkKqt",
+            "gridProps": [
+              {
+                "id": "QblaeptPx-6zeNrWcDyDP",
+                "status": "ACTIVE",
+                "name": "Text Box",
+                "attributes": {
+                  "label": "",
+                  "name": "Text box",
+                  "label-locale-key": "",
+                  "maxLength": "100",
+                  "type": "text",
+                  "variant": "standard",
+                  "value": "",
+                  "readOnly": false,
+                  "tooltip": "",
+                  "font-family": "Verdana",
+                  "mandatory": true,
+                  "tooltipState": "",
+                  "layoutProperties": {
+                    "textField": {
+                      "//": "Use this class to style text field component.",
+                      "borderWidth": "1px",
+                      "borderRadius": "27px",
+                      "background-color": "#f5f5f5",
+                      "color": "rgb(122 122 122)",
+                      "border": "1px solid #ebe7e7",
+                      "width": "90%"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style  text field element.",
+                      "paddingLeft": "10px",
+                      "margin": "8px",
+                      "color": "rgb(122 122 122)"
+                    },
+                    "mainContainer": "textField",
+                    "xl": 6,
+                    "lg": 6,
+                    "md": 6,
+                    "sm": 6,
+                    "xs": 6
+                  },
+                  "validate": {
+                    "required": true,
+                    "errorMsg": "email is required",
+                    "bindButton": [
+                      {
+                        "id": "QkXHmQUlBDoP0fvbdnBkK",
+                        "type": "20006",
+                        "name": "Submit_btn",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Submit",
+                          "variant": "contained",
+                          "name": "Submit_btn",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component.",
+                              "color": "#ffffff",
+                              "background": "#DA0006",
+                              "borderRadius": "50px",
+                              "padding": "12px"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "disableCondition": {
+                            "logic": {
+                              "==": [
+                                { "var": "currentScreen.otpResponse.status" },
+                                1
+                              ]
+                            }
+                          }
+                        },
+                        "events": [
+                          {
+                            "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                            "triggerName": "corporate opening details post request",
+                            "name": "On Submit",
+                            "type": "4",
+                            "serviceType": "8"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+                        "version": "1.0.0",
+                        "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+                        "subType": "component",
+                        "projectId": "63f4845e476fc83100e3a899",
+                        "gitBranchName": "master",
+                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                      }
+                    ],
+                    "regexErrorMsg": "invalid email",
+                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+                  },
+                  "placeholder": "Business Mailing Address",
+                  "stateName": "email",
+                  "disableUnderline": true
+                },
+                "icon": "FaWindowMinimize",
+                "group": "Form",
+                "type": "20004",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Text Box", "type": "20004" },
+                "events": [],
+                "path": "0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0"
+              }
+            ],
+            "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 3
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0",
+        "dimensions": {
+          "rows": 1,
+          "columns": 2,
+          "colSize0xs": 6,
+          "colSize0sm": 6,
+          "colSize0md": 6,
+          "colSize0lg": 6,
+          "colSize0xl": 6,
+          "colSize1xs": 6,
+          "colSize1sm": 6,
+          "colSize1md": 6,
+          "colSize1lg": 6,
+          "colSize1xl": 6
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "bp09M4IktwjDilMBov60F",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "bp09M4IktwjDilMBov60F",
+    "createdBy": "areeb",
+    "updatedAt": "3/27/2023",
+    "createdAt": "3/27/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "AvWe_p3ncgQucpXkpEjQd",
+    "name": "textfield style ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "3x4f6e-KtlSCV9GyIAK9j",
+          "componentType": "20004",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "QblaeptPx-6zeNrWcDyDP",
+          "componentType": "20004",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 3
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "MoJ6ZUAMtrGWAYXME1ezI",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "3x4f6e-KtlSCV9GyIAK9j",
+    "status": "ACTIVE",
+    "name": "Text Box",
+    "attributes": {
+      "label": "",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": "100",
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "borderWidth": "1px",
+          "borderRadius": "27px",
+          "background-color": "#f5f5f5",
+          "color": "rgb(122 122 122)",
+          "border": "1px solid #ebe7e7",
+          "width": "90%"
+        },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "validate": {
+        "required": true,
+        "errorMsg": "Full name is required",
+        "bindButton": [
+          {
+            "id": "QkXHmQUlBDoP0fvbdnBkK",
+            "type": "20006",
+            "name": "Submit_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "Submit",
+              "variant": "contained",
+              "name": "Submit_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#DA0006",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "disableCondition": {
+                "logic": {
+                  "==": [{ "var": "currentScreen.otpResponse.status" }, 1]
+                }
+              }
+            },
+            "events": [
+              {
+                "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                "triggerName": "corporate opening details post request",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
+      "placeholder": "Company Name as per registration",
+      "stateName": "fullname",
+      "disableUnderline": true
+    },
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0",
+    "screenId": "MoJ6ZUAMtrGWAYXME1ezI",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QblaeptPx-6zeNrWcDyDP",
+    "status": "ACTIVE",
+    "name": "Text Box",
+    "attributes": {
+      "label": "",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": "100",
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "borderWidth": "1px",
+          "borderRadius": "27px",
+          "background-color": "#f5f5f5",
+          "color": "rgb(122 122 122)",
+          "border": "1px solid #ebe7e7",
+          "width": "90%"
+        },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "validate": {
+        "required": true,
+        "errorMsg": "email is required",
+        "bindButton": [
+          {
+            "id": "QkXHmQUlBDoP0fvbdnBkK",
+            "type": "20006",
+            "name": "Submit_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "Submit",
+              "variant": "contained",
+              "name": "Submit_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#DA0006",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "disableCondition": {
+                "logic": {
+                  "==": [{ "var": "currentScreen.otpResponse.status" }, 1]
+                }
+              }
+            },
+            "events": [
+              {
+                "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                "triggerName": "corporate opening details post request",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ],
+        "regexErrorMsg": "invalid email",
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+      },
+      "placeholder": "Business Mailing Address",
+      "stateName": "email",
+      "disableUnderline": true
+    },
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0",
+    "screenId": "MoJ6ZUAMtrGWAYXME1ezI",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

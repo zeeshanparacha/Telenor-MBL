@@ -1,0 +1,99 @@
+{
+  "id": "ndZ5w0j35NJfd2f-wnVko",
+  "_id": "rYYY0H87XHYzSBDxYr-G-",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "add attachement for declarationDocId",
+  "old_name": "add attachement for declarationDocId",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "declarationDocIdResponse",
+          "url": "/pre-corp-reg/attachment",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.declarationDocId",
+              "value": "declarationDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.czDocId",
+              "value": "czDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.crsDocId",
+              "value": "crsDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.fatcaDocId",
+              "value": "fatcaDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.ntnDocId",
+              "value": "ntnDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.taxExemptionDocId",
+              "value": "taxExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietorDocument.zakatExemptionDocId",
+              "value": "zakatExemptionDocId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "formId",
+              "value": "formId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

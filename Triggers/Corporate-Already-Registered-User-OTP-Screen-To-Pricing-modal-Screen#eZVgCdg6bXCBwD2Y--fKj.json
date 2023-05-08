@@ -1,0 +1,26 @@
+{
+  "id": "26PQubHrM1UDp1pUUUhgc",
+  "_id": "eZVgCdg6bXCBwD2Y--fKj",
+  "name": "Corporate Already Registered User OTP Screen To Pricing modal Screen",
+  "old_name": "Corporate Already Registered User OTP Screen To Pricing modal Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "paMa94X9U4DiPcCd2veQK",
+          "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "gridRadioValue": "Screen",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

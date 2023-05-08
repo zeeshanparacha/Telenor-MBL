@@ -1,0 +1,44 @@
+{
+  "id": "PHgSp2GEk2eQZTROLgGTr",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Corporate List API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "corpListResponse",
+          "responseReturnValue": "data.fromAccounts",
+          "url": "/corporate-account/list",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "_id": "NeC7V5uxcuksMqf6hjDVN",
+  "updatedAt": "3/7/2023",
+  "createdAt": "3/7/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

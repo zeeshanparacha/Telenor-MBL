@@ -1,0 +1,26 @@
+{
+  "id": "yn6NsZM7aVv4lq1YavEo4",
+  "name": "Delete items in Director Information",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "stateName": "directorInformation",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "xBeb7jIceGctitRpft8gm",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

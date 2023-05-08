@@ -1,0 +1,26 @@
+{
+  "id": "gTv3c6xif8a2MpJc4JFWA",
+  "name": "private save to next to document upload screen flow manager",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "nextWidgetId": "q2bb7JhbNUTPbRJ7EGmNb",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "J1IqF9FsdLl6MqnvcCZXH",
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

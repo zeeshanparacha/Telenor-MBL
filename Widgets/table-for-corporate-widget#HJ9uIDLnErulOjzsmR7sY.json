@@ -1,0 +1,395 @@
+[
+  {
+    "id": "HJ9uIDLnErulOjzsmR7sY",
+    "name": "table for corporate widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "qlufLO1XEOfSvy8ZE4Aei",
+          "componentType": "10001",
+          "id": "qlufLO1XEOfSvy8ZE4Aei",
+          "position": {
+            "i": "qlufLO1XEOfSvy8ZE4Aei",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "qlufLO1XEOfSvy8ZE4Aei",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "table for corporate",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "marginTop": "20px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0-0-1-0-3",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "0kkKv9bxLpQlc_j4tEa9l",
+            "gridProps": [
+              {
+                "id": "5oWmbusRzudExAsv24iaa",
+                "status": "ACTIVE",
+                "name": "Data table",
+                "type": "20014",
+                "attributes": {
+                  "responseStateKey": "fullStatement2",
+                  "layoutProperties": {
+                    "container": {
+                      "//": "Use this class to style data table container."
+                    },
+                    "rowStyle": {
+                      "//": "Use this class to style data table rows.",
+                      "color": "black",
+                      "background-color": "white",
+                      "text-align": "left"
+                    },
+                    "defaultColDefinition": {
+                      "//": "Use this class to define column definition of data table.",
+                      "sortable": true,
+                      "animateRows": false,
+                      "resizable": true,
+                      "enableValue": false,
+                      "enableRowGroup": false,
+                      "enablePivot": false,
+                      "filter": true,
+                      "type": "leftAligned",
+                      "minWidth": 10,
+                      "domLayout": "autoHeight"
+                    },
+                    "mainContainer": "container",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12,
+                    "headerStyles": {
+                      "background-color": "#DA0006",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  "defaultColDef": {
+                    "sortable": true,
+                    "animateRows": false,
+                    "resizable": false,
+                    "enableValue": false,
+                    "enableRowGroup": false,
+                    "enablePivot": false,
+                    "filter": true,
+                    "type": "leftAligned",
+                    "minWidth": 30,
+                    "domLayout": "autoHeight"
+                  },
+                  "rowStyle": {
+                    "color": "black",
+                    "background-color": "white",
+                    "text-align": "left"
+                  },
+                  "columnDefinition": [
+                    {
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "headerName": "Transaction Date",
+                      "field": "trasnaction_date",
+                      "type": "text",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "headerName": "Transaction ID",
+                      "field": "txn_ID",
+                      "type": "text",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "headerName": "Type/Description",
+                      "field": "narration_1",
+                      "type": "text",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "headerName": "Debit/Credit",
+                      "field": "Dr/Cr",
+                      "type": "text",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "Number", "type": "number" },
+                      "headerName": "Amount",
+                      "field": "Amount",
+                      "type": "number",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "Number", "type": "number" },
+                      "headerName": "Remaining Balance",
+                      "field": "Remaining_Balance",
+                      "type": "number",
+                      "triggerId": null
+                    }
+                  ],
+                  "rowDefinition": [],
+                  "debug": false,
+                  "pagination": true,
+                  "paginationPageSize": 5,
+                  "suppressCsvExport": false,
+                  "suppressExcelExport": true,
+                  "name": "Data Grid",
+                  "storeType": 2
+                },
+                "icon": "FaTable",
+                "group": "Advanced",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 12,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Data table", "type": "20014" },
+                "events": [],
+                "path": "0-0-1-0-3-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "HJ9uIDLnErulOjzsmR7sY",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "HJ9uIDLnErulOjzsmR7sY",
+    "createdBy": "areeb",
+    "updatedAt": "3/28/2023",
+    "createdAt": "3/28/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "qlufLO1XEOfSvy8ZE4Aei",
+    "name": "table for corporate",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "5oWmbusRzudExAsv24iaa",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "marginTop": "20px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nqgECqW95uUMgp3qrp15n",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "5oWmbusRzudExAsv24iaa",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "fullStatement2",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "background-color": "#DA0006", "color": "#FFFFFF" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Transaction Date",
+          "field": "trasnaction_date",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Transaction ID",
+          "field": "txn_ID",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Type/Description",
+          "field": "narration_1",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Debit/Credit",
+          "field": "Dr/Cr",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Number", "type": "number" },
+          "headerName": "Amount",
+          "field": "Amount",
+          "type": "number",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Number", "type": "number" },
+          "headerName": "Remaining Balance",
+          "field": "Remaining_Balance",
+          "type": "number",
+          "triggerId": null
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": false,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-1-0-3-0-0",
+    "screenId": "nqgECqW95uUMgp3qrp15n",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

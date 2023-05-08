@@ -1,0 +1,33 @@
+{
+  "id": "r2Iq0KVdd1Hggc6yq7tsk",
+  "_id": "HLMmWk-obrAYkPu9zn0Ot",
+  "name": "set showcz50Upload false",
+  "old_name": "set showDeclarationUpload false",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showcz50Upload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, false, false] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

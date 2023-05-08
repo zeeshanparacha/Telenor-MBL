@@ -1,0 +1,27 @@
+{
+  "id": "a4kKUeuGKHVQK_o9iuRxA",
+  "_id": "2u9iAH1qPbiyXmv6b9f-l",
+  "name": "save to next for partnership document upload",
+  "old_name": "partnership save to next to document upload screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "nextWidgetId": "czSQJrQjzxEw78Z7kEI3U",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

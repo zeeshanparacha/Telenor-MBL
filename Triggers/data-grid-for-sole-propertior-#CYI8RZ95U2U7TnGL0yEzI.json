@@ -1,0 +1,26 @@
+{
+  "id": "mk-Izmeo3sowVohT2Dt_6",
+  "name": "data grid for sole propertior ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "sole",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "CYI8RZ95U2U7TnGL0yEzI",
+  "updatedAt": "3/30/2023",
+  "createdAt": "3/30/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

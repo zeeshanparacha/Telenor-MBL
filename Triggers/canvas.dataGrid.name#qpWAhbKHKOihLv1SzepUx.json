@@ -1,0 +1,29 @@
+{
+  "id": "WcTPh3UVtY1kES_kI95Z-",
+  "name": "canvas.dataGrid.name",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "sole",
+          "sourceBindingKey": "signatories",
+          "sourceStoreType": 1,
+          "destinationStoreType": 2,
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "qpWAhbKHKOihLv1SzepUx",
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

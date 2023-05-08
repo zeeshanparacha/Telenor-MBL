@@ -1,0 +1,85 @@
+{
+  "id": "dsTyrjRbzll0-aTvkCkK6",
+  "_id": "1bOhLSsWuTYM5Cjh0A_zu",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "corporate opening details post request",
+  "old_name": "corporate opening details post request",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/pre-corp-reg/validate-primary-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": "loginTrigger",
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyAddress",
+              "value": "companyAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation.value"
+            },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fullName",
+              "value": "fullName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "mobileNumber",
+              "value": "mobileNumber"
+            },
+            { "type": 1, "name": "Form", "key": "token", "value": "captcha" }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 3,
+          "triggerGenericErrorTrigger": true
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "corporate account opening screen to corporate account opening otp",
+            "triggerId": "Q-C2CSZ-WNIXMvOhidNHi"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

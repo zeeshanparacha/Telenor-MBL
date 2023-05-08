@@ -1,0 +1,79 @@
+{
+  "_id": "BDt9U5soYdnIZUwA8NAvS",
+  "id": "4KmADt4aqbWRF2w1YAmeZ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Sole Propriter Widget two to Widget one with clear validations",
+  "old_name": "Sole Propriter Widget two to Widget one with clear validations",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "642c6ac388cea78205824593",
+              "id": "C9VAY5AImRfafff65",
+              "name": "Clear validations",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "4"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "id": "JwZdPVRiMtdqtr04uuaMA",
+              "_id": "Ze4XngrSKzOUlJDlsafSd",
+              "name": "SOLE PROPRITER WIDGET TWO TO WIDGET ONE",
+              "old_name": "SOLE PROPRITER WIDGET TWO TO WIDGET ONE",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                      "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "3/31/2023",
+              "createdAt": "3/31/2023",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
+            }
+          ],
+          "triggerIds": ["C9VAY5AImRfafff65", "JwZdPVRiMtdqtr04uuaMA"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}

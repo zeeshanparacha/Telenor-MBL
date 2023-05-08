@@ -1,0 +1,31 @@
+{
+  "id": "5eVHZC7kvW3en0LDDMz_v",
+  "name": "set showcz50Upload true",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showcz50Upload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, true, true] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "Ffg5h-EASGYi7F8bTprGN",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

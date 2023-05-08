@@ -1,0 +1,108 @@
+{
+  "id": "Gyuq0Gg-0gs1c4YDq363h",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "PO-CDR PendingList Chain Trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "86Dsw6qgSA71t2v3DsSk2",
+              "name": "Clear PO-CDR PendingList BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "listResponse",
+                      "storeType": 2
+                    }
+                  }
+                }
+              ],
+              "_id": "0zPl60MIHVZ-5WzGAhVdH",
+              "updatedAt": "3/8/2023",
+              "createdAt": "3/8/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "WlUOSe-FZl-ZAh-PZDNH5",
+              "_id": "Hw1CkM8ulAqYkKPWc8-Vc",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "PO-CDR-PendingList-API",
+              "old_name": "PO-CDR-PendingList-API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "listResponse",
+                      "responseReturnValue": "data.requests",
+                      "url": "/offline-requests/pending-list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "pageSize",
+                          "value": "5"
+                        }
+                      ],
+                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "3/8/2023",
+              "createdAt": "3/8/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["86Dsw6qgSA71t2v3DsSk2", "WlUOSe-FZl-ZAh-PZDNH5"]
+        }
+      }
+    }
+  ],
+  "_id": "Yid1qa2A-uACtveibvZ0G",
+  "updatedAt": "3/8/2023",
+  "createdAt": "3/8/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

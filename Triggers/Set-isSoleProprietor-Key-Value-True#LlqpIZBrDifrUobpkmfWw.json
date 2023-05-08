@@ -1,0 +1,35 @@
+{
+  "id": "Nw50uGREwJa7Ps0Jcl32b",
+  "_id": "LlqpIZBrDifrUobpkmfWw",
+  "name": "Set isSoleProprietor Key Value True",
+  "old_name": "Set isSoleProprietor Key Value True",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "isSoleProprietor",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [{ "==": [{ "var": "form.pricing" }, "sole"] }, true, false]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

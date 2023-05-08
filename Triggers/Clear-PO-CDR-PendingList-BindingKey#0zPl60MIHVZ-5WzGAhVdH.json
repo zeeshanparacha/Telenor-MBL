@@ -1,0 +1,20 @@
+{
+  "id": "86Dsw6qgSA71t2v3DsSk2",
+  "name": "Clear PO-CDR PendingList BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": { "stateName": "listResponse", "storeType": 2 }
+      }
+    }
+  ],
+  "_id": "0zPl60MIHVZ-5WzGAhVdH",
+  "updatedAt": "3/8/2023",
+  "createdAt": "3/8/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

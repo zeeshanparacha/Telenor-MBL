@@ -1,0 +1,26 @@
+{
+  "id": "mdr08zb2-SJNhZDJ5IETh",
+  "_id": "qoNm_lmuoDX3zBxt6Mdz0",
+  "name": "Back PendingList Request new cheque book Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "fromWidgetId": "NHpo8se7to9ze-aCJA42v",
+          "nextWidgetId": "Ab-ouc1h_Xd71snpw51Ti",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6D1l7qr5VOJZYfdKbF86U",
+  "_id": "iiBKqvytN7tx6hPh-6y2B",
+  "name": "Open PO Submitted Request View Detail Screen",
+  "old_name": "Open PO Submitted Request View Detail Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "bMagBy6R4NxYTidRo6LBB",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

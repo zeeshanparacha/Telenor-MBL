@@ -1,0 +1,29 @@
+{
+  "id": "AGvRA0et2y3z1GthGmhup",
+  "name": "map formId from save2next sole prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "formId",
+          "sourceBindingKey": "saveToNextSole.data.result.formId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "fY-_2tKsl3oezGAY0s6Mk",
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

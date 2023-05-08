@@ -1,0 +1,44 @@
+{
+  "id": "rIPTYEDjCF9YrS7DbPyhl",
+  "_id": "3uTYfwvGV0Ls1wx0b159U",
+  "name": "Manipulate Key To Object expected No Of Credit Transactions Private",
+  "old_name": "Manipulate Key To Object expected No Of Credit Transactions Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "destinationBindingKey": "expectedNoOfCreditTransactions",
+          "sourceBindingKey": "form.expectedNoOfCreditTransactions",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.form.expectedNoOfCreditTransactions"
+              }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.form.expectedNoOfCreditTransactions"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

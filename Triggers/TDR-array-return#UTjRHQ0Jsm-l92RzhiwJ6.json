@@ -1,0 +1,33 @@
+{
+  "id": "Zp4REVu588oAAesCoWKGl",
+  "name": "TDR array return",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "lookupType",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 1,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [true, ["tdrTenure", "tdrFrequency", "tdrType"], []]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "UTjRHQ0Jsm-l92RzhiwJ6",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

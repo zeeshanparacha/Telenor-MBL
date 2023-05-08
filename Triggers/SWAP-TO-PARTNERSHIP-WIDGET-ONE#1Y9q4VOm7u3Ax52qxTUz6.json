@@ -1,0 +1,26 @@
+{
+  "id": "NKZt3lkO8aR6u-bZGLczV",
+  "name": "SWAP TO PARTNERSHIP WIDGET ONE",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "1Y9q4VOm7u3Ax52qxTUz6",
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}

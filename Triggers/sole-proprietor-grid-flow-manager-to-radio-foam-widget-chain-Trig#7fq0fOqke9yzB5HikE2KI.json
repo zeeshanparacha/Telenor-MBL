@@ -1,0 +1,108 @@
+{
+  "_id": "7fq0fOqke9yzB5HikE2KI",
+  "id": "TLxnz2ZxBTE29Hs8fZHCP",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "sole proprietor grid flow manager to radio foam widget chain Trig",
+  "old_name": "sole proprietor grid flow manager to radio foam widget chain Trig",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "63247a318c5ded569ce08e69",
+              "id": "C9VAY5AImRfVpeNy7pz65",
+              "name": "Clear Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "642c6ac388cea78205824593",
+              "id": "C9VAY5AImRfafff65",
+              "name": "Clear validations",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "4"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "id": "EAQTCCRbDvv2JATNl0ybb",
+              "_id": "VFStswTqS8nk7PMF84ZE5",
+              "name": "sole proprietor grid flow manager to radio foam widget",
+              "old_name": "sole proprietor grid flow manager to radio foam widget",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                      "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "3/30/2023",
+              "createdAt": "3/30/2023",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
+            }
+          ],
+          "triggerIds": [
+            "C9VAY5AImRfVpeNy7pz65",
+            "C9VAY5AImRfafff65",
+            "EAQTCCRbDvv2JATNl0ybb"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

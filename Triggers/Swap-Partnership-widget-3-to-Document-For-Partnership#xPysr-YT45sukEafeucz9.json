@@ -1,0 +1,26 @@
+{
+  "id": "BZ3CnHKd8wcs1tXVYu86v",
+  "name": "Swap Partnership widget 3 to Document For Partnership",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "mycu-kw2WFYDLmqq_XP4S",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "xPysr-YT45sukEafeucz9",
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

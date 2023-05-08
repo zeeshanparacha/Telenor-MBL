@@ -1,0 +1,44 @@
+{
+  "id": "iMW4sR_G0joDl4AEDjYFD",
+  "_id": "t7R0KmLj_5oSpsijP6Mkc",
+  "name": "set showDeclarationUpload false or True",
+  "old_name": "set showDeclarationUpload false or True",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showDeclarationUpload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              {
+                "or": [
+                  { "var": "form.declarationDocId" },
+                  { "var": "form.declarationOfChangesDocId" }
+                ]
+              },
+              false,
+              true
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "e-a2Gtl3kZp7ZmnNRzZou",
+  "name": "Set Certificate Of Commencement Upload False or True",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showcertificateOfCommencementUpload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.certificateOfCommencementDocId" },
+              false,
+              true
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "c2WjTKCWDjTT4rlRRR6oI",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

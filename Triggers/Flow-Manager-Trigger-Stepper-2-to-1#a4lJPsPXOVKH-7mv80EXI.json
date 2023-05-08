@@ -1,0 +1,25 @@
+{
+  "id": "wUAZbF_ISOZdFPMA8cGbZ",
+  "name": "Flow Manager Trigger Stepper 2 to 1",
+  "projectId": "63f4845e476fc83100e3a899",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "O7C2bkuQL8KrfwBasZV_Z",
+          "nextWidgetId": "H1qvtInPp124qeOYik5pI",
+          "isPersist": true,
+          "isStepper": true
+        }
+      }
+    }
+  ],
+  "_id": "a4lJPsPXOVKH-7mv80EXI",
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ECfxtTmgbAkK2aq0ELmY7",
+  "_id": "pmt_MeW-M-3f9NriJR2xH",
+  "name": "link to step 4",
+  "old_name": "link to step 4",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "nextWidgetId": "60-JoICA1uTGOAgECFHt-",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

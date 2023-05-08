@@ -1,0 +1,27 @@
+{
+  "id": "v-Rc0z8yzD9EG4Uuygp9h",
+  "_id": "Ms70a5CSXRXFNZDH4cUeb",
+  "name": "swap corporate grid flow manager to step 4 widget widget",
+  "old_name": "swap corporate grid flow manager to step 4 widget widget",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "U6LakWosfP1r7xcQrZPPc",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/29/2023",
+  "createdAt": "3/29/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "YfytGTTFFdUA-akfCsLt4",
+  "name": "Map docId from declarationDocResponse to declarationOfChangesDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "declarationOfChangesDocId",
+          "sourceBindingKey": "declarationDocResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "9MT7b_hcPflGyk1OQZFv7",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

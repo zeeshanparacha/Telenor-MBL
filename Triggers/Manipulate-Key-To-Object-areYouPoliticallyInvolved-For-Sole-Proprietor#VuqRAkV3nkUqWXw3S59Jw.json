@@ -1,0 +1,41 @@
+{
+  "id": "bkOhjiR4Y7IPHtwmVvndB",
+  "name": "Manipulate Key To Object areYouPoliticallyInvolved For Sole Proprietor",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "areYouPoliticallyInvolved",
+          "sourceBindingKey": "form.areYouPoliticallyInvolved",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.areYouPoliticallyInvolved" }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.areYouPoliticallyInvolved" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "VuqRAkV3nkUqWXw3S59Jw",
+  "updatedAt": "5/1/2023",
+  "createdAt": "5/1/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "QGZBTadRBj7l1n9PWKo_p",
+  "_id": "9-gBjwmxO6kpHJk6NZbz-",
+  "name": "add data grid for sole",
+  "old_name": "add data grid for sole",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "sole",
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerName",
+              "value": "customerName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerDOB",
+              "value": "customerDOB"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerBirthPlace",
+              "value": "customerBirthPlace"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerCity",
+              "value": "customerCity"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerCountry",
+              "value": "customerCountry"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerNationality",
+              "value": "customerNationality"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerLegalId",
+              "value": "customerLegalId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "ntnDocId",
+              "value": "uploadFileResponse.data.result.docId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "areYouPoliticallyInvolved",
+              "value": "areYouPoliticallyInvolved.value"
+            }
+          ],
+          "selectedObjectBindingKey": "selectedObject"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

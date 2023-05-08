@@ -1,0 +1,385 @@
+{
+  "_id": "UjCHPGK5MJpF_WYicsjAE",
+  "id": "Ud6oZZnAedYXXI25_y13T",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Add Sole Information Data",
+  "old_name": "Add Sole Information Data",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "QGZBTadRBj7l1n9PWKo_p",
+              "_id": "9-gBjwmxO6kpHJk6NZbz-",
+              "name": "add data grid for sole",
+              "old_name": "add data grid for sole",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "sole",
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerName",
+                          "value": "customerName"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerDOB",
+                          "value": "customerDOB"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerBirthPlace",
+                          "value": "customerBirthPlace"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerCity",
+                          "value": "customerCity"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerCountry",
+                          "value": "customerCountry"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerNationality",
+                          "value": "customerNationality"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerLegalId",
+                          "value": "customerLegalId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "ntnDocId",
+                          "value": "uploadFileResponse.data.result.docId"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "areYouPoliticallyInvolved",
+                          "value": "areYouPoliticallyInvolved.value"
+                        }
+                      ],
+                      "selectedObjectBindingKey": "selectedObject"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            },
+            {
+              "_id": "L7sdTcaWKiFgQkBkf8DOC",
+              "id": "MaVZfEI2leBw4Hq0FzlhJ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Clear Sole Prop Form",
+              "old_name": "Clear Sole Prop Form",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "2",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "delay": "",
+                      "triggers": [
+                        {
+                          "id": "tRuYRX9_mBWzpgIH3OiGM",
+                          "name": "clear customerDOB from sole prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerDOB",
+                                  "sourceBindingKey": "customerDOB",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "uzCgdBIOS1lBaUf0Evp0I",
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "-EZiPId1sOZv5DlXj-IR2",
+                          "_id": "AH3HCWqZMWwhKNxcZh3Bl",
+                          "name": "Clear customerCity sole Prop",
+                          "old_name": "Clear customerCity sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "requestBody": [],
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerCity",
+                                  "sourceBindingKey": "customerCity",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "0cnohPUPthvWWhrWDnLAg",
+                          "_id": "v2MLzeGWm5PLejESvHhP3",
+                          "name": "Clear customerBirthPlace sole Prop",
+                          "old_name": "Clear customerBirthPlace sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "requestBody": [],
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerBirthPlace",
+                                  "sourceBindingKey": "customerBirthPlace",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "4y7Wj39_5UnYyb7wHZZE9",
+                          "name": "Clear customerCountry sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "storeType": "",
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerCountry",
+                                  "sourceBindingKey": "customerCountry",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "xO7D3uuUbm-K-CjneNo7K",
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "SogspgBnIpOPOQoN175oF",
+                          "name": "Clear areYouPoliticallyInvolved sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "dataType": "value",
+                                  "destinationBindingKey": "areYouPoliticallyInvolved",
+                                  "sourceBindingKey": "areYouPoliticallyInvolved",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "L3EushCLBphacEf4bmDfT",
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "MTqg9mvwyWlBqouQhLhOQ",
+                          "name": "Clear customerNationality sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerNationality",
+                                  "sourceBindingKey": "customerNationality",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "wK7MJCf5OgWn8FChCrreG",
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "Z1aFcdiVYkSE4SNI_6nVk",
+                          "name": "Clear customerLegalId sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerLegalId",
+                                  "sourceBindingKey": "customerLegalId",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "czQhBlhvBPOUrpnWWJIwL",
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        },
+                        {
+                          "id": "Nl3j4HLswjZ2axBDWobkT",
+                          "_id": "lqASWpXWQI34LoTDRzV_5",
+                          "name": "Clear customerName sole Prop",
+                          "old_name": "Clear companyName sole Prop",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "6",
+                                "attributes": {
+                                  "requestBody": [],
+                                  "storeType": "",
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "value",
+                                  "destinationBindingKey": "customerName",
+                                  "sourceBindingKey": "customerName",
+                                  "sourceStoreType": 1,
+                                  "destinationStoreType": 1,
+                                  "logic": { "if": [true, "", ""] },
+                                  "changeValueConditonally": true,
+                                  "targettedType": "value"
+                                }
+                              }
+                            }
+                          ],
+                          "updatedAt": "4/14/2023",
+                          "createdAt": "4/14/2023",
+                          "createdBy": "talha",
+                          "updatedBy": "talha"
+                        }
+                      ],
+                      "triggerIds": [
+                        "tRuYRX9_mBWzpgIH3OiGM",
+                        "-EZiPId1sOZv5DlXj-IR2",
+                        "0cnohPUPthvWWhrWDnLAg",
+                        "4y7Wj39_5UnYyb7wHZZE9",
+                        "SogspgBnIpOPOQoN175oF",
+                        "MTqg9mvwyWlBqouQhLhOQ",
+                        "Z1aFcdiVYkSE4SNI_6nVk",
+                        "Nl3j4HLswjZ2axBDWobkT"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            }
+          ],
+          "triggerIds": ["QGZBTadRBj7l1n9PWKo_p", "MaVZfEI2leBw4Hq0FzlhJ"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

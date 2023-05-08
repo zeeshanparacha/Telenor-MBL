@@ -1,0 +1,26 @@
+{
+  "id": "VvY5UV6qNF4unVo2i0fiT",
+  "name": "Swap Sign Up Screen To Corporate User Already Registered Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "VqDM2bbHLDArZEoQJCuoZ",
+          "nextWidgetId": "paMa94X9U4DiPcCd2veQK",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "4xdhM9R83F0iMohh1FBKF",
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

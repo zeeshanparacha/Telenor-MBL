@@ -1,0 +1,26 @@
+{
+  "id": "eQsiTjjZMLFmfVb2UbwQk",
+  "name": "Swap Partnership To pricing model ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "czSQJrQjzxEw78Z7kEI3U",
+          "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "WTkl3pGpX7QGVF5w4Fatz",
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

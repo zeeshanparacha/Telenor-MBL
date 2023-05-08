@@ -1,0 +1,40 @@
+{
+  "id": "KP0FdSPNcGby4vi3MQqBz",
+  "_id": "g0IOoKKiaIxdiPfPNckY1",
+  "name": "map designation in form 2",
+  "old_name": "map designation in form 2",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "designation",
+          "sourceBindingKey": "response",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.designation"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

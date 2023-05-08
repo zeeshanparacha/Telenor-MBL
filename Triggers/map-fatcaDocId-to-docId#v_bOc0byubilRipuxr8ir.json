@@ -1,0 +1,41 @@
+{
+  "id": "lMLS0DDBalcOOMTGZrSKB",
+  "name": "map fatcaDocId to docId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "value",
+          "destinationBindingKey": "docId",
+          "sourceBindingKey": "form.fatcaDocId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.fatcaDocId" },
+              { "var": "form.fatcaDocId" },
+              {
+                "if": [
+                  { "var": "fatcaDocResponse.docId" },
+                  { "var": "fatcaDocResponse.docId" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "v_bOc0byubilRipuxr8ir",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

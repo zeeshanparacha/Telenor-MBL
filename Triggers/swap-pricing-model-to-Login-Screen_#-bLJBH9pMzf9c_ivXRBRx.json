@@ -1,0 +1,26 @@
+{
+  "id": "fJCdhU7q3XYHvO4xWj_bo",
+  "name": "swap pricing model to Login Screen_",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "-bLJBH9pMzf9c_ivXRBRx",
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Dr-PRRl6w-8OZdpX2kYR4",
+  "_id": "AWrD2osZdieVF5gc4I3bG",
+  "name": "Open Detail View request new cheque book Screen",
+  "old_name": "Open Detail View request new cheque book Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "fromWidgetId": "Ab-ouc1h_Xd71snpw51Ti",
+          "nextWidgetId": "aFPV8_CvC41xu6FWSPxEF",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject.payload",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

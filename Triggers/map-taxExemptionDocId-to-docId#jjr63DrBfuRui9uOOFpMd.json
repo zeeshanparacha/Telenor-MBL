@@ -1,0 +1,41 @@
+{
+  "id": "NvdJUeuzlfEPN_paqDYEX",
+  "name": "map taxExemptionDocId to docId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "value",
+          "destinationBindingKey": "docId",
+          "sourceBindingKey": "form.taxExemptionDocId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.taxExemptionDocId" },
+              { "var": "form.taxExemptionDocId" },
+              {
+                "if": [
+                  { "var": "taxExemptionDocResponse.docId" },
+                  { "var": "taxExemptionDocResponse.docId" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "jjr63DrBfuRui9uOOFpMd",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

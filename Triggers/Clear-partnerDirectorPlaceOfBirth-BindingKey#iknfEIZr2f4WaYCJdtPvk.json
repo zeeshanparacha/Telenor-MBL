@@ -1,0 +1,23 @@
+{
+  "id": "5MXOcGuclToRvebmBdbyk",
+  "name": "Clear partnerDirectorPlaceOfBirth BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "partnerDirectorPlaceOfBirth",
+          "storeType": 1
+        }
+      }
+    }
+  ],
+  "_id": "iknfEIZr2f4WaYCJdtPvk",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C8QHFdNX6uuobotoMrv-G",
+  "name": "login to corporate account opening",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "nextWidgetId": "VqDM2bbHLDArZEoQJCuoZ",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "EkH8jRaGIYTKRwk6-H5Mk",
+  "updatedAt": "3/20/2023",
+  "createdAt": "3/20/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

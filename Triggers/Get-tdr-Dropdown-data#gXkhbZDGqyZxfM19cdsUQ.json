@@ -1,0 +1,52 @@
+{
+  "id": "KB9WKa1t04xI554PpDEiE",
+  "_id": "gXkhbZDGqyZxfM19cdsUQ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Get tdr Dropdown data",
+  "old_name": "Get tdr Dropdown data",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "tdrLookup",
+          "responseReturnValue": "data.result",
+          "url": "/lookup/values",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "lookupType",
+              "value": "lookupType"
+            }
+          ],
+          "baseURL": "6320700d967b3c4df8e32265",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "l69zYElbNBEZcgjY95gVd",
+  "name": "doc upload private to pricing screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "q2bb7JhbNUTPbRJ7EGmNb",
+          "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "ptHw-II5pOfWup4OiWZIf",
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "xHRMT8CQ1b5-_MNZOnShz",
+  "_id": "6360f5e0e2300669e49575de",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "addcollectionFile",
+  "old_name": "addcollectionFile",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "collectionResponse",
+          "responseReturnValue": "data.collections",
+          "url": "/file-upload?type=COLLECTION",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            { "type": 4, "name": "Static", "key": "uuid", "value": "absdfsdf" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "username",
+              "value": "username"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "data.collections.code" }, -1] },
+            "httpStatus": 200,
+            "triggerName": "Show Error code -1 Error Modal",
+            "triggerId": "B21hYNwnp5pp94O-RH1vO"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Save collection Array",
+            "triggerId": "PdoQHNhKdopWmljtQ855F"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Save Profit Margin Scheme Value",
+            "triggerId": "HFdULRUkYVD3jGkCtgWXI"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

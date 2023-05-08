@@ -1,0 +1,27 @@
+{
+  "id": "8D8cSDQlT4aF_eRBh-UuN",
+  "_id": "BMWxb3uCad3hGDAOC29pr",
+  "name": "Create TDR 1 to 2 widget",
+  "old_name": "Create TDR 1 to 2 widget",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Pz6BFL7mes_Xo9hqqCCub",
+          "nextWidgetId": "GrNglHmQqSICebUsmqN7z",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

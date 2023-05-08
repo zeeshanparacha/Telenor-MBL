@@ -1,0 +1,25 @@
+{
+  "id": "kuQnVVsvYUyXPNQganF3-",
+  "name": "view tdr to pre encashment ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "t4zV99uZce2H-TAohvcNg",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "gpYlrNuKWy1qE9_vWCbzr",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

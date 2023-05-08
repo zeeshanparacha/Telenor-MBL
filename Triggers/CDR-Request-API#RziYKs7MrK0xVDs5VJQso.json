@@ -1,0 +1,137 @@
+{
+  "id": "mfL5n4YbhK3Ucea47pQEt",
+  "_id": "RziYKs7MrK0xVDs5VJQso",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "CDR Request API",
+  "old_name": "CDR Request API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/offline-requests/cdr/maker-request",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "amount", "value": "amount" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiaryCnicOrNtn",
+              "value": "beneficiaryCnicOrNtn"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiaryContactNo",
+              "value": "beneficiaryContactNo"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiaryName",
+              "value": "beneficiaryName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchId",
+              "value": "branch.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchName",
+              "value": "branch.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountId",
+              "value": "account.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountNumber",
+              "value": "account.accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "otherRepresentativeCity",
+              "value": "branch.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "otherRepresentativeCnic",
+              "value": "otherRepresentativeCnic"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "otherRepresentativeName",
+              "value": "otherRepresentativeName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "purpose",
+              "value": "purpose.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "selfRepresentative",
+              "value": "selfRepresentative"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "5/2/2023",
+  "createdAt": "5/2/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

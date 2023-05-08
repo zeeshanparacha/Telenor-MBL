@@ -1,0 +1,23 @@
+{
+  "id": "L1CpykETZmI_XGLItnI-S",
+  "projectId": "63f4845e476fc83100e3a899",
+  "name": "Trigger Chain Runner L1CpykETZmI_XGLItnI-S",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "status": "ACTIVE",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggerIds": ["WE2CVxolAZpOALY874YVP", "Bt9t0w5XUqa6DKF-Egsy4"]
+        }
+      }
+    }
+  ],
+  "_id": "jTqVd2W8GVpqUP_27y1ES",
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023"
+}

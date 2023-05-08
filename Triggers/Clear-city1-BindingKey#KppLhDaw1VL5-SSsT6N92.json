@@ -1,0 +1,26 @@
+{
+  "id": "JH251guSvrT0ex_qHzjrr",
+  "name": "Clear city1 BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "city1",
+          "storeType": 1,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "KppLhDaw1VL5-SSsT6N92",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

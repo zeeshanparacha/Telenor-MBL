@@ -1,0 +1,31 @@
+{
+  "id": "HFdULRUkYVD3jGkCtgWXI",
+  "_id": "Putn2Z2FhVKn195K_S1dJ",
+  "name": "Save Profit Margin Scheme Value",
+  "old_name": "Save Profit Margin Scheme Value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "collectionSchemeMessage",
+          "sourceBindingKey": "collectionResponse.collectionSchemeMessage",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

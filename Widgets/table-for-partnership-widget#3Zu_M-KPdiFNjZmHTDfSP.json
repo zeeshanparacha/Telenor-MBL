@@ -1,0 +1,575 @@
+[
+  {
+    "id": "3Zu_M-KPdiFNjZmHTDfSP",
+    "name": "table for partnership widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "shzb92-6MeidzTw0-oa9O",
+          "componentType": "10001",
+          "id": "shzb92-6MeidzTw0-oa9O",
+          "position": {
+            "i": "shzb92-6MeidzTw0-oa9O",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "shzb92-6MeidzTw0-oa9O",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "jJZh-LdZgjoeP8vQZ6kw-",
+            "gridProps": [
+              {
+                "id": "0qsr234kjGaXe3-tE12aV",
+                "status": "ACTIVE",
+                "name": "Data table",
+                "type": "20014",
+                "attributes": {
+                  "responseStateKey": "directorInformation",
+                  "layoutProperties": {
+                    "container": {
+                      "//": "Use this class to style data table container."
+                    },
+                    "rowStyle": {
+                      "//": "Use this class to style data table rows.",
+                      "color": "black",
+                      "background-color": "white",
+                      "text-align": "left"
+                    },
+                    "defaultColDefinition": {
+                      "//": "Use this class to define column definition of data table.",
+                      "sortable": true,
+                      "animateRows": false,
+                      "resizable": true,
+                      "enableValue": false,
+                      "enableRowGroup": false,
+                      "enablePivot": false,
+                      "filter": true,
+                      "type": "leftAligned",
+                      "minWidth": 10,
+                      "domLayout": "autoHeight"
+                    },
+                    "mainContainer": "container",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12,
+                    "headerStyles": {
+                      "background-color": "#DA0006",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  "defaultColDef": {
+                    "sortable": true,
+                    "animateRows": false,
+                    "resizable": false,
+                    "enableValue": false,
+                    "enableRowGroup": false,
+                    "enablePivot": false,
+                    "filter": true,
+                    "type": "leftAligned",
+                    "minWidth": 30,
+                    "domLayout": "autoHeight"
+                  },
+                  "rowStyle": {
+                    "color": "black",
+                    "background-color": "white",
+                    "text-align": "left"
+                  },
+                  "columnDefinition": [
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "nameAsPerCNIC",
+                      "headerName": "Name",
+                      "conditional": { "bindingKey": "" },
+                      "values": [],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": []
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "cnicNo",
+                      "headerName": "Cnic",
+                      "conditional": { "bindingKey": "" },
+                      "values": [],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": []
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "designation",
+                      "headerName": "Designation",
+                      "conditional": { "bindingKey": "" },
+                      "values": [],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": []
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "contactNumber",
+                      "headerName": "Contact No",
+                      "conditional": { "bindingKey": "" },
+                      "values": [],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": []
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "emailAddress",
+                      "headerName": "Email Address",
+                      "conditional": { "bindingKey": "" },
+                      "values": [],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": []
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "city",
+                      "headerName": "City",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "country",
+                      "headerName": "Country",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "partnerDirectorDateOfBirth",
+                      "headerName": "Date Of  Birth",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "partnerDirectorPlaceOfBirth",
+                      "headerName": "Place Of Birth",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "areYouPoliticalMember",
+                      "headerName": "Are You Political Member",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "comments",
+                      "headerName": "Comments",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "type": "text",
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "field": "nationality",
+                      "headerName": "nationality",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""],
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    }
+                  ],
+                  "rowDefinition": [],
+                  "debug": false,
+                  "pagination": true,
+                  "paginationPageSize": 5,
+                  "suppressCsvExport": false,
+                  "suppressExcelExport": true,
+                  "name": "Data Grid",
+                  "storeType": 2
+                },
+                "icon": "FaTable",
+                "group": "Advanced",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 12,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Data table", "type": "20014" },
+                "events": [],
+                "path": "0-0-0-0-8-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-0-0-8",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "marginTop": "20px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "table for partnership",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "3Zu_M-KPdiFNjZmHTDfSP",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "3Zu_M-KPdiFNjZmHTDfSP",
+    "createdBy": "areeb",
+    "updatedAt": "4/6/2023",
+    "createdAt": "4/6/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "shzb92-6MeidzTw0-oa9O",
+    "name": "table for partnership",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "0qsr234kjGaXe3-tE12aV",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "marginTop": "20px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "4YEZ9WMiuQNq7aEJ00cpn",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0qsr234kjGaXe3-tE12aV",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "directorInformation",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "background-color": "#DA0006", "color": "#FFFFFF" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "nameAsPerCNIC",
+          "headerName": "Name",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "cnicNo",
+          "headerName": "Cnic",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "designation",
+          "headerName": "Designation",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "contactNumber",
+          "headerName": "Contact No",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "emailAddress",
+          "headerName": "Email Address",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "city",
+          "headerName": "City",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "country",
+          "headerName": "Country",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "partnerDirectorDateOfBirth",
+          "headerName": "Date Of  Birth",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "partnerDirectorPlaceOfBirth",
+          "headerName": "Place Of Birth",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "areYouPoliticalMember",
+          "headerName": "Are You Political Member",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "comments",
+          "headerName": "Comments",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "nationality",
+          "headerName": "nationality",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": false,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-0-0-8-0-0",
+    "screenId": "4YEZ9WMiuQNq7aEJ00cpn",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

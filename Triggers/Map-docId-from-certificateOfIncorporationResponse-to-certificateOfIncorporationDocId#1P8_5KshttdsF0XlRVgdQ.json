@@ -1,0 +1,29 @@
+{
+  "id": "0wHZ5LW_wGIZqp_If3raA",
+  "name": "Map docId from certificateOfIncorporationResponse to certificateOfIncorporationDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "certificateOfIncorporationDocId",
+          "sourceBindingKey": "certificateOfIncorporationResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "1P8_5KshttdsF0XlRVgdQ",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

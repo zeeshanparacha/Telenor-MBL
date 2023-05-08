@@ -1,0 +1,31 @@
+{
+  "id": "4y7Wj39_5UnYyb7wHZZE9",
+  "name": "Clear customerCountry sole Prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "customerCountry",
+          "sourceBindingKey": "customerCountry",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "xO7D3uuUbm-K-CjneNo7K",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

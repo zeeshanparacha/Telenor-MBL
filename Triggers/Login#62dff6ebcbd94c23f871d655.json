@@ -1,0 +1,116 @@
+{
+  "id": "rJeH27BHHnGNVtddJ4kdW",
+  "_id": "62dff6ebcbd94c23f871d655",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Login",
+  "old_name": "Login",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "userProfile",
+          "url": "/oauth/token",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": "loginTrigger",
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "username",
+              "value": "username"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "password",
+              "value": "password"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "grant_type",
+              "value": "password"
+            }
+          ],
+          "baseURL": "631dd603967b3c4df8e281a0",
+          "storeType": 3,
+          "triggerGenericErrorTrigger": 3,
+          "authorization": {
+            "Authorization": {
+              "storeType": 1,
+              "name": "Authorization",
+              "storeTypeName": "Static",
+              "value": "Basic dHJ1c3RlZC1hcHA6c2VjcmV0"
+            }
+          },
+          "securityConfiguration": "631dd603967b3c4df8e281a0"
+        },
+        "responseHandler": [
+          {
+            "logic": {
+              "and": [
+                { ">": [{ "var": "access_token.length" }, 1] },
+                { "==": [{ "var": "is_otp_required" }, false] },
+                { "==": [{ "var": "user_type_id" }, "2"] }
+              ]
+            },
+            "httpStatus": 200,
+            "triggerName": "Open Either OTP or Dashboard Screen",
+            "triggerId": "mZMbQmg1JrtBri-v275o4"
+          },
+          {
+            "httpStatus": 200,
+            "logic": {
+              "and": [
+                { ">": [{ "var": "access_token.length" }, 1] },
+                { "==": [{ "var": "is_otp_required" }, true] },
+                { "==": [{ "var": "user_type_id" }, "2"] }
+              ]
+            },
+            "triggerName": "Validate Captcha",
+            "triggerId": "aukxXGG4oSMzkxeY-Qy7g"
+          },
+          {
+            "logic": { ">": [{ "var": "access_token.length" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { ">": [{ "var": "access_token.length" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Validations",
+            "triggerId": "C9VAY5AIiTfVpeNy7pz65"
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "!=": [{ "var": "user_type_id" }, "2"] },
+            "triggerName": "Show Login Error Modal",
+            "triggerId": "UlFdT9NJ4NCNiVwjjlidX"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

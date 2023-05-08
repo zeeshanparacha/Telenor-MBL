@@ -1,0 +1,32 @@
+{
+  "id": "Kir3OK-TL5sEhb3ix3quo",
+  "_id": "sCVYY7ylnIa56biEZxlBz",
+  "name": "Map docId from cusDocResponse to cusDocId",
+  "old_name": "Map docId from cusDocResponse to cusDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "cusDocId",
+          "sourceBindingKey": "cusDocResponse.data.result.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "changeValueConditonally": false,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/1/2023",
+  "createdAt": "5/1/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "iLzQ5lQd_zBGdL0ZV0k99",
+  "_id": "ze919hgvUDU9la7sp_DpR",
+  "name": "set showNtnUpload false",
+  "old_name": "set showCrsUpload false",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showNtnUpload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, false, false] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

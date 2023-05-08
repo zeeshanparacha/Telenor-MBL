@@ -1,0 +1,31 @@
+{
+  "id": "q5FIJCF7aJtscduJAseL8",
+  "_id": "kNNUOjI4295nI_NWsfjHc",
+  "name": "Manipulate Director Information Value",
+  "old_name": "Manipulate Director Information Value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "directorInformation",
+          "sourceBindingKey": "form.directorInformation",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

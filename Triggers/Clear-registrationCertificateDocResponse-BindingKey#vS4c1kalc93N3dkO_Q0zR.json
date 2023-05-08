@@ -1,0 +1,33 @@
+{
+  "id": "v5bSSlAbuDte-VLZ5t413",
+  "_id": "vS4c1kalc93N3dkO_Q0zR",
+  "name": "Clear registrationCertificateDocResponse BindingKey",
+  "old_name": "Clear registrationCertificateDocResponse BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "registrationCertificateDocId",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

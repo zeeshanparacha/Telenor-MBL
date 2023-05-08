@@ -1,0 +1,26 @@
+{
+  "id": "F7nxhF5NeZMn-2GTJuLRI",
+  "name": "Clear emailAddress BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "emailAddress",
+          "storeType": 1,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "bLSZ-yMzVnTNl7tqLmKCa",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

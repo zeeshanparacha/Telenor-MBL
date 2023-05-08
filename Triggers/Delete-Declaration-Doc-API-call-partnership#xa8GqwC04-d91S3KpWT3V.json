@@ -1,0 +1,71 @@
+{
+  "id": "K7Mz-uQK-rRQ04WuvWlMu",
+  "_id": "xa8GqwC04-d91S3KpWT3V",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete Declaration Doc API call partnership",
+  "old_name": "Delete Declaration Doc API call Sole",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "deleteDocResponse",
+          "responseReturnValue": "data",
+          "url": "/doc-mgmt/delete-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "docId",
+              "value": "docId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": true,
+            "triggerName": "set showDeclarationUpload true",
+            "triggerId": "Pzkn3N47c5MmIklLVDEKg"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "clear declarationDocResponse",
+            "triggerId": "0IIbjEQR8NMai9lKjETY5"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

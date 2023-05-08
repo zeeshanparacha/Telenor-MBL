@@ -1,0 +1,26 @@
+{
+  "id": "anEXdVP1Xo6BTxhRi_ImU",
+  "name": "Sole Proprietor widget 2 to  sole proprietor widget 1",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "UeScTdUxquEs6tiL6Uf5o",
+          "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "1CcUwCDJnO2hzMm7xj1Ej",
+  "updatedAt": "3/30/2023",
+  "createdAt": "3/30/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

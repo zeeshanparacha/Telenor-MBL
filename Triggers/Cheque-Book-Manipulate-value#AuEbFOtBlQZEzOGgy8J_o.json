@@ -1,0 +1,42 @@
+{
+  "id": "IJHq_s6UBW0ubMqqOYh_c",
+  "name": "Cheque Book Manipulate value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "selfDeliveryMode",
+          "sourceBindingKey": "selectedObject.payload.selfDeliveryMode",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  { "var": "selectedObject.payload.selfDeliveryMode" },
+                  true
+                ]
+              },
+              "true",
+              "false"
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "AuEbFOtBlQZEzOGgy8J_o",
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

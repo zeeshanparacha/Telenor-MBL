@@ -1,0 +1,33 @@
+{
+  "id": "kwxe_P2hEyKFeCTeRGvuh",
+  "_id": "9o0Fij8RssDNYzPtKWOh_",
+  "name": "clear czDocResponse",
+  "old_name": "clear czDocResponse",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "czDocId",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "_AWY_qCuo1HpEtPTVtSN7",
+  "_id": "ru0JW8_JLdTeber43j5S9",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload cz 50 partnership",
+  "old_name": "file upload cz 50 partnership",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "czDocResponse",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "docType", "value": "CZ_50" },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            { "type": 1, "name": "Form", "key": "file", "value": "file" }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "Map docId from czDocResponse to czDocId",
+            "triggerId": "HH7XSeAuYDmUdsI4P74BM",
+            "logic": true
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ",
+            "logic": true
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showcz50Upload false",
+            "triggerId": "r2Iq0KVdd1Hggc6yq7tsk"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

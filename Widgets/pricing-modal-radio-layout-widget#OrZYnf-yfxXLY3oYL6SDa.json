@@ -1,0 +1,655 @@
+[
+  {
+    "id": "OrZYnf-yfxXLY3oYL6SDa",
+    "name": "pricing modal radio layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "ZRYEWsrTUaqt_N99rrSQ-",
+          "componentType": "10001",
+          "id": "ZRYEWsrTUaqt_N99rrSQ-",
+          "position": {
+            "i": "ZRYEWsrTUaqt_N99rrSQ-",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "pricing modal radio layout",
+        "id": "ZRYEWsrTUaqt_N99rrSQ-",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "tOd1fsHAsSwFBH3GeUCiM",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "Bxp-Zc3zi0oWmiqCVYmA-",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "HopvaYPdLfe-BB2GYX0PT",
+                    "gridProps": [
+                      {
+                        "id": "WPOm6pVl_1gVzZjuiaj0N",
+                        "status": "ACTIVE",
+                        "name": "Radio",
+                        "icon": "FaDotCircle",
+                        "group": "Form",
+                        "type": "20007",
+                        "updatedAt": "01-Sep-2021",
+                        "createdAt": "23-Aug-2021",
+                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                        "order": 19,
+                        "attributes": {
+                          "layoutProperties": {
+                            "radioButton": {
+                              "//": "Use this class to style radiobutton component."
+                            },
+                            "formControlLabel": {
+                              "//": "Use this class to style radiobutton label"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style radiobutton element."
+                            },
+                            "mainContainer": "formControlLabel",
+                            "xl": 4,
+                            "lg": 4,
+                            "md": 4,
+                            "sm": 4,
+                            "xs": 4
+                          },
+                          "validate": {
+                            "required": false,
+                            "errorMsg": "This Field is required"
+                          },
+                          "checked": false,
+                          "label": "Sole Proprietor",
+                          "name": "Radio",
+                          "searchInState": false,
+                          "stateName": "pricing",
+                          "value": "sole"
+                        },
+                        "events": [
+                          {
+                            "triggerId": "EAQTCCRbDvv2JATNl0ybb",
+                            "triggerName": "sole proprietor grid flow manager to radio foam widget",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                              "nextWidgetId": "iipaYjl5Cf-e7wZfZmIDR",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "3",
+                            "name": "On change"
+                          }
+                        ],
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Radio", "type": "20007" },
+                        "path": "0-0-0-0-3-0-0-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 4,
+                      "lg": 4,
+                      "md": 4,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-0-3-0-0-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "kLOqqi7vLdASWm4LBov9n",
+                    "gridProps": [
+                      {
+                        "id": "_3eXh0RT7Y7w8sZWLEnA_",
+                        "status": "ACTIVE",
+                        "name": "Radio",
+                        "icon": "FaDotCircle",
+                        "group": "Form",
+                        "type": "20007",
+                        "updatedAt": "01-Sep-2021",
+                        "createdAt": "23-Aug-2021",
+                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                        "order": 19,
+                        "attributes": {
+                          "layoutProperties": {
+                            "radioButton": {
+                              "//": "Use this class to style radiobutton component."
+                            },
+                            "formControlLabel": {
+                              "//": "Use this class to style radiobutton label"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style radiobutton element."
+                            },
+                            "mainContainer": "formControlLabel",
+                            "xl": 4,
+                            "lg": 4,
+                            "md": 4,
+                            "sm": 4,
+                            "xs": 4
+                          },
+                          "validate": {
+                            "required": false,
+                            "errorMsg": "This Field is required"
+                          },
+                          "checked": false,
+                          "label": "Partnership",
+                          "name": "Radio",
+                          "searchInState": false,
+                          "stateName": "pricing",
+                          "value": "partnership"
+                        },
+                        "events": [
+                          {
+                            "triggerId": "NKZt3lkO8aR6u-bZGLczV",
+                            "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                              "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "3",
+                            "name": "On change"
+                          }
+                        ],
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Radio", "type": "20007" },
+                        "path": "0-0-0-0-3-0-0-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 4,
+                      "lg": 4,
+                      "md": 4,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-0-3-0-0-1"
+                  },
+                  {
+                    "type": "column",
+                    "id": "QjtUGiE5D193Zuv0dd6Kw",
+                    "gridProps": [
+                      {
+                        "id": "qVEj-g0HgZVckcFa6XnHD",
+                        "status": "ACTIVE",
+                        "name": "Radio",
+                        "icon": "FaDotCircle",
+                        "group": "Form",
+                        "type": "20007",
+                        "updatedAt": "01-Sep-2021",
+                        "createdAt": "23-Aug-2021",
+                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                        "order": 19,
+                        "attributes": {
+                          "layoutProperties": {
+                            "radioButton": {
+                              "//": "Use this class to style radiobutton component."
+                            },
+                            "formControlLabel": {
+                              "//": "Use this class to style radiobutton label"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style radiobutton element."
+                            },
+                            "mainContainer": "formControlLabel",
+                            "xl": 4,
+                            "lg": 4,
+                            "md": 4,
+                            "sm": 4,
+                            "xs": 4
+                          },
+                          "validate": {
+                            "required": false,
+                            "errorMsg": "This Field is required"
+                          },
+                          "checked": false,
+                          "label": "Private And Public",
+                          "name": "Radio",
+                          "searchInState": false,
+                          "stateName": "pricing",
+                          "value": "private"
+                        },
+                        "events": [
+                          {
+                            "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+                            "triggerName": "swap corporate grid flow manager private widget widget",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                              "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "3",
+                            "name": "On change"
+                          },
+                          {
+                            "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+                            "triggerName": "swap corporate grid flow manager private widget widget",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                              "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "1",
+                            "name": "On initialization"
+                          }
+                        ],
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Radio", "type": "20007" },
+                        "path": "0-0-0-0-3-0-0-2-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 4,
+                      "lg": 4,
+                      "md": 4,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-0-3-0-0-2"
+                  }
+                ],
+                "path": "0-0-0-0-3-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              }
+            ],
+            "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          },
+          {
+            "type": "column",
+            "id": "gijWWJ59wF9JmokQTzrWL",
+            "gridProps": [],
+            "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+          },
+          {
+            "type": "column",
+            "id": "X7o9FdsKuIRc-S1NlawuK",
+            "gridProps": [],
+            "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout",
+          "hideCondition": {}
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-3",
+        "dimensions": {
+          "rows": 1,
+          "columns": 3,
+          "colSize0xs": 6,
+          "colSize0sm": 6,
+          "colSize0md": 6,
+          "colSize0lg": 6,
+          "colSize0xl": 6,
+          "colSize1xs": 3,
+          "colSize1sm": 3,
+          "colSize1md": 3,
+          "colSize1lg": 3,
+          "colSize1xl": 3,
+          "colSize2xs": 3,
+          "colSize2sm": 3,
+          "colSize2md": 3,
+          "colSize2lg": 3,
+          "colSize2xl": 3
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "OrZYnf-yfxXLY3oYL6SDa",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "OrZYnf-yfxXLY3oYL6SDa",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/9/2023",
+    "createdAt": "4/9/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ZRYEWsrTUaqt_N99rrSQ-",
+    "name": "pricing modal radio layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Bxp-Zc3zi0oWmiqCVYmA-",
+          "componentType": "10001",
+          "id": "Bxp-Zc3zi0oWmiqCVYmA-",
+          "position": {
+            "i": "Bxp-Zc3zi0oWmiqCVYmA-",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {}
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Bxp-Zc3zi0oWmiqCVYmA-",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "WPOm6pVl_1gVzZjuiaj0N",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "_3eXh0RT7Y7w8sZWLEnA_",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "qVEj-g0HgZVckcFa6XnHD",
+          "componentType": "20007",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WPOm6pVl_1gVzZjuiaj0N",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Sole Proprietor",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing",
+      "value": "sole"
+    },
+    "events": [
+      {
+        "triggerId": "EAQTCCRbDvv2JATNl0ybb",
+        "triggerName": "sole proprietor grid flow manager to radio foam widget",
+        "name": "On change",
+        "type": "3",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-3-0-0-0-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "_3eXh0RT7Y7w8sZWLEnA_",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Partnership",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing",
+      "value": "partnership"
+    },
+    "events": [
+      {
+        "triggerId": "NKZt3lkO8aR6u-bZGLczV",
+        "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
+        "name": "On change",
+        "type": "3",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-3-0-0-1-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "qVEj-g0HgZVckcFa6XnHD",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Private And Public",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing",
+      "value": "private"
+    },
+    "events": [
+      {
+        "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+        "triggerName": "swap corporate grid flow manager private widget widget",
+        "name": "On change",
+        "type": "3",
+        "serviceType": "1"
+      },
+      {
+        "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+        "triggerName": "swap corporate grid flow manager private widget widget",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-3-0-0-2-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

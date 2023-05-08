@@ -1,0 +1,78 @@
+{
+  "id": "TwVLPDDSdgk5X99ITkW__",
+  "_id": "nfT1Ahw0J5l8HmZjXeNgt",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload for ntn Doc Id private",
+  "old_name": "file upload for ntn Doc Id private",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "ntnDocResponse",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "docType",
+              "value": "NTN_REGISTRATION_CERTIFICATE"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": true,
+            "triggerName": "Map docId from ntnDocResponse to ntnDocId",
+            "triggerId": "6p1C10ixnexS-p8ABh0NQ"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showNtnUpload false",
+            "triggerId": "iLzQ5lQd_zBGdL0ZV0k99"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

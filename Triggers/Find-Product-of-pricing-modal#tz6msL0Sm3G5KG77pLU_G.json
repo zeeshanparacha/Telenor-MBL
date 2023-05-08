@@ -1,0 +1,42 @@
+{
+  "id": "s6Otby_tXIcvEz7FSr7x0",
+  "name": "Find Product of pricing modal",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "9",
+        "attributes": {
+          "stateName": "a",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "products",
+          "sourceBindingKey": "pricingModel",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  { "var": "currentScreen.form.products" },
+                  { "var": "id" }
+                ]
+              },
+              true,
+              false
+            ]
+          },
+          "targetValue": "c"
+        }
+      }
+    }
+  ],
+  "_id": "tz6msL0Sm3G5KG77pLU_G",
+  "updatedAt": "4/10/2023",
+  "createdAt": "4/10/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

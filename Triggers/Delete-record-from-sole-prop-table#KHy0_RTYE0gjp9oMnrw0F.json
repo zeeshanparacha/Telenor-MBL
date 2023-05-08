@@ -1,0 +1,26 @@
+{
+  "id": "d236o0U0m4OYly07wXCy-",
+  "name": "Delete record from sole prop table",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "stateName": "sole",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "KHy0_RTYE0gjp9oMnrw0F",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

@@ -1,0 +1,548 @@
+{
+  "_id": "kcO6wd3SavJWnqU7FkFJT",
+  "id": "L1jbwOc_gF8qi_KpZGQNe",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "chain trigger for sole proprietor update trigger",
+  "old_name": "chain trigger for sole proprietor update trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "26PQubHrM1UDp1pUUUhgc",
+              "_id": "eZVgCdg6bXCBwD2Y--fKj",
+              "name": "Corporate Already Registered User OTP Screen To Pricing modal Screen",
+              "old_name": "Corporate Already Registered User OTP Screen To Pricing modal Screen",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "paMa94X9U4DiPcCd2veQK",
+                      "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+                      "gridRadioValue": "Screen",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/9/2023",
+              "createdAt": "4/9/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "K9pEvwKphvlv3mQOFKVOv",
+              "_id": "T1bm1zUqYtDcSIUZoKcYV",
+              "name": "manipulate values for sole proprietor",
+              "old_name": "manipulate values for sole proprietor",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "form",
+                      "sourceBindingKey": "response.data.result.formRequest.data",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "filterList": [
+                        {
+                          "key": "companyAddress",
+                          "changeValueConditonally": false
+                        },
+                        { "key": "companyName" },
+                        { "key": "designation" },
+                        { "key": "email" },
+                        { "key": "emailOtp" },
+                        { "key": "smsOtp" },
+                        { "key": "fullName" },
+                        { "key": "id" },
+                        { "key": "isPartnership" },
+                        { "key": "isSavingInDraft" },
+                        { "key": "isSoleProprietor" },
+                        { "key": "mobileNumber" },
+                        { "key": "isPrivateOrPublic" },
+                        { "key": "partnership" },
+                        { "key": "soleProprietor" },
+                        { "key": "productId" },
+                        { "key": "pricingModelId" },
+                        {
+                          "key": "items",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+                          }
+                        },
+                        {
+                          "key": "products",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.productId"
+                          }
+                        },
+                        {
+                          "key": "pricing",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              {
+                                "==": [
+                                  {
+                                    "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+                                  },
+                                  true
+                                ]
+                              },
+                              "private",
+                              false
+                            ]
+                          }
+                        },
+                        {
+                          "key": "companyNameAsPerRegistration",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyNameAsPerRegistration"
+                          }
+                        },
+                        {
+                          "key": "companyTelephoneNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyTelephoneNumber"
+                          }
+                        },
+                        {
+                          "key": "companyFaxNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyFaxNumber"
+                          }
+                        },
+                        {
+                          "key": "companyEmailId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyEmailId"
+                          }
+                        },
+                        {
+                          "key": "city",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.city"
+                          }
+                        },
+                        {
+                          "key": "country",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.country"
+                          }
+                        },
+                        {
+                          "key": "natureOfBusinessActivity",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.natureOfBusinessActivity"
+                          }
+                        },
+                        {
+                          "key": "dateAndPlaceOfIncorporation",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.dateAndPlaceOfIncorporation"
+                          }
+                        },
+                        {
+                          "key": "ntnNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnNumber"
+                          }
+                        },
+                        {
+                          "key": "ntnIssuingAuthority",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnIssuingAuthority"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDateOfIssuance"
+                          },
+                          "key": "ntnDateOfIssuance"
+                        },
+                        {
+                          "key": "ntnDateOfExpiry",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDateOfExpiry"
+                          }
+                        },
+                        {
+                          "key": "numberOfEmployees",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.numberOfEmployees"
+                          }
+                        },
+                        {
+                          "key": "frequencyOfSalaryDisbursement",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.frequencyOfSalaryDisbursement"
+                          }
+                        },
+                        {
+                          "key": "averageSalaryAmount",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.averageSalaryAmount"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "referral",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.referral"
+                          }
+                        },
+                        {
+                          "key": "pocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.pocName"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "emailAddress",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.emailAddress"
+                          }
+                        },
+                        {
+                          "key": "czDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.czDocId"
+                          }
+                        },
+                        {
+                          "key": "zakatExemptionDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatExemptionDocId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.taxExemptionDocId"
+                          },
+                          "key": "taxExemptionDocId"
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDocId"
+                          },
+                          "key": "ntnDocId"
+                        },
+                        {
+                          "key": "fatcaDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.fatcaDocId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "crsDocId",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocId"
+                          }
+                        },
+                        {
+                          "key": "businessMailingAddress",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.businessMailingAddress"
+                          }
+                        },
+                        {
+                          "key": "registrationDate",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.registrationDate"
+                          }
+                        },
+                        {
+                          "key": "declarationDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.declarationDocId"
+                          }
+                        },
+                        {
+                          "key": "declarationDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.declarationDocName"
+                          }
+                        },
+                        {
+                          "key": "czDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.czDocName"
+                          }
+                        },
+                        {
+                          "key": "zakatDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatDocName"
+                          }
+                        },
+                        {
+                          "key": "taxDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.taxDocName"
+                          }
+                        },
+                        {
+                          "key": "ntnDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDocName"
+                          }
+                        },
+                        {
+                          "key": "fatcaDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.fatcaDocName"
+                          }
+                        },
+                        {
+                          "key": "crsDocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocName"
+                          }
+                        },
+                        {
+                          "key": "signatories",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/3/2023",
+              "createdAt": "5/3/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "KP0FdSPNcGby4vi3MQqBz",
+              "_id": "g0IOoKKiaIxdiPfPNckY1",
+              "name": "map designation in form 2",
+              "old_name": "map designation in form 2",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "designation",
+                      "sourceBindingKey": "response",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.designation"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/12/2023",
+              "createdAt": "4/12/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "xaa54_7kqowMYmkssTsLS",
+              "_id": "CbACQ6GwT0gfL6CwbMCKZ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "pricing model trigger",
+              "old_name": "pricing model trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pricingModel",
+                      "responseReturnValue": "data.products",
+                      "url": "/products/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "3/30/2023",
+              "createdAt": "3/30/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "s6Otby_tXIcvEz7FSr7x0",
+              "name": "Find Product of pricing modal",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "9",
+                    "attributes": {
+                      "stateName": "a",
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "products",
+                      "sourceBindingKey": "pricingModel",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "logic": {
+                        "if": [
+                          {
+                            "==": [
+                              { "var": "currentScreen.form.products" },
+                              { "var": "id" }
+                            ]
+                          },
+                          true,
+                          false
+                        ]
+                      },
+                      "targetValue": "c"
+                    }
+                  }
+                }
+              ],
+              "_id": "tz6msL0Sm3G5KG77pLU_G",
+              "updatedAt": "4/10/2023",
+              "createdAt": "4/10/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "GFoe0cJ7PKs9jcViWwde6",
+              "_id": "DcOrGOHE255lrxZz4w6Ci",
+              "name": "Move values of signatories in sole",
+              "old_name": "Move values of signatories in sole",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "sole",
+                      "sourceBindingKey": "signatories",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 2,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/11/2023",
+              "createdAt": "4/11/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            }
+          ],
+          "triggerIds": [
+            "26PQubHrM1UDp1pUUUhgc",
+            "K9pEvwKphvlv3mQOFKVOv",
+            "KP0FdSPNcGby4vi3MQqBz",
+            "xaa54_7kqowMYmkssTsLS",
+            "s6Otby_tXIcvEz7FSr7x0",
+            "GFoe0cJ7PKs9jcViWwde6"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

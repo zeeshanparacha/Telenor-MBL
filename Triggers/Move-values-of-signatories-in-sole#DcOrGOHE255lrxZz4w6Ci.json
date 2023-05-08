@@ -1,0 +1,31 @@
+{
+  "id": "GFoe0cJ7PKs9jcViWwde6",
+  "_id": "DcOrGOHE255lrxZz4w6Ci",
+  "name": "Move values of signatories in sole",
+  "old_name": "Move values of signatories in sole",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "sole",
+          "sourceBindingKey": "signatories",
+          "sourceStoreType": 1,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

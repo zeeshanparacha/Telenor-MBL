@@ -1,0 +1,116 @@
+{
+  "id": "x2OM33pf3LhRO9wmvvoyv",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "format and get TDR data",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "Zp4REVu588oAAesCoWKGl",
+              "name": "TDR array return",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "lookupType",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          true,
+                          ["tdrTenure", "tdrFrequency", "tdrType"],
+                          []
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "UTjRHQ0Jsm-l92RzhiwJ6",
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            },
+            {
+              "id": "KB9WKa1t04xI554PpDEiE",
+              "_id": "gXkhbZDGqyZxfM19cdsUQ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Get tdr Dropdown data",
+              "old_name": "Get tdr Dropdown data",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "tdrLookup",
+                      "responseReturnValue": "data.result",
+                      "url": "/lookup/values",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "lookupType",
+                          "value": "tdrTenure"
+                        }
+                      ],
+                      "baseURL": "63241bff025fdb65c86b2846",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            }
+          ],
+          "triggerIds": ["Zp4REVu588oAAesCoWKGl", "KB9WKa1t04xI554PpDEiE"]
+        }
+      }
+    }
+  ],
+  "_id": "MjHzv6lGSO8Wytxh3E0Gk",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

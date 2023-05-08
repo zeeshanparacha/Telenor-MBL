@@ -1,0 +1,144 @@
+{
+  "id": "jFBMPqDqti9FnsxD5m9Zk",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Call Delete Certificate Of Commencement Chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "WH1IZ0H1AY3j_FXmGI8Oz",
+              "name": "map Certificate Of Commencement DocId to DocId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.certificateOfCommencementDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.certificateOfCommencementDocId" },
+                          { "var": "form.certificateOfCommencementDocId" },
+                          {
+                            "if": [
+                              {
+                                "var": "certificateOfCommencementResponse.docId"
+                              },
+                              {
+                                "var": "certificateOfCommencementResponse.docId"
+                              },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "VeDvD70gNylaVE2X1vbqW",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "vI-RTBzhiVLKCCtQ876f_",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Delete Certificate Of Commencement Doc API call",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "set show certificate Of Commencement Upload true",
+                        "triggerId": "wFRK94X3amLp65a9BRyYF"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "Clear Certificate Of Commencement  BindingKey",
+                        "triggerId": "LnTF3voQs_OnOgUlQFpWa"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "_id": "NNdNjJqKFz2oY1-6qGo6F",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["WH1IZ0H1AY3j_FXmGI8Oz", "vI-RTBzhiVLKCCtQ876f_"]
+        }
+      }
+    }
+  ],
+  "_id": "8i5HxatFWG8MHTQv6SnJ9",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

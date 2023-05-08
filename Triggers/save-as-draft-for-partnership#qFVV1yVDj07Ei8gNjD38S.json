@@ -1,0 +1,443 @@
+{
+  "id": "KJm1QSWs7ZmgKiCVz3EEu",
+  "_id": "qFVV1yVDj07Ei8gNjD38S",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "save as draft for partnership",
+  "old_name": "save as draft for partnership",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "partnership",
+          "url": "/pre-corp-reg/save-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.averageSalaryAmount",
+              "value": "averageSalaryAmount"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.branchNameOfBank",
+              "value": "branchNameOfBank"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.city",
+              "value": "city"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyEmailId",
+              "value": "companyEmailId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyFaxNumber",
+              "value": "companyFaxNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyMailingAddress",
+              "value": "companyMailingAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyNameAsPerRegistration",
+              "value": "companyNameAsPerRegistration"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyTelephoneNumber",
+              "value": "companyTelephoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.companyTelephoneNumber",
+              "value": "companyTelephoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.contactNumber",
+              "value": "contactNumber1"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.dateAndPlaceOfIncorporation",
+              "value": "dateAndPlaceOfIncorporation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.country",
+              "value": "country2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.accountCategory",
+              "value": "accountCategory.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.branchNameOfBank",
+              "value": "branchNameOfBank"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.emailAddress",
+              "value": "emailAddress2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.expectedMonthlyIncome",
+              "value": "expectedMonthlyIncome.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.expectedNoOfCreditAmount",
+              "value": "expectedNoOfCreditAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.expectedNoOfCreditTransactions",
+              "value": "expectedNoOfCreditTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.expectedNoOfDebitAmount",
+              "value": "expectedNoOfDebitAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.expectedNoOfDebitTransactions",
+              "value": "expectedNoOfDebitTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.modeOfTransaction",
+              "value": "modeOfTransaction.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.nationalityOfPartnership",
+              "value": "nationalityOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.natureOfBusinessActivity",
+              "value": "natureOfBusinessActivity1"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnDateOfExpiry",
+              "value": "ntnDateOfExpiry"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnDateOfIssuance",
+              "value": "ntnDateOfIssuance"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnIssuingAuthority",
+              "value": "ntnIssuingAuthority"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.numberOfEmployees",
+              "value": "numberOfEmployees"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.occupationOfCorporate",
+              "value": "occupationOfCorporate.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.pocName",
+              "value": "pocName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.referral",
+              "value": "referral"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.residenceOfPartnership",
+              "value": "residenceOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.taxExemption",
+              "value": "taxExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.zakatExemption",
+              "value": "zakatExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyAddress",
+              "value": "companyAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation.value"
+            },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "emailOtp",
+              "value": "emailotp"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fullName",
+              "value": "fullName"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSavingInDraft",
+              "value": true
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSoleProprietor",
+              "value": false
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPartnership",
+              "value": true
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPrivateOrPublic",
+              "value": false
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "mobileNumber",
+              "value": "mobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "pricingModelId",
+              "value": "items"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "productId",
+              "value": "products.id"
+            },
+            { "type": 1, "name": "Form", "key": "smsOtp", "value": "smsotp" },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "validateOtpUuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "id",
+              "value": "formId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "partnership.directorInformation",
+              "value": "directorInformation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.authorizedPersonalDetails.contactNumber",
+              "value": "contactNumber2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.authorizedPersonalDetails.fullName",
+              "value": "fullName2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.authorizedPersonalDetails.officeEmail",
+              "value": "officeEmail"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.authorizedPersonalDetails.title",
+              "value": "title"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.czDocId",
+              "value": "czDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.zakatExemptionDocId",
+              "value": "zakatExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.taxExemptionDocId",
+              "value": "taxExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnDocId",
+              "value": "ntnDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.fatcaDocId",
+              "value": "fatcaDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.crsDocId",
+              "value": "crsDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.partnershipDeedDocId",
+              "value": "partnershipDeedDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.registrationCertificateDocId",
+              "value": "registrationCertificateDocId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "triggerName": "Partnership FormId Value",
+            "triggerId": "25PMv7UFp0tsa1y2MZUB1",
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

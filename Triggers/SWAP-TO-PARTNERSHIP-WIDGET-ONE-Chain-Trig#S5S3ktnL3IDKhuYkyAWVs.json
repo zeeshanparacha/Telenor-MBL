@@ -1,0 +1,107 @@
+{
+  "_id": "S5S3ktnL3IDKhuYkyAWVs",
+  "id": "FPE2zdPgCoSDAjcSn0eC5",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "SWAP TO PARTNERSHIP WIDGET ONE Chain Trig",
+  "old_name": "SWAP TO PARTNERSHIP WIDGET ONE Chain Trig",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "63247a318c5ded569ce08e69",
+              "id": "C9VAY5AImRfVpeNy7pz65",
+              "name": "Clear Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "642c6ac388cea78205824593",
+              "id": "C9VAY5AImRfafff65",
+              "name": "Clear validations",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "4"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "id": "NKZt3lkO8aR6u-bZGLczV",
+              "name": "SWAP TO PARTNERSHIP WIDGET ONE",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                      "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "_id": "1Y9q4VOm7u3Ax52qxTUz6",
+              "updatedAt": "4/5/2023",
+              "createdAt": "4/5/2023",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
+            }
+          ],
+          "triggerIds": [
+            "C9VAY5AImRfVpeNy7pz65",
+            "C9VAY5AImRfafff65",
+            "NKZt3lkO8aR6u-bZGLczV"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

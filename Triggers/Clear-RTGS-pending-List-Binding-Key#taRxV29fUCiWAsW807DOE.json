@@ -1,0 +1,26 @@
+{
+  "id": "7QvYZOzqmFVtb8Lum-14R",
+  "name": "Clear RTGS pending List Binding Key",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "rtgsResponse",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "taRxV29fUCiWAsW807DOE",
+  "updatedAt": "3/16/2023",
+  "createdAt": "3/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

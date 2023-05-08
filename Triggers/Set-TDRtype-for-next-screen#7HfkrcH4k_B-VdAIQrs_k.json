@@ -1,0 +1,28 @@
+{
+  "id": "UTqwxGLHqHDnHs6joDgOX",
+  "_id": "7HfkrcH4k_B-VdAIQrs_k",
+  "name": "Set TDRtype for next screen",
+  "old_name": "Set TDRtype for next screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "tdrType",
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "tdrLookup.tdrTenure",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

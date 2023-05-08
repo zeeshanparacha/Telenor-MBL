@@ -1,0 +1,145 @@
+{
+  "_id": "5Iwn92vIj-GHii20uaoif",
+  "id": "UEXXgJ2TIhndKi2-flf_p",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete taxExemption Doc Sole Prop",
+  "old_name": "Delete taxExemption Doc Sole Prop",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "NvdJUeuzlfEPN_paqDYEX",
+              "name": "map taxExemptionDocId to docId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.taxExemptionDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.taxExemptionDocId" },
+                          { "var": "form.taxExemptionDocId" },
+                          {
+                            "if": [
+                              { "var": "taxExemptionDocResponse.docId" },
+                              { "var": "taxExemptionDocResponse.docId" },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "jjr63DrBfuRui9uOOFpMd",
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            },
+            {
+              "id": "D-JfpqOrEFQUxXK0hE9sB",
+              "_id": "N4CLyLdaps4G-NZPYw8i7",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Delete taxExemption Doc API call Sole",
+              "old_name": "Delete taxExemption Doc API call Sole",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "logic": true,
+                        "triggerName": "set showTaxExemptionUpload true",
+                        "triggerId": "g9brRAsZBZIN1RabGbzaI"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "clear taxExemptionDocResponse",
+                        "triggerId": "36Au98XNOyt6xP0JqdysP"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "add attachement for declarationDocId",
+                        "triggerId": "ndZ5w0j35NJfd2f-wnVko"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "updatedAt": "4/18/2023",
+              "createdAt": "4/18/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["NvdJUeuzlfEPN_paqDYEX", "D-JfpqOrEFQUxXK0hE9sB"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

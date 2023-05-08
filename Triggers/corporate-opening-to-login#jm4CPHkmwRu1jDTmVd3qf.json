@@ -1,0 +1,26 @@
+{
+  "id": "4toebETUoT6nx_sDqgfGG",
+  "name": "corporate opening to login",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "VqDM2bbHLDArZEoQJCuoZ",
+          "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "jm4CPHkmwRu1jDTmVd3qf",
+  "updatedAt": "3/20/2023",
+  "createdAt": "3/20/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

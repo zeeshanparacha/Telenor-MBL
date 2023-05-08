@@ -1,0 +1,26 @@
+{
+  "id": "M1eC6jnrXOiK3Aa6S5Qxk",
+  "name": "Navigate to create TDR 3",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Pz6BFL7mes_Xo9hqqCCub",
+          "nextWidgetId": "UMARmP5BCUroEKPEB35O0",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "gn9rCp8letcyt31C5O3Wz",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

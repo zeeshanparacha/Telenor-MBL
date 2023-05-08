@@ -1,0 +1,26 @@
+{
+  "id": "YosGiDhcOP_qXzozW6rDK",
+  "name": "Clear designation1 BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "designation1",
+          "storeType": 1,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "we9r1U94tDNOGVz83QAEw",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

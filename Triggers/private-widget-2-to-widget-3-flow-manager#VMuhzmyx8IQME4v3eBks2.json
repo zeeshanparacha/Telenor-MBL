@@ -1,0 +1,27 @@
+{
+  "id": "LJrCMIqBnW3R7vFC6Famn",
+  "_id": "VMuhzmyx8IQME4v3eBks2",
+  "name": "private widget 2 to widget 3 flow manager",
+  "old_name": "private widget 2 to widget 3 flow manager",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "PAys-Yz_WENFVvPEEAeYg",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/6/2023",
+  "createdAt": "4/6/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

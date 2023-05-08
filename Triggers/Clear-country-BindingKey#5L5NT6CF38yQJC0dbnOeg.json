@@ -1,0 +1,26 @@
+{
+  "id": "TudsE89Uu7CytaCHgBlHj",
+  "name": "Clear country BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "country",
+          "storeType": 1,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "5L5NT6CF38yQJC0dbnOeg",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

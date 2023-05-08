@@ -1,0 +1,78 @@
+{
+  "id": "avdjRQG6ApsrUY1fy3Qte",
+  "_id": "YNxu_0PVIINVLp8cJroaP",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload trigger for CRS",
+  "old_name": "file upload trigger for CRS",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "crsDocResponse",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "docType",
+              "value": "SIGNATORIES"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Map docId from crsDocResponse to crsDocId",
+            "triggerId": "JVQA-gg0K_-f3r8VLucXA"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachement for declarationDocId",
+            "triggerId": "ndZ5w0j35NJfd2f-wnVko"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showCrsUpload false",
+            "triggerId": "irIVMvF-UXF32fA4Ccud8"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

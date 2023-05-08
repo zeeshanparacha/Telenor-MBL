@@ -1,0 +1,45 @@
+{
+  "id": "xaa54_7kqowMYmkssTsLS",
+  "_id": "CbACQ6GwT0gfL6CwbMCKZ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "pricing model trigger",
+  "old_name": "pricing model trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "pricingModel",
+          "responseReturnValue": "data.products",
+          "url": "/products/list",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "3/30/2023",
+  "createdAt": "3/30/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

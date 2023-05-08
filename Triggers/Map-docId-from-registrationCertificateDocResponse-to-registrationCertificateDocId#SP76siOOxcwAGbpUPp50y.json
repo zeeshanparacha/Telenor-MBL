@@ -1,0 +1,29 @@
+{
+  "id": "B4HA_JmCb5iUbk0InW6TX",
+  "name": "Map docId from registrationCertificateDocResponse to registrationCertificateDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "registrationCertificateDocId",
+          "sourceBindingKey": "registrationCertificateDocResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "SP76siOOxcwAGbpUPp50y",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

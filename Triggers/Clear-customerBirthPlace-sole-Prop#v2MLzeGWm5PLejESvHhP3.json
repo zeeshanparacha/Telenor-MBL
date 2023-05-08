@@ -1,0 +1,31 @@
+{
+  "id": "0cnohPUPthvWWhrWDnLAg",
+  "_id": "v2MLzeGWm5PLejESvHhP3",
+  "name": "Clear customerBirthPlace sole Prop",
+  "old_name": "Clear customerBirthPlace sole Prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "dataType": "value",
+          "destinationBindingKey": "customerBirthPlace",
+          "sourceBindingKey": "customerBirthPlace",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

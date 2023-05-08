@@ -1,0 +1,51 @@
+{
+  "id": "hY4kbUsyShphO8V0oOpt2",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload download for sole proprietor",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "fileResponse",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "docType",
+              "value": "signatories"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "_id": "2wDyrwr6JRx0oQTxtGYtW",
+  "updatedAt": "4/1/2023",
+  "createdAt": "4/1/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

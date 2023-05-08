@@ -1,0 +1,34 @@
+{
+  "id": "IAQSFPtaQbaQ-U799aBr7",
+  "_id": "rw2UFm_6RqzQvEMqlLOh1",
+  "name": "Set BOARD_OF_RESOLUTION Upload False or True",
+  "old_name": "Set BOARD_OF_RESOLUTION False or True",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showBoardOfResolutionUpload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "logic": {
+            "if": [{ "var": "form.boardOfResolutionDocId" }, false, true]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

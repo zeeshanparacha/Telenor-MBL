@@ -1,0 +1,43 @@
+{
+  "id": "XM9AEEdqe7AFVhdVQLRsa",
+  "_id": "MkgbJ5Rd_9-0XQ_WcK3dG",
+  "name": "Manipulate Key To Object residence Of Partnership Private",
+  "old_name": "Manipulate Key To Object residence Of Partnership Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "residenceOfPartnership",
+          "sourceBindingKey": "form.residenceOfPartnership",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.residenceOfPartnership" }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.residenceOfPartnership" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

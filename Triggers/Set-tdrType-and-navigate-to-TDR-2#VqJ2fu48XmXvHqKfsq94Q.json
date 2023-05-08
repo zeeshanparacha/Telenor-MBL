@@ -1,0 +1,80 @@
+{
+  "id": "V2bXxJkh1pNgqbQIKE8XD",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Set tdrType and navigate to TDR 2",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "UTqwxGLHqHDnHs6joDgOX",
+              "name": "Set TDRtype for next screen",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "tdrLookup",
+                      "storeType": "",
+                      "selectedObjectBindingKey": "tdrLookup",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "7HfkrcH4k_B-VdAIQrs_k",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            },
+            {
+              "id": "8D8cSDQlT4aF_eRBh-UuN",
+              "_id": "BMWxb3uCad3hGDAOC29pr",
+              "name": "Create TDR 1 to 2 widget",
+              "old_name": "Create TDR 1 to 2 widget",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "Pz6BFL7mes_Xo9hqqCCub",
+                      "nextWidgetId": "GrNglHmQqSICebUsmqN7z",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            }
+          ],
+          "triggerIds": ["UTqwxGLHqHDnHs6joDgOX", "8D8cSDQlT4aF_eRBh-UuN"]
+        }
+      }
+    }
+  ],
+  "_id": "VqJ2fu48XmXvHqKfsq94Q",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "fHw6zmA79aIe3wIw6wSOU",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Call Delete Memorandum Of Association Chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "2L1uKYnsVD6kHSiYv_9_J",
+              "name": "map memorandumOfAssociationDocId to docId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.memorandumOfAssociationDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.memorandumOfAssociationDocId" },
+                          { "var": "form.memorandumOfAssociationDocId" },
+                          {
+                            "if": [
+                              {
+                                "var": "memorandumOfAssociationResponse.docId"
+                              },
+                              {
+                                "var": "memorandumOfAssociationResponse.docId"
+                              },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "97sy9hnMb8bNY6R3gXyun",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "lVgDtAwKQsKSOhOdt4joj",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Delete Memorandum Of Association Doc API call",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "set showMemorandumOfAssociationUpload true",
+                        "triggerId": "zkbfPFgW4rHP0qyiLqSc7"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "clear memorandumOfAssociationResponse",
+                        "triggerId": "xSvbuRqyMg4kc7J2KTmWS"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "_id": "BsZJefNP-Ob9Y14RIllgy",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["2L1uKYnsVD6kHSiYv_9_J", "lVgDtAwKQsKSOhOdt4joj"]
+        }
+      }
+    }
+  ],
+  "_id": "8uQcaDwCPVIWQR7S2y1jG",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

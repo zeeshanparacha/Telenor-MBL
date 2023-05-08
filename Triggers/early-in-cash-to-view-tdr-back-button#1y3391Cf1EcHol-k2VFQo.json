@@ -1,0 +1,25 @@
+{
+  "id": "FnBjDa_JbJoTl1mRxdmGG",
+  "name": "early in cash to view tdr back button",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "fsZCk9fYfn5H0QdimMWCa",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "1y3391Cf1EcHol-k2VFQo",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

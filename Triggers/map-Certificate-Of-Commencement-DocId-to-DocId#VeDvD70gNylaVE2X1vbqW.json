@@ -1,0 +1,43 @@
+{
+  "id": "WH1IZ0H1AY3j_FXmGI8Oz",
+  "name": "map Certificate Of Commencement DocId to DocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "docId",
+          "sourceBindingKey": "form.certificateOfCommencementDocId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.certificateOfCommencementDocId" },
+              { "var": "form.certificateOfCommencementDocId" },
+              {
+                "if": [
+                  { "var": "certificateOfCommencementResponse.docId" },
+                  { "var": "certificateOfCommencementResponse.docId" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "VeDvD70gNylaVE2X1vbqW",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

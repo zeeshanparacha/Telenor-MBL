@@ -1,0 +1,31 @@
+{
+  "id": "R_VNEFJLATWPFxE9MluGl",
+  "_id": "OEJ-j6T70FzRLJO7-cApy",
+  "name": "Map docId from fatcaDocResponse to fatcaDocId",
+  "old_name": "Map docId from declarationDocResponse to declarationDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "fatcaDocId",
+          "sourceBindingKey": "fatcaDocResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

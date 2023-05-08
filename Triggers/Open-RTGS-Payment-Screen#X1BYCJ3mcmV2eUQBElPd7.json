@@ -1,0 +1,26 @@
+{
+  "id": "jvu6NCX36NhZrMYE-dscU",
+  "_id": "X1BYCJ3mcmV2eUQBElPd7",
+  "name": "Open RTGS Payment Screen",
+  "old_name": "Open RTGS Payment Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "b4-Mao8-kjT58p7vQe2ul",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject.payload",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/17/2023",
+  "createdAt": "3/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

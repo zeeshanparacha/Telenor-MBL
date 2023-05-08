@@ -1,0 +1,78 @@
+{
+  "id": "C3waP-Qzw0TpejM7jS_5A",
+  "_id": "cZy1-NZtjwuVa_j_NuhA9",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Upload DECLARATION OF CHANGES for Private",
+  "old_name": "Upload DECLARATION OF CHANGES for Private",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "declarationDocResponse",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "docType",
+              "value": "DECLARATION_OF_CHANGES"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            { "type": 1, "name": "Form", "key": "file", "value": "file" }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "triggerName": "Map docId from declarationDocResponse to declarationOfChangesDocId",
+            "triggerId": "YfytGTTFFdUA-akfCsLt4",
+            "httpStatus": 200,
+            "logic": true
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showDeclarationUpload false",
+            "triggerId": "Y4G4hwPdDBaubTA1uM5aq"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

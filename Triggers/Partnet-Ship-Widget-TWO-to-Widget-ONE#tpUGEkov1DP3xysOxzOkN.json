@@ -1,0 +1,27 @@
+{
+  "id": "WlltqRA4RZJ5WJXOx5YDR",
+  "_id": "tpUGEkov1DP3xysOxzOkN",
+  "name": "Partnet Ship Widget TWO to Widget ONE",
+  "old_name": "Partnet Ship Widget TWO to Widget ONE",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "oTEtGhP3ID--arF1MVomr",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}

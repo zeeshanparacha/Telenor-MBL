@@ -1,0 +1,139 @@
+{
+  "id": "6Aqzc8Orn2an5hhh27tVn",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete crs Doc Private Chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "EMQEsMJDfxuVZEN8VNApt",
+              "name": "map crsDocId to docId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.crsDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.crsDocId" },
+                          { "var": "form.crsDocId" },
+                          {
+                            "if": [
+                              { "var": "crsDocResponse.docId" },
+                              { "var": "crsDocResponse.docId" },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "nWC2E8ujjah9nkNi_JAr4",
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            },
+            {
+              "id": "NQKXVEWzmlBrE7wgf2Dw2",
+              "_id": "42wjbCbqNjWL9wXGwCMls",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Delete crs Doc API call Private",
+              "old_name": "Delete crs Doc API call",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "logic": true,
+                        "triggerName": "set showCrsUpload true",
+                        "triggerId": "UmUW6zv9etiuz3mi5ZByX"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "clear crsDocResponse",
+                        "triggerId": "bh9JVycjjm1FJ6gOEumLo"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "updatedAt": "4/18/2023",
+              "createdAt": "4/18/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["EMQEsMJDfxuVZEN8VNApt", "NQKXVEWzmlBrE7wgf2Dw2"]
+        }
+      }
+    }
+  ],
+  "_id": "bQ4-a71b2WtYEa26zPdka",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

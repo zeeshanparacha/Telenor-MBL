@@ -1,0 +1,31 @@
+{
+  "id": "LnTF3voQs_OnOgUlQFpWa",
+  "_id": "Wpyhj61YUs4SiKBOgmWhv",
+  "name": "Clear Certificate Of Commencement  BindingKey",
+  "old_name": "Clear Certificate Of Commencement  BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "dataType": "value",
+          "destinationBindingKey": "certificateOfCommencementDocId",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

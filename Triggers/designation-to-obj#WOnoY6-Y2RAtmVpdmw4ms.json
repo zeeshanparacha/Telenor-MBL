@@ -1,0 +1,44 @@
+{
+  "id": "b17ZKRNKkvvrpvt8FsdNt",
+  "_id": "WOnoY6-Y2RAtmVpdmw4ms",
+  "name": "designation to obj",
+  "old_name": "designation to obj",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "designation",
+          "sourceBindingKey": "designation",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  { "var": "designation.value" },
+                  { "var": "designation.value" },
+                  { "var": "designation" }
+                ]
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

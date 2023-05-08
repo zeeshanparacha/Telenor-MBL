@@ -1,0 +1,33 @@
+{
+  "id": "t8k2728On03vjb4ONhEJA",
+  "name": "set showpartnershipDeedUpload false or True",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "showpartnershipDeedUpload",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [{ "var": "form.partnershipDeedDocId" }, false, true]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "N05AqreatbMsRpH3TOHe_",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

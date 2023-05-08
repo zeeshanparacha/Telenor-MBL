@@ -1,0 +1,26 @@
+{
+  "id": "aDsqFkQkE7OKb9mUCxKdM",
+  "name": "private widget 1 to widget 2 flow manager",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+          "nextWidgetId": "ag5Y61Hzq18ZmjHVWSAeu",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "-UMZa-5bm8lcVJYEDRZdU",
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

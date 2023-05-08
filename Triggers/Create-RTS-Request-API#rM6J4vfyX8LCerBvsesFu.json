@@ -1,0 +1,132 @@
+{
+  "id": "FPh5_wLHmAorHnw18rHCG",
+  "_id": "rM6J4vfyX8LCerBvsesFu",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Create RTS Request API",
+  "old_name": "Create RTS Request API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/offline-requests/rtgs/maker-request",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "amount", "value": "amount" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "amountInWords",
+              "value": "Amount_In_Words_amount"
+            },
+            { "type": 1, "name": "Form", "key": "bankId", "value": "bank.imd" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "bankName",
+              "value": "bank.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiaryContact",
+              "value": "beneficiaryContact"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchId",
+              "value": "branch.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchName",
+              "value": "branch.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "purpose",
+              "value": "purpose.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountId",
+              "value": "fromAccountNumber.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountNumber",
+              "value": "fromAccountNumber.accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toAccountIban",
+              "value": "toAccountIban"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toAccountTitle",
+              "value": "toAccountTitle"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toBranchName",
+              "value": "toBranchName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toBranchCode",
+              "value": "toBranchCode"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "5/2/2023",
+  "createdAt": "5/2/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

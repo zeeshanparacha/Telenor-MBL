@@ -1,0 +1,33 @@
+{
+  "id": "aZ9tXQqzgU1fxRFRKCfhX",
+  "_id": "mGhFvfI-xb_coLI-8SOL-",
+  "name": "clear fatcaDocResponse",
+  "old_name": "clear fatcaDocResponse",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "fatcaDocId",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
+}

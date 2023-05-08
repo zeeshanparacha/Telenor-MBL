@@ -1,0 +1,26 @@
+{
+  "id": "8O8oXo-JROmL7vw1poUAI",
+  "name": "login screen to step 4",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "nextWidgetId": "PxCbgw70TAsWseofXABiY",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "-YoB3GBPTKp_vFpJewNrI",
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,1440 @@
+[
+  {
+    "id": "jeF-wLep83JwTm-vXQv18",
+    "name": "new file upload doc widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "pf_kZZNDN1crQGB4y-jb6",
+          "componentType": "10001",
+          "id": "pf_kZZNDN1crQGB4y-jb6",
+          "position": {
+            "i": "pf_kZZNDN1crQGB4y-jb6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "new file upload doc",
+        "id": "pf_kZZNDN1crQGB4y-jb6",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "OdMk5SXYNcSPVF1OkDTt-",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "bB0bSE5nMKu3WW87fUi-v",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "8wNXtFMT8FQPgPNUJMuMi",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "id": "XRXk6UHZQ4Aens7fwqBQP",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "wGVnDOf1GYDtJZuTn0r_I",
+                            "gridProps": [
+                              {
+                                "id": "eiO4rpRZ3KiY6Bewjl81K",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "Zakat Exemption",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "textfieldLabel" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-0-0"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-0",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout"
+                      },
+                      {
+                        "id": "Z6ll0BN3j36nJ-3VIwRZp",
+                        "type": "20035",
+                        "name": "File Upload",
+                        "component": {
+                          "content": "File upload",
+                          "type": "20035"
+                        },
+                        "attributes": {
+                          "label": "Upload File",
+                          "stateName": "file",
+                          "accept": "image/*",
+                          "maxSize": "4096",
+                          "minSize": "10",
+                          "validate": {
+                            "errorMsg": "File Required",
+                            "required": false
+                          },
+                          "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
+                          "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
+                          "name": "File Upload",
+                          "layoutProperties": {
+                            "container": {
+                              "boxSizing": "border-box",
+                              "width": "100%",
+                              "height": "auto",
+                              "background": "#f2f2f2",
+                              "boxShadow": "0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)",
+                              "padding": "10px",
+                              "border": "1px solid rgb(0 0 0 / 20%)"
+                            },
+                            "button": {
+                              "borderRadius": "2px",
+                              "padding": "12px",
+                              "fontWeight": "200",
+                              "fontSize": "12px"
+                            },
+                            "loader": {
+                              "marginTop": "20px",
+                              "height": "10px",
+                              "borderRadius": "20px"
+                            },
+                            "mainContainer": "container",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "mandatory": false,
+                          "showDeleteIcon": true,
+                          "fileUploadTrigger": "AtRMBzAB9AkD3JBfNOAnO",
+                          "fileDeleteTrigger": "wjkOnUh8lxZsZt8-uz8u4",
+                          "fileType": "pdf",
+                          "showPreview": false,
+                          "previewWidth": "20",
+                          "previewHeight": "20",
+                          "hideCondition": {
+                            "logic": {
+                              "if": [
+                                {
+                                  "==": [
+                                    {
+                                      "var": "currentScreen.showZakatExemptionUpload"
+                                    },
+                                    false
+                                  ]
+                                },
+                                true,
+                                false
+                              ]
+                            }
+                          }
+                        },
+                        "events": [],
+                        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-1",
+                        "version": "2.0.0"
+                      },
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "sP16-PO8pDyAERw_k9thJ",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "g8BHBKdsU4Ggg8cZ56xGm",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "e6ukdfA457t0jv3_jQpKs",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "7OLdkY7UbA8E3dRx1CgyQ",
+                                    "gridProps": [
+                                      {
+                                        "id": "7ynNgvb5ucGJkpnfOcEXa",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Delete",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ]
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "kh2qLHiTg4wz6kTYhH-VC",
+                                            "triggerName": "Delete ZakatExemption Doc private Chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "id": "6P8r9TQqEMCcCDdHYN_Vb",
+                                                  "name": "map zakatExemptionDocId to docId",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "docId",
+                                                          "sourceBindingKey": "form.zakatExemptionDocId",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 2,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "var": "form.zakatExemptionDocId"
+                                                              },
+                                                              {
+                                                                "var": "form.zakatExemptionDocId"
+                                                              },
+                                                              {
+                                                                "if": [
+                                                                  {
+                                                                    "var": "zakatExemptionDocResponse.docId"
+                                                                  },
+                                                                  {
+                                                                    "var": "zakatExemptionDocResponse.docId"
+                                                                  },
+                                                                  ""
+                                                                ]
+                                                              }
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "AjmUN1VPy8UZEG4-tCuca",
+                                                  "updatedAt": "4/13/2023",
+                                                  "createdAt": "4/13/2023",
+                                                  "createdBy": "talha",
+                                                  "updatedBy": "talha"
+                                                },
+                                                {
+                                                  "id": "_PqbWFeAgdpaL0PeqtUfm",
+                                                  "_id": "c0YjQk92NH5WeK6AbJ2HV",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "name": "Delete ZakatExemption Doc API call Private",
+                                                  "old_name": "Delete ZakatExemption Doc API call",
+                                                  "status": "ACTIVE",
+                                                  "services": [
+                                                    {
+                                                      "type": "8",
+                                                      "command": {
+                                                        "type": "1",
+                                                        "attributes": {
+                                                          "loaderWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "messageWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "responseStateKey": "deleteDocResponse",
+                                                          "responseReturnValue": "data",
+                                                          "url": "/doc-mgmt/delete-files",
+                                                          "checksum": true,
+                                                          "encryption": true,
+                                                          "isDeviceDetails": true,
+                                                          "loginTrigger": false,
+                                                          "formData": false,
+                                                          "logoutTrigger": false,
+                                                          "headers": {
+                                                            "Content-Type": "application/json",
+                                                            "Accept": "application/json",
+                                                            "channel_key": "001",
+                                                            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                            "locale": "en-ltr"
+                                                          },
+                                                          "requestBody": [
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "uuid",
+                                                              "value": "uuid"
+                                                            },
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "docId",
+                                                              "value": "docId"
+                                                            }
+                                                          ],
+                                                          "baseURL": "641aedb2676c823a449fd597",
+                                                          "storeType": 2
+                                                        },
+                                                        "responseHandler": [
+                                                          {
+                                                            "httpStatus": 200,
+                                                            "logic": true,
+                                                            "triggerName": "set showZakatExemptionUpload true",
+                                                            "triggerId": "gf7Iw66FHfRTw7E4IOve9"
+                                                          },
+                                                          {
+                                                            "logic": true,
+                                                            "httpStatus": 200,
+                                                            "triggerName": "clear zakatExemptionDocResponse",
+                                                            "triggerId": "iXGS8lbjXEpNafkILuN-Y"
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ],
+                                                  "updatedAt": "4/18/2023",
+                                                  "createdAt": "4/18/2023",
+                                                  "createdBy": "ahmerjavedkhan",
+                                                  "updatedBy": "ahmerjavedkhan"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "6P8r9TQqEMCcCDdHYN_Vb",
+                                                "_PqbWFeAgdpaL0PeqtUfm"
+                                              ]
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            },
+                            "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-0"
+                          },
+                          {
+                            "type": "column",
+                            "id": "R5zNyOs7eaPkoY6o13hF0",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "B-VMLiG9YjoJUFDDypXrO",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "XS9j4q691v6MrlfRYsp94",
+                                    "gridProps": [
+                                      {
+                                        "id": "VbrJU3nT7-d5tioM2lctP",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Download",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ]
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "6P8r9TQqEMCcCDdHYN_Vb",
+                                            "triggerName": "map zakatExemptionDocId to docId",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "value",
+                                              "destinationBindingKey": "docId",
+                                              "sourceBindingKey": "form.zakatExemptionDocId",
+                                              "sourceStoreType": 2,
+                                              "destinationStoreType": 2,
+                                              "logic": {
+                                                "if": [
+                                                  {
+                                                    "var": "form.zakatExemptionDocId"
+                                                  },
+                                                  {
+                                                    "var": "form.zakatExemptionDocId"
+                                                  },
+                                                  {
+                                                    "if": [
+                                                      {
+                                                        "var": "zakatExemptionDocResponse.docId"
+                                                      },
+                                                      {
+                                                        "var": "zakatExemptionDocResponse.docId"
+                                                      },
+                                                      ""
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              "changeValueConditonally": true,
+                                              "targettedType": "value"
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          },
+                                          {
+                                            "triggerId": "HL_1Eiw-ZHvVL7mx_RpVI",
+                                            "triggerName": "Download Sole Prop Document 2",
+                                            "serviceType": "8",
+                                            "attributes": {
+                                              "loaderWidgetIds": [906070],
+                                              "messageWidgetIds": [906070],
+                                              "responseStateKey": "downloadSoulPropDoc",
+                                              "url": "/doc-mgmt/download-files",
+                                              "checksum": true,
+                                              "encryption": true,
+                                              "isDeviceDetails": true,
+                                              "loginTrigger": false,
+                                              "formData": false,
+                                              "logoutTrigger": false,
+                                              "headers": {
+                                                "Content-Type": "application/json",
+                                                "Accept": "application/json",
+                                                "channel_key": "001",
+                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                "locale": "en-ltr"
+                                              },
+                                              "requestBody": [
+                                                {
+                                                  "type": 2,
+                                                  "name": "Current screen",
+                                                  "key": "document",
+                                                  "value": "docId"
+                                                },
+                                                {
+                                                  "type": 2,
+                                                  "name": "Current screen",
+                                                  "key": "uuid",
+                                                  "value": "uuid"
+                                                }
+                                              ],
+                                              "baseURL": "641aedb2676c823a449fd597",
+                                              "storeType": 2
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-1-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-1-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-1-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            },
+                            "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-1"
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout",
+                          "hideCondition": {
+                            "logic": {
+                              "if": [
+                                {
+                                  "==": [
+                                    {
+                                      "var": "currentScreen.showZakatExemptionUpload"
+                                    },
+                                    true
+                                  ]
+                                },
+                                true,
+                                false
+                              ]
+                            }
+                          }
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 6,
+                          "colSize1sm": 6,
+                          "colSize1md": 6,
+                          "colSize1lg": 6,
+                          "colSize1xl": 6
+                        },
+                        "readOnly": true
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0"
+                  }
+                ],
+                "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0",
+                "events": [
+                  {
+                    "triggerId": "pagSnGlI8CxU2E04ogNQ1",
+                    "triggerName": "set showZakatExemptionUpload false or True",
+                    "serviceType": "11",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "showZakatExemptionUpload",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.zakatExemptionDocId" },
+                          false,
+                          true
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    },
+                    "type": "1",
+                    "name": "On initialization"
+                  }
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "city and country ",
+                  "hideComponent": false
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Zakat Exemption",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "file upload document",
+          "hideCondition": {
+            "logic": {
+              "!=": [{ "var": "currentScreen.form.zakatExemption.code" }, "yes"]
+            }
+          }
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-0-0-1-0-11-0-0-2-0",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "jeF-wLep83JwTm-vXQv18",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "jeF-wLep83JwTm-vXQv18",
+    "createdBy": "areeb",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "pf_kZZNDN1crQGB4y-jb6",
+    "name": "new file upload doc",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "bB0bSE5nMKu3WW87fUi-v",
+          "componentType": "10001",
+          "id": "bB0bSE5nMKu3WW87fUi-v",
+          "position": {
+            "i": "bB0bSE5nMKu3WW87fUi-v",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "file upload document",
+      "hideCondition": {
+        "logic": {
+          "!=": [{ "var": "currentScreen.form.zakatExemption.code" }, "yes"]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "bB0bSE5nMKu3WW87fUi-v",
+    "name": "Zakat Exemption",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "XRXk6UHZQ4Aens7fwqBQP",
+          "componentType": "10001",
+          "id": "XRXk6UHZQ4Aens7fwqBQP",
+          "position": {
+            "i": "XRXk6UHZQ4Aens7fwqBQP",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "Z6ll0BN3j36nJ-3VIwRZp",
+          "componentType": "20035",
+          "order": 1
+        },
+        {
+          "componentId": "sP16-PO8pDyAERw_k9thJ",
+          "componentType": "10001",
+          "id": "sP16-PO8pDyAERw_k9thJ",
+          "position": {
+            "i": "sP16-PO8pDyAERw_k9thJ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "city and country ",
+      "hideComponent": false
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "pagSnGlI8CxU2E04ogNQ1",
+        "triggerName": "set showZakatExemptionUpload false or True",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "XRXk6UHZQ4Aens7fwqBQP",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "eiO4rpRZ3KiY6Bewjl81K",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "eiO4rpRZ3KiY6Bewjl81K",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Zakat Exemption",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-0-0-0",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Z6ll0BN3j36nJ-3VIwRZp",
+    "type": "20035",
+    "name": "File Upload",
+    "component": { "content": "File upload", "type": "20035" },
+    "attributes": {
+      "label": "Upload File",
+      "stateName": "file",
+      "accept": "image/*",
+      "maxSize": "4096",
+      "minSize": "10",
+      "validate": { "errorMsg": "File Required", "required": false },
+      "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
+      "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
+      "name": "File Upload",
+      "layoutProperties": {
+        "container": {
+          "boxSizing": "border-box",
+          "width": "100%",
+          "height": "auto",
+          "background": "#f2f2f2",
+          "boxShadow": "0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)",
+          "padding": "10px",
+          "border": "1px solid rgb(0 0 0 / 20%)"
+        },
+        "button": {
+          "borderRadius": "2px",
+          "padding": "12px",
+          "fontWeight": "200",
+          "fontSize": "12px"
+        },
+        "loader": {
+          "marginTop": "20px",
+          "height": "10px",
+          "borderRadius": "20px"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "mandatory": false,
+      "showDeleteIcon": true,
+      "fileUploadTrigger": "AtRMBzAB9AkD3JBfNOAnO",
+      "fileDeleteTrigger": "wjkOnUh8lxZsZt8-uz8u4",
+      "fileType": "pdf",
+      "showPreview": false,
+      "previewWidth": "20",
+      "previewHeight": "20",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "==": [{ "var": "currentScreen.showZakatExemptionUpload" }, false]
+            },
+            true,
+            false
+          ]
+        }
+      }
+    },
+    "events": [],
+    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-1",
+    "version": "2.0.0",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sP16-PO8pDyAERw_k9thJ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "e6ukdfA457t0jv3_jQpKs",
+          "componentType": "10001",
+          "id": "e6ukdfA457t0jv3_jQpKs",
+          "position": {
+            "i": "e6ukdfA457t0jv3_jQpKs",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        },
+        {
+          "componentId": "B-VMLiG9YjoJUFDDypXrO",
+          "componentType": "10001",
+          "id": "B-VMLiG9YjoJUFDDypXrO",
+          "position": {
+            "i": "B-VMLiG9YjoJUFDDypXrO",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "==": [{ "var": "currentScreen.showZakatExemptionUpload" }, true]
+            },
+            true,
+            false
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "e6ukdfA457t0jv3_jQpKs",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "7ynNgvb5ucGJkpnfOcEXa",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "7ynNgvb5ucGJkpnfOcEXa",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Delete",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardButton" }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "kh2qLHiTg4wz6kTYhH-VC",
+        "triggerName": "Delete ZakatExemption Doc private Chain Trig",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
+      }
+    ],
+    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-0-0-0-0",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "B-VMLiG9YjoJUFDDypXrO",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "VbrJU3nT7-d5tioM2lctP",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VbrJU3nT7-d5tioM2lctP",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Download",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardButton" }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "6P8r9TQqEMCcCDdHYN_Vb",
+        "triggerName": "map zakatExemptionDocId to docId",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      },
+      {
+        "triggerId": "HL_1Eiw-ZHvVL7mx_RpVI",
+        "triggerName": "Download Sole Prop Document 2",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-1-0-11-0-0-2-0-0-0-0-2-1-0-0-0",
+    "screenId": "q2bb7JhbNUTPbRJ7EGmNb",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

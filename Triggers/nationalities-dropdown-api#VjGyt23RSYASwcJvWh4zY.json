@@ -1,0 +1,52 @@
+{
+  "id": "5UnirTcrL1yTzT0KabrUQ",
+  "_id": "VjGyt23RSYASwcJvWh4zY",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "nationalities dropdown api",
+  "old_name": "nationalities dropdown api",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "nationalities",
+          "responseReturnValue": "data.result.lookupValue",
+          "url": "/lookup/values",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "lookupType",
+              "value": "nationality"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "3/31/2023",
+  "createdAt": "3/31/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

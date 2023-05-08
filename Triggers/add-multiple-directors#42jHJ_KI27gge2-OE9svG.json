@@ -1,0 +1,87 @@
+{
+  "id": "oIyZO5PilHv8kRPmiOrf9",
+  "_id": "42jHJ_KI27gge2-OE9svG",
+  "name": "add multiple directors",
+  "old_name": "add multiple directors",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "directors",
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "city", "value": "city" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "areYouPoliticalMember",
+              "value": "areYouPoliticalMember"
+            },
+            { "type": 1, "name": "Form", "key": "cnicNo", "value": "cnicNo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "comments",
+              "value": "comments"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "contactNumber",
+              "value": "contactNumber"
+            },
+            { "type": 1, "name": "Form", "key": "country", "value": "country" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "emailAddress",
+              "value": "emailAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "nameAsPerCNIC",
+              "value": "nameAsPerCNIC"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "nationality",
+              "value": "nationality"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnerDirectorDateOfBirth",
+              "value": "partnerDirectorDateOfBirth"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnerDirectorPlaceOfBirth",
+              "value": "partnerDirectorPlaceOfBirth"
+            },
+            { "type": 1, "name": "Form", "key": "country", "value": "country" }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

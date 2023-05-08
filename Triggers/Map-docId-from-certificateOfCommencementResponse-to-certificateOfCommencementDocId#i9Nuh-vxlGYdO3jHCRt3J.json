@@ -1,0 +1,29 @@
+{
+  "id": "G-CiXpgddePJWy4dgcZux",
+  "name": "Map docId from certificateOfCommencementResponse to certificateOfCommencementDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "certificateOfCommencementDocId",
+          "sourceBindingKey": "certificateOfCommencementResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "i9Nuh-vxlGYdO3jHCRt3J",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

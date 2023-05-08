@@ -1,0 +1,27 @@
+{
+  "id": "9U9799oweHOiSwXV-W6KE",
+  "_id": "oJ78bJnqnVuzmIZeEKwqr",
+  "name": "Navigate to create TDR 1",
+  "old_name": "Navigate to create TDR 1",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Pz6BFL7mes_Xo9hqqCCub",
+          "nextWidgetId": "LTf1rbFa8q4pPCCmXq87K",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

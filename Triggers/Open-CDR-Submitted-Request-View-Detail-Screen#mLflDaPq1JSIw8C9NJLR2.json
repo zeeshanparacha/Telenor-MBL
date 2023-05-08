@@ -1,0 +1,25 @@
+{
+  "id": "uWQP405fRO1PN0xsetwrF",
+  "name": "Open CDR Submitted Request View Detail Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "o_ckkgBYFVzOOalxXJiWl",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "_id": "mLflDaPq1JSIw8C9NJLR2",
+  "updatedAt": "3/28/2023",
+  "createdAt": "3/28/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

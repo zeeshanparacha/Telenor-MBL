@@ -1,0 +1,77 @@
+{
+  "id": "w3rOb57OCmfvd7tuL7YWQ",
+  "_id": "EirHzKLP3KZr0-YX-58Eb",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete  form A Doc API ",
+  "old_name": "Delete  form A Doc API ",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "deleteDocResponse",
+          "responseReturnValue": "data",
+          "url": "/doc-mgmt/delete-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "docId",
+              "value": "docId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Set showformAUpload true",
+            "triggerId": "dUE4mbFPtoeISgTaFtedi"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Clear formAResponse BindingKey",
+            "triggerId": "t6cKemrxLLfKyHuMVWzZQ"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "r2yPhr0LLI-rLlDCvL8Q3",
+  "_id": "kh8kmsHFJUuUjL5IEvARY",
+  "name": "Manipulate Key To Object expected No Of Debit Transactions Private",
+  "old_name": "Manipulate Key To Object expected No Of Debit Transactions Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "destinationBindingKey": "expectedNoOfDebitTransactions",
+          "sourceBindingKey": "form.expectedNoOfDebitTransactions",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.form.expectedNoOfDebitTransactions"
+              }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.form.expectedNoOfDebitTransactions"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

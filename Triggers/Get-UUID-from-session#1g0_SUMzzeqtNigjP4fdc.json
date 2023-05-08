@@ -1,0 +1,43 @@
+{
+  "id": "bJoiNEmYWaX29xUtkjtBk",
+  "name": "Get UUID from session",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "uuid",
+          "sourceBindingKey": "response.data.result",
+          "sourceStoreType": 3,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "response.data.result.uuid" },
+              { "var": "response.data.result.uuid" },
+              {
+                "if": [
+                  { "var": "response.data.result.draftedRequest.uuid" },
+                  { "var": "response.data.result.draftedRequest.uuid" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "1g0_SUMzzeqtNigjP4fdc",
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "PWcaJRTXI4JePJb9lKm6f",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete cz50 Doc Private Chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "BeQBwzmciaL7I5ryqMZ_H",
+              "_id": "uwDKiSuEfP4qfp5BjZtEi",
+              "name": "map czDocId to docId",
+              "old_name": "map declarationDocId to docId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.declarationDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.czDocId" },
+                          { "var": "form.czDocId" },
+                          {
+                            "if": [
+                              { "var": "czDocResponse.docId" },
+                              { "var": "czDocResponse.docId" },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "talha2",
+              "updatedBy": "talha2"
+            },
+            {
+              "id": "RbVxyQFl7cLRqPOI6tVZD",
+              "_id": "L7rkIjjulioG7iRcS_oup",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Delete cz50 Doc API call Private",
+              "old_name": "Delete cz50 Doc API call",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "logic": true,
+                        "triggerName": "set showcz50Upload true",
+                        "triggerId": "5eVHZC7kvW3en0LDDMz_v"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "clear czDocResponse",
+                        "triggerId": "kwxe_P2hEyKFeCTeRGvuh"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "updatedAt": "4/18/2023",
+              "createdAt": "4/18/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["BeQBwzmciaL7I5ryqMZ_H", "RbVxyQFl7cLRqPOI6tVZD"]
+        }
+      }
+    }
+  ],
+  "_id": "h14vKtycwVoMNCp00aGPr",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

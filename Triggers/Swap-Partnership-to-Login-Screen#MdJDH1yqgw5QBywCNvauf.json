@@ -1,0 +1,27 @@
+{
+  "id": "VdpkDm4rLqan1SeXq56Ts",
+  "_id": "MdJDH1yqgw5QBywCNvauf",
+  "name": "Swap Partnership to Login Screen",
+  "old_name": "Swap Private to Login Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "czSQJrQjzxEw78Z7kEI3U",
+          "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

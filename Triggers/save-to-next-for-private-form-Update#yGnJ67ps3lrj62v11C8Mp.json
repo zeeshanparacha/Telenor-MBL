@@ -1,0 +1,412 @@
+{
+  "id": "mfI038b_JlduPqh_vm3PY",
+  "_id": "yGnJ67ps3lrj62v11C8Mp",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "save to next for private form Update",
+  "old_name": "save to next for private form Update",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "saveToNextPrivate",
+          "url": "/pre-corp-reg/save-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.averageSalaryAmount",
+              "value": "averageSalaryAmount"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.branchNameOfBank",
+              "value": "branchNameOfBank"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.city",
+              "value": "city"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyEmailId",
+              "value": "companyEmailId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyFaxNumber",
+              "value": "companyFaxNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyMailingAddress",
+              "value": "companyMailingAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyNameAsPerRegistration",
+              "value": "companyNameAsPerRegistration"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyTelephoneNumber",
+              "value": "companyTelephoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.companyTelephoneNumber",
+              "value": "companyTelephoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.contactNumber",
+              "value": "contactNumber1"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.dateAndPlaceOfIncorporation",
+              "value": "dateAndPlaceOfIncorporation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.country",
+              "value": "country2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.accountCategory",
+              "value": "accountCategory.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.branchNameOfBank",
+              "value": "branchNameOfBank"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.emailAddress",
+              "value": "emailAddress2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.expectedMonthlyIncome",
+              "value": "expectedMonthlyIncome.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.expectedNoOfCreditAmount",
+              "value": "expectedNoOfCreditAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.expectedNoOfCreditTransactions",
+              "value": "expectedNoOfCreditTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.expectedNoOfDebitAmount",
+              "value": "expectedNoOfDebitAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.expectedNoOfDebitTransactions",
+              "value": "expectedNoOfDebitTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.modeOfTransaction",
+              "value": "modeOfTransaction.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.nationalityOfPartnership",
+              "value": "nationalityOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.natureOfBusinessActivity",
+              "value": "natureOfBusinessActivity1"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.ntnDateOfExpiry",
+              "value": "ntnDateOfExpiry"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.ntnDateOfIssuance",
+              "value": "ntnDateOfIssuance"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.ntnIssuingAuthority",
+              "value": "ntnIssuingAuthority"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.numberOfEmployees",
+              "value": "numberOfEmployees"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.occupationOfCorporate",
+              "value": "occupationOfCorporate.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.pocName",
+              "value": "pocName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.referral",
+              "value": "referral"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.residenceOfPartnership",
+              "value": "residenceOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.taxExemption",
+              "value": "taxExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.zakatExemption",
+              "value": "zakatExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyAddress",
+              "value": "companyAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation"
+            },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "emailOtp",
+              "value": "emailotp"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fullName",
+              "value": "fullName"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSavingInDraft",
+              "value": false
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSoleProprietor",
+              "value": false
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPartnership",
+              "value": false
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPrivateOrPublic",
+              "value": true
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "mobileNumber",
+              "value": "mobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "pricingModelId",
+              "value": "items"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "productId",
+              "value": "products.id"
+            },
+            { "type": 1, "name": "Form", "key": "smsOtp", "value": "smsotp" },
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "validateOtpUuid",
+              "value": "response.data.result.draftedRequest.uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateorPublicLimited.directorInformation",
+              "value": "directorInformation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.authorizedPersonalDetails.contactNumber",
+              "value": "contactNumber2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.authorizedPersonalDetails.fullName",
+              "value": "fullName2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.authorizedPersonalDetails.officeEmail",
+              "value": "officeEmail"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.authorizedPersonalDetails.natureOfBusinessActivity",
+              "value": "natureOfBusinessActivity2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "privateorPublicLimited.authorizedPersonalDetails.title",
+              "value": "title"
+            },
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "id",
+              "value": "response.data.result.draftedRequest.formId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "private save to next to document upload screen flow manager",
+            "triggerId": "gTv3c6xif8a2MpJc4JFWA",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Clear validations",
+            "triggerId": "C9VAY5AImRfafff65"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/10/2023",
+  "createdAt": "4/10/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

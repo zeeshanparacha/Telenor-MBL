@@ -1,0 +1,25 @@
+{
+  "id": "4PPA3nG7PFLM0FdAVACiX",
+  "name": "RTGS Submitted Request View Detail Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "s1ynKgH8eBXs7VbpUGSKx",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "_id": "SFxecrEu9XOTdN1UP07We",
+  "updatedAt": "3/29/2023",
+  "createdAt": "3/29/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

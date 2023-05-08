@@ -1,0 +1,448 @@
+{
+  "_id": "mRbcENLE5nwwdKbxO8Dum",
+  "id": "w-5kMnEztpo8WllngCfJm",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Clear DirectorInformation BindingKeys",
+  "old_name": "Clear DirectorInformation BindingKeys",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "G9OsOZWp4z8qdmcBfsc_6",
+              "_id": "UUXcbyELFYRzM8_0STC5b",
+              "name": "add data grid for DirectorInformation",
+              "old_name": "add data grid for ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "directorInformation",
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "cnicNo",
+                          "value": "cnicNo"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "comments",
+                          "value": "comments"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "contactNumber",
+                          "value": "contactNumber"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "country",
+                          "value": "country"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "emailAddress",
+                          "value": "emailAddress"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "nameAsPerCNIC",
+                          "value": "nameAsPerCNIC"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "nationality",
+                          "value": "nationality"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "partnerDirectorDateOfBirth",
+                          "value": "partnerDirectorDateOfBirth"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "partnerDirectorPlaceOfBirth",
+                          "value": "partnerDirectorPlaceOfBirth"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "designation",
+                          "value": "designation1"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "areYouPoliticalMember",
+                          "value": "areYouPoliticalMember.code"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "city",
+                          "value": "city1"
+                        }
+                      ],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "PQmAySLkXHW70p2GtW-om",
+              "name": "Clear nameAsPerCNIC BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "nameAsPerCNIC",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "knLggqJtYdZiuQ5PkGRaA",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "9p3dYsNYkYLJItTWmfwQY",
+              "name": "Clear cnicNo BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "cnicNo",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "bS97MhUOZPSgsxTu2VD5P",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "YosGiDhcOP_qXzozW6rDK",
+              "name": "Clear designation1 BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "designation1",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "we9r1U94tDNOGVz83QAEw",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "iFHbqEnj51wMaYTE5nKxV",
+              "name": "Clear contactNumber Binding Key",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "contactNumber",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "iXOl4GaS3eZLEkg1nxlzB",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "F7nxhF5NeZMn-2GTJuLRI",
+              "name": "Clear emailAddress BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "emailAddress",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "bLSZ-yMzVnTNl7tqLmKCa",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "-JyoXzxv9sXCyUVA_gQDw",
+              "name": "Clear nationality BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "nationality",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "J6c7tSSIhoZGIBaiRjG9W",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "zkprJzho5wIddnJjUV-28",
+              "name": "Clear partnerDirectorDateOfBirth BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "partnerDirectorDateOfBirth",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "q7z8Pk22zQoW1mFRcFZNF",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "JH251guSvrT0ex_qHzjrr",
+              "name": "Clear city1 BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "city1",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "KppLhDaw1VL5-SSsT6N92",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "TudsE89Uu7CytaCHgBlHj",
+              "name": "Clear country BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "country",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "5L5NT6CF38yQJC0dbnOeg",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "-l2Rb5cJjq1-Ue7UIafPG",
+              "name": "Clear areYouPoliticalMember BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "areYouPoliticalMember",
+                      "storeType": 1
+                    }
+                  }
+                }
+              ],
+              "_id": "meUFjncGcCE9MvzYjoX1N",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "BwaypH1e6ZYaNAp3otrSt",
+              "name": "Clear comments BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "comments",
+                      "storeType": 1,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "zLhTQk_oKx3OVIkms7rCb",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "5MXOcGuclToRvebmBdbyk",
+              "name": "Clear partnerDirectorPlaceOfBirth BindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "partnerDirectorPlaceOfBirth",
+                      "storeType": 1
+                    }
+                  }
+                }
+              ],
+              "_id": "iknfEIZr2f4WaYCJdtPvk",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            }
+          ],
+          "triggerIds": [
+            "G9OsOZWp4z8qdmcBfsc_6",
+            "PQmAySLkXHW70p2GtW-om",
+            "9p3dYsNYkYLJItTWmfwQY",
+            "YosGiDhcOP_qXzozW6rDK",
+            "iFHbqEnj51wMaYTE5nKxV",
+            "F7nxhF5NeZMn-2GTJuLRI",
+            "-JyoXzxv9sXCyUVA_gQDw",
+            "zkprJzho5wIddnJjUV-28",
+            "JH251guSvrT0ex_qHzjrr",
+            "TudsE89Uu7CytaCHgBlHj",
+            "-l2Rb5cJjq1-Ue7UIafPG",
+            "BwaypH1e6ZYaNAp3otrSt",
+            "5MXOcGuclToRvebmBdbyk"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "uThgaFGYAI0F0YUJPO8Dg",
+  "name": "Open PendingList request new cheque book Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "Ab-ouc1h_Xd71snpw51Ti",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "ryXHJZ4AG4EOTPW6L-mpf",
+  "updatedAt": "4/5/2023",
+  "createdAt": "4/5/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
+}

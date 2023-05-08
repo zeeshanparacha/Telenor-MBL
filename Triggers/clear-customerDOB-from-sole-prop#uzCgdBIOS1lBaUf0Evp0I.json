@@ -1,0 +1,29 @@
+{
+  "id": "tRuYRX9_mBWzpgIH3OiGM",
+  "name": "clear customerDOB from sole prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "value",
+          "destinationBindingKey": "customerDOB",
+          "sourceBindingKey": "customerDOB",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "uzCgdBIOS1lBaUf0Evp0I",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2NUk6jcJJ7fwj52L2PHE2",
+  "name": "company widget grid to swap corporate grid widget",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "3h56xJMlNQgD1qUOJIpX9",
+          "nextWidgetId": "PoRsdIpQxOvrnbC4kgYYA",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "voWX4QiQI5pPQoNgiBN5B",
+  "updatedAt": "3/30/2023",
+  "createdAt": "3/30/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

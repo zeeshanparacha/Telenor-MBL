@@ -1,0 +1,1276 @@
+{
+  "_id": "FJTz-RQTCHV6Y5Yop1auz",
+  "id": "qg3hF73-dWuwUxZv2Y_zO",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Corporate Already Registered User Update Trigger",
+  "old_name": "Corporate Already Registered User Update Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "26PQubHrM1UDp1pUUUhgc",
+              "name": "Corporate Already Registered User OTP Screen To Pricing modal Screen",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "paMa94X9U4DiPcCd2veQK",
+                      "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+                      "gridRadioValue": "Screen",
+                      "selectedObjectBindingKey": "response.data.result.formRequest.data",
+                      "editableForm": true
+                    }
+                  }
+                }
+              ],
+              "_id": "eZVgCdg6bXCBwD2Y--fKj",
+              "updatedAt": "4/9/2023",
+              "createdAt": "4/9/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "xaa54_7kqowMYmkssTsLS",
+              "_id": "CbACQ6GwT0gfL6CwbMCKZ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "pricing model trigger",
+              "old_name": "pricing model trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pricingModel",
+                      "responseReturnValue": "data.products",
+                      "url": "/products/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "3/30/2023",
+              "createdAt": "3/30/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "IVJLadF8HOCa0JnFO0mrL",
+              "_id": "VnEym2VvPeONcgMEw9QMy",
+              "name": "Manipulate private or public limited Value",
+              "old_name": "Manipulate private or public limited Value",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "form",
+                      "sourceBindingKey": "response.data.result.formRequest.data",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "filterList": [
+                        {
+                          "key": "companyAddress",
+                          "changeValueConditonally": false
+                        },
+                        { "key": "companyName" },
+                        { "key": "designation" },
+                        { "key": "email" },
+                        { "key": "emailOtp" },
+                        { "key": "fullName" },
+                        { "key": "isPartnership" },
+                        { "key": "isSavingInDraft" },
+                        { "key": "isSoleProprietor" },
+                        { "key": "mobileNumber" },
+                        {
+                          "key": "items",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+                          }
+                        },
+                        {
+                          "key": "accountCategory",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountCategory"
+                          }
+                        },
+                        {
+                          "key": "pricing",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              {
+                                "==": [
+                                  {
+                                    "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+                                  },
+                                  true
+                                ]
+                              },
+                              "private",
+                              false
+                            ]
+                          }
+                        },
+                        {
+                          "key": "companyNameAsPerRegistration",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyNameAsPerRegistration"
+                          }
+                        },
+                        {
+                          "key": "companyMailingAddress",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyMailingAddress"
+                          }
+                        },
+                        {
+                          "key": "branchNameOfBank",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.branchNameOfBank"
+                          }
+                        },
+                        {
+                          "key": "companyTelephoneNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyTelephoneNumber"
+                          }
+                        },
+                        {
+                          "key": "companyFaxNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyFaxNumber"
+                          }
+                        },
+                        {
+                          "key": "companyEmailId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyEmailId"
+                          }
+                        },
+                        {
+                          "key": "city",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.city"
+                          }
+                        },
+                        {
+                          "key": "country2",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.country"
+                          }
+                        },
+                        {
+                          "key": "natureOfBusinessActivity1",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.natureOfBusinessActivity"
+                          }
+                        },
+                        {
+                          "key": "dateAndPlaceOfIncorporation",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.dateAndPlaceOfIncorporation"
+                          }
+                        },
+                        {
+                          "key": "ntnNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnNumber"
+                          }
+                        },
+                        {
+                          "key": "ntnIssuingAuthority",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnIssuingAuthority"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDateOfIssuance"
+                          },
+                          "key": "ntnDateOfIssuance"
+                        },
+                        {
+                          "key": "ntnDateOfExpiry",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDateOfExpiry"
+                          }
+                        },
+                        {
+                          "key": "numberOfEmployees",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.numberOfEmployees"
+                          }
+                        },
+                        {
+                          "key": "frequencyOfSalaryDisbursement",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.frequencyOfSalaryDisbursement"
+                          }
+                        },
+                        {
+                          "key": "averageSalaryAmount",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.averageSalaryAmount"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "referral",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.referral"
+                          }
+                        },
+                        {
+                          "key": "pocName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.pocName"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "emailAddress2",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.emailAddress"
+                          }
+                        },
+                        {
+                          "key": "contactNumber1",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.contactNumber"
+                          }
+                        },
+                        {
+                          "key": "nationalityOfPartnership",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.nationalityOfPartnership"
+                          }
+                        },
+                        {
+                          "key": "residenceOfPartnership",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.residenceOfPartnership"
+                          }
+                        },
+                        {
+                          "key": "modeOfTransaction",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.modeOfTransaction"
+                          }
+                        },
+                        {
+                          "key": "occupationOfCorporate",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.occupationOfCorporate"
+                          }
+                        },
+                        {
+                          "key": "expectedMonthlyIncome",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedMonthlyIncome"
+                          }
+                        },
+                        {
+                          "key": "expectedNoOfDebitTransactions",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitTransactions"
+                          }
+                        },
+                        {
+                          "key": "expectedNoOfCreditTransactions",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditTransactions"
+                          }
+                        },
+                        {
+                          "key": "expectedNoOfDebitAmount",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitAmount"
+                          }
+                        },
+                        {
+                          "key": "expectedNoOfCreditAmount",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditAmount"
+                          }
+                        },
+                        {
+                          "key": "taxExemption",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemption"
+                          }
+                        },
+                        {
+                          "key": "zakatExemption",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemption"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "boardOfResolutionDocId",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.boardOfResolutionDocId"
+                          }
+                        },
+                        {
+                          "key": "memorandumOfAssociationDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.memorandumOfAssociationDocId"
+                          }
+                        },
+                        {
+                          "key": "certificateOfIncorporationDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.certificateOfIncorporationDocId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "certificateOfCommencementDocId",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.certificateOfCommencementDocId"
+                          }
+                        },
+                        {
+                          "key": "formADocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.formADocId"
+                          }
+                        },
+                        {
+                          "key": "czDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.czDocId"
+                          }
+                        },
+                        {
+                          "key": "zakatExemptionDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemptionDocId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemptionDocId"
+                          },
+                          "key": "taxExemptionDocId"
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDocId"
+                          },
+                          "key": "ntnDocId"
+                        },
+                        {
+                          "key": "fatcaDocId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.fatcaDocId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "crsDocId",
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.crsDocId"
+                          }
+                        },
+                        {
+                          "key": "products",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.productId"
+                          }
+                        },
+                        {
+                          "key": "items",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+                          }
+                        },
+                        {
+                          "key": "fullName2",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.fullName"
+                          }
+                        },
+                        {
+                          "key": "officeEmail",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.officeEmail"
+                          }
+                        },
+                        {
+                          "key": "contactNumber2",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.contactNumber"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.title"
+                          },
+                          "key": "title"
+                        },
+                        {
+                          "key": "directorInformation",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.directorInformation"
+                          }
+                        },
+                        {
+                          "key": "id",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.formId"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "4c5QudzIj0-qVfQGUSnez",
+              "_id": "dasCnavHqVl7Ae-l2Gkb-",
+              "name": "Manipulate isPrivateOrPublic Value Trigger",
+              "old_name": "Manipulate isPrivateOrPublic Value Trigger",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "pricing",
+                      "sourceBindingKey": "response.data.result.formRequest.data.isPrivateOrPublic",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "logic": {
+                        "if": [
+                          {
+                            "==": [
+                              {
+                                "var": "response.data.result.formRequest.data.isPrivateOrPublic"
+                              },
+                              true
+                            ]
+                          },
+                          "private",
+                          false
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/9/2023",
+              "createdAt": "4/9/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "8ZMYda7ksn5FqTIt-fFCw",
+              "_id": "7uQ20G2jEe5G-DWbvDXgl",
+              "name": "Manipulate Key To Object nationality Of Partnership Private",
+              "old_name": "Manipulate Key To Object nationality Of Partnership Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "object",
+                      "destinationBindingKey": "nationalityOfPartnership",
+                      "sourceBindingKey": "form.nationalityOfPartnership",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.nationalityOfPartnership"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.nationalityOfPartnership"
+                          }
+                        }
+                      ],
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "XM9AEEdqe7AFVhdVQLRsa",
+              "_id": "MkgbJ5Rd_9-0XQ_WcK3dG",
+              "name": "Manipulate Key To Object residence Of Partnership Private",
+              "old_name": "Manipulate Key To Object residence Of Partnership Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "residenceOfPartnership",
+                      "sourceBindingKey": "form.residenceOfPartnership",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.residenceOfPartnership"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.residenceOfPartnership"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "DMVZHRzCavVYc--T2lnPt",
+              "_id": "bNgVHsAyrUsq5o_BYe8wA",
+              "name": "Manipulate Key To Object mode Of Transaction Private",
+              "old_name": "Manipulate Key To Object mode Of Transaction Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "modeOfTransaction",
+                      "sourceBindingKey": "form.modeOfTransaction",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.modeOfTransaction"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.modeOfTransaction"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "3l5vgUwnfmG5-F9DqGMVG",
+              "_id": "y-UmW7WDn0MBzK4K81FZF",
+              "name": "Manipulate Key To Object occupation Of Corporate Private",
+              "old_name": "Manipulate Key To Object occupation Of Corporate Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "occupationOfCorporate",
+                      "sourceBindingKey": "form.occupationOfCorporate",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.occupationOfCorporate"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.occupationOfCorporate"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "FnqtY1o92M3VPX_YyYnMJ",
+              "_id": "bjsBpuGZQGs9D-j1v5_N2",
+              "name": "Manipulate Key To Object expected Monthly Income Private",
+              "old_name": "Manipulate Key To Object expected Monthly Income Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "expectedMonthlyIncome",
+                      "sourceBindingKey": "form.expectedMonthlyIncome",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedMonthlyIncome"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedMonthlyIncome"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "r2yPhr0LLI-rLlDCvL8Q3",
+              "_id": "kh8kmsHFJUuUjL5IEvARY",
+              "name": "Manipulate Key To Object expected No Of Debit Transactions Private",
+              "old_name": "Manipulate Key To Object expected No Of Debit Transactions Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "expectedNoOfDebitTransactions",
+                      "sourceBindingKey": "form.expectedNoOfDebitTransactions",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfDebitTransactions"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfDebitTransactions"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "rIPTYEDjCF9YrS7DbPyhl",
+              "_id": "3uTYfwvGV0Ls1wx0b159U",
+              "name": "Manipulate Key To Object expected No Of Credit Transactions Private",
+              "old_name": "Manipulate Key To Object expected No Of Credit Transactions Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "expectedNoOfCreditTransactions",
+                      "sourceBindingKey": "form.expectedNoOfCreditTransactions",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfCreditTransactions"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfCreditTransactions"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "vCSKqfjyY4M6uUDeSbQOL",
+              "_id": "0UmLP_iejKvx2Ihwx0Sde",
+              "name": "Manipulate Key To Object expected No Of Debit Amount Private",
+              "old_name": "Manipulate Key To Object expected No Of Debit Amount Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "expectedNoOfDebitAmount",
+                      "sourceBindingKey": "form.expectedNoOfDebitAmount",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfDebitAmount"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfDebitAmount"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "akkJsBjhFhFScLQy8QYzv",
+              "_id": "I6QJoYcGlPtOmRra-mSbV",
+              "name": "Manipulate Key To Object expected No Of Credit Amount Private",
+              "old_name": "Manipulate Key To Object expected No Of Credit Amount Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "expectedNoOfCreditAmount",
+                      "sourceBindingKey": "form.expectedNoOfCreditAmount",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfCreditAmount"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.expectedNoOfCreditAmount"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "rbywCbuqgD47mwTUuZ22T",
+              "_id": "ryWvCCH37rEJp315CVDpr",
+              "name": "Manipulate Key To Object account Category Private",
+              "old_name": "Manipulate Key To Object account Category Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "accountCategory",
+                      "sourceBindingKey": "form.accountCategory",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountCategory"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountCategory"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "8yn9R8loC5uQLlAVqMBzu",
+              "_id": "ZEy25n_j-Y8updo_s05WH",
+              "name": "Manipulate Key To Object tax Exemption Private",
+              "old_name": "Manipulate Key To Object tax Exemption Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "taxExemption",
+                      "sourceBindingKey": "form.taxExemption",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "code",
+                          "changeValueConditonally": true,
+                          "logic": { "var": "currentScreen.form.taxExemption" }
+                        },
+                        {
+                          "key": "name",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              {
+                                "==": [
+                                  { "var": "currentScreen.form.taxExemption" },
+                                  "yes"
+                                ]
+                              },
+                              "Yes",
+                              "No"
+                            ]
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "EddDdTFFZBe4lDSk1tAHX",
+              "_id": "oMzGytH6e8jQOEuqnhBSO",
+              "name": "Manipulate Key To Object zakat Exemption Private",
+              "old_name": "Manipulate Key To Object zakat Exemption Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "zakatExemption",
+                      "sourceBindingKey": "form.zakatExemption",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "code",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.zakatExemption"
+                          }
+                        },
+                        {
+                          "key": "name",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              {
+                                "==": [
+                                  {
+                                    "var": "currentScreen.form.zakatExemption"
+                                  },
+                                  "yes"
+                                ]
+                              },
+                              "Yes",
+                              "No"
+                            ]
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "q5FIJCF7aJtscduJAseL8",
+              "_id": "kNNUOjI4295nI_NWsfjHc",
+              "name": "Manipulate Director Information Value",
+              "old_name": "Manipulate Director Information Value",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "directorInformation",
+                      "sourceBindingKey": "form.directorInformation",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "KP0FdSPNcGby4vi3MQqBz",
+              "_id": "g0IOoKKiaIxdiPfPNckY1",
+              "name": "map designation in form 2",
+              "old_name": "map designation in form 2",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "designation",
+                      "sourceBindingKey": "response",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.designation"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/12/2023",
+              "createdAt": "4/12/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "s6Otby_tXIcvEz7FSr7x0",
+              "name": "Find Product of pricing modal",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "9",
+                    "attributes": {
+                      "stateName": "a",
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "products",
+                      "sourceBindingKey": "pricingModel",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "logic": {
+                        "if": [
+                          {
+                            "==": [
+                              { "var": "currentScreen.form.products" },
+                              { "var": "id" }
+                            ]
+                          },
+                          true,
+                          false
+                        ]
+                      },
+                      "targetValue": "c"
+                    }
+                  }
+                }
+              ],
+              "_id": "tz6msL0Sm3G5KG77pLU_G",
+              "updatedAt": "4/10/2023",
+              "createdAt": "4/10/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": [
+            "26PQubHrM1UDp1pUUUhgc",
+            "xaa54_7kqowMYmkssTsLS",
+            "IVJLadF8HOCa0JnFO0mrL",
+            "4c5QudzIj0-qVfQGUSnez",
+            "8ZMYda7ksn5FqTIt-fFCw",
+            "XM9AEEdqe7AFVhdVQLRsa",
+            "DMVZHRzCavVYc--T2lnPt",
+            "3l5vgUwnfmG5-F9DqGMVG",
+            "FnqtY1o92M3VPX_YyYnMJ",
+            "r2yPhr0LLI-rLlDCvL8Q3",
+            "rIPTYEDjCF9YrS7DbPyhl",
+            "vCSKqfjyY4M6uUDeSbQOL",
+            "akkJsBjhFhFScLQy8QYzv",
+            "rbywCbuqgD47mwTUuZ22T",
+            "8yn9R8loC5uQLlAVqMBzu",
+            "EddDdTFFZBe4lDSk1tAHX",
+            "q5FIJCF7aJtscduJAseL8",
+            "KP0FdSPNcGby4vi3MQqBz",
+            "s6Otby_tXIcvEz7FSr7x0"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

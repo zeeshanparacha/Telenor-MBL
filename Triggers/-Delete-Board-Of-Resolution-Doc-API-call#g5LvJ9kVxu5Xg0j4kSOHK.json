@@ -1,0 +1,77 @@
+{
+  "id": "9Ke3s8m6TIBqag3swA5O6",
+  "_id": "g5LvJ9kVxu5Xg0j4kSOHK",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": " Delete Board Of Resolution Doc API call",
+  "old_name": " Delete Board Of Resolution Doc API call",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "deleteDocResponse",
+          "responseReturnValue": "data",
+          "url": "/doc-mgmt/delete-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "uuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "docId",
+              "value": "docId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "triggerName": "set showBoardOfResolutionUpload true",
+            "triggerId": "qyrV5zun9pZv0zS-jeJSo",
+            "logic": true,
+            "httpStatus": 200
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Call Clear Board Of Resolution Doc Response and call  attachment Chain",
+            "triggerId": "Ec5i3hJDGLsUHuC3Bk4hh"
+          },
+          {
+            "httpStatus": 200,
+            "logic": true,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

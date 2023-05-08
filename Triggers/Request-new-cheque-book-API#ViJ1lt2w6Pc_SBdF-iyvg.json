@@ -1,0 +1,119 @@
+{
+  "id": "g6yTVytIN5YT8KAO2qY0_",
+  "_id": "ViJ1lt2w6Pc_SBdF-iyvg",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Request new cheque book API",
+  "old_name": "Request new cheque book API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/offline-requests/cheque-book/maker-request",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountId",
+              "value": "account.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountNumber",
+              "value": "account.accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountType",
+              "value": "account.accountType"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchName",
+              "value": "branch.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchId",
+              "value": "branch.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchCode",
+              "value": "branch.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "niftCode",
+              "value": "niftCode"
+            },
+            { "type": 1, "name": "Form", "key": "cnic", "value": "cnic" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "leaves",
+              "value": "leaves.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountTitle",
+              "value": "account.accountTitle"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/28/2023",
+  "createdAt": "4/28/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

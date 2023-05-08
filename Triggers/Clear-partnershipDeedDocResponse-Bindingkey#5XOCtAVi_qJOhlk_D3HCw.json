@@ -1,0 +1,33 @@
+{
+  "id": "lndsuFlq-d4qv2b6RJaaq",
+  "_id": "5XOCtAVi_qJOhlk_D3HCw",
+  "name": "Clear partnershipDeedDocResponse Bindingkey",
+  "old_name": "Clear partnershipDeedDocResponse Bindingkey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "partnershipDeedDocId",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

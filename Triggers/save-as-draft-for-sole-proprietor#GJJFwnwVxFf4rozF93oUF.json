@@ -1,0 +1,420 @@
+{
+  "id": "_34f1bgVZ7pZ-VOkUy7XV",
+  "_id": "GJJFwnwVxFf4rozF93oUF",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "save as draft for sole proprietor",
+  "old_name": "save as draft for sole proprietor",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "soleProprietor",
+          "url": "/pre-corp-reg/save-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.averageSalaryAmount",
+              "value": "averageSalaryAmount"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.businessMailingAddress",
+              "value": "businessMailingAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.businessMailingAddress",
+              "value": "businessMailingAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.city",
+              "value": "city"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.companyEmailId",
+              "value": "companyEmailId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.companyFaxNumber",
+              "value": "companyFaxNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.companyNameAsPerRegistration",
+              "value": "companyNameAsPerRegistration"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.companyTelephoneNumber",
+              "value": "companyTelephoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.country",
+              "value": "country"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.dateAndPlaceOfIncorporation",
+              "value": "dateAndPlaceOfIncorporation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.emailAddress",
+              "value": "emailAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.frequencyOfSalaryDisbursement",
+              "value": "frequencyOfSalaryDisbursement"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.natureOfBusinessActivity",
+              "value": "natureOfBusinessActivity"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnDateOfExpiry",
+              "value": "ntnDateOfExpiry"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnDateOfIssuance",
+              "value": "ntnDateOfIssuance"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnIssuingAuthority",
+              "value": "ntnIssuingAuthority"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.numberOfEmployees",
+              "value": "numberOfEmployees"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.pocName",
+              "value": "pocName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.referral",
+              "value": "referral"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.registrationDate",
+              "value": "registrationDate"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnNumber",
+              "value": "ntnNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyAddress",
+              "value": "companyAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation.value"
+            },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "emailOtp",
+              "value": "emailotp"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fullName",
+              "value": "fullName"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSavingInDraft",
+              "value": true
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isSoleProprietor",
+              "value": true
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPartnership",
+              "value": false
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "isPrivateOrPublic",
+              "value": false
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "mobileNumber",
+              "value": "mobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "pricingModelId",
+              "value": "items"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "productId",
+              "value": "products.id"
+            },
+            { "type": 1, "name": "Form", "key": "smsOtp", "value": "smsotp" },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "soleProprietor.signatories",
+              "value": "sole"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "validateOtpUuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "id",
+              "value": "formId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.czDocId",
+              "value": "czDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.zakatExemptionDocId",
+              "value": "zakatExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.taxExemptionDocId",
+              "value": "taxExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnDocId",
+              "value": "ntnDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.declarationDocId",
+              "value": "declarationDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.fatcaDocId",
+              "value": "fatcaDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.crsDocId",
+              "value": "crsDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.accountCategory",
+              "value": "accountCategory.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedMonthlyIncome",
+              "value": "expectedMonthlyIncome.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfCreditAmount",
+              "value": "expectedNoOfCreditAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfCreditTransactions",
+              "value": "expectedNoOfCreditTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfDebitAmount",
+              "value": "expectedNoOfDebitAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfDebitTransactions",
+              "value": "expectedNoOfDebitTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.modeOfTransaction",
+              "value": "modeOfTransaction.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.nationality",
+              "value": "nationalityOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.residence",
+              "value": "residenceOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.occupation",
+              "value": "occupationOfCorporate.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.taxExemption",
+              "value": "taxExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.zakatExemption",
+              "value": "zakatExemption.code"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "soleProprietor.branch",
+              "value": "branchNameOfBank.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.legalDocName",
+              "value": "legalDocName.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.otherPurpose",
+              "value": "otherPurpose"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "save formID from save as draft",
+            "triggerId": "KnbUvVEjIsPOa-wAngQqG"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

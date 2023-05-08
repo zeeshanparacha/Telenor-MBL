@@ -1,0 +1,26 @@
+{
+  "id": "CcbM_S-XGs3wSdsP-eIYX",
+  "name": "corporate account opening to login video",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "VqDM2bbHLDArZEoQJCuoZ",
+          "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "k_c2ncm0ezAel7n9P1JEJ",
+  "updatedAt": "3/22/2023",
+  "createdAt": "3/22/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

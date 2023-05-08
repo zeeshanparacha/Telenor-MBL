@@ -1,0 +1,32 @@
+{
+  "id": "SnWb9CiuwhRFok0W8llL2",
+  "_id": "gUDYJYkvVTGwjHkr88LqP",
+  "name": "Map docId from taxExemptionDocResponse to taxExemptionDocId",
+  "old_name": "Map docId from taxExemptionDocResponse to taxExemptionDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "taxExemptionDocId",
+          "sourceBindingKey": "taxExemptionDocResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "changeValueConditonally": false,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

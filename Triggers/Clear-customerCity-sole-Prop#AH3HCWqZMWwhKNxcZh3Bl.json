@@ -1,0 +1,31 @@
+{
+  "id": "-EZiPId1sOZv5DlXj-IR2",
+  "_id": "AH3HCWqZMWwhKNxcZh3Bl",
+  "name": "Clear customerCity sole Prop",
+  "old_name": "Clear customerCity sole Prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "dataType": "value",
+          "destinationBindingKey": "customerCity",
+          "sourceBindingKey": "customerCity",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

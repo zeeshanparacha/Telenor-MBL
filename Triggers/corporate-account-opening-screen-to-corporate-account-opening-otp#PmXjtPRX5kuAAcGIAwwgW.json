@@ -1,0 +1,26 @@
+{
+  "id": "Q-C2CSZ-WNIXMvOhidNHi",
+  "name": "corporate account opening screen to corporate account opening otp",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "VqDM2bbHLDArZEoQJCuoZ",
+          "nextWidgetId": "d8PJUngQ349Ixuz4dKa4r",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "PmXjtPRX5kuAAcGIAwwgW",
+  "updatedAt": "3/22/2023",
+  "createdAt": "3/22/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

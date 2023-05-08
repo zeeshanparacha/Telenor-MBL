@@ -1,0 +1,48 @@
+{
+  "id": "8yn9R8loC5uQLlAVqMBzu",
+  "_id": "ZEy25n_j-Y8updo_s05WH",
+  "name": "Manipulate Key To Object tax Exemption Private",
+  "old_name": "Manipulate Key To Object tax Exemption Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "destinationBindingKey": "taxExemption",
+          "sourceBindingKey": "form.taxExemption",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "code",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.taxExemption" }
+            },
+            {
+              "key": "name",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "==": [{ "var": "currentScreen.form.taxExemption" }, "yes"]
+                  },
+                  "Yes",
+                  "No"
+                ]
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

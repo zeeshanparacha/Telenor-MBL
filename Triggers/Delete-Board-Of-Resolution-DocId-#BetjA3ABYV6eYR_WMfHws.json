@@ -1,0 +1,140 @@
+{
+  "id": "nB0JAMXItRih5AXQEhtKN",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Delete Board Of Resolution DocId ",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "feqy-NIm1tXqodmOqW1Bg",
+              "name": "map boardOfResolution DocId to DocId",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "docId",
+                      "sourceBindingKey": "form.boardOfResolutionDocId",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          { "var": "form.boardOfResolutionDocId" },
+                          { "var": "form.boardOfResolutionDocId" },
+                          {
+                            "if": [
+                              { "var": "BoardOfResolutionResponse.docId" },
+                              { "var": "BoardOfResolutionResponse.docId" },
+                              ""
+                            ]
+                          }
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "EJGC5o4jEw9qXJAVKY4fU",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "9Ke3s8m6TIBqag3swA5O6",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": " Delete Board Of Resolution Doc API call",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteDocResponse",
+                      "responseReturnValue": "data",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "docId"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "triggerName": "set showBoardOfResolutionUpload true",
+                        "triggerId": "qyrV5zun9pZv0zS-jeJSo",
+                        "logic": true,
+                        "httpStatus": 200
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "Clear Board Of Resolution Doc Response",
+                        "triggerId": "aQLnSEhFRipp5eT55VirO"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "_id": "g5LvJ9kVxu5Xg0j4kSOHK",
+              "updatedAt": "4/15/2023",
+              "createdAt": "4/15/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            }
+          ],
+          "triggerIds": ["feqy-NIm1tXqodmOqW1Bg", "9Ke3s8m6TIBqag3swA5O6"]
+        }
+      }
+    }
+  ],
+  "_id": "BetjA3ABYV6eYR_WMfHws",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

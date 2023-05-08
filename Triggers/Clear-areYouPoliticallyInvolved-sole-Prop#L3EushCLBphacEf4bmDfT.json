@@ -1,0 +1,29 @@
+{
+  "id": "SogspgBnIpOPOQoN175oF",
+  "name": "Clear areYouPoliticallyInvolved sole Prop",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "value",
+          "destinationBindingKey": "areYouPoliticallyInvolved",
+          "sourceBindingKey": "areYouPoliticallyInvolved",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "L3EushCLBphacEf4bmDfT",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

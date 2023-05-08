@@ -1,0 +1,426 @@
+{
+  "id": "IMx8YdovIB6F-4hzcxmCR",
+  "_id": "xCp6UODJUX37XezQhL9yr",
+  "name": "manipulate values for sole proprietor 2",
+  "old_name": "manipulate values for sole proprietor",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "response.data.result.formRequest.data",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "companyAddress", "changeValueConditonally": false },
+            { "key": "companyName" },
+            { "key": "designation" },
+            { "key": "email" },
+            { "key": "emailOtp" },
+            { "key": "fullName" },
+            { "key": "id" },
+            { "key": "isPartnership" },
+            { "key": "isSavingInDraft" },
+            { "key": "isSoleProprietor" },
+            { "key": "mobileNumber" },
+            {
+              "key": "items",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+              }
+            },
+            {
+              "key": "accountCategory",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountCategory"
+              }
+            },
+            {
+              "key": "pricing",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "==": [
+                      {
+                        "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+                      },
+                      true
+                    ]
+                  },
+                  "private",
+                  false
+                ]
+              }
+            },
+            {
+              "key": "companyNameAsPerRegistration",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyNameAsPerRegistration"
+              }
+            },
+            {
+              "key": "companyMailingAddress",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyMailingAddress"
+              }
+            },
+            {
+              "key": "branchNameOfBank",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.branchNameOfBank"
+              }
+            },
+            {
+              "key": "companyTelephoneNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyTelephoneNumber"
+              }
+            },
+            {
+              "key": "companyFaxNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyFaxNumber"
+              }
+            },
+            {
+              "key": "companyEmailId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.companyEmailId"
+              }
+            },
+            {
+              "key": "city",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.city"
+              }
+            },
+            {
+              "key": "country2",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.country"
+              }
+            },
+            {
+              "key": "natureOfBusinessActivity1",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.natureOfBusinessActivity"
+              }
+            },
+            {
+              "key": "dateAndPlaceOfIncorporation",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.dateAndPlaceOfIncorporation"
+              }
+            },
+            {
+              "key": "ntnNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnNumber"
+              }
+            },
+            {
+              "key": "ntnIssuingAuthority",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnIssuingAuthority"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDateOfIssuance"
+              },
+              "key": "ntnDateOfIssuance"
+            },
+            {
+              "key": "ntnDateOfExpiry",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDateOfExpiry"
+              }
+            },
+            {
+              "key": "numberOfEmployees",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.numberOfEmployees"
+              }
+            },
+            {
+              "key": "frequencyOfSalaryDisbursement",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.frequencyOfSalaryDisbursement"
+              }
+            },
+            {
+              "key": "averageSalaryAmount",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.averageSalaryAmount"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "referral",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.referral"
+              }
+            },
+            {
+              "key": "pocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.pocName"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "emailAddress2",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.emailAddress"
+              }
+            },
+            {
+              "key": "contactNumber1",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.contactNumber"
+              }
+            },
+            {
+              "key": "nationalityOfPartnership",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.nationalityOfPartnership"
+              }
+            },
+            {
+              "key": "residenceOfPartnership",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.residenceOfPartnership"
+              }
+            },
+            {
+              "key": "modeOfTransaction",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.modeOfTransaction"
+              }
+            },
+            {
+              "key": "occupationOfCorporate",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.occupationOfCorporate"
+              }
+            },
+            {
+              "key": "expectedMonthlyIncome",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedMonthlyIncome"
+              }
+            },
+            {
+              "key": "expectedNoOfDebitTransactions",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitTransactions"
+              }
+            },
+            {
+              "key": "expectedNoOfCreditTransactions",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditTransactions"
+              }
+            },
+            {
+              "key": "expectedNoOfDebitAmount",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitAmount"
+              }
+            },
+            {
+              "key": "expectedNoOfCreditAmount",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditAmount"
+              }
+            },
+            {
+              "key": "taxExemption",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemption"
+              }
+            },
+            {
+              "key": "zakatExemption",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemption"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "boardOfResolutionDocId",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.boardOfResolutionDocId"
+              }
+            },
+            {
+              "key": "memorandumOfAssociationDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.memorandumOfAssociationDocId"
+              }
+            },
+            {
+              "key": "certificateOfIncorporationDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.certificateOfIncorporationDocId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "certificateOfCommencementDocId",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.certificateOfCommencementDocId"
+              }
+            },
+            {
+              "key": "formADocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.formADocId"
+              }
+            },
+            {
+              "key": "czDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.czDocId"
+              }
+            },
+            {
+              "key": "zakatExemptionDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemptionDocId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemptionDocId"
+              },
+              "key": "taxExemptionDocId"
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.ntnDocId"
+              },
+              "key": "ntnDocId"
+            },
+            {
+              "key": "fatcaDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.fatcaDocId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "crsDocId",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.crsDocId"
+              }
+            },
+            {
+              "key": "products",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.productId"
+              }
+            },
+            {
+              "key": "items",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+              }
+            },
+            {
+              "key": "fullName2",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.fullName"
+              }
+            },
+            {
+              "key": "officeEmail",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.officeEmail"
+              }
+            },
+            {
+              "key": "contactNumber2",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.contactNumber"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.authorizedPersonalDetails.title"
+              },
+              "key": "title"
+            },
+            {
+              "key": "directorInformation",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.directorInformation"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "r0GaABrlfnK5UEs8ZMhaW",
+  "_id": "w1dGWrUXbaIjIwLUGzQ0M",
+  "name": "Private FormId Value",
+  "old_name": "Private FormId Value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "formId",
+          "sourceBindingKey": "private.data.result.formId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": { "var": "private.data.result.formId" },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

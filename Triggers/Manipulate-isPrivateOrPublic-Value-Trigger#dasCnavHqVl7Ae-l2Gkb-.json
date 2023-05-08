@@ -1,0 +1,46 @@
+{
+  "id": "4c5QudzIj0-qVfQGUSnez",
+  "_id": "dasCnavHqVl7Ae-l2Gkb-",
+  "name": "Manipulate isPrivateOrPublic Value Trigger",
+  "old_name": "Manipulate isPrivateOrPublic Value Trigger",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "pricing",
+          "sourceBindingKey": "response.data.result.formRequest.data.isPrivateOrPublic",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  {
+                    "var": "response.data.result.formRequest.data.isPrivateOrPublic"
+                  },
+                  true
+                ]
+              },
+              "private",
+              false
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

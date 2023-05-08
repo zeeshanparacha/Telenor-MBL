@@ -1,0 +1,43 @@
+{
+  "id": "3l5vgUwnfmG5-F9DqGMVG",
+  "_id": "y-UmW7WDn0MBzK4K81FZF",
+  "name": "Manipulate Key To Object occupation Of Corporate Private",
+  "old_name": "Manipulate Key To Object occupation Of Corporate Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "occupationOfCorporate",
+          "sourceBindingKey": "form.occupationOfCorporate",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.occupationOfCorporate" }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.occupationOfCorporate" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

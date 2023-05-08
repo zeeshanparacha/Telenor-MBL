@@ -1,0 +1,43 @@
+{
+  "id": "B1lA9h_by7HIq25rLgpi3",
+  "name": "map Partnership Deed DocId to DocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "docId",
+          "sourceBindingKey": "form.partnershipDeedDocId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.partnershipDeedDocId" },
+              { "var": "form.partnershipDeedDocId" },
+              {
+                "if": [
+                  { "var": "partnershipDeedDocResponse.docId" },
+                  { "var": "partnershipDeedDocResponse.docId" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "FGwJ4JwgX72mvW68z5k9T",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

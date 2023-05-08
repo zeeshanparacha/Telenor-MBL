@@ -1,0 +1,26 @@
+{
+  "id": "V1m4N0lW1rW6unU4rAyQU",
+  "_id": "r1JlMlje344XFpQancJqx",
+  "name": "Open PO-CDR PendingList View Detail Screen",
+  "old_name": "Open PO-CDR PendingList View Detail Screen",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "C2-pm1jjcXfrt9x2DlC9t",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject.payload",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/9/2023",
+  "createdAt": "3/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

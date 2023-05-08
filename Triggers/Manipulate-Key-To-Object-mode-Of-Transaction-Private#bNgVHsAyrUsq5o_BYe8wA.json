@@ -1,0 +1,43 @@
+{
+  "id": "DMVZHRzCavVYc--T2lnPt",
+  "_id": "bNgVHsAyrUsq5o_BYe8wA",
+  "name": "Manipulate Key To Object mode Of Transaction Private",
+  "old_name": "Manipulate Key To Object mode Of Transaction Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "modeOfTransaction",
+          "sourceBindingKey": "form.modeOfTransaction",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.modeOfTransaction" }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.modeOfTransaction" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

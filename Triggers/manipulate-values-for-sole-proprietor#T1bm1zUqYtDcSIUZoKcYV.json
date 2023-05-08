@@ -1,0 +1,327 @@
+{
+  "id": "K9pEvwKphvlv3mQOFKVOv",
+  "_id": "T1bm1zUqYtDcSIUZoKcYV",
+  "name": "manipulate values for sole proprietor",
+  "old_name": "manipulate values for sole proprietor",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "response.data.result.formRequest.data",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "companyAddress", "changeValueConditonally": false },
+            { "key": "companyName" },
+            { "key": "designation" },
+            { "key": "email" },
+            { "key": "emailOtp" },
+            { "key": "smsOtp" },
+            { "key": "fullName" },
+            { "key": "id" },
+            { "key": "isPartnership" },
+            { "key": "isSavingInDraft" },
+            { "key": "isSoleProprietor" },
+            { "key": "mobileNumber" },
+            { "key": "isPrivateOrPublic" },
+            { "key": "partnership" },
+            { "key": "soleProprietor" },
+            { "key": "productId" },
+            { "key": "pricingModelId" },
+            {
+              "key": "items",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.pricingModelId"
+              }
+            },
+            {
+              "key": "products",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.productId"
+              }
+            },
+            {
+              "key": "pricing",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "==": [
+                      {
+                        "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+                      },
+                      true
+                    ]
+                  },
+                  "private",
+                  false
+                ]
+              }
+            },
+            {
+              "key": "companyNameAsPerRegistration",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyNameAsPerRegistration"
+              }
+            },
+            {
+              "key": "companyTelephoneNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyTelephoneNumber"
+              }
+            },
+            {
+              "key": "companyFaxNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyFaxNumber"
+              }
+            },
+            {
+              "key": "companyEmailId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.companyEmailId"
+              }
+            },
+            {
+              "key": "city",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.city"
+              }
+            },
+            {
+              "key": "country",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.country"
+              }
+            },
+            {
+              "key": "natureOfBusinessActivity",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.natureOfBusinessActivity"
+              }
+            },
+            {
+              "key": "dateAndPlaceOfIncorporation",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.dateAndPlaceOfIncorporation"
+              }
+            },
+            {
+              "key": "ntnNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnNumber"
+              }
+            },
+            {
+              "key": "ntnIssuingAuthority",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnIssuingAuthority"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDateOfIssuance"
+              },
+              "key": "ntnDateOfIssuance"
+            },
+            {
+              "key": "ntnDateOfExpiry",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDateOfExpiry"
+              }
+            },
+            {
+              "key": "numberOfEmployees",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.numberOfEmployees"
+              }
+            },
+            {
+              "key": "frequencyOfSalaryDisbursement",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.frequencyOfSalaryDisbursement"
+              }
+            },
+            {
+              "key": "averageSalaryAmount",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.averageSalaryAmount"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "referral",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.referral"
+              }
+            },
+            {
+              "key": "pocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.pocName"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "emailAddress",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.emailAddress"
+              }
+            },
+            {
+              "key": "czDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.czDocId"
+              }
+            },
+            {
+              "key": "zakatExemptionDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatExemptionDocId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.taxExemptionDocId"
+              },
+              "key": "taxExemptionDocId"
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDocId"
+              },
+              "key": "ntnDocId"
+            },
+            {
+              "key": "fatcaDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.fatcaDocId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "crsDocId",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocId"
+              }
+            },
+            {
+              "key": "businessMailingAddress",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.businessMailingAddress"
+              }
+            },
+            {
+              "key": "registrationDate",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.registrationDate"
+              }
+            },
+            {
+              "key": "declarationDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.declarationDocId"
+              }
+            },
+            {
+              "key": "declarationDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.declarationDocName"
+              }
+            },
+            {
+              "key": "czDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.czDocName"
+              }
+            },
+            {
+              "key": "zakatDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatDocName"
+              }
+            },
+            {
+              "key": "taxDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.taxDocName"
+              }
+            },
+            {
+              "key": "ntnDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.ntnDocName"
+              }
+            },
+            {
+              "key": "fatcaDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.fatcaDocName"
+              }
+            },
+            {
+              "key": "crsDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocName"
+              }
+            },
+            {
+              "key": "signatories",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

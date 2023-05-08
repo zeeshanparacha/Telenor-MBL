@@ -1,0 +1,60 @@
+{
+  "id": "KZjv4PEnuomeNdktsqBeX",
+  "_id": "6325a78958208b6fb01e8d8d",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Verify OTP",
+  "old_name": "Verify OTP",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "otpResponse",
+          "url": "/validate-otp",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "otp", "value": "otp" }
+          ],
+          "baseURL": "63357ae6b4151657381d1250",
+          "storeType": 2,
+          "triggerGenericErrorTrigger": true
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear validations",
+            "triggerId": "C9VAY5AImRfafff65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Decide between either force password or Homepage",
+            "triggerId": "0i4AXmyV9pAVA47bGGZG0"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

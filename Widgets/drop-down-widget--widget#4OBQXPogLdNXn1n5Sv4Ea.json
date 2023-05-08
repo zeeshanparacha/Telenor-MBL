@@ -1,0 +1,373 @@
+[
+  {
+    "id": "4OBQXPogLdNXn1n5Sv4Ea",
+    "name": "drop down widget  widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "BBTiTbaIMFRkU76BJ_TMg",
+          "componentType": "10001",
+          "id": "BBTiTbaIMFRkU76BJ_TMg",
+          "position": {
+            "i": "BBTiTbaIMFRkU76BJ_TMg",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "drop down widget ",
+        "id": "BBTiTbaIMFRkU76BJ_TMg",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "uGqtRo4aHw7dMXnXwxeQd",
+            "gridProps": [
+              {
+                "id": "ATN-90QqQXg6CM5RcIakD",
+                "type": "20003",
+                "name": "Drop down",
+                "component": { "content": "Drop down", "type": "20003" },
+                "attributes": {
+                  "name": "Drop down",
+                  "stateName": "designation",
+                  "allValues": true,
+                  "dataSource": "",
+                  "dataKey": "",
+                  "dataValue": "",
+                  "mandatory": true,
+                  "validate": {
+                    "required": true,
+                    "errorMsg": "This Field is Required",
+                    "bindButton": [
+                      {
+                        "id": "QkXHmQUlBDoP0fvbdnBkK",
+                        "type": "20006",
+                        "name": "Submit_btn",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Submit",
+                          "variant": "contained",
+                          "name": "Submit_btn",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component.",
+                              "color": "#ffffff",
+                              "background": "#DA0006",
+                              "borderRadius": "50px",
+                              "padding": "12px"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "disableCondition": {
+                            "logic": {
+                              "==": [
+                                { "var": "currentScreen.otpResponse.status" },
+                                1
+                              ]
+                            }
+                          }
+                        },
+                        "events": [
+                          {
+                            "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                            "triggerName": "corporate opening details post request",
+                            "name": "On Submit",
+                            "type": "4",
+                            "serviceType": "8"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+                        "version": "1.0.0",
+                        "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+                        "subType": "component",
+                        "projectId": "63f4845e476fc83100e3a899",
+                        "gitBranchName": "master",
+                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                      }
+                    ]
+                  },
+                  "layoutProperties": {
+                    "autocomplete": {
+                      "//": "Use this class to style autocomplete component in dropdown."
+                    },
+                    "textField": {
+                      "//": "Use this class to style text field component.",
+                      "borderWidth": "1px",
+                      "borderRadius": "27px",
+                      "background-color": "#f5f5f5",
+                      "color": "rgb(122 122 122)",
+                      "border": "1px solid #ebe7e7",
+                      "width": "90%",
+                      "height": "48px"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style  text field element.",
+                      "paddingLeft": "10px",
+                      "margin": "8px",
+                      "color": "rgb(122 122 122)"
+                    },
+                    "mainContainer": "textField",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "dropdownOptions": [
+                    { "code": "cto", "name": "CTO" },
+                    { "code": "ceo", "name": "CEO" },
+                    { "code": "cfo", "name": "CFO" }
+                  ],
+                  "variant": "standard",
+                  "disableUnderline": true,
+                  "storeType": 1,
+                  "placeholder": "Select",
+                  "cssClassNames": [],
+                  "selectedDataType": 1,
+                  "defaultKey": "designation"
+                },
+                "events": [],
+                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0",
+                "version": "1.0.0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "4OBQXPogLdNXn1n5Sv4Ea",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "4OBQXPogLdNXn1n5Sv4Ea",
+    "createdBy": "areeb",
+    "updatedAt": "3/27/2023",
+    "createdAt": "3/27/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "BBTiTbaIMFRkU76BJ_TMg",
+    "name": "drop down widget ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ATN-90QqQXg6CM5RcIakD",
+          "componentType": "20003",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "PjtojTbnEPiF45CBQk7gi",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ATN-90QqQXg6CM5RcIakD",
+    "type": "20003",
+    "name": "Drop down",
+    "component": { "content": "Drop down", "type": "20003" },
+    "attributes": {
+      "name": "Drop down",
+      "stateName": "designation",
+      "allValues": true,
+      "dataSource": "",
+      "dataKey": "",
+      "dataValue": "",
+      "mandatory": true,
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": [
+          {
+            "id": "QkXHmQUlBDoP0fvbdnBkK",
+            "type": "20006",
+            "name": "Submit_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "Submit",
+              "variant": "contained",
+              "name": "Submit_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#DA0006",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "disableCondition": {
+                "logic": {
+                  "==": [{ "var": "currentScreen.otpResponse.status" }, 1]
+                }
+              }
+            },
+            "events": [
+              {
+                "triggerId": "dsTyrjRbzll0-aTvkCkK6",
+                "triggerName": "corporate opening details post request",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
+      "layoutProperties": {
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
+        },
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "borderWidth": "1px",
+          "borderRadius": "27px",
+          "background-color": "#f5f5f5",
+          "color": "rgb(122 122 122)",
+          "border": "1px solid #ebe7e7",
+          "width": "90%",
+          "height": "48px"
+        },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "dropdownOptions": [
+        { "code": "cto", "name": "CTO" },
+        { "code": "ceo", "name": "CEO" },
+        { "code": "cfo", "name": "CFO" }
+      ],
+      "variant": "standard",
+      "disableUnderline": true,
+      "storeType": 1,
+      "placeholder": "Select",
+      "cssClassNames": [],
+      "selectedDataType": 1,
+      "defaultKey": "designation"
+    },
+    "events": [],
+    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0",
+    "version": "1.0.0",
+    "screenId": "PjtojTbnEPiF45CBQk7gi",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

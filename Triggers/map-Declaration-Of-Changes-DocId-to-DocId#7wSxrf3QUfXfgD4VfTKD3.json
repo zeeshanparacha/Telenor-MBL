@@ -1,0 +1,43 @@
+{
+  "id": "q3JYiC5W3w27NWMRyFOW3",
+  "name": "map Declaration Of Changes DocId to DocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "docId",
+          "sourceBindingKey": "form.declarationOfChangesDocId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "form.declarationOfChangesDocId" },
+              { "var": "form.declarationOfChangesDocId" },
+              {
+                "if": [
+                  { "var": "declarationDocResponse.docId" },
+                  { "var": "declarationDocResponse.docId" },
+                  ""
+                ]
+              }
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "7wSxrf3QUfXfgD4VfTKD3",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}
