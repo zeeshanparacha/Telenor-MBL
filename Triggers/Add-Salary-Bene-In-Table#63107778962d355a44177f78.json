@@ -1,1 +1,84 @@
-{"createdBy":"talib","updatedBy":"ahmerjavedkhan","_id":"63107778962d355a44177f78","id":"sEa_FSOrFvlL6EvenPFg8","name":"Add Salary Bene In Table","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","services":[{"_id":"63c2eba7582f30545002f4df","type":"11","command":{"responseHandler":[],"returns":[],"_id":"63c2eba7582f30545002f4e0","attributes":{"stateName":"beneficiaries","requestBody":[{"type":1,"name":"Form","key":"mobile","value":"mobile"},{"type":1,"name":"Form","key":"email","value":"email"},{"type":1,"name":"Form","key":"otherReference","value":"otherReference"},{"type":1,"name":"Form","key":"employeeId","value":"employeeId"},{"type":1,"name":"Form","key":"ftAccountOrIban","value":"ftAccountOrIban"},{"type":1,"name":"Form","key":"ibftAccountOrIban","value":"ibftAccountOrIban"},{"type":1,"name":"Form","key":"name","value":"name"},{"type":1,"name":"Form","key":"username","value":"username"},{"type":1,"name":"Form","key":"preferredPaymentMode","value":"preferredPaymentModeForm.code"},{"type":1,"name":"Form","key":"preferredPaymentModeForm","value":"preferredPaymentModeForm"},{"type":1,"name":"Form","key":"ibftBankImd","value":"ibftBankImd.imd"},{"type":1,"name":"Form","key":"bankName","value":"ibftBankImd.name"}],"selectedObjectBindingKey":"selectedObject"},"type":"1"}}],"createdAt":"01-Sep-2022","updatedAt":"14-Jan-2023","__v":24}
+{
+  "id": "sEa_FSOrFvlL6EvenPFg8",
+  "_id": "63107778962d355a44177f78",
+  "name": "Add Salary Bene In Table",
+  "old_name": "Add Salary Bene In Table",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "beneficiaries",
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "mobile", "value": "mobile" },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "otherReference",
+              "value": "otherReference"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "employeeId",
+              "value": "employeeId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "ibftAccountOrIban",
+              "value": "ibftAccountOrIban"
+            },
+            { "type": 1, "name": "Form", "key": "name", "value": "name" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "username",
+              "value": "username"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "preferredPaymentMode",
+              "value": "preferredPaymentModeForm.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "preferredPaymentModeForm",
+              "value": "preferredPaymentModeForm"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "ibftBankImd",
+              "value": "ibftBankImd.imd"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "bankName",
+              "value": "ibftBankImd.name"
+            },
+            { "type": 1, "name": "Form", "key": "cnic", "value": "cnic" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountMobileNumber",
+              "value": "accountMobileNumber"
+            }
+          ],
+          "selectedObjectBindingKey": "selectedObject"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/7/2023",
+  "createdAt": "6/7/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

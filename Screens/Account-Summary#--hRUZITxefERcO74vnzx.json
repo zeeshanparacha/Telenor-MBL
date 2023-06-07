@@ -1,1 +1,1046 @@
-[{"_id":"62fe236ae6864b13b65564c6","gitBranchName":"master","id":"--hRUZITxefERcO74vnzx","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"VLTl9GwF-nnXEJmSXKEPf","componentType":"10001","id":"VLTl9GwF-nnXEJmSXKEPf","position":{"i":"VLTl9GwF-nnXEJmSXKEPf","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}]},"createdAt":"8/18/2022","createdBy":"talib","events":[],"layout":[{"id":"VLTl9GwF-nnXEJmSXKEPf","status":"ACTIVE","_id":"610134a1d1f5e860b1e8c751","name":"Grid layout","icon":"FaGripHorizontal","attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"20px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"group":"Layout","type":"10001","updatedAt":"23-Sep-2021","Documentation":"<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>","createdAt":"24-Aug-2021","events":[],"order":1,"version":"1.0.0","isLatest":true,"projectType":"web","allowedContainers":["10001","20030","noLayout","20010","widget"],"component":{"content":"Grid layout","type":"10001"},"path":"0","gridProps":[{"type":"column","id":"RPw0cBezLwaSTwesp5e3V","gridProps":[{"id":"KK7q1iWfC0sOWCTCrT9Ls","type":"20028","name":"Tab layout","component":{"content":"Tab layout","type":"20028"},"attributes":{"tabs":[{"index":0,"id":"VUgtQaOqPULiGd8pVaj4G","name":"Checking Account","path":"0-0-1","dnd":{"id":"VUgtQaOqPULiGd8pVaj4G","hideStep":false,"status":"ACTIVE","_id":"611a40295ac3689e4b66a0bc","name":"DND Layout","wizardLayout":true,"icon":"FaChalkboard","type":"20010","component":{"content":"DND Layout","type":"20010"},"path":"0-0-1","gridProps":[{"type":"widget","id":"bjO3jkCg_Irc1CX0m5r0Z","gridProps":[{"type":"10001","name":"Grid Layout","id":"cL9CsPWVLIqOS9amaZJrx","gridProps":[{"type":"column","id":"S_tSUHaFUoPS0QHxxfSPe","gridProps":[],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"events":[]}],"name":"Checking Account","icon":"FaCube","layoutProperties":{"lg":"6","md":"6","sm":"6","xs":"6","x":"0","y":"0","h":"6","w":"6"}}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}}],"layoutProperties":{"tabLayout":{"background":"#FFFFFF","color":"white"},"indicator":{"backgroundColor":"black"},"tab":{"color":"#DA0006"},"selectedTab":{"backgroundColor":"#DA0006","color":"#FFFFFF"},"mainContainer":"tabLayout","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"name":"Tab layout","dnds":[],"activeStep":0,"deletedTabs":[]},"events":[],"path":"0-0-0","version":"1.0.0","allowedContainers":["10001","noLayout"]},{"id":"VUgtQaOqPULiGd8pVaj4G","hideStep":false,"status":"ACTIVE","_id":"611a40295ac3689e4b66a0bc","name":"DND Layout","wizardLayout":true,"icon":"FaChalkboard","type":"20010","component":{"content":"DND Layout","type":"20010"},"path":"0-0-1","gridProps":[{"type":"widget","id":"bjO3jkCg_Irc1CX0m5r0Z","gridProps":[{"type":"10001","name":"Grid Layout","id":"cL9CsPWVLIqOS9amaZJrx","gridProps":[{"type":"column","id":"S_tSUHaFUoPS0QHxxfSPe","gridProps":[{"type":"10001","name":"Grid Layout","id":"gLPizP6sEXAhrBDdaAjth","gridProps":[{"type":"column","id":"-0qT4mmg7TnoYnz7cKqZc","gridProps":[{"id":"TLOUiM5Nfyy5s0itrvQCQ","status":"ACTIVE","_id":"610134a1d1f5e860b1e8c751","name":"Grid layout","icon":"FaGripHorizontal","attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout","hideCondition":{"logic":{"==":[{"var":"currentScreen.form.ad"},"Pak"]}}},"group":"Layout","type":"10001","updatedAt":"23-Sep-2021","Documentation":"<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>","createdAt":"24-Aug-2021","events":[{"triggerId":"8T00LLo0D1jwo5Gn34c4S","triggerName":"User Service - Get Account Summary","serviceType":"8","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"accountSummary","responseReturnValue":"content","url":"/account-statement/account-summary","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":4,"name":"Static","key":"userId","value":"1"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1","name":"On initialization"}],"order":1,"version":"1.0.0","isLatest":true,"projectType":"web","allowedContainers":["10001","20030","noLayout","20010","widget"],"component":{"content":"Grid layout","type":"10001"},"path":"0-0-1-0-0-0-0-0-0","gridProps":[{"type":"column","id":"8sPNREIqCC5oWG4nRV4Ww","gridProps":[{"id":"b8uQnUL9YG8mNvYMg_XcO","type":"20031","attributes":{"widgetId":"pUpviEMfCyEe5RZpv7TX5","layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}},"component":{"type":"20031"}},{"id":"kfYaLp3_RfSYfqKnFfVhu","status":"ACTIVE","name":"Data table","type":"20014","attributes":{"responseStateKey":"accountSummary","layoutProperties":{"container":{"//":"Use this class to style data table container."},"rowStyle":{"//":"Use this class to style data table rows.","color":"black","background-color":"white","text-align":"left"},"defaultColDefinition":{"//":"Use this class to define column definition of data table.","sortable":true,"animateRows":false,"resizable":true,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":10,"domLayout":"autoHeight"},"mainContainer":"container","xl":12,"lg":12,"md":12,"sm":12,"xs":12,"headerStyles":{"background-color":"#DA0006","color":"#FFFFFF"}},"defaultColDef":{"sortable":true,"animateRows":false,"resizable":false,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":30,"domLayout":"autoHeight"},"rowStyle":{"color":"black","background-color":"white","text-align":"left"},"columnDefinition":[{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Number","field":"accountNumber","type":"text","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Title","field":"accountTitle","type":"text","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Currency","field":"currency","type":"text","triggerId":null},{"typeTemp":{"name":"Number","type":"number"},"headerName":"Balance","field":"balance","type":"number","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Type Description","field":"accountTypeDescription","type":"text","triggerId":null}],"rowDefinition":[],"debug":false,"pagination":true,"paginationPageSize":5,"suppressCsvExport":false,"suppressExcelExport":true,"name":"Data Grid","storeType":2},"icon":"FaTable","group":"Advanced","updatedAt":"23-Aug-2021","createdAt":"23-Aug-2021","order":12,"version":"1.0.0","isLatest":true,"projectType":"web","component":{"content":"Data table","type":"20014"},"events":[],"path":"0-0-1-0-0-0-0-0-0-0-1"}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12},"dimensions":{"rows":1,"columns":1,"colSize0xs":12,"colSize0sm":12,"colSize0md":12,"colSize0lg":12,"colSize0xl":12},"readOnly":true}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"events":[],"path":"1-0-0","dimensions":{"rows":1,"columns":1,"colSize0xs":12,"colSize0sm":12,"colSize0md":12,"colSize0lg":12},"readOnly":true}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"events":[]}],"name":"Checking Account","icon":"FaCube","layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12,"x":0,"y":0,"h":6,"w":12}}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12},"dimensions":{"rows":1,"columns":1,"colSize0xs":12,"colSize0sm":12,"colSize0md":12,"colSize0lg":12,"colSize0xl":12},"readOnly":true}],"name":"Account Summary","screenId":"--hRUZITxefERcO74vnzx","subType":"screen","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564c8","gitBranchName":"master","id":"VLTl9GwF-nnXEJmSXKEPf","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"KK7q1iWfC0sOWCTCrT9Ls","componentType":"20028","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"20px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"8/18/2022","createdBy":"talib","events":[],"layout":null,"name":"Grid layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564ca","gitBranchName":"master","id":"KK7q1iWfC0sOWCTCrT9Ls","projectId":"63f4845e476fc83100e3a899","attributes":{"tabs":[{"index":0,"id":"VUgtQaOqPULiGd8pVaj4G","name":"Checking Account","path":"0-0-1","dnd":{"id":"VUgtQaOqPULiGd8pVaj4G","hideStep":false,"status":"ACTIVE","_id":"611a40295ac3689e4b66a0bc","name":"DND Layout","wizardLayout":true,"icon":"FaChalkboard","type":"20010","component":{"content":"DND Layout","type":"20010"},"path":"0-0-1","gridProps":[{"type":"widget","id":"bjO3jkCg_Irc1CX0m5r0Z","gridProps":[{"type":"10001","name":"Grid Layout","id":"cL9CsPWVLIqOS9amaZJrx","gridProps":[{"type":"column","id":"S_tSUHaFUoPS0QHxxfSPe","gridProps":[],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"events":[]}],"name":"Checking Account","icon":"FaCube","layoutProperties":{"lg":"6","md":"6","sm":"6","xs":"6","x":"0","y":"0","h":"6","w":"6"}}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}}],"layoutProperties":{"tabLayout":{"background":"#FFFFFF","color":"white"},"indicator":{"backgroundColor":"black"},"tab":{"color":"#DA0006"},"selectedTab":{"backgroundColor":"#DA0006","color":"#FFFFFF"},"mainContainer":"tabLayout","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"name":"Tab layout","dnds":[],"activeStep":0,"deletedTabs":[]},"createdAt":"8/18/2022","createdBy":"talib","events":[],"name":"Tab layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"20028","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564cb","gitBranchName":"master","id":"VUgtQaOqPULiGd8pVaj4G","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"cL9CsPWVLIqOS9amaZJrx","componentType":"10001","id":"cL9CsPWVLIqOS9amaZJrx","name":"Checking Account","icon":"FaCube","position":{"i":"cL9CsPWVLIqOS9amaZJrx","x":0,"y":0,"w":12,"h":6},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12,"x":0,"y":0,"h":6,"w":12}}]},"createdAt":"8/18/2022","createdBy":"talib","layout":null,"name":"DND Layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"20010","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564cc","gitBranchName":"master","id":"cL9CsPWVLIqOS9amaZJrx","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"gLPizP6sEXAhrBDdaAjth","componentType":"10001","id":"gLPizP6sEXAhrBDdaAjth","position":{"i":"gLPizP6sEXAhrBDdaAjth","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"createdAt":"8/18/2022","createdBy":"talib","events":[],"layout":null,"name":"Grid Layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564cd","gitBranchName":"master","id":"GPjV3XEI02QzCyNnWdpPQ","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"EP2D24od9eLX-O53GgmQl","componentType":"10001","id":"EP2D24od9eLX-O53GgmQl","name":"TDR","icon":"FaCube","position":{"i":"EP2D24od9eLX-O53GgmQl","x":0,"y":0,"w":12,"h":6},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12,"x":0,"y":0,"h":6,"w":12}}]},"createdAt":"8/18/2022","createdBy":"talib","layout":null,"name":"DND Layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"20010","updatedBy":"areeb","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe236ae6864b13b65564ce","gitBranchName":"master","id":"EP2D24od9eLX-O53GgmQl","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"5GoiP_Y1LS_3OZ8ltHAAA","componentType":"10001","id":"5GoiP_Y1LS_3OZ8ltHAAA","position":{"i":"5GoiP_Y1LS_3OZ8ltHAAA","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"createdAt":"8/18/2022","createdBy":"talib","events":[],"layout":null,"name":"Grid Layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"areeb","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe24bee6864b13b6556748","gitBranchName":"master","id":"gLPizP6sEXAhrBDdaAjth","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"componentId":"TLOUiM5Nfyy5s0itrvQCQ","componentType":"10001","id":"TLOUiM5Nfyy5s0itrvQCQ","position":{"i":"TLOUiM5Nfyy5s0itrvQCQ","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component."}},"name":"Grid Layout"},"createdAt":"8/18/2022","createdBy":"talib","events":[],"layout":null,"name":"Grid Layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe24bee6864b13b6556749","gitBranchName":"master","id":"UVyziXTYoKlEN3qytVDQr","projectId":"63f4845e476fc83100e3a899","Documentation":"<div>components 12344</div>","attributes":{"label":"","name":"Text box","label-locale-key":"","maxLength":20,"type":"text","variant":"standard","value":"","readOnly":false,"tooltip":"","font-family":"Verdana","mandatory":true,"tooltipState":"","layoutProperties":{"textField":{"//":"Use this class to style text field component."},"inputProps":{"//":"Use this class to style  text field element."},"mainContainer":"textField","lg":12,"md":12,"sm":12,"xs":12},"validate":{"required":false,"errorMsg":"This field is required"},"placeholder":"","stateName":"ad"},"createdAt":"8/18/2022","createdBy":"talib","events":[],"icon":"FaWindowMinimize","name":"Text Box","screenId":"--hRUZITxefERcO74vnzx","status":"ACTIVE","subType":"component","type":"20004","updatedBy":"talib","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe24bee6864b13b655674a","gitBranchName":"master","id":"TLOUiM5Nfyy5s0itrvQCQ","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"b8uQnUL9YG8mNvYMg_XcO","componentType":"20031","order":1},{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"kfYaLp3_RfSYfqKnFfVhu","componentType":"20014","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout","hideCondition":{"logic":{"==":[{"var":"currentScreen.form.ad"},"Pak"]}}},"createdAt":"8/18/2022","createdBy":"talib","events":[{"triggerId":"8T00LLo0D1jwo5Gn34c4S","triggerName":"User Service - Get Account Summary","name":"On initialization","type":"1"}],"layout":null,"name":"Grid layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe24bee6864b13b655674b","gitBranchName":"master","id":"kfYaLp3_RfSYfqKnFfVhu","projectId":"63f4845e476fc83100e3a899","attributes":{"responseStateKey":"accountSummary","layoutProperties":{"container":{"//":"Use this class to style data table container."},"rowStyle":{"//":"Use this class to style data table rows.","color":"black","background-color":"white","text-align":"left"},"defaultColDefinition":{"//":"Use this class to define column definition of data table.","sortable":true,"animateRows":false,"resizable":true,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":10,"domLayout":"autoHeight"},"mainContainer":"container","xl":12,"lg":12,"md":12,"sm":12,"xs":12,"headerStyles":{"background-color":"#DA0006","color":"#FFFFFF"}},"defaultColDef":{"sortable":true,"animateRows":false,"resizable":false,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":30,"domLayout":"autoHeight"},"rowStyle":{"color":"black","background-color":"white","text-align":"left"},"columnDefinition":[{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Number","field":"accountNumber","type":"text","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Title","field":"accountTitle","type":"text","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Currency","field":"currency","type":"text","triggerId":null},{"typeTemp":{"name":"Number","type":"number"},"headerName":"Balance","field":"balance","type":"number","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Account Type Description","field":"accountTypeDescription","type":"text","triggerId":null}],"rowDefinition":[],"debug":false,"pagination":true,"paginationPageSize":5,"suppressCsvExport":false,"suppressExcelExport":true,"name":"Data Grid","storeType":2},"createdAt":"8/18/2022","createdBy":"talib","events":[],"icon":"FaTable","name":"Data table","screenId":"--hRUZITxefERcO74vnzx","status":"ACTIVE","subType":"component","type":"20014","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62fe2607e6864b13b655698b","gitBranchName":"master","id":"XvE0t8bJJ-qxOIcSDA7v7","projectId":"63f4845e476fc83100e3a899","attributes":{"label":"TDR","variant":"body1","name":"Label","mandatory":false,"layoutProperties":{"label":{"//":"Use this class to style label component."},"mainContainer":"label","lg":12,"md":12,"sm":12,"xs":12}},"createdAt":"8/18/2022","createdBy":"zeeshan","events":[],"icon":"FaFont","name":"Label","screenId":"--hRUZITxefERcO74vnzx","status":"ACTIVE","subType":"component","type":"20002","updatedBy":"talib","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62ff3900e6864b13b6562df3","gitBranchName":"master","id":"5GoiP_Y1LS_3OZ8ltHAAA","projectId":"63f4845e476fc83100e3a899","attributes":{"gridProps":[{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"kyET4s8DejNPBRvDuGXGF","componentType":"20014","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"8/19/2022","createdBy":"zeeshan","events":[],"layout":null,"name":"Grid layout","screenId":"--hRUZITxefERcO74vnzx","subType":"component","type":"10001","updatedBy":"areeb","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"62ff3900e6864b13b6562df4","gitBranchName":"master","id":"kyET4s8DejNPBRvDuGXGF","projectId":"63f4845e476fc83100e3a899","attributes":{"responseStateKey":"accounts.body","layoutProperties":{"container":{"//":"Use this class to style data table container."},"rowStyle":{"//":"Use this class to style data table rows.","color":"black","background-color":"white","text-align":"left"},"defaultColDefinition":{"//":"Use this class to define column definition of data table.","sortable":true,"animateRows":false,"resizable":true,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":10,"domLayout":"autoHeight"},"mainContainer":"container","xl":12,"lg":12,"md":12,"sm":12,"xs":12,"headerStyles":{"background-color":"#DA0006","color":"#FFFFFF"}},"defaultColDef":{"sortable":true,"animateRows":false,"resizable":false,"enableValue":false,"enableRowGroup":false,"enablePivot":false,"filter":true,"type":"leftAligned","minWidth":30,"domLayout":"autoHeight"},"rowStyle":{"color":"black","background-color":"white","text-align":"left"},"columnDefinition":[{"typeTemp":{"name":"Text","type":"text"},"headerName":"Currency","field":"currency","type":"text","triggerId":null},{"typeTemp":{"name":"Text","type":"text"},"headerName":"Amount","field":"amount","type":"text","triggerId":null}],"rowDefinition":[],"debug":false,"pagination":true,"paginationPageSize":5,"suppressCsvExport":true,"suppressExcelExport":true,"name":"Data Grid","storeType":2},"createdAt":"8/19/2022","createdBy":"zeeshan","events":[],"icon":"FaTable","name":"Data table","screenId":"--hRUZITxefERcO74vnzx","status":"ACTIVE","subType":"component","type":"20014","updatedBy":"areeb","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"},{"_id":"6336e35dc025ae7f2738e4c1","gitBranchName":"master","id":"b8uQnUL9YG8mNvYMg_XcO","projectId":"63f4845e476fc83100e3a899","screenId":"--hRUZITxefERcO74vnzx","attributes":{"widgetId":"pUpviEMfCyEe5RZpv7TX5","layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}},"createdAt":"9/30/2022","createdBy":"areeb","subType":"component","type":"20031","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/7/2023"}]
+[
+  {
+    "id": "--hRUZITxefERcO74vnzx",
+    "name": "Account Summary",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "VLTl9GwF-nnXEJmSXKEPf",
+          "componentType": "10001",
+          "id": "VLTl9GwF-nnXEJmSXKEPf",
+          "position": {
+            "i": "VLTl9GwF-nnXEJmSXKEPf",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "VLTl9GwF-nnXEJmSXKEPf",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Account Summary",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "20px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Account Summary"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "RPw0cBezLwaSTwesp5e3V",
+            "gridProps": [
+              {
+                "id": "KK7q1iWfC0sOWCTCrT9Ls",
+                "type": "20028",
+                "name": "Tab layout",
+                "component": { "content": "Tab layout", "type": "20028" },
+                "attributes": {
+                  "tabs": [
+                    {
+                      "index": 0,
+                      "id": "VUgtQaOqPULiGd8pVaj4G",
+                      "name": "Checking Account",
+                      "path": "0-0-1",
+                      "dnd": {
+                        "id": "VUgtQaOqPULiGd8pVaj4G",
+                        "hideStep": false,
+                        "status": "ACTIVE",
+                        "_id": "611a40295ac3689e4b66a0bc",
+                        "name": "DND Layout",
+                        "wizardLayout": true,
+                        "icon": "FaChalkboard",
+                        "type": "20010",
+                        "component": {
+                          "content": "DND Layout",
+                          "type": "20010"
+                        },
+                        "path": "0-0-1",
+                        "gridProps": [
+                          {
+                            "type": "widget",
+                            "id": "bjO3jkCg_Irc1CX0m5r0Z",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "cL9CsPWVLIqOS9amaZJrx",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "S_tSUHaFUoPS0QHxxfSPe",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": []
+                              }
+                            ],
+                            "name": "Checking Account",
+                            "icon": "FaCube",
+                            "layoutProperties": {
+                              "lg": "6",
+                              "md": "6",
+                              "sm": "6",
+                              "xs": "6",
+                              "x": "0",
+                              "y": "0",
+                              "h": "6",
+                              "w": "6"
+                            }
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    }
+                  ],
+                  "layoutProperties": {
+                    "tabLayout": { "background": "#FFFFFF", "color": "white" },
+                    "indicator": { "backgroundColor": "black" },
+                    "tab": { "color": "##00bd5f" },
+                    "selectedTab": {
+                      "backgroundColor": "#00bd5f",
+                      "color": "#FFFFFF"
+                    },
+                    "mainContainer": "tabLayout",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "name": "Tab layout",
+                  "dnds": [],
+                  "activeStep": 0,
+                  "deletedTabs": []
+                },
+                "events": [],
+                "path": "0-0-0",
+                "version": "1.0.0",
+                "allowedContainers": ["10001", "noLayout"]
+              },
+              {
+                "id": "VUgtQaOqPULiGd8pVaj4G",
+                "hideStep": false,
+                "status": "ACTIVE",
+                "_id": "611a40295ac3689e4b66a0bc",
+                "name": "DND Layout",
+                "wizardLayout": true,
+                "icon": "FaChalkboard",
+                "type": "20010",
+                "component": { "content": "DND Layout", "type": "20010" },
+                "path": "0-0-1",
+                "gridProps": [
+                  {
+                    "type": "widget",
+                    "id": "bjO3jkCg_Irc1CX0m5r0Z",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid Layout",
+                        "id": "cL9CsPWVLIqOS9amaZJrx",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "S_tSUHaFUoPS0QHxxfSPe",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "gLPizP6sEXAhrBDdaAjth",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "-0qT4mmg7TnoYnz7cKqZc",
+                                    "gridProps": [
+                                      {
+                                        "id": "TLOUiM5Nfyy5s0itrvQCQ",
+                                        "status": "ACTIVE",
+                                        "_id": "610134a1d1f5e860b1e8c751",
+                                        "name": "Grid layout",
+                                        "icon": "FaGripHorizontal",
+                                        "attributes": {
+                                          "gridProps": [],
+                                          "label": "Header",
+                                          "layoutProperties": {
+                                            "gridLayout": {
+                                              "//": "Use this class to style grid layout component.",
+                                              "padding": "5px",
+                                              "spacing": 0
+                                            },
+                                            "mainContainer": "gridLayout"
+                                          },
+                                          "layoutProps": {
+                                            "direction": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "flex-start"
+                                          },
+                                          "direction": "row",
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.ad"
+                                                },
+                                                "Pak"
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "group": "Layout",
+                                        "type": "10001",
+                                        "updatedAt": "23-Sep-2021",
+                                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                                        "createdAt": "24-Aug-2021",
+                                        "events": [
+                                          {
+                                            "triggerId": "8T00LLo0D1jwo5Gn34c4S",
+                                            "triggerName": "User Service - Get Account Summary",
+                                            "serviceType": "8",
+                                            "attributes": {
+                                              "loaderWidgetIds": [906070],
+                                              "messageWidgetIds": [906070],
+                                              "responseStateKey": "accountSummary",
+                                              "responseReturnValue": "content",
+                                              "url": "/account-statement/account-summary",
+                                              "checksum": true,
+                                              "encryption": true,
+                                              "isDeviceDetails": true,
+                                              "loginTrigger": false,
+                                              "formData": false,
+                                              "logoutTrigger": false,
+                                              "headers": {
+                                                "Content-Type": "application/json",
+                                                "Accept": "application/json",
+                                                "channel_key": "001",
+                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                "locale": "en-ltr"
+                                              },
+                                              "requestBody": [
+                                                {
+                                                  "type": 4,
+                                                  "name": "Static",
+                                                  "key": "userId",
+                                                  "value": "1"
+                                                }
+                                              ],
+                                              "baseURL": "631e018a967b3c4df8e29773",
+                                              "storeType": 2
+                                            },
+                                            "type": "1",
+                                            "name": "On initialization"
+                                          }
+                                        ],
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "component": {
+                                          "content": "Grid layout",
+                                          "type": "10001"
+                                        },
+                                        "path": "0-0-1-0-0-0-0-0-0",
+                                        "gridProps": [
+                                          {
+                                            "type": "column",
+                                            "id": "8sPNREIqCC5oWG4nRV4Ww",
+                                            "gridProps": [
+                                              {
+                                                "id": "b8uQnUL9YG8mNvYMg_XcO",
+                                                "type": "20031",
+                                                "attributes": {
+                                                  "widgetId": "pUpviEMfCyEe5RZpv7TX5",
+                                                  "layoutProperties": {
+                                                    "xl": 12,
+                                                    "lg": 12,
+                                                    "md": 12,
+                                                    "sm": 12,
+                                                    "xs": 12
+                                                  }
+                                                },
+                                                "component": { "type": "20031" }
+                                              },
+                                              {
+                                                "id": "kfYaLp3_RfSYfqKnFfVhu",
+                                                "status": "ACTIVE",
+                                                "name": "Data table",
+                                                "type": "20014",
+                                                "attributes": {
+                                                  "responseStateKey": "accountSummary",
+                                                  "layoutProperties": {
+                                                    "container": {
+                                                      "//": "Use this class to style data table container."
+                                                    },
+                                                    "rowStyle": {
+                                                      "//": "Use this class to style data table rows.",
+                                                      "color": "black",
+                                                      "background-color": "white",
+                                                      "text-align": "left"
+                                                    },
+                                                    "defaultColDefinition": {
+                                                      "//": "Use this class to define column definition of data table.",
+                                                      "sortable": true,
+                                                      "animateRows": false,
+                                                      "resizable": true,
+                                                      "enableValue": false,
+                                                      "enableRowGroup": false,
+                                                      "enablePivot": false,
+                                                      "filter": true,
+                                                      "type": "leftAligned",
+                                                      "minWidth": 10,
+                                                      "domLayout": "autoHeight"
+                                                    },
+                                                    "mainContainer": "container",
+                                                    "xl": 12,
+                                                    "lg": 12,
+                                                    "md": 12,
+                                                    "sm": 12,
+                                                    "xs": 12,
+                                                    "headerStyles": {
+                                                      "background-color": "#00bd5f",
+                                                      "color": "#FFFFFF"
+                                                    }
+                                                  },
+                                                  "defaultColDef": {
+                                                    "sortable": true,
+                                                    "animateRows": false,
+                                                    "resizable": false,
+                                                    "enableValue": false,
+                                                    "enableRowGroup": false,
+                                                    "enablePivot": false,
+                                                    "filter": true,
+                                                    "type": "leftAligned",
+                                                    "minWidth": 30,
+                                                    "domLayout": "autoHeight"
+                                                  },
+                                                  "rowStyle": {
+                                                    "color": "black",
+                                                    "background-color": "white",
+                                                    "text-align": "left"
+                                                  },
+                                                  "columnDefinition": [
+                                                    {
+                                                      "typeTemp": {
+                                                        "name": "Text",
+                                                        "type": "text"
+                                                      },
+                                                      "headerName": "Account Number",
+                                                      "field": "accountNumber",
+                                                      "type": "text",
+                                                      "triggerId": null
+                                                    },
+                                                    {
+                                                      "typeTemp": {
+                                                        "name": "Text",
+                                                        "type": "text"
+                                                      },
+                                                      "headerName": "Account Title",
+                                                      "field": "accountTitle",
+                                                      "type": "text",
+                                                      "triggerId": null
+                                                    },
+                                                    {
+                                                      "typeTemp": {
+                                                        "name": "Text",
+                                                        "type": "text"
+                                                      },
+                                                      "headerName": "Currency",
+                                                      "field": "currency",
+                                                      "type": "text",
+                                                      "triggerId": null
+                                                    },
+                                                    {
+                                                      "typeTemp": {
+                                                        "name": "Number",
+                                                        "type": "number"
+                                                      },
+                                                      "headerName": "Balance",
+                                                      "field": "balance",
+                                                      "type": "number",
+                                                      "triggerId": null
+                                                    },
+                                                    {
+                                                      "typeTemp": {
+                                                        "name": "Text",
+                                                        "type": "text"
+                                                      },
+                                                      "headerName": "Account Type Description",
+                                                      "field": "accountTypeDescription",
+                                                      "type": "text",
+                                                      "triggerId": null
+                                                    }
+                                                  ],
+                                                  "rowDefinition": [],
+                                                  "debug": false,
+                                                  "pagination": true,
+                                                  "paginationPageSize": 5,
+                                                  "suppressCsvExport": false,
+                                                  "suppressExcelExport": true,
+                                                  "name": "Data Grid",
+                                                  "storeType": 2
+                                                },
+                                                "icon": "FaTable",
+                                                "group": "Advanced",
+                                                "updatedAt": "23-Aug-2021",
+                                                "createdAt": "23-Aug-2021",
+                                                "order": 12,
+                                                "version": "1.0.0",
+                                                "isLatest": true,
+                                                "projectType": "web",
+                                                "component": {
+                                                  "content": "Data table",
+                                                  "type": "20014"
+                                                },
+                                                "events": [],
+                                                "path": "0-0-1-0-0-0-0-0-0-0-1"
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 12,
+                                              "lg": 12,
+                                              "md": 12,
+                                              "sm": 12,
+                                              "xs": 12
+                                            }
+                                          }
+                                        ],
+                                        "layoutProperties": {
+                                          "lg": 12,
+                                          "md": 12,
+                                          "sm": 12,
+                                          "xs": 12
+                                        },
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": [],
+                                "path": "1-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12
+                                },
+                                "readOnly": true
+                              }
+                            ],
+                            "layoutProperties": {
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component."
+                            }
+                          },
+                          "name": "Grid Layout"
+                        },
+                        "events": []
+                      }
+                    ],
+                    "name": "Checking Account",
+                    "icon": "FaCube",
+                    "layoutProperties": {
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12,
+                      "x": 0,
+                      "y": 0,
+                      "h": 6,
+                      "w": 12
+                    }
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "screen",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "--hRUZITxefERcO74vnzx",
+    "createdBy": "telenor",
+    "updatedAt": "5/30/2023",
+    "createdAt": "5/30/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VLTl9GwF-nnXEJmSXKEPf",
+    "name": "Account Summary",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "KK7q1iWfC0sOWCTCrT9Ls",
+          "componentType": "20028",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "20px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Account Summary"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KK7q1iWfC0sOWCTCrT9Ls",
+    "type": "20028",
+    "name": "Tab layout",
+    "component": { "content": "Tab layout", "type": "20028" },
+    "attributes": {
+      "tabs": [
+        {
+          "index": 0,
+          "id": "VUgtQaOqPULiGd8pVaj4G",
+          "name": "Checking Account",
+          "path": "0-0-1",
+          "dnd": {
+            "id": "VUgtQaOqPULiGd8pVaj4G",
+            "hideStep": false,
+            "status": "ACTIVE",
+            "_id": "611a40295ac3689e4b66a0bc",
+            "name": "DND Layout",
+            "wizardLayout": true,
+            "icon": "FaChalkboard",
+            "type": "20010",
+            "component": { "content": "DND Layout", "type": "20010" },
+            "path": "0-0-1",
+            "gridProps": [
+              {
+                "type": "widget",
+                "id": "bjO3jkCg_Irc1CX0m5r0Z",
+                "gridProps": [
+                  {
+                    "type": "10001",
+                    "name": "Grid Layout",
+                    "id": "cL9CsPWVLIqOS9amaZJrx",
+                    "gridProps": [
+                      {
+                        "type": "column",
+                        "id": "S_tSUHaFUoPS0QHxxfSPe",
+                        "gridProps": [],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "attributes": {
+                      "gridProps": [],
+                      "label": "Header",
+                      "layoutProperties": {
+                        "gridLayout": {
+                          "//": "Use this class to style grid layout component."
+                        }
+                      },
+                      "name": "Grid Layout"
+                    },
+                    "events": []
+                  }
+                ],
+                "name": "Checking Account",
+                "icon": "FaCube",
+                "layoutProperties": {
+                  "lg": "6",
+                  "md": "6",
+                  "sm": "6",
+                  "xs": "6",
+                  "x": "0",
+                  "y": "0",
+                  "h": "6",
+                  "w": "6"
+                }
+              }
+            ],
+            "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+          }
+        }
+      ],
+      "layoutProperties": {
+        "tabLayout": { "background": "#FFFFFF", "color": "white" },
+        "indicator": { "backgroundColor": "black" },
+        "tab": { "color": "##00bd5f" },
+        "selectedTab": { "backgroundColor": "#00bd5f", "color": "#FFFFFF" },
+        "mainContainer": "tabLayout",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "name": "Tab layout",
+      "dnds": [],
+      "activeStep": 0,
+      "deletedTabs": []
+    },
+    "events": [],
+    "path": "0-0-0",
+    "version": "1.0.0",
+    "allowedContainers": ["10001", "noLayout"],
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VUgtQaOqPULiGd8pVaj4G",
+    "name": "DND Layout",
+    "type": "20010",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "cL9CsPWVLIqOS9amaZJrx",
+          "componentType": "10001",
+          "id": "cL9CsPWVLIqOS9amaZJrx",
+          "name": "Checking Account",
+          "icon": "FaCube",
+          "position": {
+            "i": "cL9CsPWVLIqOS9amaZJrx",
+            "x": 0,
+            "y": 0,
+            "w": 12,
+            "h": 6
+          },
+          "layoutProperties": {
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12,
+            "x": 0,
+            "y": 0,
+            "h": 6,
+            "w": 12
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "cL9CsPWVLIqOS9amaZJrx",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "gLPizP6sEXAhrBDdaAjth",
+          "componentType": "10001",
+          "id": "gLPizP6sEXAhrBDdaAjth",
+          "position": {
+            "i": "gLPizP6sEXAhrBDdaAjth",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gLPizP6sEXAhrBDdaAjth",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "TLOUiM5Nfyy5s0itrvQCQ",
+          "componentType": "10001",
+          "id": "TLOUiM5Nfyy5s0itrvQCQ",
+          "position": {
+            "i": "TLOUiM5Nfyy5s0itrvQCQ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "TLOUiM5Nfyy5s0itrvQCQ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "b8uQnUL9YG8mNvYMg_XcO",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "kfYaLp3_RfSYfqKnFfVhu",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": { "==": [{ "var": "currentScreen.form.ad" }, "Pak"] }
+      }
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "8T00LLo0D1jwo5Gn34c4S",
+        "triggerName": "User Service - Get Account Summary",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "b8uQnUL9YG8mNvYMg_XcO",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "pUpviEMfCyEe5RZpv7TX5",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "kfYaLp3_RfSYfqKnFfVhu",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "accountSummary",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "background-color": "#00bd5f", "color": "#FFFFFF" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Account Number",
+          "field": "accountNumber",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Account Title",
+          "field": "accountTitle",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Currency",
+          "field": "currency",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Number", "type": "number" },
+          "headerName": "Balance",
+          "field": "balance",
+          "type": "number",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Account Type Description",
+          "field": "accountTypeDescription",
+          "type": "text",
+          "triggerId": null
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": false,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-1-0-0-0-0-0-0-0-1",
+    "screenId": "--hRUZITxefERcO74vnzx",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

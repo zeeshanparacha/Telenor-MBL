@@ -1364,7 +1364,7 @@
                             "sm": 12,
                             "xs": 12,
                             "headerStyles": {
-                              "background-color": "#DA0006",
+                              "background-color": "#00bd5f",
                               "color": "#FFFFFF"
                             }
                           },
@@ -1530,13 +1530,13 @@
     "events": [],
     "subType": "screen",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "6P40rUBTu65pMBQToIXaN",
-    "createdBy": "areeb",
-    "updatedAt": "4/14/2023",
-    "createdAt": "4/14/2023",
+    "createdBy": "telenor",
+    "updatedAt": "5/30/2023",
+    "createdAt": "5/30/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1624,7 +1624,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1670,7 +1670,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1709,7 +1709,7 @@
     "version": "1.0.0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -1761,7 +1761,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1833,7 +1833,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1878,7 +1878,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1924,7 +1924,7 @@
     "path": "0-0-1-0-0-0-0-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -1994,7 +1994,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2053,7 +2053,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2098,7 +2098,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2140,7 +2140,7 @@
     "path": "0-0-1-0-0-0-1-0-0-0-0-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2184,7 +2184,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2227,7 +2227,7 @@
     "path": "0-0-1-0-0-0-1-0-0-1-0-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2285,7 +2285,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2330,7 +2330,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2410,7 +2410,7 @@
     "path": "0-0-1-0-0-0-1-0-1-0-0-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2454,7 +2454,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2511,7 +2511,7 @@
     "path": "0-0-1-0-0-0-1-0-1-1-0-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2558,7 +2558,7 @@
     "events": [],
     "subType": "component",
     "screenId": "6P40rUBTu65pMBQToIXaN",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2597,7 +2597,7 @@
         "md": 12,
         "sm": 12,
         "xs": 12,
-        "headerStyles": { "background-color": "#DA0006", "color": "#FFFFFF" }
+        "headerStyles": { "background-color": "#00bd5f", "color": "#FFFFFF" }
       },
       "defaultColDef": {
         "sortable": true,
@@ -2682,7 +2682,7 @@
     "path": "0-0-2-0-0",
     "screenId": "6P40rUBTu65pMBQToIXaN",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
