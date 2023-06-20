@@ -2357,7 +2357,7 @@
                             "tab": { "color": "#575A5C", "width": "20%" },
                             "selectedTab": {
                               "backgroundColor": "white",
-                              "color": "",
+                              "color": "#00bd5f",
                               "width": "20%"
                             },
                             "mainContainer": "tabLayout",
@@ -2834,7 +2834,7 @@
                               "xs": "12",
                               "x": "0",
                               "y": "0",
-                              "h": "12",
+                              "h": "6",
                               "w": "12"
                             },
                             "path": "0-0-2-0-1-0"
@@ -10197,9 +10197,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "BuRlJX7qhhSh3gJgLTQRb",
-    "createdBy": "telenor",
-    "updatedAt": "5/31/2023",
-    "createdAt": "5/31/2023",
+    "createdBy": "ajk",
+    "updatedAt": "6/20/2023",
+    "createdAt": "6/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12279,7 +12279,7 @@
         "tab": { "color": "#575A5C", "width": "20%" },
         "selectedTab": {
           "backgroundColor": "white",
-          "color": "",
+          "color": "#00bd5f",
           "width": "20%"
         },
         "mainContainer": "tabLayout",
@@ -12321,7 +12321,7 @@
             "x": 0,
             "y": 0,
             "w": 12,
-            "h": 12
+            "h": 6
           },
           "layoutProperties": {
             "lg": "12",
@@ -12330,7 +12330,7 @@
             "xs": "12",
             "x": "0",
             "y": "0",
-            "h": "12",
+            "h": "6",
             "w": "12"
           }
         }

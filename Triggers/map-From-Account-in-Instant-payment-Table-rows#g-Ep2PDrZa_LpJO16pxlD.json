@@ -1,8 +1,8 @@
 {
-  "id": "5lF9e3Cjsm6kCYj9mhdPa",
-  "_id": "63aada5321a0d87ea4cc01f4",
-  "name": "Add From account",
-  "old_name": "Add From account",
+  "id": "TATOrIQGEbe3M7XpVilDc",
+  "_id": "g-Ep2PDrZa_LpJO16pxlD",
+  "name": "map From Account in Instant payment Table rows",
+  "old_name": "map From Account in Instant payment Table rows",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
   "services": [
@@ -15,23 +15,19 @@
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "object",
-          "destinationBindingKey": "salaryPayments",
-          "sourceBindingKey": "salaryPayments",
+          "destinationBindingKey": "instantPayment",
+          "sourceBindingKey": "instantPayment",
           "sourceStoreType": 2,
           "destinationStoreType": 2,
           "filterList": [
-            { "key": "amount", "changeValueConditonally": false },
-            { "key": "bookingDate" },
-            { "key": "comments" },
-            { "key": "customerRef1" },
-            { "key": "customerRef2" },
-            { "key": "employeeId" },
-            { "key": "ibftBankImd" },
-            { "key": "id" },
-            { "key": "preferredPaymentMode" },
-            { "key": "purposeOfPayment" },
+            { "key": "toAccountName", "changeValueConditonally": false },
             { "key": "toAccountNo" },
             { "key": "type" },
+            { "key": "receiverMobile" },
+            { "key": "purposeOfPayment" },
+            { "key": "preferredPaymentMode" },
+            { "key": "preferredPaymentModeForm" },
+            { "key": "toAccountBankImd" },
             {
               "key": "fromAccountNo",
               "changeValueConditonally": true,
@@ -43,15 +39,18 @@
                 ]
               }
             },
-            { "key": "beneficiary", "changeValueConditonally": false }
+            { "key": "amount" },
+            { "key": "comments" },
+            { "key": "id", "changeValueConditonally": false },
+            { "key": "bankName", "changeValueConditonally": false }
           ],
           "targettedType": "array"
         }
       }
     }
   ],
-  "updatedAt": "6/16/2023",
-  "createdAt": "6/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "6/20/2023",
+  "createdAt": "6/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

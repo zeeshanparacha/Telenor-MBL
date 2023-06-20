@@ -1767,16 +1767,6 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Name",
-                                      "field": "name",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
                                       "headerName": "Employee ID",
                                       "field": "employeeId",
                                       "type": "text",
@@ -1787,18 +1777,8 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "FT Account No/IBAN",
-                                      "field": "ftAccountOrIban",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "IBFT Account No/IBAN",
-                                      "field": "ibftAccountOrIban",
+                                      "headerName": "Name",
+                                      "field": "name",
                                       "type": "text",
                                       "triggerId": null
                                     },
@@ -1819,6 +1799,48 @@
                                       },
                                       "headerName": "Preferred Payment Mode",
                                       "field": "preferredPaymentMode",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "cnic",
+                                      "headerName": "CNIC",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "accountMobileNumber",
+                                      "headerName": "Easypaisa Account Number",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "IBFT Account No/IBAN",
+                                      "field": "ibftAccountOrIban",
                                       "type": "text",
                                       "triggerId": null
                                     }
@@ -2448,8 +2470,8 @@
     "gitBranchName": "master",
     "_id": "IBQLhWAor47Q7L7N556LK",
     "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "updatedAt": "6/8/2023",
+    "createdAt": "6/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4034,13 +4056,6 @@
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Name",
-          "field": "name",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Employee ID",
           "field": "employeeId",
           "type": "text",
@@ -4048,15 +4063,8 @@
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "FT Account No/IBAN",
-          "field": "ftAccountOrIban",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "IBFT Account No/IBAN",
-          "field": "ibftAccountOrIban",
+          "headerName": "Name",
+          "field": "name",
           "type": "text",
           "triggerId": null
         },
@@ -4071,6 +4079,33 @@
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Preferred Payment Mode",
           "field": "preferredPaymentMode",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "cnic",
+          "headerName": "CNIC",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "accountMobileNumber",
+          "headerName": "Easypaisa Account Number",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "IBFT Account No/IBAN",
+          "field": "ibftAccountOrIban",
           "type": "text",
           "triggerId": null
         }

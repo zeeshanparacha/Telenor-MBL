@@ -1,0 +1,91 @@
+{
+  "_id": "7oWrCrkZFXcJ0RgQOZ14T",
+  "id": "4Lt6kMKEOOKa09f0-6NA4",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "chain trigger for update wallet pin",
+  "old_name": "chain trigger for update wallet pin",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "vrsIg3ivooYbuFvBqMf47",
+              "_id": "XCSciTzztHlmXAoHRIoRN",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "master",
+              "name": "wallet accounts update pin trigger",
+              "old_name": "wallet accounts update pin trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "updatePinResponse",
+                      "url": "/branchless-account/update-pin",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "branchlessAccountId",
+                          "value": "selectedAccountsResponse.id"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "newPin",
+                          "value": "walletPin"
+                        }
+                      ],
+                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": { "==": [{ "var": "status" }, 1] },
+                        "httpStatus": 200,
+                        "triggerName": "Open Success Modal",
+                        "triggerId": "ciCkbWjxsNUlCoImahdDT"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "updatedAt": "6/19/2023",
+              "createdAt": "6/19/2023",
+              "createdBy": "telenor",
+              "updatedBy": "telenor"
+            }
+          ],
+          "triggerIds": ["vrsIg3ivooYbuFvBqMf47"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/19/2023",
+  "createdAt": "6/19/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

@@ -74,7 +74,7 @@
                     {
                       "index": 0,
                       "id": "VUgtQaOqPULiGd8pVaj4G",
-                      "name": "Checking Account",
+                      "name": "Branchless Account",
                       "path": "0-0-1",
                       "dnd": {
                         "id": "VUgtQaOqPULiGd8pVaj4G",
@@ -249,15 +249,14 @@
                                         "createdAt": "24-Aug-2021",
                                         "events": [
                                           {
-                                            "triggerId": "8T00LLo0D1jwo5Gn34c4S",
-                                            "triggerName": "User Service - Get Account Summary",
+                                            "triggerId": "79vLc4u7Hglfi8qjddpUv",
+                                            "triggerName": "branchless account summary trigger",
                                             "serviceType": "8",
                                             "attributes": {
                                               "loaderWidgetIds": [906070],
                                               "messageWidgetIds": [906070],
-                                              "responseStateKey": "accountSummary",
-                                              "responseReturnValue": "content",
-                                              "url": "/account-statement/account-summary",
+                                              "responseStateKey": "response",
+                                              "url": "/branchless-account/summary",
                                               "checksum": true,
                                               "encryption": true,
                                               "isDeviceDetails": true,
@@ -271,15 +270,8 @@
                                                 "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                                 "locale": "en-ltr"
                                               },
-                                              "requestBody": [
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "userId",
-                                                  "value": "1"
-                                                }
-                                              ],
-                                              "baseURL": "631e018a967b3c4df8e29773",
+                                              "requestBody": [],
+                                              "baseURL": "631b0ff6d005932c10ce3bbe",
                                               "storeType": 2
                                             },
                                             "type": "1",
@@ -305,7 +297,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "8sPNREIqCC5oWG4nRV4Ww",
+                                            "id": "w4M0AWbVT1_FQofTmKnTR",
                                             "gridProps": [
                                               {
                                                 "id": "b8uQnUL9YG8mNvYMg_XcO",
@@ -328,7 +320,7 @@
                                                 "name": "Data table",
                                                 "type": "20014",
                                                 "attributes": {
-                                                  "responseStateKey": "accountSummary",
+                                                  "responseStateKey": "response",
                                                   "layoutProperties": {
                                                     "container": {
                                                       "//": "Use this class to style data table container."
@@ -422,14 +414,22 @@
                                                       "triggerId": null
                                                     },
                                                     {
+                                                      "type": "text",
                                                       "typeTemp": {
                                                         "name": "Text",
                                                         "type": "text"
                                                       },
+                                                      "field": "accountType",
                                                       "headerName": "Account Type Description",
-                                                      "field": "accountTypeDescription",
-                                                      "type": "text",
-                                                      "triggerId": null
+                                                      "conditional": {
+                                                        "bindingKey": ""
+                                                      },
+                                                      "values": [""],
+                                                      "cssConditional": {
+                                                        "bindingKey": "",
+                                                        "cssClassNames": []
+                                                      },
+                                                      "cssValues": [""]
                                                     }
                                                   ],
                                                   "rowDefinition": [],
@@ -583,8 +583,8 @@
     "gitBranchName": "master",
     "_id": "--hRUZITxefERcO74vnzx",
     "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "updatedAt": "6/20/2023",
+    "createdAt": "6/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -642,7 +642,7 @@
         {
           "index": 0,
           "id": "VUgtQaOqPULiGd8pVaj4G",
-          "name": "Checking Account",
+          "name": "Branchless Account",
           "path": "0-0-1",
           "dnd": {
             "id": "VUgtQaOqPULiGd8pVaj4G",
@@ -899,8 +899,8 @@
     "layout": null,
     "events": [
       {
-        "triggerId": "8T00LLo0D1jwo5Gn34c4S",
-        "triggerName": "User Service - Get Account Summary",
+        "triggerId": "79vLc4u7Hglfi8qjddpUv",
+        "triggerName": "branchless account summary trigger",
         "name": "On initialization",
         "type": "1"
       }
@@ -933,7 +933,7 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "accountSummary",
+      "responseStateKey": "response",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -1010,11 +1010,14 @@
           "triggerId": null
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Account Type Description",
-          "field": "accountTypeDescription",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "accountType",
+          "headerName": "Account Type Description",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         }
       ],
       "rowDefinition": [],

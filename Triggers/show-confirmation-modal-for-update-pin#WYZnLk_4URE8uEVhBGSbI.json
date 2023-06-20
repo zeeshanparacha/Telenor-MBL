@@ -1,0 +1,25 @@
+{
+  "id": "nan25YggYzZiHJGwD17_v",
+  "gitBranchName": "master",
+  "name": "show confirmation modal for update pin",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "DVRy2p-3e6nV94YJN5qND",
+          "content": "",
+          "type": "",
+          "modalId": "PagCWj60XBO-YfljW2p_f"
+        }
+      }
+    }
+  ],
+  "_id": "WYZnLk_4URE8uEVhBGSbI",
+  "updatedAt": "6/16/2023",
+  "createdAt": "6/16/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

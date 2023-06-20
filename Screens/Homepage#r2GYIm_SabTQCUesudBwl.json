@@ -40,7 +40,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "PturUSgRYn1IttsI6QkVL",
+            "id": "XCCVv9g-Nd9rFtdxJUJEh",
             "gridProps": [
               {
                 "type": "10001",
@@ -472,7 +472,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "cTYQFPE2lF9KOyvA2SZYA",
+                                    "id": "JTQhd1EsPI7L-P4aP9QFL",
                                     "gridProps": [
                                       {
                                         "id": "ZJkylVpumCvmqyCCawW0o",
@@ -555,8 +555,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-1-0-4-0-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -583,7 +582,8 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout"
+                                  "name": "Grid layout",
+                                  "hideComponent": true
                                 },
                                 "events": [],
                                 "component": {
@@ -1151,7 +1151,8 @@
           "colSize0sm": 12,
           "colSize0md": 12,
           "colSize0lg": 12,
-          "colSize0xl": 12
+          "colSize0xl": 12,
+          "layoutProperties": null
         },
         "readOnly": true
       },
@@ -1195,7 +1196,7 @@
             },
             "mainContainer": "sideBarMainContainer",
             "selectedMenuStyle": {
-              "background": "#18A9F8 0% 0% no-repeat padding-box",
+              "background": "#00bd5f 0% 0% no-repeat padding-box",
               "color": "#FFFFFF"
             },
             "sidebarScrollbarStyle": {
@@ -1251,7 +1252,9 @@
             "1044": "DTduOZRqks5R0jJPnUtna",
             "1049": "7_2fDxRNGfIbKeo1132ab",
             "1050": "fsZCk9fYfn5H0QdimMWCa",
-            "1051": "ZYfCK6ZcYsZwdCa19LxO4"
+            "1051": "ZYfCK6ZcYsZwdCa19LxO4",
+            "1052": "TRIyQry28tayOWMoLAWN4",
+            "1054": "StzrMrcc76zEBIMbBECVp"
           },
           "permissionsTemp": [
             {
@@ -1492,6 +1495,20 @@
                 "id": "fsZCk9fYfn5H0QdimMWCa",
                 "name": "View TDR List Screen"
               }
+            },
+            {
+              "permission": "1052",
+              "screen": {
+                "id": "TRIyQry28tayOWMoLAWN4",
+                "name": "wallet pin screen"
+              }
+            },
+            {
+              "permission": "1054",
+              "screen": {
+                "id": "StzrMrcc76zEBIMbBECVp",
+                "name": "Instant Payments Screen"
+              }
             }
           ]
         },
@@ -1637,9 +1654,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "6/20/2023",
+    "createdAt": "6/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2184,7 +2201,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],
@@ -2489,7 +2507,7 @@
         },
         "mainContainer": "sideBarMainContainer",
         "selectedMenuStyle": {
-          "background": "#18A9F8 0% 0% no-repeat padding-box",
+          "background": "#00bd5f 0% 0% no-repeat padding-box",
           "color": "#FFFFFF"
         },
         "sidebarScrollbarStyle": {
@@ -2545,7 +2563,9 @@
         "1044": "DTduOZRqks5R0jJPnUtna",
         "1049": "7_2fDxRNGfIbKeo1132ab",
         "1050": "fsZCk9fYfn5H0QdimMWCa",
-        "1051": "ZYfCK6ZcYsZwdCa19LxO4"
+        "1051": "ZYfCK6ZcYsZwdCa19LxO4",
+        "1052": "TRIyQry28tayOWMoLAWN4",
+        "1054": "StzrMrcc76zEBIMbBECVp"
       },
       "permissionsTemp": [
         {
@@ -2770,6 +2790,20 @@
           "screen": {
             "id": "fsZCk9fYfn5H0QdimMWCa",
             "name": "View TDR List Screen"
+          }
+        },
+        {
+          "permission": "1052",
+          "screen": {
+            "id": "TRIyQry28tayOWMoLAWN4",
+            "name": "wallet pin screen"
+          }
+        },
+        {
+          "permission": "1054",
+          "screen": {
+            "id": "StzrMrcc76zEBIMbBECVp",
+            "name": "Instant Payments Screen"
           }
         }
       ],

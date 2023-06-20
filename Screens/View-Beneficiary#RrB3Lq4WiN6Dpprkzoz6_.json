@@ -465,199 +465,11 @@
                                                         "path": "0-0-1-0-0-0-0-0-1-0-0-0-0"
                                                       },
                                                       {
-                                                        "type": "10001",
+                                                        "id": "HIUdNIwafWvjy23BLh1ww",
+                                                        "status": "ACTIVE",
+                                                        "_id": "610134a1d1f5e860b1e8c751",
                                                         "name": "Grid layout",
-                                                        "id": "L5ULNZczNfKXjYm4YPYTs",
-                                                        "gridProps": [
-                                                          {
-                                                            "type": "column",
-                                                            "id": "mNYgx_bIjHogwNGTNHm1E",
-                                                            "gridProps": [
-                                                              {
-                                                                "id": "8QtonxPpL5FsrW2ccnX5f",
-                                                                "status": "ACTIVE",
-                                                                "name": "Data table",
-                                                                "type": "20014",
-                                                                "attributes": {
-                                                                  "responseStateKey": "accounts.page",
-                                                                  "layoutProperties": {
-                                                                    "container": {
-                                                                      "//": "Use this class to style data table container."
-                                                                    },
-                                                                    "rowStyle": {
-                                                                      "//": "Use this class to style data table rows.",
-                                                                      "color": "black",
-                                                                      "background-color": "white",
-                                                                      "text-align": "left"
-                                                                    },
-                                                                    "defaultColDefinition": {
-                                                                      "//": "Use this class to define column definition of data table.",
-                                                                      "sortable": true,
-                                                                      "animateRows": false,
-                                                                      "resizable": true,
-                                                                      "enableValue": false,
-                                                                      "enableRowGroup": false,
-                                                                      "enablePivot": false,
-                                                                      "filter": true,
-                                                                      "type": "leftAligned",
-                                                                      "minWidth": 10,
-                                                                      "domLayout": "autoHeight"
-                                                                    },
-                                                                    "mainContainer": "container",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12,
-                                                                    "headerStyles": {
-                                                                      "background-color": "#00bd5f",
-                                                                      "color": "#FFFFFF",
-                                                                      "font-size": "undefinedpx"
-                                                                    },
-                                                                    "rowsEven": {
-                                                                      "background": "#FAFAFA "
-                                                                    },
-                                                                    "rowsOdd": {
-                                                                      "background": "#3030300C"
-                                                                    }
-                                                                  },
-                                                                  "defaultColDef": {
-                                                                    "sortable": true,
-                                                                    "animateRows": false,
-                                                                    "resizable": false,
-                                                                    "enableValue": false,
-                                                                    "enableRowGroup": false,
-                                                                    "enablePivot": false,
-                                                                    "filter": true,
-                                                                    "type": "leftAligned",
-                                                                    "minWidth": 30,
-                                                                    "domLayout": "autoHeight"
-                                                                  },
-                                                                  "rowStyle": {
-                                                                    "color": "black",
-                                                                    "background-color": "white",
-                                                                    "text-align": "left"
-                                                                  },
-                                                                  "columnDefinition": [
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Bene Ref No/Employee Id",
-                                                                      "field": "employeeId",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Beneficiary Name",
-                                                                      "field": "beneficiaryName",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Account Number",
-                                                                      "field": "accountNumber",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Beneficiary Title",
-                                                                      "field": "beneTitle",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Bank Name",
-                                                                      "field": "bankName",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Created By",
-                                                                      "field": "createdBy",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    },
-                                                                    {
-                                                                      "typeTemp": {
-                                                                        "name": "Text",
-                                                                        "type": "text"
-                                                                      },
-                                                                      "headerName": "Created On",
-                                                                      "field": "createdOn",
-                                                                      "type": "text",
-                                                                      "triggerId": null
-                                                                    }
-                                                                  ],
-                                                                  "rowDefinition": [],
-                                                                  "debug": false,
-                                                                  "pagination": true,
-                                                                  "paginationPageSize": "5",
-                                                                  "suppressCsvExport": true,
-                                                                  "suppressExcelExport": true,
-                                                                  "name": "Data Grid",
-                                                                  "storeType": 2,
-                                                                  "serverSidePagination": true,
-                                                                  "paginationTrigger": "6eeP4-bTakDsclJlwyl_2",
-                                                                  "responseTotalRowsKey": "accounts.totalRows",
-                                                                  "totalRowsBindingKey": "accounts.page",
-                                                                  "suppressCsvBtnTxt": "Generate Report",
-                                                                  "csvFileName": "Beneficiary Report"
-                                                                },
-                                                                "icon": "FaTable",
-                                                                "group": "Advanced",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 12,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Data table",
-                                                                  "type": "20014"
-                                                                },
-                                                                "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0-0"
-                                                              }
-                                                            ],
-                                                            "layoutProperties": {
-                                                              "xl": 12,
-                                                              "lg": 12,
-                                                              "md": 12,
-                                                              "sm": 12,
-                                                              "xs": 12
-                                                            },
-                                                            "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0"
-                                                          }
-                                                        ],
-                                                        "allowedContainers": [
-                                                          "10001",
-                                                          "20030",
-                                                          "noLayout",
-                                                          "20010",
-                                                          "widget"
-                                                        ],
+                                                        "icon": "FaGripHorizontal",
                                                         "attributes": {
                                                           "gridProps": [],
                                                           "label": "Header",
@@ -675,14 +487,123 @@
                                                             "alignItems": "flex-start"
                                                           },
                                                           "direction": "row",
-                                                          "name": "Grid layout"
+                                                          "name": "Card Textfield"
                                                         },
+                                                        "group": "Layout",
+                                                        "type": "10001",
+                                                        "updatedAt": "23-Sep-2021",
+                                                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                                                        "createdAt": "24-Aug-2021",
                                                         "events": [],
+                                                        "order": 1,
+                                                        "version": "1.0.0",
+                                                        "isLatest": true,
+                                                        "projectType": "web",
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
                                                         "component": {
-                                                          "type": "10001",
-                                                          "content": "Grid layout"
+                                                          "content": "Grid layout",
+                                                          "type": "10001"
                                                         },
-                                                        "path": "0-0-1-0-0-0-0-0-1-0-0-0-1"
+                                                        "path": "1",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "k5tQUIUh-sUe7md9LtHAb",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "egCRYRRBjOQZAYJ5ZyNWu",
+                                                                "status": "ACTIVE",
+                                                                "name": "Text Box",
+                                                                "attributes": {
+                                                                  "label": "",
+                                                                  "name": "Text box",
+                                                                  "label-locale-key": "",
+                                                                  "maxLength": 20,
+                                                                  "type": "text",
+                                                                  "variant": "standard",
+                                                                  "value": "",
+                                                                  "readOnly": false,
+                                                                  "tooltip": "",
+                                                                  "font-family": "Verdana",
+                                                                  "mandatory": true,
+                                                                  "tooltipState": "",
+                                                                  "layoutProperties": {
+                                                                    "textField": {
+                                                                      "//": "Use this class to style text field component."
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
+                                                                    },
+                                                                    "mainContainer": "textField",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "validate": {
+                                                                    "required": false,
+                                                                    "errorMsg": "This field is required"
+                                                                  },
+                                                                  "placeholder": "",
+                                                                  "disableUnderline": true,
+                                                                  "cssClassNames": [
+                                                                    {
+                                                                      "cssClassName": "emptyTextField"
+                                                                    }
+                                                                  ],
+                                                                  "stateName": "beneId"
+                                                                },
+                                                                "icon": "FaWindowMinimize",
+                                                                "group": "Form",
+                                                                "type": "20004",
+                                                                "Documentation": "<div>components 12344</div>",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 20,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Text Box",
+                                                                  "type": "20004"
+                                                                },
+                                                                "events": [],
+                                                                "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
+                                                          }
+                                                        ],
+                                                        "layoutProperties": {
+                                                          "lg": 12,
+                                                          "md": 12,
+                                                          "sm": 12,
+                                                          "xs": 12
+                                                        },
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -2510,7 +2431,7 @@
                             "sm": 12,
                             "xs": 12,
                             "headerStyles": {
-                              "background-color": "#18A9F8",
+                              "background-color": "#00bd5f",
                               "color": "#FFFFFF",
                               "font-size": "undefinedpx"
                             },
@@ -2583,13 +2504,33 @@
                               "field": "createdOn",
                               "type": "text",
                               "triggerId": null
+                            },
+                            {
+                              "type": "text",
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "mobileAccountNumber",
+                              "headerName": "Mobile Account Number",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "CNIC",
+                              "field": "cnic",
+                              "type": "text",
+                              "triggerId": null
                             }
                           ],
                           "rowDefinition": [],
                           "debug": false,
                           "pagination": true,
                           "paginationPageSize": "5",
-                          "suppressCsvExport": true,
+                          "suppressCsvExport": false,
                           "suppressExcelExport": true,
                           "name": "Data Grid",
                           "storeType": 2,
@@ -2729,8 +2670,8 @@
     "gitBranchName": "master",
     "_id": "RrB3Lq4WiN6Dpprkzoz6_",
     "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "updatedAt": "6/8/2023",
+    "createdAt": "6/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3349,11 +3290,11 @@
           }
         },
         {
-          "componentId": "L5ULNZczNfKXjYm4YPYTs",
+          "componentId": "HIUdNIwafWvjy23BLh1ww",
           "componentType": "10001",
-          "id": "L5ULNZczNfKXjYm4YPYTs",
+          "id": "HIUdNIwafWvjy23BLh1ww",
           "position": {
-            "i": "L5ULNZczNfKXjYm4YPYTs",
+            "i": "HIUdNIwafWvjy23BLh1ww",
             "x": null,
             "y": null,
             "w": null,
@@ -3481,7 +3422,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "L5ULNZczNfKXjYm4YPYTs",
+    "id": "HIUdNIwafWvjy23BLh1ww",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -3494,8 +3435,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "8QtonxPpL5FsrW2ccnX5f",
-          "componentType": "20014",
+          "componentId": "egCRYRRBjOQZAYJ5ZyNWu",
+          "componentType": "20004",
           "order": 1
         }
       ],
@@ -3514,7 +3455,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Card Textfield"
     },
     "layout": null,
     "events": [],
@@ -3526,141 +3467,54 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "8QtonxPpL5FsrW2ccnX5f",
+    "id": "egCRYRRBjOQZAYJ5ZyNWu",
     "status": "ACTIVE",
-    "name": "Data table",
-    "type": "20014",
+    "name": "Text Box",
     "attributes": {
-      "responseStateKey": "accounts.page",
+      "label": "",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
       "layoutProperties": {
-        "container": { "//": "Use this class to style data table container." },
-        "rowStyle": {
-          "//": "Use this class to style data table rows.",
-          "color": "black",
-          "background-color": "white",
-          "text-align": "left"
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
         },
-        "defaultColDefinition": {
-          "//": "Use this class to define column definition of data table.",
-          "sortable": true,
-          "animateRows": false,
-          "resizable": true,
-          "enableValue": false,
-          "enableRowGroup": false,
-          "enablePivot": false,
-          "filter": true,
-          "type": "leftAligned",
-          "minWidth": 10,
-          "domLayout": "autoHeight"
-        },
-        "mainContainer": "container",
+        "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
         "md": 12,
         "sm": 12,
-        "xs": 12,
-        "headerStyles": {
-          "background-color": "#18A9F8",
-          "color": "#FFFFFF",
-          "font-size": "undefinedpx"
-        },
-        "rowsEven": { "background": "#FAFAFA " },
-        "rowsOdd": { "background": "#3030300C" }
+        "xs": 12
       },
-      "defaultColDef": {
-        "sortable": true,
-        "animateRows": false,
-        "resizable": false,
-        "enableValue": false,
-        "enableRowGroup": false,
-        "enablePivot": false,
-        "filter": true,
-        "type": "leftAligned",
-        "minWidth": 30,
-        "domLayout": "autoHeight"
-      },
-      "rowStyle": {
-        "color": "black",
-        "background-color": "white",
-        "text-align": "left"
-      },
-      "columnDefinition": [
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Bene Ref No/Employee Id",
-          "field": "employeeId",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Beneficiary Name",
-          "field": "beneficiaryName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Account Number",
-          "field": "accountNumber",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Beneficiary Title",
-          "field": "beneTitle",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Bank Name",
-          "field": "bankName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Created By",
-          "field": "createdBy",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Created On",
-          "field": "createdOn",
-          "type": "text",
-          "triggerId": null
-        }
-      ],
-      "rowDefinition": [],
-      "debug": false,
-      "pagination": true,
-      "paginationPageSize": "5",
-      "suppressCsvExport": true,
-      "suppressExcelExport": true,
-      "name": "Data Grid",
-      "storeType": 2,
-      "serverSidePagination": true,
-      "paginationTrigger": "6eeP4-bTakDsclJlwyl_2",
-      "responseTotalRowsKey": "accounts.totalRows",
-      "totalRowsBindingKey": "accounts.page",
-      "suppressCsvBtnTxt": "Generate Report",
-      "csvFileName": "Beneficiary Report"
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "disableUnderline": true,
+      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "stateName": "beneId"
     },
-    "icon": "FaTable",
-    "group": "Advanced",
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
-    "order": 12,
+    "order": 20,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Data table", "type": "20014" },
+    "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-3-0-0",
+    "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -4816,6 +4670,165 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "8QtonxPpL5FsrW2ccnX5f",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "accounts.page",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": {
+          "background-color": "#00bd5f",
+          "color": "#FFFFFF",
+          "font-size": "undefinedpx"
+        },
+        "rowsEven": { "background": "#FAFAFA " },
+        "rowsOdd": { "background": "#3030300C" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Bene Ref No/Employee Id",
+          "field": "employeeId",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Beneficiary Name",
+          "field": "beneficiaryName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Account Number",
+          "field": "accountNumber",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Beneficiary Title",
+          "field": "beneTitle",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Bank Name",
+          "field": "bankName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Created By",
+          "field": "createdBy",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Created On",
+          "field": "createdOn",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "mobileAccountNumber",
+          "headerName": "Mobile Account Number",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "CNIC",
+          "field": "cnic",
+          "type": "text",
+          "triggerId": null
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": "5",
+      "suppressCsvExport": false,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2,
+      "serverSidePagination": true,
+      "paginationTrigger": "6eeP4-bTakDsclJlwyl_2",
+      "responseTotalRowsKey": "accounts.totalRows",
+      "totalRowsBindingKey": "accounts.page",
+      "suppressCsvBtnTxt": "Generate Report",
+      "csvFileName": "Beneficiary Report"
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-3-0-0",
+    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }

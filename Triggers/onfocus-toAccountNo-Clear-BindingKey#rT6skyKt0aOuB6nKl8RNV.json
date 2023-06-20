@@ -1,0 +1,26 @@
+{
+  "id": "1yAwCWLc7IrO0LUwJZjMO",
+  "name": "onfocus toAccountNo Clear BindingKey",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "toAccountNo",
+          "storeType": 1,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "rT6skyKt0aOuB6nKl8RNV",
+  "updatedAt": "6/20/2023",
+  "createdAt": "6/20/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

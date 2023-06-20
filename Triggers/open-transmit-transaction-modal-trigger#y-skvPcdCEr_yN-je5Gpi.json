@@ -1,10 +1,8 @@
 {
-  "id": "aKdvw_OkEoWf1si_-i1yz",
-  "_id": "6315acbe962d355a44179fe5",
+  "id": "l72YkJBRzBI04dX5XHE9w",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
-  "name": "Get Accounts",
-  "old_name": "Get Accounts",
+  "name": "open transmit transaction modal trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +12,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "accounts123",
-          "responseReturnValue": "data.accounts",
-          "url": "/branchless-account/list",
+          "responseStateKey": "response",
+          "url": "/salary-payment/send-otp-transmit",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -31,15 +28,16 @@
             "locale": "en-ltr"
           },
           "requestBody": [],
-          "baseURL": "631e018a967b3c4df8e29773",
+          "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
         "responseHandler": []
       }
     }
   ],
-  "updatedAt": "6/16/2023",
-  "createdAt": "6/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "_id": "y-skvPcdCEr_yN-je5Gpi",
+  "updatedAt": "6/20/2023",
+  "createdAt": "6/20/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
 }

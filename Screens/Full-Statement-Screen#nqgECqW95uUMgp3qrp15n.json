@@ -491,10 +491,10 @@
                                                                 "createdAt": "23-Aug-2021",
                                                                 "attributes": {
                                                                   "name": "Drop down",
-                                                                  "stateName": "account",
+                                                                  "stateName": "branchless",
                                                                   "allValues": true,
-                                                                  "dataSource": "accounts123",
-                                                                  "dataKey": "accountNumber",
+                                                                  "dataSource": "branchlessResponse",
+                                                                  "dataKey": "id",
                                                                   "dataValue": "accountTitle",
                                                                   "mandatory": true,
                                                                   "validate": {
@@ -541,8 +541,8 @@
                                                                 "type": "20003",
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "aKdvw_OkEoWf1si_-i1yz",
-                                                                    "triggerName": "Get Accounts",
+                                                                    "triggerId": "nNdX6iTjSLkxuarblLHft",
+                                                                    "triggerName": "get branchless account list for full statement trigger",
                                                                     "serviceType": "8",
                                                                     "attributes": {
                                                                       "loaderWidgetIds": [
@@ -551,8 +551,9 @@
                                                                       "messageWidgetIds": [
                                                                         906070
                                                                       ],
-                                                                      "responseStateKey": "accounts",
-                                                                      "url": "/corporate-account/company-from-accounts",
+                                                                      "responseStateKey": "branchlessResponse",
+                                                                      "responseReturnValue": "branchlessAccountResponse",
+                                                                      "url": "/branchless-account/list",
                                                                       "checksum": true,
                                                                       "encryption": true,
                                                                       "isDeviceDetails": true,
@@ -567,7 +568,7 @@
                                                                         "locale": "en-ltr"
                                                                       },
                                                                       "requestBody": [],
-                                                                      "baseURL": "631e018a967b3c4df8e29773",
+                                                                      "baseURL": "631b0ff6d005932c10ce3bbe",
                                                                       "storeType": 2
                                                                     },
                                                                     "type": "1",
@@ -911,7 +912,7 @@
                                                                       "cssClassName": "emptyTextField"
                                                                     }
                                                                   ],
-                                                                  "stateName": "account.accountNumber",
+                                                                  "stateName": "branchless.accountMobile",
                                                                   "disableCondition": {
                                                                     "logic": {
                                                                       "==": [
@@ -1402,7 +1403,7 @@
                                                   "name": "L_Month_Radio",
                                                   "searchInState": false,
                                                   "stateName": "radiokey",
-                                                  "value": "01"
+                                                  "value": "30"
                                                 },
                                                 "events": [],
                                                 "path": "0-0-1-0-0-0-0-0-2-0-0",
@@ -1460,7 +1461,7 @@
                                                   "name": "L_3_Month_Radio",
                                                   "searchInState": false,
                                                   "stateName": "radiokey",
-                                                  "value": "03"
+                                                  "value": "90"
                                                 },
                                                 "events": [],
                                                 "path": "0-0-1-0-0-0-0-0-2-1-0",
@@ -1518,7 +1519,7 @@
                                                   "name": "L_6_month_Radio",
                                                   "searchInState": false,
                                                   "stateName": "radiokey",
-                                                  "value": "06"
+                                                  "value": "180"
                                                 },
                                                 "events": [],
                                                 "path": "0-0-1-0-0-0-0-0-2-2-0",
@@ -1880,7 +1881,7 @@
                                                                           "name": "Calendar",
                                                                           "label": "",
                                                                           "stateName": "fromDate",
-                                                                          "format": "yyyy-MM-dd",
+                                                                          "format": "dd-MM-yyyy",
                                                                           "variant": "standard",
                                                                           "validate": {
                                                                             "required": false,
@@ -2168,7 +2169,7 @@
                                                                           "name": "Calendar",
                                                                           "label": "",
                                                                           "stateName": "toDate",
-                                                                          "format": "yyyy-MM-dd",
+                                                                          "format": "dd-MM-yyyy",
                                                                           "variant": "standard",
                                                                           "validate": {
                                                                             "required": false,
@@ -3819,7 +3820,7 @@
                                 "name": "Data table",
                                 "type": "20014",
                                 "attributes": {
-                                  "responseStateKey": "fullStatement2",
+                                  "responseStateKey": "fullStatement",
                                   "layoutProperties": {
                                     "container": {
                                       "//": "Use this class to style data table container."
@@ -3873,63 +3874,139 @@
                                   },
                                   "columnDefinition": [
                                     {
+                                      "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Transaction Date",
-                                      "field": "trasnaction_date",
-                                      "type": "text",
-                                      "triggerId": null
+                                      "field": "trxDateTime",
+                                      "headerName": "Transaction Date/Time",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": []
                                     },
                                     {
+                                      "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Transaction ID",
-                                      "field": "txn_ID",
-                                      "type": "text",
-                                      "triggerId": null
+                                      "field": "trxType",
+                                      "headerName": "Transaction Type",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
                                     },
                                     {
+                                      "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Type/Description",
-                                      "field": "narration_1",
-                                      "type": "text",
-                                      "triggerId": null
+                                      "field": "from",
+                                      "headerName": "From",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
                                     },
                                     {
+                                      "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Debit/Credit",
-                                      "field": "Dr/Cr",
-                                      "type": "text",
-                                      "triggerId": null
+                                      "field": "to",
+                                      "headerName": "TO",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
                                     },
                                     {
                                       "typeTemp": {
                                         "name": "Number",
                                         "type": "number"
                                       },
+                                      "headerName": "Fee",
+                                      "field": "fee",
+                                      "type": "number",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "amount",
                                       "headerName": "Amount",
-                                      "field": "Amount",
-                                      "type": "number",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "fromName",
+                                      "headerName": "From Name",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "TO Name",
+                                      "field": "toName",
+                                      "type": "text",
                                       "triggerId": null
                                     },
                                     {
                                       "typeTemp": {
-                                        "name": "Number",
-                                        "type": "number"
+                                        "name": "Text",
+                                        "type": "text"
                                       },
-                                      "headerName": "Remaining Balance",
-                                      "field": "Remaining_Balance",
-                                      "type": "number",
+                                      "headerName": "Receiver",
+                                      "field": "receiver",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Channel",
+                                      "field": "channel",
+                                      "type": "text",
                                       "triggerId": null
                                     }
                                   ],
@@ -4039,8 +4116,8 @@
     "gitBranchName": "master",
     "_id": "nqgECqW95uUMgp3qrp15n",
     "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "updatedAt": "6/20/2023",
+    "createdAt": "6/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4813,10 +4890,10 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "account",
+      "stateName": "branchless",
       "allValues": true,
-      "dataSource": "accounts123",
-      "dataKey": "accountNumber",
+      "dataSource": "branchlessResponse",
+      "dataKey": "id",
       "dataValue": "accountTitle",
       "mandatory": true,
       "validate": { "required": true, "errorMsg": "This Field is Required" },
@@ -4856,8 +4933,8 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "aKdvw_OkEoWf1si_-i1yz",
-        "triggerName": "Get Accounts",
+        "triggerId": "nNdX6iTjSLkxuarblLHft",
+        "triggerName": "get branchless account list for full statement trigger",
         "name": "On initialization",
         "type": "1",
         "serviceType": "8"
@@ -5112,7 +5189,7 @@
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "account.accountNumber",
+      "stateName": "branchless.accountMobile",
       "disableCondition": { "logic": { "==": [true, true] } }
     },
     "icon": "FaWindowMinimize",
@@ -5489,7 +5566,7 @@
       "name": "L_Month_Radio",
       "searchInState": false,
       "stateName": "radiokey",
-      "value": "01"
+      "value": "30"
     },
     "events": [],
     "path": "0-0-1-0-0-0-0-0-2-0-0",
@@ -5530,7 +5607,7 @@
       "name": "L_3_Month_Radio",
       "searchInState": false,
       "stateName": "radiokey",
-      "value": "03"
+      "value": "90"
     },
     "events": [],
     "path": "0-0-1-0-0-0-0-0-2-1-0",
@@ -5571,7 +5648,7 @@
       "name": "L_6_month_Radio",
       "searchInState": false,
       "stateName": "radiokey",
-      "value": "06"
+      "value": "180"
     },
     "events": [],
     "path": "0-0-1-0-0-0-0-0-2-2-0",
@@ -6019,7 +6096,7 @@
       "name": "Calendar",
       "label": "",
       "stateName": "fromDate",
-      "format": "yyyy-MM-dd",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -6268,7 +6345,7 @@
       "name": "Calendar",
       "label": "",
       "stateName": "toDate",
-      "format": "yyyy-MM-dd",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -7249,7 +7326,7 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "fullStatement2",
+      "responseStateKey": "fullStatement",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -7298,45 +7375,91 @@
       },
       "columnDefinition": [
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Transaction Date",
-          "field": "trasnaction_date",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "trxDateTime",
+          "headerName": "Transaction Date/Time",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Transaction ID",
-          "field": "txn_ID",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "trxType",
+          "headerName": "Transaction Type",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Type/Description",
-          "field": "narration_1",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "from",
+          "headerName": "From",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Debit/Credit",
-          "field": "Dr/Cr",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "to",
+          "headerName": "TO",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Number", "type": "number" },
+          "headerName": "Fee",
+          "field": "fee",
+          "type": "number",
+          "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "amount",
           "headerName": "Amount",
-          "field": "Amount",
-          "type": "number",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "fromName",
+          "headerName": "From Name",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "TO Name",
+          "field": "toName",
+          "type": "text",
           "triggerId": null
         },
         {
-          "typeTemp": { "name": "Number", "type": "number" },
-          "headerName": "Remaining Balance",
-          "field": "Remaining_Balance",
-          "type": "number",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Receiver",
+          "field": "receiver",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Channel",
+          "field": "channel",
+          "type": "text",
           "triggerId": null
         }
       ],

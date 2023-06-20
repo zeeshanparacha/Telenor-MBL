@@ -1,10 +1,10 @@
 {
-  "id": "2DUfX-d6sXYBax5jfTkhy",
-  "_id": "63244964025fdb65c86b3c3b",
+  "id": "vrsIg3ivooYbuFvBqMf47",
+  "_id": "XCSciTzztHlmXAoHRIoRN",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
-  "name": "account full statement api",
-  "old_name": "account full statement api",
+  "name": "wallet accounts update pin trigger",
+  "old_name": "wallet accounts update pin trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "fullStatement",
-          "responseReturnValue": "data.records",
-          "url": "/branchless-account/statement",
+          "responseStateKey": "response",
+          "url": "/branchless-account/update-pin",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -34,29 +33,27 @@
             {
               "type": 1,
               "name": "Form",
-              "key": "fromDate",
-              "value": "fromDate"
+              "key": "branchlessAccountId",
+              "value": "selectedAccountsResponse.id"
             },
-            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "accountId",
-              "value": "branchless.id"
-            },
-            { "type": 1, "name": "Form", "key": "days", "value": "radiokey" },
-            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
-            { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" }
+            { "type": 1, "name": "Form", "key": "newPin", "value": "walletPin" }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          }
+        ]
       }
     }
   ],
-  "updatedAt": "6/20/2023",
-  "createdAt": "6/20/2023",
+  "updatedAt": "6/19/2023",
+  "createdAt": "6/19/2023",
   "createdBy": "telenor",
   "updatedBy": "telenor"
 }

@@ -1,10 +1,10 @@
 {
-  "id": "aKdvw_OkEoWf1si_-i1yz",
-  "_id": "6315acbe962d355a44179fe5",
+  "id": "7FBKm3V_o6xTw7naaoluv",
+  "_id": "WJAb0vVh-MB5THQ0JL2l4",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
-  "name": "Get Accounts",
-  "old_name": "Get Accounts",
+  "name": "get wireless account list trigger",
+  "old_name": "get wireless account list trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "accounts123",
+          "responseStateKey": "accountsResponse",
           "responseReturnValue": "data.accounts",
           "url": "/branchless-account/list",
           "checksum": true,
@@ -31,7 +31,7 @@
             "locale": "en-ltr"
           },
           "requestBody": [],
-          "baseURL": "631e018a967b3c4df8e29773",
+          "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
         "responseHandler": []
@@ -40,6 +40,6 @@
   ],
   "updatedAt": "6/16/2023",
   "createdAt": "6/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
 }

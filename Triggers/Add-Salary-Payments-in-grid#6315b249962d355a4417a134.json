@@ -1,1 +1,111 @@
-{"createdBy":"talib","updatedBy":"ahmarnew","_id":"6315b249962d355a4417a134","id":"HAfaNSDuIp_PxWadJqMlW","name":"Add Salary Payments in grid","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","services":[{"_id":"63a86e2b21a0d87ea4c9c8cf","type":"11","command":{"responseHandler":[],"returns":[],"_id":"63a86e2b21a0d87ea4c9c8d0","attributes":{"stateName":"salaryPayments","requestBody":[{"type":1,"name":"Form","key":"amount","value":"amount"},{"type":1,"name":"Form","key":"comments","value":"comments"},{"type":1,"name":"Form","key":"bookingDate","value":"bookingDate"},{"type":1,"name":"Form","key":"fromAccountNo","value":"fromAccountIBAN.accountNumber"},{"type":1,"name":"Form","key":"customerRef1","value":"customerRef1"},{"type":1,"name":"Form","key":"customerRef2","value":"customerRef2"},{"type":1,"name":"Form","key":"ibftBankImd","value":"beneficiary.ibftBankImd"},{"type":1,"name":"Form","key":"employeeId","value":"beneficiary.employeeId"},{"type":1,"name":"Form","key":"toAccountNo","value":"beneficiary.ftAccountNumber"},{"type":1,"name":"Form","key":"fromAccountIBAN","value":"fromAccountIBAN"},{"type":1,"name":"Form","key":"preferredPaymentMode","value":"beneficiary.preferredPaymentMode"},{"type":1,"name":"Form","key":"purposeOfPayment","value":"purposeOfPayment.name"},{"type":1,"name":"Form","key":"toAccountNo","value":"beneficiary.ibftAccountNumber"},{"type":1,"name":"Form","key":"beneficiary","value":"beneficiary"}],"selectedObjectBindingKey":"selectedObject"},"type":"1"}}],"createdAt":"05-Sep-2022","updatedAt":"25-Dec-2022","__v":28}
+{
+  "id": "HAfaNSDuIp_PxWadJqMlW",
+  "_id": "6315b249962d355a4417a134",
+  "name": "Add Salary Payments in grid",
+  "old_name": "Add Salary Payments in grid",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "salaryPayments",
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "amount", "value": "amount" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "comments",
+              "value": "comments"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "bookingDate",
+              "value": "bookingDate"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountNo",
+              "value": "fromAccountIBAN.accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerRef1",
+              "value": "customerRef1"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerRef2",
+              "value": "customerRef2"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "ibftBankImd",
+              "value": "beneficiary.ibftBankImd"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "employeeId",
+              "value": "beneficiary.employeeId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromAccountIBAN",
+              "value": "fromAccountIBAN"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "preferredPaymentMode",
+              "value": "beneficiary.preferredPaymentMode"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "purposeOfPayment",
+              "value": "purposeOfPayment.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toAccountNo",
+              "value": "beneficiary.cnic"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toAccountNo",
+              "value": "beneficiary.mobileAccountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "toAccountNo",
+              "value": "beneficiary.ibftAccountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiary",
+              "value": "beneficiary"
+            }
+          ],
+          "selectedObjectBindingKey": "selectedObject"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/16/2023",
+  "createdAt": "6/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

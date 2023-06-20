@@ -1,10 +1,10 @@
 {
-  "id": "aKdvw_OkEoWf1si_-i1yz",
-  "_id": "6315acbe962d355a44179fe5",
+  "id": "79vLc4u7Hglfi8qjddpUv",
+  "_id": "HvTALM7uiNh6WSKWS2VZE",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
-  "name": "Get Accounts",
-  "old_name": "Get Accounts",
+  "name": "branchless account summary trigger",
+  "old_name": "branchless account summary trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,9 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "accounts123",
-          "responseReturnValue": "data.accounts",
-          "url": "/branchless-account/list",
+          "responseStateKey": "response",
+          "responseReturnValue": "data.summaries",
+          "url": "/branchless-account/summary",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -31,15 +31,15 @@
             "locale": "en-ltr"
           },
           "requestBody": [],
-          "baseURL": "631e018a967b3c4df8e29773",
+          "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
         "responseHandler": []
       }
     }
   ],
-  "updatedAt": "6/16/2023",
-  "createdAt": "6/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "6/20/2023",
+  "createdAt": "6/20/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
 }

@@ -1,7 +1,7 @@
 [
   {
-    "id": "0q6sF6S6QwJuz5vP4jlyD",
-    "name": "Salary Beneficiary Manually",
+    "id": "nDs7WjylQrtBZP_fj-VNc",
+    "name": "Salary Beneficiary Manu widget",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -27,7 +27,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "vhlNeEP84bl7DG1AsZPqP",
+            "id": "h49MLCt3yEIKHZmIIwLVF",
             "gridProps": [
               {
                 "type": "10001",
@@ -7743,11 +7743,10 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "path": 0,
+        "path": "0",
         "events": [],
         "attributes": {
           "gridProps": [],
@@ -7770,7 +7769,7 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "Salary Beneficiary Manually",
+        "name": "Salary Beneficiary Manu",
         "dimensions": {
           "rows": 1,
           "columns": 1,
@@ -7784,20 +7783,20 @@
       }
     ],
     "events": [],
-    "subType": "screen",
-    "screenId": "0q6sF6S6QwJuz5vP4jlyD",
+    "subType": "widget",
+    "screenId": "nDs7WjylQrtBZP_fj-VNc",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "0q6sF6S6QwJuz5vP4jlyD",
+    "_id": "nDs7WjylQrtBZP_fj-VNc",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/16/2023",
-    "createdAt": "6/16/2023",
+    "updatedAt": "6/19/2023",
+    "createdAt": "6/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "beNRZSfhGYxhkKU28iEiN",
-    "name": "Salary Beneficiary Manually",
+    "name": "Salary Beneficiary Manu",
     "type": "10001",
     "attributes": {
       "gridProps": [
