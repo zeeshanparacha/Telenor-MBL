@@ -946,36 +946,6 @@
                         "path": "0-0-5-0-0"
                       },
                       {
-                        "id": "pVRB8jpfEXCgmqDfYuCPP",
-                        "type": "20031",
-                        "attributes": {
-                          "widgetId": "RmAjRy_j9LqDO67RDQMBs",
-                          "layoutProperties": {
-                            "xl": 12,
-                            "lg": 12,
-                            "md": 12,
-                            "sm": 12,
-                            "xs": 12
-                          }
-                        },
-                        "component": { "type": "20031" }
-                      },
-                      {
-                        "id": "pVRB8jpfEXCgmqDfYuCPP",
-                        "type": "20031",
-                        "attributes": {
-                          "widgetId": "RmAjRy_j9LqDO67RDQMBs",
-                          "layoutProperties": {
-                            "xl": 12,
-                            "lg": 12,
-                            "md": 12,
-                            "sm": 12,
-                            "xs": 12
-                          }
-                        },
-                        "component": { "type": "20031" }
-                      },
-                      {
                         "id": "aZnFLOV92OoYDb0uBTSFq",
                         "status": "ACTIVE",
                         "name": "Data table",
@@ -1187,7 +1157,7 @@
                           "debug": false,
                           "pagination": true,
                           "paginationPageSize": "7",
-                          "suppressCsvExport": true,
+                          "suppressCsvExport": false,
                           "suppressExcelExport": true,
                           "name": "Data Grid",
                           "storeType": 2,
@@ -1207,7 +1177,7 @@
                           "type": "20014"
                         },
                         "events": [],
-                        "path": "0-0-4-0-2"
+                        "path": "0-0-4-0-1"
                       }
                     ],
                     "layoutProperties": {
@@ -1625,9 +1595,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "A2SvYzSTY8ARY1HOrEZFn",
-    "createdBy": "telenor",
-    "updatedAt": "6/8/2023",
-    "createdAt": "6/8/2023",
+    "createdBy": "ajk",
+    "updatedAt": "6/21/2023",
+    "createdAt": "6/21/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2594,18 +2564,6 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "pVRB8jpfEXCgmqDfYuCPP",
-          "componentType": "20031",
-          "order": 1
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
           "componentId": "aZnFLOV92OoYDb0uBTSFq",
           "componentType": "20014",
           "order": 1
@@ -2661,23 +2619,6 @@
     },
     "component": { "type": "20031" },
     "path": "0-0-5-0-0",
-    "screenId": "A2SvYzSTY8ARY1HOrEZFn",
-    "subType": "component",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "pVRB8jpfEXCgmqDfYuCPP",
-    "name": "Show Approve Transaction Details Modal",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "RmAjRy_j9LqDO67RDQMBs",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "path": "0-0-6",
     "screenId": "A2SvYzSTY8ARY1HOrEZFn",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -2887,7 +2828,7 @@
       "debug": false,
       "pagination": true,
       "paginationPageSize": "7",
-      "suppressCsvExport": true,
+      "suppressCsvExport": false,
       "suppressExcelExport": true,
       "name": "Data Grid",
       "storeType": 2,
@@ -2904,10 +2845,27 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-4-0-2",
+    "path": "0-0-4-0-1",
     "screenId": "A2SvYzSTY8ARY1HOrEZFn",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "pVRB8jpfEXCgmqDfYuCPP",
+    "name": "Show Approve Transaction Details Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "RmAjRy_j9LqDO67RDQMBs",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "path": "0-0-6",
+    "screenId": "A2SvYzSTY8ARY1HOrEZFn",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

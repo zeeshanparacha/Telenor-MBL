@@ -1,1 +1,77 @@
-{"createdBy":"ahmerjavedkhan","updatedBy":"ahmerjavedkhan","_id":"6393a0c2e4d0ae73c05f4458","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"Transmit Transaction Chain Trigger","status":"ACTIVE","services":[{"_id":"6393a0e7e4d0ae73c05f4883","type":"2","command":{"responseHandler":[],"returns":[],"_id":"6393a0e7e4d0ae73c05f4884","attributes":{"triggers":[{"createdBy":"ahmerjavedkhan","updatedBy":"ahmerjavedkhan","_id":"6393a08ce4d0ae73c05f4243","id":"qajwhs0ZUGPEk8itXvVvA","name":"Transmit Transaction Id Data Grid Service","projectId":"62dfaa1ecc4a8a55e4d8a02b","gitBranchName":"Sprint1","services":[{"_id":"6393a0a5e4d0ae73c05f4351","type":"11","command":{"responseHandler":[],"returns":[],"_id":"6393a0a5e4d0ae73c05f4352","attributes":{"requestBody":[],"storeType":"","selectedObjectBindingKey":"selectedObject","dataType":"value","destinationBindingKey":"transmitTransactionDetailsData","sourceBindingKey":"transmitTransactionDetailsData","sourceStoreType":2,"destinationStoreType":2,"value":"id","logic":{"==":[1,1]},"changeValueConditonally":true},"type":"6"}}],"createdAt":"10-Dec-2022","updatedAt":"10-Dec-2022","__v":1},{"createdBy":"ahmerjavedkhan","updatedBy":"ahmarnew","_id":"6316d4b17195561e9c28aaed","id":"1hCWA3PYA4YcGPMzdG4GB","projectId":"62dfaa1ecc4a8a55e4d8a02b","gitBranchName":"Sprint1","name":"Save Transmit Transaction Batch","status":"ACTIVE","services":[{"_id":"63931d6ce4d0ae73c05db10e","type":"8","command":{"responseHandler":[{"httpStatus":200,"triggerName":"Open Success Modal","triggerId":"ciCkbWjxsNUlCoImahdDT","logic":{"==":[{"var":"status"},1]}},{"triggerName":"Clear Approved Transmit Transaction Chain Trigger","triggerId":"tZdoFeedq1Ne13p-fTYfk","logic":{"==":[{"var":"status"},1]},"httpStatus":200},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Clear Form Data","triggerId":"C9VAY5AImRfVpeNy7pz65"},{"logic":{"==":[{"var":"status"},0]},"httpStatus":200,"triggerName":"Show Error Modal","triggerId":"JUh-C4wZ4q66zhdsrSC8r"}],"returns":[],"_id":"63931d6ce4d0ae73c05db10f","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"response","url":"/salary-payment/transmit-request","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":2,"name":"Current screen","key":"batchTransactionIds","value":"selectedBatchForTransmit"},{"type":1,"name":"Form","key":"comment","value":"comment"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}],"createdAt":"06-Sep-2022","updatedAt":"09-Dec-2022","__v":24}],"triggerIds":["qajwhs0ZUGPEk8itXvVvA","1hCWA3PYA4YcGPMzdG4GB"]},"type":"1"}}],"id":"8UEnGlaSQzLNu2MVp29RS","createdAt":"10-Dec-2022","updatedAt":"10-Dec-2022","__v":2}
+{
+  "_id": "6393a0c2e4d0ae73c05f4458",
+  "id": "8UEnGlaSQzLNu2MVp29RS",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "Transmit Transaction Chain Trigger",
+  "old_name": "Transmit Transaction Chain Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "VWNmwFXvV0wtxkZWcJ2KH",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "master",
+              "name": "send otp transmit trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "response",
+                      "url": "/salary-payment/send-otp-transmit",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "batchTransactionId",
+                          "value": "selectedObject.id"
+                        }
+                      ],
+                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "_id": "GqIQi4bVSwcbxUQJrbw0u",
+              "updatedAt": "6/20/2023",
+              "createdAt": "6/20/2023",
+              "createdBy": "telenor",
+              "updatedBy": "telenor"
+            }
+          ],
+          "triggerIds": ["VWNmwFXvV0wtxkZWcJ2KH"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/21/2023",
+  "createdAt": "6/21/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

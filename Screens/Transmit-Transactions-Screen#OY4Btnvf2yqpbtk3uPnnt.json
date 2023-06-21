@@ -887,17 +887,6 @@
                           },
                           "columnDefinition": [
                             {
-                              "type": "checkbox",
-                              "typeTemp": {
-                                "name": "Checkbox",
-                                "type": "checkbox"
-                              },
-                              "bindingKeyForSelectedRow": "selectedBatchForTransmit",
-                              "storeType": 2,
-                              "field": "",
-                              "checkboxValue": "id"
-                            },
-                            {
                               "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "Batch No",
                               "field": "batchNumber",
@@ -1120,7 +1109,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "nvirFyaAVqeGY0k4_St4S",
+                    "id": "kohAHf3Tr3OM7ixZcsIvS",
                     "gridProps": [
                       {
                         "id": "0GXg6Q8sb4YTM8IGD81fa",
@@ -1529,8 +1518,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "1-0-2-0"
+                    }
                   }
                 ],
                 "path": "1-0-2",
@@ -1552,7 +1540,8 @@
                     "alignItems": "flex-start"
                   },
                   "direction": "row",
-                  "name": "Grid layout"
+                  "name": "transmit transaction comment ",
+                  "hideComponent": true
                 },
                 "component": { "type": "10001", "content": "Grid layout" },
                 "allowedContainers": [
@@ -1562,7 +1551,17 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "transmit transaction comment ",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               },
               {
                 "type": "10001",
@@ -1854,12 +1853,12 @@
               },
               {
                 "type": "10001",
-                "name": "Grid layout",
+                "name": "accept button transmit transaction",
                 "id": "JSjlEwHnF0-yLfsCbhapg",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "6NpSVnCsHc5gyhG0nF7Hx",
+                    "id": "X7tPLPak5sJGxJsV4aZZo",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -1920,12 +1919,11 @@
                       "md": 10,
                       "sm": 8,
                       "xs": 8
-                    },
-                    "path": "1-0-6-0"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "DMyAgu4P_ZDZFUuEBt0aO",
+                    "id": "5ajk7a4xpb3jX1ZjX5-ms",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -1980,165 +1978,7 @@
                                     { "cssClassName": "CardButton" }
                                   ]
                                 },
-                                "events": [
-                                  {
-                                    "triggerId": "8UEnGlaSQzLNu2MVp29RS",
-                                    "triggerName": "Transmit Transaction Chain Trigger",
-                                    "serviceType": "2",
-                                    "attributes": {
-                                      "triggers": [
-                                        {
-                                          "createdBy": "ahmerjavedkhan",
-                                          "updatedBy": "ahmerjavedkhan",
-                                          "_id": "6393a08ce4d0ae73c05f4243",
-                                          "id": "qajwhs0ZUGPEk8itXvVvA",
-                                          "name": "Transmit Transaction Id Data Grid Service",
-                                          "projectId": "62dfaa1ecc4a8a55e4d8a02b",
-                                          "gitBranchName": "Sprint1",
-                                          "services": [
-                                            {
-                                              "_id": "6393a0a5e4d0ae73c05f4351",
-                                              "type": "11",
-                                              "command": {
-                                                "responseHandler": [],
-                                                "returns": [],
-                                                "_id": "6393a0a5e4d0ae73c05f4352",
-                                                "attributes": {
-                                                  "requestBody": [],
-                                                  "storeType": "",
-                                                  "selectedObjectBindingKey": "selectedObject",
-                                                  "dataType": "value",
-                                                  "destinationBindingKey": "transmitTransactionDetailsData",
-                                                  "sourceBindingKey": "transmitTransactionDetailsData",
-                                                  "sourceStoreType": 2,
-                                                  "destinationStoreType": 2,
-                                                  "value": "id",
-                                                  "logic": { "==": [1, 1] },
-                                                  "changeValueConditonally": true
-                                                },
-                                                "type": "6"
-                                              }
-                                            }
-                                          ],
-                                          "createdAt": "10-Dec-2022",
-                                          "updatedAt": "10-Dec-2022",
-                                          "__v": 1
-                                        },
-                                        {
-                                          "createdBy": "ahmerjavedkhan",
-                                          "updatedBy": "ahmarnew",
-                                          "_id": "6316d4b17195561e9c28aaed",
-                                          "id": "1hCWA3PYA4YcGPMzdG4GB",
-                                          "projectId": "62dfaa1ecc4a8a55e4d8a02b",
-                                          "gitBranchName": "Sprint1",
-                                          "name": "Save Transmit Transaction Batch",
-                                          "status": "ACTIVE",
-                                          "services": [
-                                            {
-                                              "_id": "63931d6ce4d0ae73c05db10e",
-                                              "type": "8",
-                                              "command": {
-                                                "responseHandler": [
-                                                  {
-                                                    "httpStatus": 200,
-                                                    "triggerName": "Open Success Modal",
-                                                    "triggerId": "ciCkbWjxsNUlCoImahdDT",
-                                                    "logic": {
-                                                      "==": [
-                                                        { "var": "status" },
-                                                        1
-                                                      ]
-                                                    }
-                                                  },
-                                                  {
-                                                    "triggerName": "Clear Approved Transmit Transaction Chain Trigger",
-                                                    "triggerId": "tZdoFeedq1Ne13p-fTYfk",
-                                                    "logic": {
-                                                      "==": [
-                                                        { "var": "status" },
-                                                        1
-                                                      ]
-                                                    },
-                                                    "httpStatus": 200
-                                                  },
-                                                  {
-                                                    "logic": {
-                                                      "==": [
-                                                        { "var": "status" },
-                                                        1
-                                                      ]
-                                                    },
-                                                    "httpStatus": 200,
-                                                    "triggerName": "Clear Form Data",
-                                                    "triggerId": "C9VAY5AImRfVpeNy7pz65"
-                                                  },
-                                                  {
-                                                    "logic": {
-                                                      "==": [
-                                                        { "var": "status" },
-                                                        0
-                                                      ]
-                                                    },
-                                                    "httpStatus": 200,
-                                                    "triggerName": "Show Error Modal",
-                                                    "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
-                                                  }
-                                                ],
-                                                "returns": [],
-                                                "_id": "63931d6ce4d0ae73c05db10f",
-                                                "attributes": {
-                                                  "loaderWidgetIds": [906070],
-                                                  "messageWidgetIds": [906070],
-                                                  "responseStateKey": "response",
-                                                  "url": "/salary-payment/transmit-request",
-                                                  "checksum": true,
-                                                  "encryption": true,
-                                                  "isDeviceDetails": true,
-                                                  "loginTrigger": false,
-                                                  "formData": false,
-                                                  "logoutTrigger": false,
-                                                  "headers": {
-                                                    "Content-Type": "application/json",
-                                                    "Accept": "application/json",
-                                                    "channel_key": "001",
-                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                    "locale": "en-ltr"
-                                                  },
-                                                  "requestBody": [
-                                                    {
-                                                      "type": 2,
-                                                      "name": "Current screen",
-                                                      "key": "batchTransactionIds",
-                                                      "value": "selectedBatchForTransmit"
-                                                    },
-                                                    {
-                                                      "type": 1,
-                                                      "name": "Form",
-                                                      "key": "comment",
-                                                      "value": "comment"
-                                                    }
-                                                  ],
-                                                  "baseURL": "631e018a967b3c4df8e29773",
-                                                  "storeType": 2
-                                                },
-                                                "type": "1"
-                                              }
-                                            }
-                                          ],
-                                          "createdAt": "06-Sep-2022",
-                                          "updatedAt": "09-Dec-2022",
-                                          "__v": 24
-                                        }
-                                      ],
-                                      "triggerIds": [
-                                        "qajwhs0ZUGPEk8itXvVvA",
-                                        "1hCWA3PYA4YcGPMzdG4GB"
-                                      ]
-                                    },
-                                    "type": "2",
-                                    "name": "On click"
-                                  }
-                                ],
+                                "events": [],
                                 "path": "1-0-6-1-0-0-0",
                                 "version": "1.0.0"
                               }
@@ -2194,8 +2034,7 @@
                       "md": 2,
                       "sm": 4,
                       "xs": 4
-                    },
-                    "path": "1-0-6-1"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -2223,7 +2062,8 @@
                     "alignItems": "flex-start"
                   },
                   "direction": "row",
-                  "name": "Grid layout"
+                  "name": "accept button transmit transaction",
+                  "hideComponent": true
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
@@ -2302,8 +2142,8 @@
     "gitBranchName": "master",
     "_id": "OY4Btnvf2yqpbtk3uPnnt",
     "createdBy": "telenor",
-    "updatedAt": "6/8/2023",
-    "createdAt": "6/8/2023",
+    "updatedAt": "6/21/2023",
+    "createdAt": "6/21/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3172,14 +3012,6 @@
       },
       "columnDefinition": [
         {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedBatchForTransmit",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "id"
-        },
-        {
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Batch No",
           "field": "batchNumber",
@@ -3299,7 +3131,7 @@
   },
   {
     "id": "An7k1DJAbVb7FSwOrp8W9",
-    "name": "Grid layout",
+    "name": "transmit transaction comment ",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -3376,7 +3208,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "transmit transaction comment ",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],
@@ -3985,7 +3818,7 @@
   },
   {
     "id": "JSjlEwHnF0-yLfsCbhapg",
-    "name": "Grid layout",
+    "name": "accept button transmit transaction",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4032,7 +3865,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "accept button transmit transaction",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],
@@ -4156,15 +3990,7 @@
       },
       "cssClassNames": [{ "cssClassName": "CardButton" }]
     },
-    "events": [
-      {
-        "triggerId": "8UEnGlaSQzLNu2MVp29RS",
-        "triggerName": "Transmit Transaction Chain Trigger",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "2"
-      }
-    ],
+    "events": [],
     "path": "1-0-6-1-0-0-0",
     "version": "1.0.0",
     "screenId": "OY4Btnvf2yqpbtk3uPnnt",

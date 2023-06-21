@@ -1,0 +1,4289 @@
+[
+  {
+    "id": "-EqL3onP2W31IvAYv-aIm",
+    "name": "Instant Payment ModalGrid layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "SYF39Xmp4eRBZ3eE38O33",
+          "componentType": "10001",
+          "id": "SYF39Xmp4eRBZ3eE38O33",
+          "position": {
+            "i": "SYF39Xmp4eRBZ3eE38O33",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "SYF39Xmp4eRBZ3eE38O33",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "UWwRi1Wij7eQq_BZs0RM7",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "Qs-tS4LF8cyEYQpAFxSd3",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "oU8IyfIz_kv3o0Rs-Ewnv",
+                    "gridProps": [
+                      {
+                        "id": "ubKSKMlrVNmv7nbdt7dpG",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Batch Number",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-0-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-0-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "uL6Zb6gTzk_2Z3v-E4siZ",
+                    "gridProps": [
+                      {
+                        "id": "MX4vSh6wbTHgfn9Q7Xzrf",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.batchId",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ],
+                          "searchInState": true,
+                          "storeType": 2
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-0-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-0-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "id": "WEyYEJq8r0LVvLJqodk6N",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "hN8Bfu_9ssx5JgaR6mdCl",
+                    "gridProps": [
+                      {
+                        "id": "e4SqFfyFHw8sMDDw0xs1d",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Batch Type",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-1-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-1-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "NAsVQ5GbOixNYmErzMEtS",
+                    "gridProps": [
+                      {
+                        "id": "AROhaxk8RGDj93GoZjWso",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.type",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-1-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-1-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-1",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideComponent": false
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "id": "pXCmWXRisXoFtBbZupokD",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "18RVL8w9-Z7LML-tTsKk5",
+                    "gridProps": [
+                      {
+                        "id": "maexnQBLchxB-bv3uZ710",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "From Account Number",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-2-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-2-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "pSPvJTAVehFfs0eyWqQRI",
+                    "gridProps": [
+                      {
+                        "id": "xEa8ELBbTuk7kFkTyM_BT",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.fromAccountNo",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-2-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-2-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-2",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideCondition": {
+                    "logic": {
+                      "if": [
+                        {
+                          "var": "currentScreen.pendingTransactionDetailsModalData.ibftAccountOrIban.length"
+                        },
+                        false,
+                        true
+                      ]
+                    }
+                  }
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "id": "XHze9bOz5k05pFEnRBpEa",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "qYhTcDVM35Iqy_tS_cjXh",
+                    "gridProps": [
+                      {
+                        "id": "AzD893TFH7-7mpea2X7pv",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Name",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-3-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-3-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "q7C2qf-w-_muXrvv3lg0X",
+                    "gridProps": [
+                      {
+                        "id": "Yyu_5A9vodglVJibovHo8",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.toAccountName",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-3-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-3-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-3",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideComponent": false,
+                  "hideCondition": {}
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "id": "QQ9Zv1T0iMJQOn-nnlE__",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "XYUHP7TvJUCb_9ABKEn7P",
+                    "gridProps": [
+                      {
+                        "id": "Vwe3wguVR2SWely_vEsxt",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Amount",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-4-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-4-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "JqYRKSqX1o2QY6h7diGmm",
+                    "gridProps": [
+                      {
+                        "id": "z4XhQZGXLzZ10i-uLx2QJ",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.amount",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-4-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-4-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-4",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "id": "N2gl5-qCM8B5zSgA2kSSb",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "Io4MtRMarv2dif5RzOJpl",
+                    "gridProps": [
+                      {
+                        "id": "7-JFhofp3-SYT7W8Xr8La",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Payment mode",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-5-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-5-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "BVPLpaKo7s2uOPXnun-I8",
+                    "gridProps": [
+                      {
+                        "id": "hkl1aC8ThRQKNK3UCt8lP",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.preferredPaymentMode",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-5-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-5-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-5",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideComponent": true
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "id": "254Mn5m2lZEHU604zrU_m",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "pVOe25fZs9pfuvh4EkQyK",
+                    "gridProps": [
+                      {
+                        "id": "UMP0ZU9SQN5lK42iLqisq",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Status",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-6-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-6-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "zqOO-yg4Hop5CMqaXIwCY",
+                    "gridProps": [
+                      {
+                        "id": "XzjHctBqQfQ6mSiQi64gX",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.status",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-6-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-6-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-6",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideComponent": true
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "id": "p5AZMSm7SJpX3WTcWDMg_",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "Sil3AfD43JLC9O9Ojk_np",
+                    "gridProps": [
+                      {
+                        "id": "2CUUignDYGtf_iXH_YuE8",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Bank Name",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-7-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-7-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "Xn9YV_rXaX29ckP4iaKS3",
+                    "gridProps": [
+                      {
+                        "id": "5szmYXHsg3NzmZTFd8WYA",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.bankName",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-7-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-7-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-7",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "id": "XDf6ktzZXXkc8lGtAghYv",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "neHJ4tl9vTyv0yW0og9cu",
+                    "gridProps": [
+                      {
+                        "id": "50pK_taP-YEx0PrK0shit",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Mobile",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-8-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-8-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "f22GDzB8x0nMHEA3InoVZ",
+                    "gridProps": [
+                      {
+                        "id": "_XHyz_irw0laIzbc8mHQw",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.receiverMobile",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-8-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-8-1"
+                  }
+                ],
+                "path": "0-0-0-0-5-0-8",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "VWESk8UGMjFrvqsTQtCT1",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "JyOllyeJfVKfu9VTn5ODm",
+                    "gridProps": [
+                      {
+                        "id": "79Q6FjinD-yaJMmjDDeuY",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Preferred Payment Mode",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-9-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-9-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "O4BTHHfsC3a0mGxv-s-3j",
+                    "gridProps": [
+                      {
+                        "id": "wAwT6tAzy06yBVcvhzyfE",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.preferredPaymentMode",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-9-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-9-1"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-5-0-9",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "oq67gjNBZzc2BYfIjI-3w",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "93R7KRJAWws6G51m3Vorh",
+                    "gridProps": [
+                      {
+                        "id": "MTbs-goyqIuQXyeZPdDEA",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "TO ACCOUNT TITLE",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-10-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-10-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "OVEeSI6RMb4Va1t7LSvaa",
+                    "gridProps": [
+                      {
+                        "id": "8zp2fljkWa8EVxKME_ZkD",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.toAccountTitle",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-10-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-10-1"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "hideComponent": true
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-5-0-10",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "SnIlQfM4XuKl81_fXqClO",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "gK7Q20hSpC-oVo-VTyQKc",
+                    "gridProps": [
+                      {
+                        "id": "fe0N4kfo0mD6ZQqdvu7iq",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "TO ACCOUNT NUMBER",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-11-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-11-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "r4cOQLIXgDmm53Q51Jqyi",
+                    "gridProps": [
+                      {
+                        "id": "HjUSF1r1BA83Flq4WKNdQ",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.toAccountNo",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-11-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-11-1"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-5-0-11",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "X2fXS8APAxpa9mIfbpyXT",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "afCBfnNTztAiFU7W5rr9i",
+                    "gridProps": [
+                      {
+                        "id": "tRdh8rLYvZ7UJzkW-9MtT",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "comments",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-12-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-12-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "0wIY1zn6WTP8hbFXa-kxp",
+                    "gridProps": [
+                      {
+                        "id": "nikq_7kQFSPtxURbMTS_a",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.comments",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-12-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-12-1"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-5-0-12",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "odIuI29AmluR7LploSisP",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "PtoSl0yLTDKBpd9YrKFAM",
+                    "gridProps": [
+                      {
+                        "id": "UnHTqIDJdGXHeyY2zlrzo",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "Purpose of Payment",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "INTransactionmodal" }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-13-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-13-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "T9xFqNNQsYo5D6tsGoj1a",
+                    "gridProps": [
+                      {
+                        "id": "UwAiK87UuCds0qWoh-CYP",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "label": "pendingTransactionDetailsModalData.purposeOfPayment",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "searchInState": true,
+                          "storeType": 2,
+                          "cssClassNames": [
+                            {
+                              "cssClassName": "IInProcessTransactionLabelStyle"
+                            }
+                          ]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-5-0-13-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    },
+                    "path": "0-0-0-0-5-0-13-1"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-5-0-13",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 2,
+                  "colSize0xs": 6,
+                  "colSize0sm": 6,
+                  "colSize0md": 6,
+                  "colSize0lg": 6,
+                  "colSize0xl": 6,
+                  "colSize1xs": 6,
+                  "colSize1sm": 6,
+                  "colSize1md": 6,
+                  "colSize1lg": 6,
+                  "colSize1xl": 6
+                },
+                "readOnly": true
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-0-0-5",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Salary Payment ModalGrid layout",
+          "cssClassNames": [{ "cssClassName": "modalBody" }],
+          "hideCondition": {
+            "logic": {
+              "!=": [
+                { "var": "currentScreen.batchObject.paymentType" },
+                "Instant Salary Payment"
+              ]
+            }
+          },
+          "hideComponent": false
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "Instant Payment ModalGrid layout",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "name": null
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "-EqL3onP2W31IvAYv-aIm",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "-EqL3onP2W31IvAYv-aIm",
+    "createdBy": "ajk",
+    "updatedAt": "6/20/2023",
+    "createdAt": "6/20/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "SYF39Xmp4eRBZ3eE38O33",
+    "name": "Instant Payment ModalGrid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Qs-tS4LF8cyEYQpAFxSd3",
+          "componentType": "10001",
+          "id": "Qs-tS4LF8cyEYQpAFxSd3",
+          "position": {
+            "i": "Qs-tS4LF8cyEYQpAFxSd3",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "WEyYEJq8r0LVvLJqodk6N",
+          "componentType": "10001",
+          "id": "WEyYEJq8r0LVvLJqodk6N",
+          "position": {
+            "i": "WEyYEJq8r0LVvLJqodk6N",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "pXCmWXRisXoFtBbZupokD",
+          "componentType": "10001",
+          "id": "pXCmWXRisXoFtBbZupokD",
+          "position": {
+            "i": "pXCmWXRisXoFtBbZupokD",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "XHze9bOz5k05pFEnRBpEa",
+          "componentType": "10001",
+          "id": "XHze9bOz5k05pFEnRBpEa",
+          "position": {
+            "i": "XHze9bOz5k05pFEnRBpEa",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "QQ9Zv1T0iMJQOn-nnlE__",
+          "componentType": "10001",
+          "id": "QQ9Zv1T0iMJQOn-nnlE__",
+          "position": {
+            "i": "QQ9Zv1T0iMJQOn-nnlE__",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "N2gl5-qCM8B5zSgA2kSSb",
+          "componentType": "10001",
+          "id": "N2gl5-qCM8B5zSgA2kSSb",
+          "position": {
+            "i": "N2gl5-qCM8B5zSgA2kSSb",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "254Mn5m2lZEHU604zrU_m",
+          "componentType": "10001",
+          "id": "254Mn5m2lZEHU604zrU_m",
+          "position": {
+            "i": "254Mn5m2lZEHU604zrU_m",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "p5AZMSm7SJpX3WTcWDMg_",
+          "componentType": "10001",
+          "id": "p5AZMSm7SJpX3WTcWDMg_",
+          "position": {
+            "i": "p5AZMSm7SJpX3WTcWDMg_",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "XDf6ktzZXXkc8lGtAghYv",
+          "componentType": "10001",
+          "id": "XDf6ktzZXXkc8lGtAghYv",
+          "position": {
+            "i": "XDf6ktzZXXkc8lGtAghYv",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "VWESk8UGMjFrvqsTQtCT1",
+          "componentType": "10001",
+          "id": "VWESk8UGMjFrvqsTQtCT1",
+          "position": {
+            "i": "VWESk8UGMjFrvqsTQtCT1",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "oq67gjNBZzc2BYfIjI-3w",
+          "componentType": "10001",
+          "id": "oq67gjNBZzc2BYfIjI-3w",
+          "position": {
+            "i": "oq67gjNBZzc2BYfIjI-3w",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "SnIlQfM4XuKl81_fXqClO",
+          "componentType": "10001",
+          "id": "SnIlQfM4XuKl81_fXqClO",
+          "position": {
+            "i": "SnIlQfM4XuKl81_fXqClO",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "X2fXS8APAxpa9mIfbpyXT",
+          "componentType": "10001",
+          "id": "X2fXS8APAxpa9mIfbpyXT",
+          "position": {
+            "i": "X2fXS8APAxpa9mIfbpyXT",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "odIuI29AmluR7LploSisP",
+          "componentType": "10001",
+          "id": "odIuI29AmluR7LploSisP",
+          "position": {
+            "i": "odIuI29AmluR7LploSisP",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Salary Payment ModalGrid layout",
+      "cssClassNames": [{ "cssClassName": "modalBody" }],
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.batchObject.paymentType" },
+            "Instant Salary Payment"
+          ]
+        }
+      },
+      "hideComponent": false
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Qs-tS4LF8cyEYQpAFxSd3",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "ubKSKMlrVNmv7nbdt7dpG",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "MX4vSh6wbTHgfn9Q7Xzrf",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ubKSKMlrVNmv7nbdt7dpG",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Batch Number",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-0-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "MX4vSh6wbTHgfn9Q7Xzrf",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.batchId",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-0-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WEyYEJq8r0LVvLJqodk6N",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "e4SqFfyFHw8sMDDw0xs1d",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "AROhaxk8RGDj93GoZjWso",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideComponent": false
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "e4SqFfyFHw8sMDDw0xs1d",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Batch Type",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-1-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "AROhaxk8RGDj93GoZjWso",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.type",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-1-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "pXCmWXRisXoFtBbZupokD",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "maexnQBLchxB-bv3uZ710",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "xEa8ELBbTuk7kFkTyM_BT",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "var": "currentScreen.pendingTransactionDetailsModalData.ibftAccountOrIban.length"
+            },
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "maexnQBLchxB-bv3uZ710",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "From Account Number",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-2-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "xEa8ELBbTuk7kFkTyM_BT",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.fromAccountNo",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-2-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "XHze9bOz5k05pFEnRBpEa",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "AzD893TFH7-7mpea2X7pv",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "Yyu_5A9vodglVJibovHo8",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideComponent": false,
+      "hideCondition": {}
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "AzD893TFH7-7mpea2X7pv",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Name",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-3-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Yyu_5A9vodglVJibovHo8",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.toAccountName",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-3-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QQ9Zv1T0iMJQOn-nnlE__",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "Vwe3wguVR2SWely_vEsxt",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "z4XhQZGXLzZ10i-uLx2QJ",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Vwe3wguVR2SWely_vEsxt",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Amount",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-4-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "z4XhQZGXLzZ10i-uLx2QJ",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.amount",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-4-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "N2gl5-qCM8B5zSgA2kSSb",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "7-JFhofp3-SYT7W8Xr8La",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "hkl1aC8ThRQKNK3UCt8lP",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideComponent": true
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "7-JFhofp3-SYT7W8Xr8La",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Payment mode",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-5-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "hkl1aC8ThRQKNK3UCt8lP",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.preferredPaymentMode",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-5-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "254Mn5m2lZEHU604zrU_m",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "UMP0ZU9SQN5lK42iLqisq",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "XzjHctBqQfQ6mSiQi64gX",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideComponent": true
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "UMP0ZU9SQN5lK42iLqisq",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Status",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-6-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "XzjHctBqQfQ6mSiQi64gX",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.status",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-6-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "p5AZMSm7SJpX3WTcWDMg_",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "2CUUignDYGtf_iXH_YuE8",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "5szmYXHsg3NzmZTFd8WYA",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "2CUUignDYGtf_iXH_YuE8",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Bank Name",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-7-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "5szmYXHsg3NzmZTFd8WYA",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.bankName",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-7-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "XDf6ktzZXXkc8lGtAghYv",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "50pK_taP-YEx0PrK0shit",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "_XHyz_irw0laIzbc8mHQw",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "50pK_taP-YEx0PrK0shit",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Mobile",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-8-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "_XHyz_irw0laIzbc8mHQw",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.receiverMobile",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-8-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VWESk8UGMjFrvqsTQtCT1",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "79Q6FjinD-yaJMmjDDeuY",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "wAwT6tAzy06yBVcvhzyfE",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "79Q6FjinD-yaJMmjDDeuY",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Preferred Payment Mode",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-9-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wAwT6tAzy06yBVcvhzyfE",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.preferredPaymentMode",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-9-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "oq67gjNBZzc2BYfIjI-3w",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "MTbs-goyqIuQXyeZPdDEA",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "8zp2fljkWa8EVxKME_ZkD",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideComponent": true
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "MTbs-goyqIuQXyeZPdDEA",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "TO ACCOUNT TITLE",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-10-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "8zp2fljkWa8EVxKME_ZkD",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.toAccountTitle",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-10-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "SnIlQfM4XuKl81_fXqClO",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "fe0N4kfo0mD6ZQqdvu7iq",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "HjUSF1r1BA83Flq4WKNdQ",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fe0N4kfo0mD6ZQqdvu7iq",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "TO ACCOUNT NUMBER",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-11-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "HjUSF1r1BA83Flq4WKNdQ",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.toAccountNo",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-11-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "X2fXS8APAxpa9mIfbpyXT",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "tRdh8rLYvZ7UJzkW-9MtT",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "nikq_7kQFSPtxURbMTS_a",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "tRdh8rLYvZ7UJzkW-9MtT",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "comments",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-12-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "nikq_7kQFSPtxURbMTS_a",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.comments",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-12-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "odIuI29AmluR7LploSisP",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "UnHTqIDJdGXHeyY2zlrzo",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "UwAiK87UuCds0qWoh-CYP",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "UnHTqIDJdGXHeyY2zlrzo",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Purpose of Payment",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-13-0-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "UwAiK87UuCds0qWoh-CYP",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.purposeOfPayment",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-5-0-13-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]
