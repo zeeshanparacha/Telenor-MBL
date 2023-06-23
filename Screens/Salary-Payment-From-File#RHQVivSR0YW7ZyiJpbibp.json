@@ -607,7 +607,7 @@
                                                           "stateName": "fromAccountIBAN",
                                                           "allValues": true,
                                                           "dataSource": "accounts123",
-                                                          "dataKey": "accountNumber",
+                                                          "dataKey": "accountMobile",
                                                           "dataValue": "accountTitle",
                                                           "mandatory": true,
                                                           "validate": {
@@ -957,7 +957,7 @@
                                                               "cssClassName": "emptyTextField"
                                                             }
                                                           ],
-                                                          "stateName": "fromAccountIBAN.accountNumber",
+                                                          "stateName": "fromAccountIBAN.accountMobile",
                                                           "disableCondition": {
                                                             "logic": {
                                                               "==": [true, true]
@@ -1676,7 +1676,7 @@
                                                     "logic": {
                                                       "if": [
                                                         {
-                                                          "var": "currentScreen.form.fromAccountIBAN.accountNumber"
+                                                          "var": "currentScreen.form.fromAccountIBAN.accountMobile"
                                                         },
                                                         false,
                                                         true
@@ -3217,8 +3217,8 @@
     "gitBranchName": "master",
     "_id": "RHQVivSR0YW7ZyiJpbibp",
     "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "updatedAt": "6/23/2023",
+    "createdAt": "6/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4123,7 +4123,7 @@
       "stateName": "fromAccountIBAN",
       "allValues": true,
       "dataSource": "accounts123",
-      "dataKey": "accountNumber",
+      "dataKey": "accountMobile",
       "dataValue": "accountTitle",
       "mandatory": true,
       "validate": { "required": true, "errorMsg": "This Field is Required" },
@@ -4410,7 +4410,7 @@
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "fromAccountIBAN.accountNumber",
+      "stateName": "fromAccountIBAN.accountMobile",
       "disableCondition": { "logic": { "==": [true, true] } }
     },
     "icon": "FaWindowMinimize",
@@ -4998,7 +4998,7 @@
       "disableCondition": {
         "logic": {
           "if": [
-            { "var": "currentScreen.form.fromAccountIBAN.accountNumber" },
+            { "var": "currentScreen.form.fromAccountIBAN.accountMobile" },
             false,
             true
           ]

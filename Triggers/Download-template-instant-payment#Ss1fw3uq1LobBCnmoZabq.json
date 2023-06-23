@@ -1,10 +1,10 @@
 {
-  "id": "kTRD94Zpg6H0iTf0E1srz",
-  "_id": "639f1bf1137cd44b9cdefc6b",
+  "id": "DlVHuwHiHS9x6aESNb1v2",
+  "_id": "Ss1fw3uq1LobBCnmoZabq",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
-  "name": "Download salary payment File",
-  "old_name": "Download salary payment File",
+  "name": "Download template instant payment",
+  "old_name": "Download template instant payment",
   "status": "ACTIVE",
   "services": [
     {
@@ -18,7 +18,7 @@
           "url": "/template-download",
           "checksum": true,
           "encryption": true,
-          "fileName": "SALARY_PAYMENT.xlsx",
+          "fileName": "INSTANT_SALARY_PAYMENT.csv",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -35,7 +35,7 @@
               "type": 4,
               "name": "Static",
               "key": "data",
-              "value": "SALARY_PAYMENT"
+              "value": "INSTANT_SALARY_PAYMENT"
             }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",

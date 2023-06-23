@@ -1,0 +1,775 @@
+[
+  {
+    "id": "wz7h6yHPI2s5YeT4Txb81",
+    "name": "instant payment table widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "2eqbVsvYYy7gVMT7fsCje",
+          "componentType": "10001",
+          "id": "2eqbVsvYYy7gVMT7fsCje",
+          "position": {
+            "i": "2eqbVsvYYy7gVMT7fsCje",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "2eqbVsvYYy7gVMT7fsCje",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "omc7lGE4SMwLkvqBs_PQc",
+            "gridProps": [
+              {
+                "id": "EXg1AGbgqnvyDgW7K5VEa",
+                "status": "ACTIVE",
+                "name": "Data table",
+                "type": "20014",
+                "attributes": {
+                  "responseStateKey": "instantPayment",
+                  "layoutProperties": {
+                    "container": {
+                      "//": "Use this class to style data table container."
+                    },
+                    "rowStyle": {
+                      "//": "Use this class to style data table rows.",
+                      "color": "black",
+                      "background-color": "white",
+                      "text-align": "left"
+                    },
+                    "defaultColDefinition": {
+                      "//": "Use this class to define column definition of data table.",
+                      "sortable": true,
+                      "animateRows": false,
+                      "resizable": true,
+                      "enableValue": false,
+                      "enableRowGroup": false,
+                      "enablePivot": false,
+                      "filter": true,
+                      "type": "leftAligned",
+                      "minWidth": 10,
+                      "domLayout": "autoHeight"
+                    },
+                    "mainContainer": "container",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12,
+                    "headerStyles": {
+                      "background-color": "#00bd5f",
+                      "color": "#FFFFFF"
+                    }
+                  },
+                  "defaultColDef": {
+                    "sortable": true,
+                    "animateRows": false,
+                    "resizable": false,
+                    "enableValue": false,
+                    "enableRowGroup": false,
+                    "enablePivot": false,
+                    "filter": true,
+                    "type": "leftAligned",
+                    "minWidth": 30,
+                    "domLayout": "autoHeight"
+                  },
+                  "rowStyle": {
+                    "color": "black",
+                    "background-color": "white",
+                    "text-align": "left"
+                  },
+                  "columnDefinition": [
+                    {
+                      "type": "checkbox",
+                      "typeTemp": { "name": "Checkbox", "type": "checkbox" },
+                      "bindingKeyForSelectedRow": "selectedInstantPayment",
+                      "storeType": 2,
+                      "disableConditional": { "bindingKey": "" },
+                      "disableValues": [""],
+                      "field": "",
+                      "cssConditional": {
+                        "bindingKey": "",
+                        "cssClassNames": []
+                      },
+                      "cssValues": [""]
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "FROM ACCOUNT NO",
+                      "field": "fromAccountNo",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "TO ACCOUNT NO",
+                      "field": "toAccountNo",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "field": "toAccountName",
+                      "headerName": "Name",
+                      "conditional": { "bindingKey": "" },
+                      "values": [""]
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "field": "bankName",
+                      "headerName": "BANK NAME",
+                      "conditional": { "bindingKey": "" },
+                      "values": []
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "PURPOSE OF PAYMENT",
+                      "field": "purposeOfPayment",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "AMOUNT",
+                      "field": "amount",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "PREFERRED PAYMENT MODE",
+                      "field": "preferredPaymentMode",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "COMMENTS",
+                      "field": "comments",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": {
+                        "name": "Icon Button",
+                        "type": "iconButton"
+                      },
+                      "field": "",
+                      "rowId": "id",
+                      "iconButtons": [
+                        {
+                          "asset": null,
+                          "iconname": "FaEdit",
+                          "trigger": {
+                            "id": "9Ypjogj-RHWl08WUf5_EH",
+                            "projectId": "6458cf08badaaa2d6406a720",
+                            "gitBranchName": "master",
+                            "name": "Edit Instant payment Data",
+                            "old_name": "",
+                            "status": "ACTIVE",
+                            "services": [
+                              {
+                                "type": "2",
+                                "command": {
+                                  "type": "1",
+                                  "attributes": {
+                                    "delay": "",
+                                    "triggers": [
+                                      {
+                                        "createdBy": "system",
+                                        "updatedBy": "system",
+                                        "_id": "633e75c035d5a10649dd048a",
+                                        "id": "C9VAY5AImRfVpeNy7py77",
+                                        "name": "Fill Form Data",
+                                        "projectType": "web",
+                                        "services": [
+                                          {
+                                            "_id": "61dd1cc511bed557b4cb0c89",
+                                            "type": "14",
+                                            "command": {
+                                              "responseHandler": [],
+                                              "returns": [],
+                                              "_id": "61dd1cc511bed557b4cb0c99",
+                                              "attributes": {},
+                                              "type": "2"
+                                            }
+                                          }
+                                        ],
+                                        "createdAt": "11-Jan-2022",
+                                        "updatedAt": "11-Jan-2022",
+                                        "__v": 0,
+                                        "canRead": true
+                                      },
+                                      {
+                                        "createdBy": "ahmerjavedkhan",
+                                        "updatedBy": "ahmerjavedkhan",
+                                        "_id": "63c2f088582f30545002fe03",
+                                        "id": "IExbtt2R3qluwm23YCqZj",
+                                        "name": "Sal Bene BankIMD Object Trigger",
+                                        "projectId": "63f4845e476fc83100e3a899",
+                                        "gitBranchName": "master",
+                                        "services": [
+                                          {
+                                            "_id": "63c2f0ae582f30545002ff5a",
+                                            "type": "11",
+                                            "command": {
+                                              "responseHandler": [],
+                                              "returns": [],
+                                              "_id": "63c2f0ae582f30545002ff5b",
+                                              "attributes": {
+                                                "requestBody": [],
+                                                "storeType": "",
+                                                "selectedObjectBindingKey": "selectedObject",
+                                                "dataType": "",
+                                                "destinationBindingKey": "ibftBankImd",
+                                                "sourceBindingKey": "selectedObject",
+                                                "sourceStoreType": 2,
+                                                "destinationStoreType": 1,
+                                                "filterList": [
+                                                  {
+                                                    "changeValueConditonally": true,
+                                                    "key": "imd",
+                                                    "logic": {
+                                                      "var": "ibftBankImd"
+                                                    }
+                                                  },
+                                                  {
+                                                    "key": "name",
+                                                    "changeValueConditonally": true,
+                                                    "logic": {
+                                                      "var": "bankName"
+                                                    }
+                                                  }
+                                                ],
+                                                "targettedType": "object"
+                                              },
+                                              "type": "6"
+                                            }
+                                          }
+                                        ],
+                                        "createdAt": "14-Jan-2023",
+                                        "updatedAt": "14-Jan-2023",
+                                        "__v": 1
+                                      },
+                                      {
+                                        "createdBy": "ahmarnew",
+                                        "updatedBy": "ahmarnew",
+                                        "_id": "63af1a1521a0d87ea4d73744",
+                                        "id": "bvS0NksRK5nvLaBhBRCLg",
+                                        "name": "Purpose of payment obj",
+                                        "projectId": "63f4845e476fc83100e3a899",
+                                        "gitBranchName": "master",
+                                        "services": [
+                                          {
+                                            "_id": "63af1ef521a0d87ea4d749db",
+                                            "type": "11",
+                                            "command": {
+                                              "responseHandler": [],
+                                              "returns": [],
+                                              "_id": "63af1ef521a0d87ea4d749dc",
+                                              "attributes": {
+                                                "requestBody": [],
+                                                "storeType": "",
+                                                "selectedObjectBindingKey": "selectedObject",
+                                                "dataType": "object",
+                                                "destinationBindingKey": "purposeOfPayment",
+                                                "sourceBindingKey": "selectedObject",
+                                                "sourceStoreType": 2,
+                                                "destinationStoreType": 1,
+                                                "filterList": [
+                                                  {
+                                                    "key": "name",
+                                                    "changeValueConditonally": true,
+                                                    "logic": {
+                                                      "var": "currentScreen.selectedObject.purposeOfPayment"
+                                                    }
+                                                  }
+                                                ],
+                                                "targettedType": "object"
+                                              },
+                                              "type": "6"
+                                            }
+                                          }
+                                        ],
+                                        "createdAt": "30-Dec-2022",
+                                        "updatedAt": "30-Dec-2022",
+                                        "__v": 2
+                                      }
+                                    ],
+                                    "triggerIds": [
+                                      "C9VAY5AImRfVpeNy7py77",
+                                      "IExbtt2R3qluwm23YCqZj",
+                                      "bvS0NksRK5nvLaBhBRCLg"
+                                    ]
+                                  }
+                                }
+                              }
+                            ],
+                            "_id": "nDBV0MdF195fUJqkDzzpr",
+                            "updatedAt": "6/20/2023",
+                            "createdAt": "6/20/2023",
+                            "createdBy": "ahmerjavedkhan",
+                            "updatedBy": "ahmerjavedkhan"
+                          },
+                          "triggerId": "9Ypjogj-RHWl08WUf5_EH",
+                          "conditional": {},
+                          "values": [],
+                          "disableConditional": {},
+                          "disableValues": [],
+                          "cssConditional": {},
+                          "cssValues": []
+                        }
+                      ],
+                      "type": "iconButton"
+                    }
+                  ],
+                  "rowDefinition": [],
+                  "debug": false,
+                  "pagination": true,
+                  "paginationPageSize": 5,
+                  "suppressCsvExport": false,
+                  "suppressExcelExport": true,
+                  "name": "Data Grid",
+                  "storeType": 2,
+                  "cssClassNames": []
+                },
+                "icon": "FaTable",
+                "group": "Advanced",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 12,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Data table", "type": "20014" },
+                "events": [],
+                "path": "0-0-7-0-1-0-0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-7-0-1-0-0",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0,
+              "padding": "10px"
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "instant payment table",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "wz7h6yHPI2s5YeT4Txb81",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "wz7h6yHPI2s5YeT4Txb81",
+    "createdBy": "telenor",
+    "updatedAt": "6/23/2023",
+    "createdAt": "6/23/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "2eqbVsvYYy7gVMT7fsCje",
+    "name": "instant payment table",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "EXg1AGbgqnvyDgW7K5VEa",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "padding": "10px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "StzrMrcc76zEBIMbBECVp",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "EXg1AGbgqnvyDgW7K5VEa",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "instantPayment",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "background-color": "#00bd5f", "color": "#FFFFFF" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "type": "checkbox",
+          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
+          "bindingKeyForSelectedRow": "selectedInstantPayment",
+          "storeType": 2,
+          "disableConditional": { "bindingKey": "" },
+          "disableValues": [""],
+          "field": "",
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "FROM ACCOUNT NO",
+          "field": "fromAccountNo",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "TO ACCOUNT NO",
+          "field": "toAccountNo",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "field": "toAccountName",
+          "headerName": "Name",
+          "conditional": { "bindingKey": "" },
+          "values": [""]
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "field": "bankName",
+          "headerName": "BANK NAME",
+          "conditional": { "bindingKey": "" },
+          "values": []
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "PURPOSE OF PAYMENT",
+          "field": "purposeOfPayment",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "AMOUNT",
+          "field": "amount",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "PREFERRED PAYMENT MODE",
+          "field": "preferredPaymentMode",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "List", "type": "list" },
+          "headerName": "COMMENTS",
+          "field": "comments",
+          "type": "list",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "asset": null,
+              "iconname": "FaEdit",
+              "trigger": {
+                "id": "9Ypjogj-RHWl08WUf5_EH",
+                "projectId": "6458cf08badaaa2d6406a720",
+                "gitBranchName": "master",
+                "name": "Edit Instant payment Data",
+                "old_name": "",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "2",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "delay": "",
+                        "triggers": [
+                          {
+                            "createdBy": "system",
+                            "updatedBy": "system",
+                            "_id": "633e75c035d5a10649dd048a",
+                            "id": "C9VAY5AImRfVpeNy7py77",
+                            "name": "Fill Form Data",
+                            "projectType": "web",
+                            "services": [
+                              {
+                                "_id": "61dd1cc511bed557b4cb0c89",
+                                "type": "14",
+                                "command": {
+                                  "responseHandler": [],
+                                  "returns": [],
+                                  "_id": "61dd1cc511bed557b4cb0c99",
+                                  "attributes": {},
+                                  "type": "2"
+                                }
+                              }
+                            ],
+                            "createdAt": "11-Jan-2022",
+                            "updatedAt": "11-Jan-2022",
+                            "__v": 0,
+                            "canRead": true
+                          },
+                          {
+                            "createdBy": "ahmerjavedkhan",
+                            "updatedBy": "ahmerjavedkhan",
+                            "_id": "63c2f088582f30545002fe03",
+                            "id": "IExbtt2R3qluwm23YCqZj",
+                            "name": "Sal Bene BankIMD Object Trigger",
+                            "projectId": "63f4845e476fc83100e3a899",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "_id": "63c2f0ae582f30545002ff5a",
+                                "type": "11",
+                                "command": {
+                                  "responseHandler": [],
+                                  "returns": [],
+                                  "_id": "63c2f0ae582f30545002ff5b",
+                                  "attributes": {
+                                    "requestBody": [],
+                                    "storeType": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "dataType": "",
+                                    "destinationBindingKey": "ibftBankImd",
+                                    "sourceBindingKey": "selectedObject",
+                                    "sourceStoreType": 2,
+                                    "destinationStoreType": 1,
+                                    "filterList": [
+                                      {
+                                        "changeValueConditonally": true,
+                                        "key": "imd",
+                                        "logic": { "var": "ibftBankImd" }
+                                      },
+                                      {
+                                        "key": "name",
+                                        "changeValueConditonally": true,
+                                        "logic": { "var": "bankName" }
+                                      }
+                                    ],
+                                    "targettedType": "object"
+                                  },
+                                  "type": "6"
+                                }
+                              }
+                            ],
+                            "createdAt": "14-Jan-2023",
+                            "updatedAt": "14-Jan-2023",
+                            "__v": 1
+                          },
+                          {
+                            "createdBy": "ahmarnew",
+                            "updatedBy": "ahmarnew",
+                            "_id": "63af1a1521a0d87ea4d73744",
+                            "id": "bvS0NksRK5nvLaBhBRCLg",
+                            "name": "Purpose of payment obj",
+                            "projectId": "63f4845e476fc83100e3a899",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "_id": "63af1ef521a0d87ea4d749db",
+                                "type": "11",
+                                "command": {
+                                  "responseHandler": [],
+                                  "returns": [],
+                                  "_id": "63af1ef521a0d87ea4d749dc",
+                                  "attributes": {
+                                    "requestBody": [],
+                                    "storeType": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "dataType": "object",
+                                    "destinationBindingKey": "purposeOfPayment",
+                                    "sourceBindingKey": "selectedObject",
+                                    "sourceStoreType": 2,
+                                    "destinationStoreType": 1,
+                                    "filterList": [
+                                      {
+                                        "key": "name",
+                                        "changeValueConditonally": true,
+                                        "logic": {
+                                          "var": "currentScreen.selectedObject.purposeOfPayment"
+                                        }
+                                      }
+                                    ],
+                                    "targettedType": "object"
+                                  },
+                                  "type": "6"
+                                }
+                              }
+                            ],
+                            "createdAt": "30-Dec-2022",
+                            "updatedAt": "30-Dec-2022",
+                            "__v": 2
+                          }
+                        ],
+                        "triggerIds": [
+                          "C9VAY5AImRfVpeNy7py77",
+                          "IExbtt2R3qluwm23YCqZj",
+                          "bvS0NksRK5nvLaBhBRCLg"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "_id": "nDBV0MdF195fUJqkDzzpr",
+                "updatedAt": "6/20/2023",
+                "createdAt": "6/20/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
+              },
+              "triggerId": "9Ypjogj-RHWl08WUf5_EH",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": false,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2,
+      "cssClassNames": []
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-7-0-1-0-0-0-0",
+    "screenId": "StzrMrcc76zEBIMbBECVp",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

@@ -4413,12 +4413,13 @@
                                   "variant": "contained",
                                   "name": "Accept",
                                   "label-locale-key": "",
-                                  "fullWidth": true,
+                                  "fullWidth": false,
                                   "layoutProperties": {
                                     "button": {
                                       "//": "Use this class to style button component.",
                                       "padding": "7px 50px",
-                                      "font-weight": "700"
+                                      "font-weight": "700",
+                                      "width": "50%"
                                     },
                                     "inputProps": {
                                       "//": "Use this class to style button element."
@@ -4528,7 +4529,7 @@
                                     "name": "On click"
                                   }
                                 ],
-                                "path": "0-0-13-1-0-0-3",
+                                "path": "0-0-14-1-0-0-4",
                                 "version": "1.0.0"
                               }
                             ],
@@ -8990,12 +8991,13 @@
       "variant": "contained",
       "name": "Accept",
       "label-locale-key": "",
-      "fullWidth": true,
+      "fullWidth": false,
       "layoutProperties": {
         "button": {
           "//": "Use this class to style button component.",
           "padding": "7px 50px",
-          "font-weight": "700"
+          "font-weight": "700",
+          "width": "50%"
         },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
@@ -9017,7 +9019,7 @@
         "serviceType": "2"
       }
     ],
-    "path": "0-0-13-1-0-0-3",
+    "path": "0-0-14-1-0-0-4",
     "version": "1.0.0",
     "screenId": "Z7HgejBC9iOv6fX9r3RKg",
     "subType": "component",

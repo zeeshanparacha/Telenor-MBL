@@ -1254,6 +1254,7 @@
             "1050": "fsZCk9fYfn5H0QdimMWCa",
             "1051": "ZYfCK6ZcYsZwdCa19LxO4",
             "1052": "TRIyQry28tayOWMoLAWN4",
+            "1053": "nrXCXTkJR1K_iZnpCIb8D",
             "1054": "StzrMrcc76zEBIMbBECVp"
           },
           "permissionsTemp": [
@@ -1509,6 +1510,13 @@
                 "id": "StzrMrcc76zEBIMbBECVp",
                 "name": "Instant Payments Screen"
               }
+            },
+            {
+              "permission": "1053",
+              "screen": {
+                "id": "nrXCXTkJR1K_iZnpCIb8D",
+                "name": "instant payment from file"
+              }
             }
           ]
         },
@@ -1654,9 +1662,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/20/2023",
-    "createdAt": "6/20/2023",
+    "createdBy": "telenor",
+    "updatedAt": "6/22/2023",
+    "createdAt": "6/22/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2565,6 +2573,7 @@
         "1050": "fsZCk9fYfn5H0QdimMWCa",
         "1051": "ZYfCK6ZcYsZwdCa19LxO4",
         "1052": "TRIyQry28tayOWMoLAWN4",
+        "1053": "nrXCXTkJR1K_iZnpCIb8D",
         "1054": "StzrMrcc76zEBIMbBECVp"
       },
       "permissionsTemp": [
@@ -2804,6 +2813,13 @@
           "screen": {
             "id": "StzrMrcc76zEBIMbBECVp",
             "name": "Instant Payments Screen"
+          }
+        },
+        {
+          "permission": "1053",
+          "screen": {
+            "id": "nrXCXTkJR1K_iZnpCIb8D",
+            "name": "instant payment from file"
           }
         }
       ],
