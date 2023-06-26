@@ -1408,7 +1408,8 @@
                                                                       "//": "Use this class to style button component.",
                                                                       "background": "#000000",
                                                                       "borderRadius": "50px",
-                                                                      "padding": "12px"
+                                                                      "padding": "12px",
+                                                                      "font-color": "#FFFFFF"
                                                                     },
                                                                     "inputProps": {
                                                                       "//": "Use this class to style button element."
@@ -1430,7 +1431,7 @@
                                                                     "name": "On click"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-0",
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-0",
                                                                 "version": "1.0.0"
                                                               }
                                                             ],
@@ -1940,9 +1941,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "telenor",
-    "updatedAt": "5/30/2023",
-    "createdAt": "5/30/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "6/25/2023",
+    "createdAt": "6/25/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3548,7 +3549,8 @@
           "//": "Use this class to style button component.",
           "background": "#000000",
           "borderRadius": "50px",
-          "padding": "12px"
+          "padding": "12px",
+          "font-color": "#FFFFFF"
         },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
@@ -3568,7 +3570,7 @@
         "serviceType": "14"
       }
     ],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-0",
     "version": "1.0.0",
     "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
     "subType": "component",
