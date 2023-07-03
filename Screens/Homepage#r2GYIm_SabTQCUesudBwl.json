@@ -40,7 +40,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "XCCVv9g-Nd9rFtdxJUJEh",
+            "id": "4fbOQ_Zl8lPxGzHSdgNpr",
             "gridProps": [
               {
                 "type": "10001",
@@ -1125,7 +1125,7 @@
               "//": "Use this class to style grid layout component.",
               "padding": "0px",
               "spacing": 0,
-              "background": "#333333 0% 0% no-repeat padding-box",
+              "background": "#000000 0% 0% no-repeat padding-box",
               "margin": "0px",
               "borderWidth": "0px",
               "height": "48px"
@@ -1151,8 +1151,7 @@
           "colSize0sm": 12,
           "colSize0md": 12,
           "colSize0lg": 12,
-          "colSize0xl": 12,
-          "layoutProperties": null
+          "colSize0xl": 12
         },
         "readOnly": true
       },
@@ -1173,15 +1172,14 @@
               "background-color": "#1c2b5a",
               "height": "40px",
               "fontSize": "13px",
-              "background": "#333333 0% 0% no-repeat padding-box"
+              "background": "#000000 0% 0% no-repeat padding-box"
             },
             "subMenuItemClass": {
               "color": "#ffffff",
-              "background-color": "#394c85",
               "height": "40px",
               "fontSize": "13px",
               "padding-left": "20px",
-              "background": "#333333 0% 0% no-repeat padding-box"
+              "background": "#000000 0% 0% no-repeat padding-box"
             },
             "listItemIcon": {
               "color": "#ffffff",
@@ -1191,7 +1189,7 @@
             "sideBarMainContainer": {
               "width": "235px",
               "collapsedWidth": "60px",
-              "background": "#333333 0% 0% no-repeat padding-box",
+              "background": "#000000 0% 0% no-repeat padding-box",
               "fontSize": "500"
             },
             "mainContainer": "sideBarMainContainer",
@@ -1662,9 +1660,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "telenor",
-    "updatedAt": "6/22/2023",
-    "createdAt": "6/22/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "6/26/2023",
+    "createdAt": "6/26/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1699,7 +1697,7 @@
           "//": "Use this class to style grid layout component.",
           "padding": "0px",
           "spacing": 0,
-          "background": "#333333 0% 0% no-repeat padding-box",
+          "background": "#000000 0% 0% no-repeat padding-box",
           "margin": "0px",
           "borderWidth": "0px",
           "height": "48px"
@@ -2492,15 +2490,14 @@
           "background-color": "#1c2b5a",
           "height": "40px",
           "fontSize": "13px",
-          "background": "#333333 0% 0% no-repeat padding-box"
+          "background": "#000000 0% 0% no-repeat padding-box"
         },
         "subMenuItemClass": {
           "color": "#ffffff",
-          "background-color": "#394c85",
           "height": "40px",
           "fontSize": "13px",
           "padding-left": "20px",
-          "background": "#333333 0% 0% no-repeat padding-box"
+          "background": "#000000 0% 0% no-repeat padding-box"
         },
         "listItemIcon": {
           "color": "#ffffff",
@@ -2510,7 +2507,7 @@
         "sideBarMainContainer": {
           "width": "235px",
           "collapsedWidth": "60px",
-          "background": "#333333 0% 0% no-repeat padding-box",
+          "background": "#000000 0% 0% no-repeat padding-box",
           "fontSize": "500"
         },
         "mainContainer": "sideBarMainContainer",

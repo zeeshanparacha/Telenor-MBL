@@ -176,7 +176,9 @@
                                                           },
                                                           "layoutProperties": {
                                                             "image": {
-                                                              "//": "Use this class to style image component."
+                                                              "//": "Use this class to style image component.",
+                                                              "width": "60%",
+                                                              "height": "82%"
                                                             },
                                                             "mainContainer": "image",
                                                             "xl": 12,
@@ -187,23 +189,23 @@
                                                           },
                                                           "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
                                                           "imageAssetIdTemp": {
-                                                            "createdBy": "ahmerjavedkhan",
-                                                            "_id": "6387228dacf2fe3be899dad0",
-                                                            "name": "loginLogo.png",
+                                                            "createdBy": "telenor",
+                                                            "_id": "6475e0ae60501c687c760a4e",
+                                                            "name": "EP Logo colors-01.png",
                                                             "type": "png",
-                                                            "projectId": "62dfaa1ecc4a8a55e4d8a02b",
-                                                            "id": "g73IzxA7auBpq_DXxVTHl",
-                                                            "gitBranchName": "Sprint1",
+                                                            "projectId": "6458cf08badaaa2d6406a720",
+                                                            "id": "jLsEu-TbEWeMjwmAMi23Z",
+                                                            "gitBranchName": "master",
                                                             "folderType": "web",
                                                             "platform": "web",
-                                                            "url": "web/loginLogo.png",
-                                                            "canvasUrl": "web/loginLogo.png",
-                                                            "createdAt": "2022-11-30T09:29:49.052Z",
-                                                            "updatedAt": "2022-11-30T09:29:49.052Z",
+                                                            "url": "web/EP Logo colors-01.png",
+                                                            "canvasUrl": "web/EP Logo colors-01.png",
+                                                            "createdAt": "2023-05-30T11:40:30.722Z",
+                                                            "updatedAt": "2023-05-30T11:40:30.722Z",
                                                             "__v": 0,
-                                                            "uri": "web/loginLogo.png"
+                                                            "uri": "web/EP Logo colors-01.png"
                                                           },
-                                                          "imageAssetId": "g73IzxA7auBpq_DXxVTHl",
+                                                          "imageAssetId": "jLsEu-TbEWeMjwmAMi23Z",
                                                           "stateName": null,
                                                           "storeType": null
                                                         },
@@ -1586,7 +1588,7 @@
                                                   "type": "20002"
                                                 },
                                                 "attributes": {
-                                                  "label": "© 2023 Copyright Mobilink Microfinance. ",
+                                                  "label": "© 2023 Copyright Telenor Microfinance. ",
                                                   "variant": "h6",
                                                   "name": "footer",
                                                   "mandatory": false,
@@ -1610,7 +1612,7 @@
                                                   ]
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-2-0-0",
+                                                "path": "0-0-0-0-0-0-1-0-0-0-0",
                                                 "version": "1.0.0"
                                               },
                                               {
@@ -1862,13 +1864,13 @@
     "events": [],
     "subType": "screen",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "zrKzwDqLn7lL_GLu5mL2Z",
-    "createdBy": "ajk",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "telenor",
+    "updatedAt": "7/3/2023",
+    "createdAt": "7/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1918,7 +1920,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1977,7 +1979,7 @@
     ],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2051,7 +2053,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2097,7 +2099,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2189,7 +2191,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2234,7 +2236,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2252,7 +2254,11 @@
         "id": "CNIz67fi824LHr0ae-pOV"
       },
       "layoutProperties": {
-        "image": { "//": "Use this class to style image component." },
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "60%",
+          "height": "82%"
+        },
         "mainContainer": "image",
         "xl": 12,
         "lg": 12,
@@ -2262,23 +2268,23 @@
       },
       "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
       "imageAssetIdTemp": {
-        "createdBy": "ahmerjavedkhan",
-        "_id": "6387228dacf2fe3be899dad0",
-        "name": "loginLogo.png",
+        "createdBy": "telenor",
+        "_id": "6475e0ae60501c687c760a4e",
+        "name": "EP Logo colors-01.png",
         "type": "png",
-        "projectId": "62dfaa1ecc4a8a55e4d8a02b",
-        "id": "g73IzxA7auBpq_DXxVTHl",
-        "gitBranchName": "Sprint1",
+        "projectId": "6458cf08badaaa2d6406a720",
+        "id": "jLsEu-TbEWeMjwmAMi23Z",
+        "gitBranchName": "master",
         "folderType": "web",
         "platform": "web",
-        "url": "web/loginLogo.png",
-        "canvasUrl": "web/loginLogo.png",
-        "createdAt": "2022-11-30T09:29:49.052Z",
-        "updatedAt": "2022-11-30T09:29:49.052Z",
+        "url": "web/EP Logo colors-01.png",
+        "canvasUrl": "web/EP Logo colors-01.png",
+        "createdAt": "2023-05-30T11:40:30.722Z",
+        "updatedAt": "2023-05-30T11:40:30.722Z",
         "__v": 0,
-        "uri": "web/loginLogo.png"
+        "uri": "web/EP Logo colors-01.png"
       },
-      "imageAssetId": "g73IzxA7auBpq_DXxVTHl",
+      "imageAssetId": "jLsEu-TbEWeMjwmAMi23Z",
       "stateName": null,
       "storeType": null
     },
@@ -2295,7 +2301,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-0-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2339,7 +2345,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2385,7 +2391,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-1-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2513,7 +2519,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2561,7 +2567,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2605,7 +2611,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2649,7 +2655,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2763,7 +2769,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-1-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2807,7 +2813,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2849,7 +2855,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-2-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2893,7 +2899,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2979,7 +2985,7 @@
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-3-0-0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -3038,7 +3044,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3083,7 +3089,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3130,7 +3136,7 @@
     "version": "1.0.0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -3175,7 +3181,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3227,7 +3233,7 @@
     "version": "1.0.0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -3278,7 +3284,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3335,7 +3341,7 @@
     "events": [],
     "subType": "component",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3346,7 +3352,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "© 2023 Copyright Mobilink Microfinance. ",
+      "label": "© 2023 Copyright Telenor Microfinance. ",
       "variant": "h6",
       "name": "footer",
       "mandatory": false,
@@ -3366,11 +3372,11 @@
       "cssClassNames": [{ "cssClassName": "copyrightTag" }]
     },
     "events": [],
-    "path": "0-0-0-0-2-0-0",
+    "path": "0-0-0-0-0-0-1-0-0-0-0",
     "version": "1.0.0",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -3413,7 +3419,7 @@
     "path": "0-0-0-0-2-0-1",
     "screenId": "zrKzwDqLn7lL_GLu5mL2Z",
     "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
+    "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }

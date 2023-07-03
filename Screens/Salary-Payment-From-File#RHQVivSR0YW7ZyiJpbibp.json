@@ -2580,16 +2580,6 @@
                                         "name": "List",
                                         "type": "list"
                                       },
-                                      "headerName": "IBFT BANK IMD",
-                                      "field": "ibftBankImd",
-                                      "type": "list",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "List",
-                                        "type": "list"
-                                      },
                                       "headerName": "PURPOSE OF PAYMENT",
                                       "field": "purposeOfPayment",
                                       "type": "list",
@@ -3216,9 +3206,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "RHQVivSR0YW7ZyiJpbibp",
-    "createdBy": "telenor",
-    "updatedAt": "6/23/2023",
-    "createdAt": "6/23/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "6/26/2023",
+    "createdAt": "6/26/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5634,13 +5624,6 @@
           "typeTemp": { "name": "List", "type": "list" },
           "headerName": "CUSTOMER REF 2",
           "field": "customerRef2",
-          "type": "list",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "List", "type": "list" },
-          "headerName": "IBFT BANK IMD",
-          "field": "ibftBankImd",
           "type": "list",
           "triggerId": null
         },

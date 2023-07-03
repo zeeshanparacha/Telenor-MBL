@@ -1409,10 +1409,11 @@
                                                                       "background": "#000000",
                                                                       "borderRadius": "50px",
                                                                       "padding": "12px",
-                                                                      "font-color": "#FFFFFF"
+                                                                      "color": "#FFFFFF"
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style button element."
+                                                                      "//": "Use this class to style button element.",
+                                                                      "FontColor": "#FFFFFF"
                                                                     },
                                                                     "mainContainer": "button",
                                                                     "xl": 12,
@@ -1942,8 +1943,8 @@
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/25/2023",
-    "createdAt": "6/25/2023",
+    "updatedAt": "6/26/2023",
+    "createdAt": "6/26/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3550,9 +3551,12 @@
           "background": "#000000",
           "borderRadius": "50px",
           "padding": "12px",
-          "font-color": "#FFFFFF"
+          "color": "#FFFFFF"
         },
-        "inputProps": { "//": "Use this class to style button element." },
+        "inputProps": {
+          "//": "Use this class to style button element.",
+          "FontColor": "#FFFFFF"
+        },
         "mainContainer": "button",
         "xl": 12,
         "lg": 12,
