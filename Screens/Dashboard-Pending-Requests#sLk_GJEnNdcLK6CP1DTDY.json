@@ -613,6 +613,22 @@
                 "readOnly": true
               },
               {
+                "id": "sjo5KorsTz6KITUBVhFja",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "id": "1Gb64-_M4VD9MiXdfP6hw",
                 "status": "ACTIVE",
                 "_id": "610134a1d1f5e860b1e8c751",
@@ -638,7 +654,7 @@
                   "name": "Grid layout"
                 },
                 "group": "Layout",
-                "type": "sidebarItem",
+                "type": "10001",
                 "updatedAt": "23-Sep-2021",
                 "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
                 "createdAt": "24-Aug-2021",
@@ -655,11 +671,11 @@
                   "widget"
                 ],
                 "component": { "content": "Grid layout", "type": "10001" },
-                "path": "1-0-1",
+                "path": "1-0-2",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "9CNn6_uhK3T2N2Wlk36fG",
+                    "id": "yPD8M-620qkSWEsKk1EQ0",
                     "gridProps": [
                       {
                         "id": "OlbYJrCM3rlrGXDBcySWU",
@@ -992,11 +1008,20 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "1-0-1-0"
+                    }
                   }
                 ],
-                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               },
               {
                 "id": "cRkwM8EdIKX-Sxbhogmr1",
@@ -1258,9 +1283,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "sLk_GJEnNdcLK6CP1DTDY",
-    "createdBy": "telenor",
-    "updatedAt": "6/8/2023",
-    "createdAt": "6/8/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/4/2023",
+    "createdAt": "7/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1371,6 +1396,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "1Gb64-_M4VD9MiXdfP6hw",
@@ -1717,6 +1754,22 @@
     "screenId": "sLk_GJEnNdcLK6CP1DTDY",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "sLk_GJEnNdcLK6CP1DTDY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

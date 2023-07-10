@@ -1,1 +1,79 @@
-{"createdBy":"talib","updatedBy":"muzzamil","_id":"63206c7c967b3c4df8e319b0","id":"IdZvTFb4ooaSoa9zoyMng","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"Transaction Confirm Batch","status":"ACTIVE","services":[{"_id":"636a487e6c813129a0e8f2c2","type":"8","command":{"responseHandler":[{"httpStatus":200,"triggerName":"Open Success Modal","triggerId":"ciCkbWjxsNUlCoImahdDT","logic":{"==":[{"var":"status"},1]}},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Clear Form Data","triggerId":"C9VAY5AImRfVpeNy7pz65"},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Data Grid Service delete pending request from table","triggerId":"wh_EZJWuJ2YYp-cPqggXJ"}],"returns":[],"_id":"636a487e6c813129a0e8f2c3","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"response","url":"/batches/confirm-batch","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":2,"name":"Current screen","key":"batchId","value":"batchObject.batchId"},{"type":1,"name":"Form","key":"comment","value":"comment"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}],"createdAt":"13-Sep-2022","updatedAt":"08-Nov-2022","__v":12}
+{
+  "id": "IdZvTFb4ooaSoa9zoyMng",
+  "_id": "63206c7c967b3c4df8e319b0",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "Transaction Confirm Batch",
+  "old_name": "Transaction Confirm Batch",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/batches/confirm-batch",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchId",
+              "value": "batchObject.batchId"
+            },
+            { "type": 1, "name": "Form", "key": "comment", "value": "comment" }
+          ],
+          "baseURL": "631e018a967b3c4df8e29773",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Data Grid Service delete pending request from table",
+            "triggerId": "wh_EZJWuJ2YYp-cPqggXJ"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "pending Request Success and failed Record chain Trigger",
+            "triggerId": "jgDYNagK5rSt38gNvZl0C",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          }
+        ]
+      }
+    }
+  ],
+  "hmac": "amx TZyLr8qdWnAxISeeOtsGT2BmUy3fNX4tCghR6qmR46o=:hoPfuVzLqtnqixVPCosjsJgYanAN0OUhe5sQ1piaIDo=:FQBzUYMVn_3j7Qwl_dfZo:1688464510673",
+  "csrf": "0.hp0s2utitmeaF10H8-tlo11xGvBKMp3R",
+  "updatedAt": "7/4/2023",
+  "createdAt": "7/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
