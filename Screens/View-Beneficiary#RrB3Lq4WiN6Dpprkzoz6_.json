@@ -2504,26 +2504,6 @@
                               "field": "createdOn",
                               "type": "text",
                               "triggerId": null
-                            },
-                            {
-                              "type": "text",
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "mobileAccountNumber",
-                              "headerName": "Mobile Account Number",
-                              "conditional": { "bindingKey": "" },
-                              "values": [""],
-                              "cssConditional": {
-                                "bindingKey": "",
-                                "cssClassNames": []
-                              },
-                              "cssValues": [""]
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "CNIC",
-                              "field": "cnic",
-                              "type": "text",
-                              "triggerId": null
                             }
                           ],
                           "rowDefinition": [],
@@ -2670,8 +2650,8 @@
     "gitBranchName": "master",
     "_id": "RrB3Lq4WiN6Dpprkzoz6_",
     "createdBy": "telenor",
-    "updatedAt": "6/8/2023",
-    "createdAt": "6/8/2023",
+    "updatedAt": "7/12/2023",
+    "createdAt": "7/12/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4779,23 +4759,6 @@
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Created On",
           "field": "createdOn",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "type": "text",
-          "typeTemp": { "name": "Text", "type": "text" },
-          "field": "mobileAccountNumber",
-          "headerName": "Mobile Account Number",
-          "conditional": { "bindingKey": "" },
-          "values": [""],
-          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "CNIC",
-          "field": "cnic",
           "type": "text",
           "triggerId": null
         }

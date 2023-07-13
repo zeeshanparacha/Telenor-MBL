@@ -1,8 +1,6 @@
 {
-  "id": "ntgNAOQu2wHryxd2FeRLE",
-  "_id": "63a46646137cd44b9ced2902",
-  "name": "Clear Response Binding Key",
-  "old_name": "Clear Response Binding Key",
+  "id": "QF2JIGyW9tUnZ9Uug5nUI",
+  "name": "clear ForgotPassResponse Binding Key",
   "projectId": "6458cf08badaaa2d6406a720",
   "gitBranchName": "master",
   "services": [
@@ -11,8 +9,7 @@
       "command": {
         "type": "4",
         "attributes": {
-          "stateName": "response",
-          "requestBody": [],
+          "stateName": "ForgotPassResponse",
           "storeType": 2,
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "",
@@ -21,7 +18,8 @@
       }
     }
   ],
-  "csrf": "0.z8bxqznm4dnnKwsIDpseDA3jEnN5vTlN",
+  "csrf": "0.ez7zay2lrhpBNC2q-yQ9rb4iuGKor2R",
+  "_id": "ru2kBpouqkrW4CTIL7zOg",
   "updatedAt": "7/11/2023",
   "createdAt": "7/11/2023",
   "createdBy": "telenor",

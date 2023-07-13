@@ -1111,7 +1111,7 @@
                                                                             "button": {
                                                                               "//": "Use this class to style button component.",
                                                                               "color": "#FFFFFF",
-                                                                              "background": "#DA0006",
+                                                                              "background": "#00bd5f",
                                                                               "borderRadius": "50px",
                                                                               "padding": "12px"
                                                                             },
@@ -1258,10 +1258,12 @@
                                                                               "//": "Use this class to style button component.",
                                                                               "background": "#000000",
                                                                               "borderRadius": "50px",
-                                                                              "padding": "12px"
+                                                                              "padding": "12px",
+                                                                              "color": "#FFFFFF"
                                                                             },
                                                                             "inputProps": {
-                                                                              "//": "Use this class to style button element."
+                                                                              "//": "Use this class to style button element.",
+                                                                              "FontColor": "#FFFFFF"
                                                                             },
                                                                             "mainContainer": "button",
                                                                             "xl": 12,
@@ -1868,9 +1870,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "zrKzwDqLn7lL_GLu5mL2Z",
-    "createdBy": "telenor",
-    "updatedAt": "7/3/2023",
-    "createdAt": "7/3/2023",
+    "createdBy": "ajk",
+    "updatedAt": "7/11/2023",
+    "createdAt": "7/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3109,7 +3111,7 @@
         "button": {
           "//": "Use this class to style button component.",
           "color": "#FFFFFF",
-          "background": "#DA0006",
+          "background": "#00bd5f",
           "borderRadius": "50px",
           "padding": "12px"
         },
@@ -3202,9 +3204,13 @@
           "//": "Use this class to style button component.",
           "background": "#000000",
           "borderRadius": "50px",
-          "padding": "12px"
+          "padding": "12px",
+          "color": "#FFFFFF"
         },
-        "inputProps": { "//": "Use this class to style button element." },
+        "inputProps": {
+          "//": "Use this class to style button element.",
+          "FontColor": "#FFFFFF"
+        },
         "mainContainer": "button",
         "xl": 12,
         "lg": 12,

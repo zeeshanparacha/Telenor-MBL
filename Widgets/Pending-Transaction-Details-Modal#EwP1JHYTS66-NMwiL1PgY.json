@@ -4289,7 +4289,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "VHjK6cWVdr7tzyfyV92qy",
+                            "id": "cxSDIES1wV2lb8YuiPuvZ",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -5111,7 +5111,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "-A0mcF2HSJAF5BBMNGQo5",
+                            "id": "os3aeYB37XDuxOznl23os",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -9453,6 +9453,167 @@
                                   "colSize1xl": 6
                                 },
                                 "readOnly": true
+                              },
+                              {
+                                "type": "10001",
+                                "id": "SrNv-FAJI32daiTmKM7Rj",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "mHXSuJG-oJqMK-ZD-OgpM",
+                                    "gridProps": [
+                                      {
+                                        "id": "qoTud7JI3j2nrtuXVvjoU",
+                                        "type": "20002",
+                                        "name": "Label",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 6,
+                                            "lg": 6,
+                                            "md": 6,
+                                            "sm": 6,
+                                            "xs": 6
+                                          },
+                                          "label": "Reason",
+                                          "cssClassNames": [
+                                            {
+                                              "cssClassName": "INTransactionmodal"
+                                            }
+                                          ]
+                                        },
+                                        "events": [],
+                                        "path": "0-0-0-0-4-0-21-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 6,
+                                      "lg": 6,
+                                      "md": 6,
+                                      "sm": 6,
+                                      "xs": 6
+                                    }
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "-MNb3_w9YJmXPz7-icCuK",
+                                    "gridProps": [
+                                      {
+                                        "id": "z1KPCJft4hQt8rDhlB6dN",
+                                        "type": "20002",
+                                        "name": "Label",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 6,
+                                            "lg": 6,
+                                            "md": 6,
+                                            "sm": 6,
+                                            "xs": 6
+                                          },
+                                          "label": "pendingTransactionDetailsModalData.reason",
+                                          "cssClassNames": [
+                                            {
+                                              "cssClassName": "IInProcessTransactionLabelStyle"
+                                            }
+                                          ],
+                                          "searchInState": true,
+                                          "storeType": 2
+                                        },
+                                        "events": [],
+                                        "path": "0-0-0-0-4-0-21-1-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 6,
+                                      "lg": 6,
+                                      "md": 6,
+                                      "sm": 6,
+                                      "xs": 6
+                                    }
+                                  }
+                                ],
+                                "path": "0-0-0-0-4-0-21",
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "0",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout",
+                                  "hideCondition": {
+                                    "logic": {
+                                      "if": [
+                                        {
+                                          "var": "currentScreen.pendingTransactionDetailsModalData.reason.length"
+                                        },
+                                        false,
+                                        true
+                                      ]
+                                    }
+                                  }
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 2,
+                                  "colSize0xs": 6,
+                                  "colSize0sm": 6,
+                                  "colSize0md": 6,
+                                  "colSize0lg": 6,
+                                  "colSize0xl": 6,
+                                  "colSize1xs": 6,
+                                  "colSize1sm": 6,
+                                  "colSize1md": 6,
+                                  "colSize1lg": 6,
+                                  "colSize1xl": 6
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -12120,9 +12281,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "EwP1JHYTS66-NMwiL1PgY",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/20/2023",
-    "createdAt": "6/20/2023",
+    "createdBy": "masood",
+    "updatedAt": "7/13/2023",
+    "createdAt": "7/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -18679,6 +18840,25 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "componentId": "SrNv-FAJI32daiTmKM7Rj",
+          "componentType": "10001",
+          "id": "SrNv-FAJI32daiTmKM7Rj",
+          "position": {
+            "i": "SrNv-FAJI32daiTmKM7Rj",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
         }
       ],
       "label": "Header",
@@ -21312,6 +21492,124 @@
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-0-0-4-0-20-1-0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "SrNv-FAJI32daiTmKM7Rj",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "qoTud7JI3j2nrtuXVvjoU",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "z1KPCJft4hQt8rDhlB6dN",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "var": "currentScreen.pendingTransactionDetailsModalData.reason.length"
+            },
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "qoTud7JI3j2nrtuXVvjoU",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "Reason",
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "events": [],
+    "path": "0-0-0-0-4-0-21-0-0",
+    "version": "1.0.0",
+    "screenId": "EwP1JHYTS66-NMwiL1PgY",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "z1KPCJft4hQt8rDhlB6dN",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "pendingTransactionDetailsModalData.reason",
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "events": [],
+    "path": "0-0-0-0-4-0-21-1-0",
+    "version": "1.0.0",
     "screenId": "EwP1JHYTS66-NMwiL1PgY",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",

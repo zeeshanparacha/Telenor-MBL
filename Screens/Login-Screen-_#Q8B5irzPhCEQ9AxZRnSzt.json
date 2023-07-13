@@ -1024,14 +1024,20 @@
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-                                                            "triggerName": "Clear Form Validations",
+                                                            "triggerId": "SKGprdZe9CzD3MmvRegMh",
+                                                            "triggerName": "Login To Forgot Password",
                                                             "type": "2",
                                                             "name": "On click"
                                                           },
                                                           {
-                                                            "triggerId": "SKGprdZe9CzD3MmvRegMh",
-                                                            "triggerName": "Login To Forgot Password",
+                                                            "triggerId": "ntgNAOQu2wHryxd2FeRLE",
+                                                            "triggerName": "Clear Response Binding Key",
+                                                            "type": "2",
+                                                            "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "C9VAY5AImRfafff65",
+                                                            "triggerName": "Clear validations",
                                                             "type": "2",
                                                             "name": "On click"
                                                           }
@@ -1091,111 +1097,6 @@
                                                   "colSize0xl": 12
                                                 },
                                                 "readOnly": true
-                                              },
-                                              {
-                                                "type": "10001",
-                                                "name": "Grid layout",
-                                                "id": "gBijrvruFlYlc1JPe04c0",
-                                                "gridProps": [
-                                                  {
-                                                    "type": "column",
-                                                    "id": "gpH9Pd7PNpVqmJTybyY0C",
-                                                    "gridProps": [
-                                                      {
-                                                        "id": "5hjXcpHRkmIk0Gck0gP0f",
-                                                        "status": "ACTIVE",
-                                                        "name": "Link",
-                                                        "icon": "FaLink",
-                                                        "group": "Form",
-                                                        "attributes": {
-                                                          "label": "Corporate Account Opening ",
-                                                          "name": "Link",
-                                                          "layoutProperties": {
-                                                            "link": {
-                                                              "//": "Use this class to style link component.",
-                                                              "color": "#000000",
-                                                              "cursor": "pointer"
-                                                            },
-                                                            "mainContainer": "link",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
-                                                          },
-                                                          "hideComponent": true,
-                                                          "hideCondition": {
-                                                            "logic": true
-                                                          }
-                                                        },
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "type": "20011",
-                                                        "order": 4,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Link",
-                                                          "type": "20011"
-                                                        },
-                                                        "events": [
-                                                          {
-                                                            "triggerId": "C8QHFdNX6uuobotoMrv-G",
-                                                            "triggerName": "login to corporate account opening",
-                                                            "type": "2",
-                                                            "name": "On click"
-                                                          },
-                                                          {
-                                                            "triggerId": "C9VAY5AImRfafff65",
-                                                            "triggerName": "Clear validations",
-                                                            "type": "2",
-                                                            "name": "On click"
-                                                          }
-                                                        ],
-                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-0-0"
-                                                      }
-                                                    ],
-                                                    "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    }
-                                                  }
-                                                ],
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout"
-                                                },
-                                                "events": [],
-                                                "component": {
-                                                  "type": "10001",
-                                                  "content": "Grid layout"
-                                                }
                                               },
                                               {
                                                 "type": "10001",
@@ -1942,9 +1843,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/26/2023",
-    "createdAt": "6/26/2023",
+    "createdBy": "telenor",
+    "updatedAt": "7/11/2023",
+    "createdAt": "7/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2534,25 +2435,6 @@
           "id": "REiexil28rNw1aRbwPnhi",
           "position": {
             "i": "REiexil28rNw1aRbwPnhi",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "gBijrvruFlYlc1JPe04c0",
-          "componentType": "10001",
-          "id": "gBijrvruFlYlc1JPe04c0",
-          "position": {
-            "i": "gBijrvruFlYlc1JPe04c0",
             "x": null,
             "y": null,
             "w": null,
@@ -3213,107 +3095,14 @@
     "component": { "content": "Link", "type": "20011" },
     "events": [
       {
-        "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-        "triggerName": "Clear Form Validations",
-        "name": "On click",
-        "type": "2"
-      },
-      {
         "triggerId": "SKGprdZe9CzD3MmvRegMh",
         "triggerName": "Login To Forgot Password",
         "name": "On click",
         "type": "2"
-      }
-    ],
-    "path": "0-0-0-0-0-0-0-0-2-0-4-0-0",
-    "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
-    "subType": "component",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "gBijrvruFlYlc1JPe04c0",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "5hjXcpHRkmIk0Gck0gP0f",
-          "componentType": "20011",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
       },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "5hjXcpHRkmIk0Gck0gP0f",
-    "status": "ACTIVE",
-    "name": "Link",
-    "icon": "FaLink",
-    "group": "Form",
-    "attributes": {
-      "label": "Corporate Account Opening ",
-      "name": "Link",
-      "layoutProperties": {
-        "link": {
-          "//": "Use this class to style link component.",
-          "color": "#000000",
-          "cursor": "pointer"
-        },
-        "mainContainer": "link",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "hideComponent": true,
-      "hideCondition": { "logic": true }
-    },
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "type": "20011",
-    "order": 4,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Link", "type": "20011" },
-    "events": [
       {
-        "triggerId": "C8QHFdNX6uuobotoMrv-G",
-        "triggerName": "login to corporate account opening",
+        "triggerId": "ntgNAOQu2wHryxd2FeRLE",
+        "triggerName": "Clear Response Binding Key",
         "name": "On click",
         "type": "2"
       },
@@ -3324,7 +3113,7 @@
         "type": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-0-0",
+    "path": "0-0-0-0-0-0-0-0-2-0-4-0-0",
     "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
