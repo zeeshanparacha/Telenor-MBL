@@ -1375,8 +1375,7 @@
                                                 "attributes": {
                                                   "layoutProperties": {
                                                     "radioButton": {
-                                                      "//": "Use this class to style radiobutton component.",
-                                                      "color": "#18A9F8"
+                                                      "//": "Use this class to style radiobutton component."
                                                     },
                                                     "formControlLabel": {
                                                       "//": "Use this class to style radiobutton label",
@@ -3134,17 +3133,7 @@
                                             }
                                           ],
                                           "buttonIconPosition": "end",
-                                          "disableCondition": {
-                                            "logic": {
-                                              "if": [
-                                                {
-                                                  "var": "currentScreen.fullStatement2.length"
-                                                },
-                                                false,
-                                                true
-                                              ]
-                                            }
-                                          }
+                                          "disableCondition": {}
                                         },
                                         "name": "Download XLS",
                                         "icon": "FaBimobject",
@@ -3305,17 +3294,7 @@
                                             }
                                           ],
                                           "buttonIconPosition": "end",
-                                          "disableCondition": {
-                                            "logic": {
-                                              "if": [
-                                                {
-                                                  "var": "currentScreen.fullStatement2.length"
-                                                },
-                                                false,
-                                                true
-                                              ]
-                                            }
-                                          }
+                                          "disableCondition": {}
                                         },
                                         "name": "Download PDF",
                                         "icon": "FaBimobject",
@@ -3476,7 +3455,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "H-aoALf25pYKlUvwdN3B_",
+                            "id": "0EGh2apo66RosdNQ0hUct",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -3590,12 +3569,11 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-1-0-3-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "fQDgkb4c7ZQ97D6i1u4cL",
+                            "id": "kN5wprc32VkEbSSRMrd_Q",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -3709,8 +3687,7 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-1-0-3-1"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -3737,27 +3714,28 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "Grid layout",
+                          "hideComponent": true
                         },
                         "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-1-0-3",
+                        "path": "0-0-1-0-2",
                         "dimensions": {
                           "rows": 1,
                           "columns": 2,
-                          "colSize0xs": 5,
-                          "colSize0sm": 5,
-                          "colSize0md": 5,
-                          "colSize0lg": 5,
-                          "colSize0xl": 5,
-                          "colSize1xs": 5,
-                          "colSize1sm": 5,
-                          "colSize1md": 5,
-                          "colSize1lg": 5,
-                          "colSize1xl": 5
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 6,
+                          "colSize1sm": 6,
+                          "colSize1md": 6,
+                          "colSize1lg": 6,
+                          "colSize1xl": 6
                         },
                         "readOnly": true
                       },
@@ -4115,9 +4093,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nqgECqW95uUMgp3qrp15n",
-    "createdBy": "telenor",
-    "updatedAt": "6/20/2023",
-    "createdAt": "6/20/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/14/2023",
+    "createdAt": "7/14/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5543,8 +5521,7 @@
     "attributes": {
       "layoutProperties": {
         "radioButton": {
-          "//": "Use this class to style radiobutton component.",
-          "color": "#18A9F8"
+          "//": "Use this class to style radiobutton component."
         },
         "formControlLabel": {
           "//": "Use this class to style radiobutton label",
@@ -6905,11 +6882,7 @@
       "iconname": "GrDocumentExcel",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }],
       "buttonIconPosition": "end",
-      "disableCondition": {
-        "logic": {
-          "if": [{ "var": "currentScreen.fullStatement2.length" }, false, true]
-        }
-      }
+      "disableCondition": {}
     },
     "name": "Download XLS",
     "icon": "FaBimobject",
@@ -7011,11 +6984,7 @@
       "iconname": "GrDocumentPdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }],
       "buttonIconPosition": "end",
-      "disableCondition": {
-        "logic": {
-          "if": [{ "var": "currentScreen.fullStatement2.length" }, false, true]
-        }
-      }
+      "disableCondition": {}
     },
     "name": "Download PDF",
     "icon": "FaBimobject",
@@ -7093,7 +7062,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],
