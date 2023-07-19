@@ -1,0 +1,27 @@
+{
+  "id": "hcAY_k9Mkwk1bSd69Ws7e",
+  "name": "Clear fullStatement BindingKey",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "fullStatement",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+  "_id": "UNihhtYJK-BhVVk966OcP",
+  "updatedAt": "7/19/2023",
+  "createdAt": "7/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

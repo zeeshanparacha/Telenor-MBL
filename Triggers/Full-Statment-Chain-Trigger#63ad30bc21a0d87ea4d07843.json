@@ -15,28 +15,51 @@
           "delay": "",
           "triggers": [
             {
-              "createdBy": "areeb",
-              "updatedBy": "ahmerjavedkhan",
-              "_id": "63244964025fdb65c86b3c3b",
+              "id": "hcAY_k9Mkwk1bSd69Ws7e",
+              "name": "Clear fullStatement BindingKey",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "fullStatement",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+              "_id": "UNihhtYJK-BhVVk966OcP",
+              "updatedAt": "7/19/2023",
+              "createdAt": "7/19/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
               "id": "2DUfX-d6sXYBax5jfTkhy",
-              "projectId": "62dfaa1ecc4a8a55e4d8a02b",
-              "gitBranchName": "Sprint1",
+              "_id": "63244964025fdb65c86b3c3b",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "master",
               "name": "account full statement api",
+              "old_name": "account full statement api",
               "status": "ACTIVE",
               "services": [
                 {
-                  "_id": "63ac9c3821a0d87ea4cf4468",
                   "type": "8",
                   "command": {
-                    "responseHandler": [],
-                    "returns": [],
-                    "_id": "63ac9c3821a0d87ea4cf4469",
+                    "type": "1",
                     "attributes": {
                       "loaderWidgetIds": [906070],
                       "messageWidgetIds": [906070],
                       "responseStateKey": "fullStatement",
-                      "responseReturnValue": "data.fullStatement",
-                      "url": "/account-statement/full-statement",
+                      "responseReturnValue": "data.records",
+                      "url": "/branchless-account/statement",
                       "checksum": true,
                       "encryption": true,
                       "isDeviceDetails": true,
@@ -67,41 +90,106 @@
                           "type": 1,
                           "name": "Form",
                           "key": "accountId",
-                          "value": "account.accountNumber"
+                          "value": "branchless.id"
                         },
                         {
                           "type": 1,
                           "name": "Form",
-                          "key": "duration",
+                          "key": "days",
                           "value": "radiokey"
                         },
                         {
-                          "type": 1,
-                          "name": "Form",
-                          "key": "collectionMethod",
-                          "value": "collectionMethod"
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "cachedRecord",
+                          "value": "false"
                         }
                       ],
                       "baseURL": "631b0ff6d005932c10ce3bbe",
                       "storeType": 2
                     },
-                    "type": "1"
+                    "responseHandler": []
                   }
                 }
               ],
-              "createdAt": "16-Sep-2022",
-              "updatedAt": "29-Dec-2022",
-              "__v": 19
+              "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+              "updatedAt": "7/19/2023",
+              "createdAt": "7/19/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "8vlue7OKeWsYarUp04IrC",
+              "_id": "c_OEIG9WL-_2GheZWqIfB",
+              "name": "Set CachedRecord Value ",
+              "old_name": "Set CachedRecord Value ",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "cachedRecord",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          {
+                            ">": [
+                              {
+                                "var": "currentScreen.form.branchless.accountTitle.length"
+                              },
+                              0
+                            ]
+                          },
+                          true,
+                          false
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+              "updatedAt": "7/19/2023",
+              "createdAt": "7/19/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
             }
           ],
-          "triggerIds": ["2DUfX-d6sXYBax5jfTkhy"]
+          "triggerIds": [
+            "hcAY_k9Mkwk1bSd69Ws7e",
+            "2DUfX-d6sXYBax5jfTkhy",
+            "8vlue7OKeWsYarUp04IrC"
+          ]
         }
       }
     }
   ],
-  "csrf": "0.9b9t9pmnkegYVxTirC2l7z0jzYSoFAH",
-  "updatedAt": "7/14/2023",
-  "createdAt": "7/14/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+  "updatedAt": "7/19/2023",
+  "createdAt": "7/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

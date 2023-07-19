@@ -1,0 +1,40 @@
+{
+  "id": "8vlue7OKeWsYarUp04IrC",
+  "_id": "c_OEIG9WL-_2GheZWqIfB",
+  "name": "Set CachedRecord Value ",
+  "old_name": "Set CachedRecord Value ",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "cachedRecord",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { ">": [{ "var": "form.branchless.accountTitle.length" }, 0] },
+              true,
+              false
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "csrf": "0.d69aei3bghP-ecaE6HD_PMM1pQYp748",
+  "updatedAt": "7/19/2023",
+  "createdAt": "7/19/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
