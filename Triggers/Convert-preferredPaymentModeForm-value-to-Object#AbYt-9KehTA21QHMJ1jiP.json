@@ -1,0 +1,48 @@
+{
+  "id": "KO5JPieyhAYff0_Rbz-va",
+  "_id": "AbYt-9KehTA21QHMJ1jiP",
+  "name": "Convert preferredPaymentModeForm value to Object",
+  "old_name": "Convert preferredPaymentModeForm value to Object",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "preferredPaymentModeForm",
+          "sourceBindingKey": "response.data.beneficiary.preferredPaymentMode",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "code",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.beneficiary.preferredPaymentMode"
+              }
+            },
+            {
+              "key": "name",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.beneficiary.preferredPaymentMode"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "csrf": "0.twrf7vpu4rbQ1yWpPiDVcDeAr9PJZO1",
+  "updatedAt": "8/15/2023",
+  "createdAt": "8/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

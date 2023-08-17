@@ -354,11 +354,11 @@
                                       {
                                         "type": "10001",
                                         "name": "Grid layout",
-                                        "id": "wkDL02rgB1k1-99wDYBCz",
+                                        "id": "TUuKvOzzMXaB9m1kT59nx",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "9LBEGVCUuYhbInADuzBaQ",
+                                            "id": "ZQLZ88Zx7Vy3xQE3Woq6b",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -418,7 +418,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-0-0-2-0-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -428,7 +428,7 @@
                                                               "sm": 12,
                                                               "xs": 12
                                                             },
-                                                            "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0"
+                                                            "path": "0-0-1-0-0-0-0-0-2-0-0-0-0-0"
                                                           }
                                                         ],
                                                         "allowedContainers": [
@@ -462,7 +462,7 @@
                                                           "type": "10001",
                                                           "content": "Grid layout"
                                                         },
-                                                        "path": "0-0-1-0-0-0-0-0-1-0-0-0-0"
+                                                        "path": "0-0-1-0-0-0-0-0-2-0-0-0-0"
                                                       },
                                                       {
                                                         "id": "HIUdNIwafWvjy23BLh1ww",
@@ -510,7 +510,7 @@
                                                           "content": "Grid layout",
                                                           "type": "10001"
                                                         },
-                                                        "path": "1",
+                                                        "path": "0-0-1-0-0-0-0-0-2-0-0-0-1",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
@@ -559,7 +559,8 @@
                                                                       "cssClassName": "emptyTextField"
                                                                     }
                                                                   ],
-                                                                  "stateName": "beneId"
+                                                                  "stateName": "employeeId",
+                                                                  "disableCondition": {}
                                                                 },
                                                                 "icon": "FaWindowMinimize",
                                                                 "group": "Form",
@@ -576,7 +577,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-0-0-2-0-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -585,7 +586,8 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            }
+                                                            },
+                                                            "path": "0-0-1-0-0-0-0-0-2-0-0-0-1-0"
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -613,10 +615,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-1-0-0-0-0-0-1-0-0-0"
+                                                    "path": "0-0-1-0-0-0-0-0-2-0-0-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-0-0-1-0-0",
+                                                "path": "0-0-1-0-0-0-0-0-2-0-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -652,17 +654,17 @@
                                               }
                                             ],
                                             "layoutProperties": {
-                                              "xl": 4,
-                                              "lg": 4,
-                                              "md": 4,
-                                              "sm": 4,
-                                              "xs": 4
+                                              "xl": 6,
+                                              "lg": 6,
+                                              "md": 6,
+                                              "sm": 6,
+                                              "xs": 6
                                             },
-                                            "path": "0-0-1-0-0-0-0-0-1-0"
+                                            "path": "0-0-1-0-0-0-0-0-2-0"
                                           },
                                           {
                                             "type": "column",
-                                            "id": "cpMJvMBs4uw5ECoXWNEtT",
+                                            "id": "SyxRZf6SqXiWe5hoI9Nra",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -720,7 +722,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-1-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-0-0-2-1-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -730,10 +732,10 @@
                                                               "sm": 12,
                                                               "xs": 12
                                                             },
-                                                            "path": "0-0-1-0-0-0-0-0-1-1-0-0-0-0"
+                                                            "path": "0-0-1-0-0-0-0-0-2-1-0-0-0-0"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-0-0-1-1-0-0-0",
+                                                        "path": "0-0-1-0-0-0-0-0-2-1-0-0-0",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -835,7 +837,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-1-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-0-0-2-1-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -845,10 +847,10 @@
                                                               "sm": 12,
                                                               "xs": 12
                                                             },
-                                                            "path": "0-0-1-0-0-0-0-0-1-1-0-0-1-0"
+                                                            "path": "0-0-1-0-0-0-0-0-2-1-0-0-1-0"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-0-0-1-1-0-0-1",
+                                                        "path": "0-0-1-0-0-0-0-0-2-1-0-0-1",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -890,10 +892,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-1-0-0-0-0-0-1-1-0-0"
+                                                    "path": "0-0-1-0-0-0-0-0-2-1-0-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-0-0-1-1-0",
+                                                "path": "0-0-1-0-0-0-0-0-2-1-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -929,300 +931,13 @@
                                               }
                                             ],
                                             "layoutProperties": {
-                                              "xl": 4,
-                                              "lg": 4,
-                                              "md": 4,
-                                              "sm": 4,
-                                              "xs": 4
+                                              "xl": 6,
+                                              "lg": 6,
+                                              "md": 6,
+                                              "sm": 6,
+                                              "xs": 6
                                             },
-                                            "path": "0-0-1-0-0-0-0-0-1-1"
-                                          },
-                                          {
-                                            "type": "column",
-                                            "id": "ROV9anXQNnOanxMUPeH1P",
-                                            "gridProps": [
-                                              {
-                                                "type": "10001",
-                                                "id": "5yjhFjyxy3owRjGSuctK7",
-                                                "gridProps": [
-                                                  {
-                                                    "type": "column",
-                                                    "id": "mnd3oZvNXoFWFXyPQe21D",
-                                                    "gridProps": [
-                                                      {
-                                                        "type": "10001",
-                                                        "id": "tlE1yg5y8l_8RzrSgfWW5",
-                                                        "gridProps": [
-                                                          {
-                                                            "type": "column",
-                                                            "id": "gY8uY6Oxs3BqhoqAkWJue",
-                                                            "gridProps": [
-                                                              {
-                                                                "id": "H7tqXPny6HBkPzxFgCfzv",
-                                                                "status": "ACTIVE",
-                                                                "name": "Label",
-                                                                "attributes": {
-                                                                  "label": "Category",
-                                                                  "variant": "body1",
-                                                                  "name": "Label",
-                                                                  "mandatory": false,
-                                                                  "layoutProperties": {
-                                                                    "label": {
-                                                                      "//": "Use this class to style label component."
-                                                                    },
-                                                                    "mainContainer": "label",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  },
-                                                                  "cssClassNames": [
-                                                                    {
-                                                                      "cssClassName": "textfieldLabel"
-                                                                    }
-                                                                  ]
-                                                                },
-                                                                "icon": "FaFont",
-                                                                "group": "Form",
-                                                                "type": "20002",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 15,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Label",
-                                                                  "type": "20002"
-                                                                },
-                                                                "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-2-0-0-0-0-0"
-                                                              }
-                                                            ],
-                                                            "layoutProperties": {
-                                                              "xl": 12,
-                                                              "lg": 12,
-                                                              "md": 12,
-                                                              "sm": 12,
-                                                              "xs": 12
-                                                            },
-                                                            "path": "0-0-1-0-0-0-0-0-1-2-0-0-0-0"
-                                                          }
-                                                        ],
-                                                        "path": "0-0-1-0-0-0-0-0-1-2-0-0-0",
-                                                        "events": [],
-                                                        "attributes": {
-                                                          "gridProps": [],
-                                                          "label": "Header",
-                                                          "layoutProperties": {
-                                                            "gridLayout": {
-                                                              "//": "Use this class to style grid layout component.",
-                                                              "padding": "5px",
-                                                              "spacing": 0
-                                                            },
-                                                            "mainContainer": "gridLayout"
-                                                          },
-                                                          "layoutProps": {
-                                                            "direction": "row",
-                                                            "justifyContent": "flex-start",
-                                                            "alignItems": "flex-start"
-                                                          },
-                                                          "direction": "row",
-                                                          "name": "Grid layout"
-                                                        },
-                                                        "component": {
-                                                          "type": "10001",
-                                                          "content": "Grid layout"
-                                                        },
-                                                        "allowedContainers": [
-                                                          "10001",
-                                                          "20030",
-                                                          "noLayout",
-                                                          "20010",
-                                                          "widget"
-                                                        ],
-                                                        "name": "Grid layout"
-                                                      },
-                                                      {
-                                                        "type": "10001",
-                                                        "id": "dm4uisgtQV-LoK0kVAxjo",
-                                                        "gridProps": [
-                                                          {
-                                                            "type": "column",
-                                                            "id": "f71i26uehIQKgj9Pyy8yr",
-                                                            "gridProps": [
-                                                              {
-                                                                "id": "qH2YO0k8ZZ1kY3RejQteo",
-                                                                "status": "ACTIVE",
-                                                                "name": "Text Box",
-                                                                "attributes": {
-                                                                  "label": "",
-                                                                  "name": "Text box",
-                                                                  "label-locale-key": "",
-                                                                  "maxLength": 20,
-                                                                  "type": "text",
-                                                                  "variant": "standard",
-                                                                  "value": "",
-                                                                  "readOnly": false,
-                                                                  "tooltip": "",
-                                                                  "font-family": "Verdana",
-                                                                  "mandatory": true,
-                                                                  "tooltipState": "",
-                                                                  "layoutProperties": {
-                                                                    "textField": {
-                                                                      "//": "Use this class to style text field component."
-                                                                    },
-                                                                    "inputProps": {
-                                                                      "//": "Use this class to style  text field element.",
-                                                                      "paddingLeft": "15px"
-                                                                    },
-                                                                    "mainContainer": "textField",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  },
-                                                                  "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This field is required"
-                                                                  },
-                                                                  "placeholder": "",
-                                                                  "disableUnderline": true,
-                                                                  "cssClassNames": [
-                                                                    {
-                                                                      "cssClassName": "emptyTextField"
-                                                                    }
-                                                                  ],
-                                                                  "stateName": "category"
-                                                                },
-                                                                "icon": "FaWindowMinimize",
-                                                                "group": "Form",
-                                                                "type": "20004",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 20,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Text Box",
-                                                                  "type": "20004"
-                                                                },
-                                                                "events": [],
-                                                                "path": "0-0-1-0-0-0-0-0-1-2-0-0-1-0-0"
-                                                              }
-                                                            ],
-                                                            "layoutProperties": {
-                                                              "xl": 12,
-                                                              "lg": 12,
-                                                              "md": 12,
-                                                              "sm": 12,
-                                                              "xs": 12
-                                                            },
-                                                            "path": "0-0-1-0-0-0-0-0-1-2-0-0-1-0"
-                                                          }
-                                                        ],
-                                                        "path": "0-0-1-0-0-0-0-0-1-2-0-0-1",
-                                                        "events": [],
-                                                        "attributes": {
-                                                          "gridProps": [],
-                                                          "label": "Header",
-                                                          "layoutProperties": {
-                                                            "gridLayout": {
-                                                              "//": "Use this class to style grid layout component.",
-                                                              "padding": "5px",
-                                                              "spacing": 0
-                                                            },
-                                                            "mainContainer": "gridLayout"
-                                                          },
-                                                          "layoutProps": {
-                                                            "direction": "row",
-                                                            "justifyContent": "flex-start",
-                                                            "alignItems": "flex-start"
-                                                          },
-                                                          "direction": "row",
-                                                          "name": "Grid layout"
-                                                        },
-                                                        "component": {
-                                                          "type": "10001",
-                                                          "content": "Grid layout"
-                                                        },
-                                                        "allowedContainers": [
-                                                          "10001",
-                                                          "20030",
-                                                          "noLayout",
-                                                          "20010",
-                                                          "widget"
-                                                        ],
-                                                        "name": "Grid layout"
-                                                      }
-                                                    ],
-                                                    "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    }
-                                                  }
-                                                ],
-                                                "path": "0-0-1-0-0-0-0-0-1-2-0",
-                                                "events": [],
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout",
-                                                  "hideComponent": false
-                                                },
-                                                "component": {
-                                                  "type": "10001",
-                                                  "content": "Grid layout"
-                                                },
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
-                                                "name": "Grid layout",
-                                                "dimensions": {
-                                                  "rows": 1,
-                                                  "columns": 1,
-                                                  "colSize0xs": 12,
-                                                  "colSize0sm": 12,
-                                                  "colSize0md": 12,
-                                                  "colSize0lg": 12,
-                                                  "colSize0xl": 12
-                                                },
-                                                "readOnly": true
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 4,
-                                              "lg": 4,
-                                              "md": 4,
-                                              "sm": 4,
-                                              "xs": 4
-                                            },
-                                            "path": "0-0-1-0-0-0-0-0-1-2"
+                                            "path": "0-0-1-0-0-0-0-0-2-1"
                                           }
                                         ],
                                         "allowedContainers": [
@@ -1256,7 +971,7 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-1-0-0-0-0-0-1"
+                                        "path": "0-0-1-0-0-0-0-0-2"
                                       },
                                       {
                                         "type": "10001",
@@ -1283,7 +998,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-1-0-0-0-0-0-2-0-0-0"
+                                                    "path": "0-0-1-0-0-0-0-0-3-0-0-0"
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -1317,7 +1032,7 @@
                                                   "type": "10001",
                                                   "content": "Grid layout"
                                                 },
-                                                "path": "0-0-1-0-0-0-0-0-2-0-0"
+                                                "path": "0-0-1-0-0-0-0-0-3-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -1327,7 +1042,7 @@
                                               "sm": 8,
                                               "xs": 8
                                             },
-                                            "path": "0-0-1-0-0-0-0-0-2-0"
+                                            "path": "0-0-1-0-0-0-0-0-3-0"
                                           },
                                           {
                                             "type": "column",
@@ -1358,8 +1073,7 @@
                                                           "layoutProperties": {
                                                             "button": {
                                                               "//": "Use this class to style button component.",
-                                                              "color": "#fff !important",
-                                                              "background": "#DA0006 !important"
+                                                              "color": "#fff !important"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -1386,13 +1100,10 @@
                                                                 {
                                                                   "or": [
                                                                     {
-                                                                      "var": "currentScreen.form.category.length"
-                                                                    },
-                                                                    {
                                                                       "var": "currentScreen.form.beneName.length"
                                                                     },
                                                                     {
-                                                                      "var": "currentScreen.form.employeeID.length"
+                                                                      "var": "currentScreen.form.employeeId.length"
                                                                     }
                                                                   ]
                                                                 }
@@ -1531,7 +1242,7 @@
                                                             "name": "On Submit"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-0-0-2-1-0-0-0",
+                                                        "path": "0-0-1-0-0-0-0-0-3-1-0-0-0",
                                                         "version": "1.0.0"
                                                       }
                                                     ],
@@ -1542,10 +1253,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-1-0-0-0-0-0-2-1-0-0"
+                                                    "path": "0-0-1-0-0-0-0-0-3-1-0-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-0-0-2-1-0",
+                                                "path": "0-0-1-0-0-0-0-0-3-1-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -1587,7 +1298,7 @@
                                               "sm": 2,
                                               "xs": 2
                                             },
-                                            "path": "0-0-1-0-0-0-0-0-2-1"
+                                            "path": "0-0-1-0-0-0-0-0-3-1"
                                           },
                                           {
                                             "type": "column",
@@ -1783,7 +1494,7 @@
                                                             "name": "On click"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-0-0-2-2-0-0-0"
+                                                        "path": "0-0-1-0-0-0-0-0-3-2-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -1793,10 +1504,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-1-0-0-0-0-0-2-2-0-0"
+                                                    "path": "0-0-1-0-0-0-0-0-3-2-0-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-0-0-2-2-0",
+                                                "path": "0-0-1-0-0-0-0-0-3-2-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -1838,7 +1549,7 @@
                                               "sm": 2,
                                               "xs": 2
                                             },
-                                            "path": "0-0-1-0-0-0-0-0-2-2"
+                                            "path": "0-0-1-0-0-0-0-0-3-2"
                                           }
                                         ],
                                         "allowedContainers": [
@@ -1872,7 +1583,7 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-1-0-0-0-0-0-2"
+                                        "path": "0-0-1-0-0-0-0-0-3"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2022,12 +1733,44 @@
                 "readOnly": true
               },
               {
+                "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                "name": "Show Error Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
+                "id": "sjo5KorsTz6KITUBVhFja",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "id": "C5s93V5mkA9pwqeVgoo-Y",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "grD-Z-EJCodg7Ybavg-vJ",
+                    "id": "foum6SzRI8mOX3o4uRvQF",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2088,12 +1831,11 @@
                       "md": 8,
                       "sm": 8,
                       "xs": 8
-                    },
-                    "path": "0-0-2-0"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "TwD40Nt1IFmnTtqh1OvCm",
+                    "id": "GVCBW3YanQvPbUZWkZrVa",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2208,12 +1950,11 @@
                       "md": 2,
                       "sm": 2,
                       "xs": 2
-                    },
-                    "path": "0-0-2-1"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "z8NuaJy6z71OA4DoAX3el",
+                    "id": "Ef_YgtzFG4SvddJhHvrFe",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2328,11 +2069,10 @@
                       "md": 2,
                       "sm": 2,
                       "xs": 2
-                    },
-                    "path": "0-0-2-2"
+                    }
                   }
                 ],
-                "path": "0-0-2",
+                "path": "0-0-4",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -2504,6 +2244,90 @@
                               "field": "createdOn",
                               "type": "text",
                               "triggerId": null
+                            },
+                            {
+                              "typeTemp": {
+                                "name": "Icon Button",
+                                "type": "iconButton"
+                              },
+                              "headerName": "Action",
+                              "field": "",
+                              "rowId": "id",
+                              "iconButtons": [
+                                {
+                                  "asset": null,
+                                  "iconname": "FaEdit",
+                                  "trigger": {
+                                    "id": "4IWPOgU6wTb5KgV5g4uuO",
+                                    "_id": "V4ZxR7eCxxQWZihpovVhH",
+                                    "projectId": "6458cf08badaaa2d6406a720",
+                                    "gitBranchName": "master",
+                                    "name": "Company Beneficiary Details",
+                                    "old_name": "Company Beneficiary Details",
+                                    "status": "ACTIVE",
+                                    "services": [
+                                      {
+                                        "type": "8",
+                                        "command": {
+                                          "type": "1",
+                                          "attributes": {
+                                            "loaderWidgetIds": [906070],
+                                            "messageWidgetIds": [906070],
+                                            "responseStateKey": "reponse",
+                                            "url": "/company-beneficiary/detail",
+                                            "checksum": true,
+                                            "encryption": true,
+                                            "isDeviceDetails": true,
+                                            "loginTrigger": false,
+                                            "formData": false,
+                                            "logoutTrigger": false,
+                                            "headers": {
+                                              "Content-Type": "application/json",
+                                              "Accept": "application/json",
+                                              "channel_key": "001",
+                                              "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                              "locale": "en-ltr"
+                                            },
+                                            "requestBody": [
+                                              {
+                                                "type": 2,
+                                                "name": "Current screen",
+                                                "key": "beneficiaryId",
+                                                "value": "selectedObject.id"
+                                              }
+                                            ],
+                                            "baseURL": "631b0ff6d005932c10ce3bbe",
+                                            "storeType": 2
+                                          },
+                                          "responseHandler": [
+                                            {
+                                              "logic": {
+                                                "==": [{ "var": "status" }, 1]
+                                              },
+                                              "httpStatus": 200,
+                                              "triggerName": "Open Update View Beneficiary Screen",
+                                              "triggerId": "V_M2ESn1aO6pTd9Fh6wvf"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ],
+                                    "csrf": "0.twrf7vpu4rbQ1yWpPiDVcDeAr9PJZO1",
+                                    "updatedAt": "8/15/2023",
+                                    "createdAt": "8/15/2023",
+                                    "createdBy": "ahmerjavedkhan",
+                                    "updatedBy": "ahmerjavedkhan"
+                                  },
+                                  "triggerId": "4IWPOgU6wTb5KgV5g4uuO",
+                                  "conditional": {},
+                                  "values": [],
+                                  "disableConditional": {},
+                                  "disableValues": [],
+                                  "cssConditional": {},
+                                  "cssValues": []
+                                }
+                              ],
+                              "type": "iconButton"
                             }
                           ],
                           "rowDefinition": [],
@@ -2543,7 +2367,8 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    }
+                    },
+                    "path": "0-0-3-0"
                   }
                 ],
                 "path": "0-0-3",
@@ -2649,9 +2474,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "RrB3Lq4WiN6Dpprkzoz6_",
-    "createdBy": "telenor",
-    "updatedAt": "7/12/2023",
-    "createdAt": "7/12/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/15/2023",
+    "createdAt": "8/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2697,6 +2522,30 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "C5s93V5mkA9pwqeVgoo-Y",
@@ -3062,11 +2911,11 @@
           "order": 1
         },
         {
-          "componentId": "wkDL02rgB1k1-99wDYBCz",
+          "componentId": "TUuKvOzzMXaB9m1kT59nx",
           "componentType": "10001",
-          "id": "wkDL02rgB1k1-99wDYBCz",
+          "id": "TUuKvOzzMXaB9m1kT59nx",
           "position": {
-            "i": "wkDL02rgB1k1-99wDYBCz",
+            "i": "TUuKvOzzMXaB9m1kT59nx",
             "x": null,
             "y": null,
             "w": null,
@@ -3173,7 +3022,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "wkDL02rgB1k1-99wDYBCz",
+    "id": "TUuKvOzzMXaB9m1kT59nx",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -3189,7 +3038,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
         },
         {
           "componentId": "EpSPAAtZqrX9rKuopl2QH",
@@ -3202,20 +3051,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
-          "componentId": "5yjhFjyxy3owRjGSuctK7",
-          "componentType": "10001",
-          "id": "5yjhFjyxy3owRjGSuctK7",
-          "position": {
-            "i": "5yjhFjyxy3owRjGSuctK7",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
         }
       ],
       "label": "Header",
@@ -3394,7 +3230,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-0-0-2-0-0-0-0-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -3480,7 +3316,8 @@
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "beneId"
+      "stateName": "employeeId",
+      "disableCondition": {}
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -3494,7 +3331,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-0-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-0-0-2-0-0-0-1-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -3648,7 +3485,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-0-0-2-1-0-0-0-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -3748,262 +3585,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-1-0-0-1-0-0",
-    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
-    "subType": "component",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "5yjhFjyxy3owRjGSuctK7",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "tlE1yg5y8l_8RzrSgfWW5",
-          "componentType": "10001",
-          "id": "tlE1yg5y8l_8RzrSgfWW5",
-          "position": {
-            "i": "tlE1yg5y8l_8RzrSgfWW5",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "dm4uisgtQV-LoK0kVAxjo",
-          "componentType": "10001",
-          "id": "dm4uisgtQV-LoK0kVAxjo",
-          "position": {
-            "i": "dm4uisgtQV-LoK0kVAxjo",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout",
-      "hideComponent": false
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "tlE1yg5y8l_8RzrSgfWW5",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "H7tqXPny6HBkPzxFgCfzv",
-          "componentType": "20002",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "H7tqXPny6HBkPzxFgCfzv",
-    "status": "ACTIVE",
-    "name": "Label",
-    "attributes": {
-      "label": "Category",
-      "variant": "body1",
-      "name": "Label",
-      "mandatory": false,
-      "layoutProperties": {
-        "label": { "//": "Use this class to style label component." },
-        "mainContainer": "label",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
-    },
-    "icon": "FaFont",
-    "group": "Form",
-    "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 15,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Label", "type": "20002" },
-    "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-2-0-0-0-0-0",
-    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
-    "subType": "component",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "dm4uisgtQV-LoK0kVAxjo",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "qH2YO0k8ZZ1kY3RejQteo",
-          "componentType": "20004",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "qH2YO0k8ZZ1kY3RejQteo",
-    "status": "ACTIVE",
-    "name": "Text Box",
-    "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
-      "variant": "standard",
-      "value": "",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
-      "mandatory": true,
-      "tooltipState": "",
-      "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "15px"
-        },
-        "mainContainer": "textField",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "validate": { "required": false, "errorMsg": "This field is required" },
-      "placeholder": "",
-      "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "category"
-    },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
-    "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-2-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-0-0-2-1-0-0-1-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -4173,8 +3755,7 @@
       "layoutProperties": {
         "button": {
           "//": "Use this class to style button component.",
-          "color": "#fff !important",
-          "background": "#DA0006 !important"
+          "color": "#fff !important"
         },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
@@ -4194,9 +3775,8 @@
           "!": [
             {
               "or": [
-                { "var": "currentScreen.form.category.length" },
                 { "var": "currentScreen.form.beneName.length" },
-                { "var": "currentScreen.form.employeeID.length" }
+                { "var": "currentScreen.form.employeeId.length" }
               ]
             }
           ]
@@ -4212,7 +3792,7 @@
         "serviceType": "2"
       }
     ],
-    "path": "0-0-1-0-0-0-0-0-2-1-0-0-0",
+    "path": "0-0-1-0-0-0-0-0-3-1-0-0-0",
     "version": "1.0.0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
@@ -4314,10 +3894,42 @@
         "serviceType": "2"
       }
     ],
-    "path": "0-0-1-0-0-0-0-0-2-2-0-0-0",
+    "path": "0-0-1-0-0-0-0-0-3-2-0-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-ILXb_OcmXs_8OQtk6Kb",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -4761,6 +4373,85 @@
           "field": "createdOn",
           "type": "text",
           "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Action",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "asset": null,
+              "iconname": "FaEdit",
+              "trigger": {
+                "id": "4IWPOgU6wTb5KgV5g4uuO",
+                "_id": "V4ZxR7eCxxQWZihpovVhH",
+                "projectId": "6458cf08badaaa2d6406a720",
+                "gitBranchName": "master",
+                "name": "Company Beneficiary Details",
+                "old_name": "Company Beneficiary Details",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "8",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "loaderWidgetIds": [906070],
+                        "messageWidgetIds": [906070],
+                        "responseStateKey": "reponse",
+                        "url": "/company-beneficiary/detail",
+                        "checksum": true,
+                        "encryption": true,
+                        "isDeviceDetails": true,
+                        "loginTrigger": false,
+                        "formData": false,
+                        "logoutTrigger": false,
+                        "headers": {
+                          "Content-Type": "application/json",
+                          "Accept": "application/json",
+                          "channel_key": "001",
+                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                          "locale": "en-ltr"
+                        },
+                        "requestBody": [
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "beneficiaryId",
+                            "value": "selectedObject.id"
+                          }
+                        ],
+                        "baseURL": "631b0ff6d005932c10ce3bbe",
+                        "storeType": 2
+                      },
+                      "responseHandler": [
+                        {
+                          "logic": { "==": [{ "var": "status" }, 1] },
+                          "httpStatus": 200,
+                          "triggerName": "Open Update View Beneficiary Screen",
+                          "triggerId": "V_M2ESn1aO6pTd9Fh6wvf"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "csrf": "0.twrf7vpu4rbQ1yWpPiDVcDeAr9PJZO1",
+                "updatedAt": "8/15/2023",
+                "createdAt": "8/15/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
+              },
+              "triggerId": "4IWPOgU6wTb5KgV5g4uuO",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],

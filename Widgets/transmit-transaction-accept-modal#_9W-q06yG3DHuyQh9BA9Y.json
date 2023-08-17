@@ -508,7 +508,8 @@
                                       "//": "Use this class to style password field component."
                                     },
                                     "inputProps": {
-                                      "//": "Use this class to style password field element."
+                                      "//": "Use this class to style password field element.",
+                                      "paddingLeft": "20px"
                                     },
                                     "mainContainer": "textField",
                                     "xl": 12,
@@ -968,9 +969,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_9W-q06yG3DHuyQh9BA9Y",
-    "createdBy": "telenor",
-    "updatedAt": "7/18/2023",
-    "createdAt": "7/18/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/11/2023",
+    "createdAt": "8/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1516,7 +1517,8 @@
           "//": "Use this class to style password field component."
         },
         "inputProps": {
-          "//": "Use this class to style password field element."
+          "//": "Use this class to style password field element.",
+          "paddingLeft": "20px"
         },
         "mainContainer": "textField",
         "xl": 12,

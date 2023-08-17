@@ -4353,54 +4353,6 @@
                                 "component": { "type": "20031" }
                               },
                               {
-                                "id": "MF9AXQkx3FENuIpuk1krs",
-                                "type": "20031",
-                                "name": "Transmit Transaction Chain Trigger",
-                                "attributes": {
-                                  "widgetId": "_9W-q06yG3DHuyQh9BA9Y",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" }
-                              },
-                              {
-                                "id": "MF9AXQkx3FENuIpuk1krs",
-                                "type": "20031",
-                                "name": "Transmit Transaction Chain Trigger",
-                                "attributes": {
-                                  "widgetId": "_9W-q06yG3DHuyQh9BA9Y",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" }
-                              },
-                              {
-                                "id": "MF9AXQkx3FENuIpuk1krs",
-                                "type": "20031",
-                                "name": "Transmit Transaction Chain Trigger",
-                                "attributes": {
-                                  "widgetId": "_9W-q06yG3DHuyQh9BA9Y",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" }
-                              },
-                              {
                                 "id": "BludQySaLle0tf4woxzpA",
                                 "type": "20006",
                                 "name": "Button",
@@ -4862,9 +4814,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Z7HgejBC9iOv6fX9r3RKg",
-    "createdBy": "telenor",
-    "updatedAt": "6/21/2023",
-    "createdAt": "6/21/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/11/2023",
+    "createdAt": "8/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8803,7 +8755,7 @@
   {
     "id": "MF9AXQkx3FENuIpuk1krs",
     "type": "20031",
-    "name": "Transmit Transaction Chain Trigger",
+    "triggerName": "Show Modal for transmit transaction",
     "attributes": {
       "widgetId": "_9W-q06yG3DHuyQh9BA9Y",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }

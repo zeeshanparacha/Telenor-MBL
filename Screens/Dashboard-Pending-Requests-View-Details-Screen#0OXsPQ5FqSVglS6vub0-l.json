@@ -1409,7 +1409,7 @@
                                             "sm": 12,
                                             "xs": 12
                                           },
-                                          "label": "Only Successful Records are proceed for further procedure.",
+                                          "label": " Only successful records are proceed for further procedure.",
                                           "prefix": "Disclaimer:",
                                           "cssClassNames": [
                                             {
@@ -5086,9 +5086,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "0OXsPQ5FqSVglS6vub0-l",
-    "createdBy": "ajk",
-    "updatedAt": "7/4/2023",
-    "createdAt": "7/4/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/15/2023",
+    "createdAt": "8/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6657,7 +6657,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "Only Successful Records are proceed for further procedure.",
+      "label": " Only successful records are proceed for further procedure.",
       "prefix": "Disclaimer:",
       "cssClassNames": [{ "cssClassName": "uploadDisclaimer" }]
     },
@@ -6670,11 +6670,11 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-2-0-0-0-0-0-0",
     "screenId": "0OXsPQ5FqSVglS6vub0-l",
+    "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

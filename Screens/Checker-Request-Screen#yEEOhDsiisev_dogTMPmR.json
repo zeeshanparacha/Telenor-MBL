@@ -3302,12 +3302,7 @@
                                   },
                                   "dropdownOptions": [
                                     { "code": "Reject", "name": "Reject" },
-                                    { "code": "Accept", "name": "Accept" },
-                                    {
-                                      "code": "collection",
-                                      "name": "collection"
-                                    },
-                                    { "code": "Edhi", "name": "Edhi" }
+                                    { "code": "Accept", "name": "Accept" }
                                   ],
                                   "variant": "standard",
                                   "disableUnderline": true,
@@ -4040,8 +4035,8 @@
     "gitBranchName": "master",
     "_id": "yEEOhDsiisev_dogTMPmR",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "7/4/2023",
-    "createdAt": "7/4/2023",
+    "updatedAt": "8/11/2023",
+    "createdAt": "8/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6812,9 +6807,7 @@
       },
       "dropdownOptions": [
         { "code": "Reject", "name": "Reject" },
-        { "code": "Accept", "name": "Accept" },
-        { "code": "collection", "name": "collection" },
-        { "code": "Edhi", "name": "Edhi" }
+        { "code": "Accept", "name": "Accept" }
       ],
       "variant": "standard",
       "disableUnderline": true,

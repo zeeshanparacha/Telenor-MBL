@@ -1,0 +1,26 @@
+{
+  "id": "OFeyJSaMQ2xbYGHoOFLwz",
+  "name": "swap Transmit transaction Detail to Transmit Transaction Screen",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "OY4Btnvf2yqpbtk3uPnnt",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ml3vjkkn5emfXn70aErDpSG_bIcXvjR",
+  "_id": "WZ3z70NjS_aARrGf-EDKr",
+  "updatedAt": "8/11/2023",
+  "createdAt": "8/11/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

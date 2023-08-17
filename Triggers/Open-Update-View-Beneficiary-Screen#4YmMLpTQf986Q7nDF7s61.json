@@ -1,0 +1,27 @@
+{
+  "id": "V_M2ESn1aO6pTd9Fh6wvf",
+  "_id": "4YmMLpTQf986Q7nDF7s61",
+  "name": "Open Update View Beneficiary Screen",
+  "old_name": "Open Update View Beneficiary Screen",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "dlGgbxKU3iiXUFrnvYMcE",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "response.data.beneficiary",
+          "editableForm": true
+        }
+      }
+    }
+  ],
+  "csrf": "0.twrf7vpu4rbQ1yWpPiDVcDeAr9PJZO1",
+  "updatedAt": "8/15/2023",
+  "createdAt": "8/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

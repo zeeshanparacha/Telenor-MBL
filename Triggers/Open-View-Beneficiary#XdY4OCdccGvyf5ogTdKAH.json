@@ -1,0 +1,26 @@
+{
+  "id": "TjjULvGhF6iWldoua7jUV",
+  "name": "Open View Beneficiary",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "RrB3Lq4WiN6Dpprkzoz6_",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.twrf7vpu4rbQ1yWpPiDVcDeAr9PJZO1",
+  "_id": "XdY4OCdccGvyf5ogTdKAH",
+  "updatedAt": "8/15/2023",
+  "createdAt": "8/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

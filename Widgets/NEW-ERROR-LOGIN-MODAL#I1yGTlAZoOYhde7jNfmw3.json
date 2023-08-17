@@ -1,1 +1,1340 @@
-[{"_id":"63a82f5eee9fb2edc869fef1","gitBranchName":"master","id":"I1yGTlAZoOYhde7jNfmw3","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"componentId":"y00Ji7acrlyyQnAW8YO65","componentType":"10001","id":"y00Ji7acrlyyQnAW8YO65","position":{"i":"y00Ji7acrlyyQnAW8YO65","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}]},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":[{"id":"y00Ji7acrlyyQnAW8YO65","status":"ACTIVE","_id":"610134a1d1f5e860b1e8c751","name":"Grid layout","icon":"FaGripHorizontal","attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"group":"Layout","type":"sidebarItem","updatedAt":"23-Sep-2021","Documentation":"<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>","createdAt":"24-Aug-2021","events":[],"order":1,"version":"1.0.0","isLatest":true,"projectType":"web","allowedContainers":["10001","20030","noLayout","20010","widget"],"component":{"content":"Grid layout","type":"10001"},"path":0,"gridProps":[{"type":"column","id":"XDnURGxfavbBCJZSvam2f","gridProps":[{"type":"10001","id":"jbLJg0v67EGRfJSeRqdkM","gridProps":[{"type":"column","id":"F0IUDXBmmLBecJdYxA2sA","gridProps":[{"type":"10001","id":"WrrlGT91aqFBSENIZywPR","gridProps":[{"type":"column","id":"srv54iyZRX4pVUsYWkdCL","gridProps":[{"type":"10001","name":"Grid layout","id":"PNMfsUbdXKAI6n73J0v70","gridProps":[{"type":"column","id":"h8QlkP_gQKyB7FZCV3xMw","gridProps":[],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"path":"0-0-0-0-0-0-0-0"}],"allowedContainers":["10001","20030","noLayout","20010","widget"],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"events":[],"component":{"type":"10001","content":"Grid layout"},"path":"0-0-0-0-0-0-0","dimensions":{"rows":1,"columns":1,"colSize0xs":12,"colSize0sm":12,"colSize0md":12,"colSize0lg":12,"colSize0xl":12,"layoutProperties":null},"readOnly":false}],"layoutProperties":{"xl":11,"lg":11,"md":11,"sm":11,"xs":11},"path":"0-0-0-0-0-0"},{"type":"column","id":"X3y4T5jk8bNTPSGBPQriI","gridProps":[{"id":"YljZiV8WbCmDoDN1pDkh-","type":"20012","name":"Image","component":{"content":"Image","type":"20012"},"attributes":{"name":"Image","contentType":false,"defaultImageAssetIdTemp":{"name":"dracaena-cinnabari.jpg","id":"CNIz67fi824LHr0ae-pOV"},"layoutProperties":{"image":{"//":"Use this class to style image component.","float":"right","height":"15px","cursor":"pointer"},"mainContainer":"image","xl":1,"lg":1,"md":1,"sm":1,"xs":1},"defaultImageAssetId":"CNIz67fi824LHr0ae-pOV","imageAssetIdTemp":{"createdBy":"haseeb","_id":"63872b7f08099543289ac3e8","name":"cross.png","type":"png","projectId":"62dfaa1ecc4a8a55e4d8a02b","id":"AxEXLS-R7-3lF6bybb8u0","gitBranchName":"Sprint1","folderType":"web","platform":"web","url":"web/cross.png","canvasUrl":"web/cross.png","createdAt":"2022-11-30T10:07:59.891Z","updatedAt":"2022-11-30T10:07:59.891Z","__v":0,"uri":"web/cross.png"},"imageAssetId":"AxEXLS-R7-3lF6bybb8u0","stateName":null,"storeType":null},"events":[{"triggerId":"Zk8Z_jSaS6JcPsypBmSMM","triggerName":"Hide Modal","serviceType":"9","attributes":{"modalId":"438b2SqQghyEM0HS-tgt4"},"type":"2","name":"On click"},{"triggerId":"C9VAY5AImRfVpeNy7pz65","triggerName":"Clear Form Data","serviceType":"14","type":"2","name":"On click"}],"path":"0-0-0-0-0-1-0","version":"1.0.0"}],"layoutProperties":{"xl":1,"lg":1,"md":1,"sm":1,"xs":1},"path":"0-0-0-0-0-1"}],"path":"0-0-0-0-0","events":[],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"18px","spacing":0,"background":"#d23838"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"component":{"type":"10001","content":"Grid layout"},"allowedContainers":["10001","20030","noLayout","20010","widget"],"name":"Grid layout","dimensions":{"rows":1,"columns":2,"colSize0xs":11,"colSize0sm":11,"colSize0md":11,"colSize0lg":11,"colSize0xl":11,"colSize1xs":1,"colSize1sm":1,"colSize1md":1,"colSize1lg":1,"colSize1xl":1},"readOnly":true},{"type":"10001","id":"W8zBbnINyPhClye3Pg5Lv","gridProps":[{"type":"column","id":"4CiIYfqrairhfpCij87mq","gridProps":[{"type":"10001","name":"Grid layout","id":"HOMlG_WRD78kMHbWEU9HQ","gridProps":[{"type":"column","id":"83tWGuJfCsm1mGPpvCkdw","gridProps":[{"id":"pOpXzbrBbdVWpgFZVe1MI","status":"ACTIVE","name":"Image","icon":"FaImage","attributes":{"name":"Image","contentType":false,"defaultImageAssetIdTemp":{"name":"dracaena-cinnabari.jpg","id":"CNIz67fi824LHr0ae-pOV"},"layoutProperties":{"image":{"//":"Use this class to style image component.","height":"54px","width":"54px","margin":"0px auto","display":"flex"},"mainContainer":"image","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"defaultImageAssetId":"CNIz67fi824LHr0ae-pOV","imageAssetIdTemp":{"createdBy":"haseeb","_id":"63872b7208099543289ac3b2","name":"Group 67.png","type":"png","projectId":"62dfaa1ecc4a8a55e4d8a02b","id":"fTuKFpUKn7FtDUxdgn8Zy","gitBranchName":"Sprint1","folderType":"web","platform":"web","url":"web/Group 67.png","canvasUrl":"web/Group 67.png","createdAt":"2022-11-30T10:07:46.678Z","updatedAt":"2022-11-30T10:07:46.678Z","__v":0,"uri":"web/Group 67.png"},"imageAssetId":"fTuKFpUKn7FtDUxdgn8Zy","stateName":null,"storeType":null},"group":"Form","updatedAt":"23-Aug-2021","createdAt":"23-Aug-2021","order":0,"type":"20012","version":"1.0.0","isLatest":true,"projectType":"web","component":{"content":"Image","type":"20012"},"events":[],"path":"0-0-0-0-1-0-0-0-0"}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"path":"0-0-0-0-1-0-0-0"}],"allowedContainers":["10001","20030","noLayout","20010","widget"],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0,"margin":"40px 0px 0px 0px"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"events":[],"component":{"type":"10001","content":"Grid layout"},"path":"0-0-0-0-1-0-0","dimensions":{"rows":1,"columns":1,"colSize0xs":12,"colSize0sm":12,"colSize0md":12,"colSize0lg":12,"colSize0xl":12,"layoutProperties":null},"readOnly":true},{"id":"hhGQk4k0ZV5PYtw38Nr5-","status":"ACTIVE","name":"Label","attributes":{"label":"Access not allowed","variant":"body1","name":"Label","mandatory":false,"layoutProperties":{"label":{"//":"Use this class to style label component.","font-size":"18px","font-weight":"400","color":"#000000","letter-spacing":"0.54px"},"mainContainer":"label","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"hideCondition":{"logic":{"and":[{">":[{"var":"currentScreen.dashboardData.error.length"},1]},{">":[{"var":"currentScreen.allTransaction.error.length"},1]},{">":[{"var":"currentScreen.fullStatement.error.length"},0]},{">":[{"var":"currentScreen.miniStatement.error.length"},1]},{">":[{"var":"currentScreen.accountSummary.error.length"},1]},{">":[{"var":"currentScreen.accounts.error.length"},0]},{">":[{"var":"currentScreen.response.error.length"},1]},{">":[{"var":"currentScreen.banks.error.length"},1]},{">":[{"var":"currentScreen.unapprovedTransactionBatches.error.length"},0]},{">":[{"var":"currentScreen.transmitTransactionDetailsData.error.length"},1]},{">":[{"var":"currentScreen.transactionHistoryData.error.length"},1]},{">":[{"var":"currentScreen.transactionRecordDetailsData.error.length"},1]},{">":[{"var":"currentScreen.pendingTransactionDetailsModalData.error.length"},1]},{">":[{"var":"currentScreen.checkerRequestData.error.length"},0]},{">":[{"var":"currentScreen.checkerRequestTransactionList.error.length"},1]},{">":[{"var":"currentScreen.searchUserActivity.error.length"},1]},{">":[{"var":"currentScreen.userActivationData.error.length"},1]},{">":[{"var":"currentScreen.collectionResponse.error.length"},0]}]}},"cssClassNames":[{"cssClassName":"successLabelStykle"}]},"icon":"FaFont","group":"Form","type":"20002","updatedAt":"23-Aug-2021","createdAt":"23-Aug-2021","order":15,"version":"1.0.0","isLatest":true,"projectType":"web","component":{"content":"Label","type":"20002"},"events":[],"path":"0-0-0-0-1-0-1"}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"path":"0-0-0-0-1-0"}],"path":"0-0-0-0-1","events":[],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"0px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"component":{"type":"10001","content":"Grid layout"},"allowedContainers":["10001","20030","noLayout","20010","widget"],"name":"Grid layout"}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"path":"0-0-0-0"}],"path":"0-0-0","events":[],"attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"0px","spacing":0,"borderRadius":"15px","background":"#ffffff","margin":"0px auto","min-height":"200px","box-shadow":"0 10px 20px rgba(136,137,137,0.07)"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"component":{"type":"10001","content":"Grid layout"},"allowedContainers":["10001","20030","noLayout","20010","widget"],"name":"Grid layout"}],"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"path":"0-0"}],"layoutProperties":{"lg":12,"md":12,"sm":12,"xs":12}}],"name":"NEW ERROR LOGIN MODAL","subType":"widget","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef3","gitBranchName":"master","id":"y00Ji7acrlyyQnAW8YO65","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"componentId":"jbLJg0v67EGRfJSeRqdkM","componentType":"10001","id":"jbLJg0v67EGRfJSeRqdkM","position":{"i":"jbLJg0v67EGRfJSeRqdkM","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef4","gitBranchName":"master","id":"jbLJg0v67EGRfJSeRqdkM","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"componentId":"WrrlGT91aqFBSENIZywPR","componentType":"10001","id":"WrrlGT91aqFBSENIZywPR","position":{"i":"WrrlGT91aqFBSENIZywPR","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}},{"componentId":"W8zBbnINyPhClye3Pg5Lv","componentType":"10001","id":"W8zBbnINyPhClye3Pg5Lv","position":{"i":"W8zBbnINyPhClye3Pg5Lv","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"0px","spacing":0,"borderRadius":"15px","background":"#ffffff","margin":"0px auto","min-height":"200px","box-shadow":"0 10px 20px rgba(136,137,137,0.07)"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef5","gitBranchName":"master","id":"WrrlGT91aqFBSENIZywPR","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"componentId":"PNMfsUbdXKAI6n73J0v70","componentType":"10001","id":"PNMfsUbdXKAI6n73J0v70","position":{"i":"PNMfsUbdXKAI6n73J0v70","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"xl":11,"lg":11,"md":11,"sm":11,"xs":11}},{"layoutProperties":{"xl":1,"lg":1,"md":1,"sm":1,"xs":1},"componentId":"YljZiV8WbCmDoDN1pDkh-","componentType":"20012","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"18px","spacing":0,"background":"#d23838"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef6","gitBranchName":"master","id":"PNMfsUbdXKAI6n73J0v70","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef7","gitBranchName":"master","id":"YljZiV8WbCmDoDN1pDkh-","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"name":"Image","contentType":false,"defaultImageAssetIdTemp":{"name":"dracaena-cinnabari.jpg","id":"CNIz67fi824LHr0ae-pOV"},"layoutProperties":{"image":{"//":"Use this class to style image component.","float":"right","height":"15px","cursor":"pointer"},"mainContainer":"image","xl":1,"lg":1,"md":1,"sm":1,"xs":1},"defaultImageAssetId":"CNIz67fi824LHr0ae-pOV","imageAssetIdTemp":{"createdBy":"haseeb","_id":"63872b7f08099543289ac3e8","name":"cross.png","type":"png","projectId":"62dfaa1ecc4a8a55e4d8a02b","id":"AxEXLS-R7-3lF6bybb8u0","gitBranchName":"Sprint1","folderType":"web","platform":"web","url":"web/cross.png","canvasUrl":"web/cross.png","createdAt":"2022-11-30T10:07:59.891Z","updatedAt":"2022-11-30T10:07:59.891Z","__v":0,"uri":"web/cross.png"},"imageAssetId":"AxEXLS-R7-3lF6bybb8u0","stateName":null,"storeType":null},"createdAt":"12/25/2022","createdBy":"talha","events":[{"triggerId":"Zk8Z_jSaS6JcPsypBmSMM","triggerName":"Hide Modal","name":"On click","type":"2","serviceType":"9"},{"triggerId":"C9VAY5AImRfVpeNy7pz65","triggerName":"Clear Form Data","name":"On click","type":"2","serviceType":"14"}],"name":"Image","subType":"component","type":"20012","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef8","gitBranchName":"master","id":"W8zBbnINyPhClye3Pg5Lv","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"componentId":"HOMlG_WRD78kMHbWEU9HQ","componentType":"10001","id":"HOMlG_WRD78kMHbWEU9HQ","position":{"i":"HOMlG_WRD78kMHbWEU9HQ","x":null,"y":null,"w":null,"h":null},"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12}},{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"hhGQk4k0ZV5PYtw38Nr5-","componentType":"20002","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"0px","spacing":0},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fef9","gitBranchName":"master","id":"HOMlG_WRD78kMHbWEU9HQ","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"gridProps":[{"layoutProperties":{"xl":12,"lg":12,"md":12,"sm":12,"xs":12},"componentId":"pOpXzbrBbdVWpgFZVe1MI","componentType":"20012","order":1}],"label":"Header","layoutProperties":{"gridLayout":{"//":"Use this class to style grid layout component.","padding":"5px","spacing":0,"margin":"40px 0px 0px 0px"},"mainContainer":"gridLayout"},"layoutProps":{"direction":"row","justifyContent":"flex-start","alignItems":"flex-start"},"direction":"row","name":"Grid layout"},"createdAt":"12/25/2022","createdBy":"talha","events":[],"layout":null,"name":"Grid layout","subType":"component","type":"10001","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fefa","gitBranchName":"master","id":"pOpXzbrBbdVWpgFZVe1MI","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"name":"Image","contentType":false,"defaultImageAssetIdTemp":{"name":"dracaena-cinnabari.jpg","id":"CNIz67fi824LHr0ae-pOV"},"layoutProperties":{"image":{"//":"Use this class to style image component.","height":"54px","width":"54px","margin":"0px auto","display":"flex"},"mainContainer":"image","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"defaultImageAssetId":"CNIz67fi824LHr0ae-pOV","imageAssetIdTemp":{"createdBy":"haseeb","_id":"63872b7208099543289ac3b2","name":"Group 67.png","type":"png","projectId":"62dfaa1ecc4a8a55e4d8a02b","id":"fTuKFpUKn7FtDUxdgn8Zy","gitBranchName":"Sprint1","folderType":"web","platform":"web","url":"web/Group 67.png","canvasUrl":"web/Group 67.png","createdAt":"2022-11-30T10:07:46.678Z","updatedAt":"2022-11-30T10:07:46.678Z","__v":0,"uri":"web/Group 67.png"},"imageAssetId":"fTuKFpUKn7FtDUxdgn8Zy","stateName":null,"storeType":null},"createdAt":"12/25/2022","createdBy":"talha","events":[],"icon":"FaImage","name":"Image","status":"ACTIVE","subType":"component","type":"20012","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"},{"_id":"63a82f5eee9fb2edc869fefb","gitBranchName":"master","id":"hhGQk4k0ZV5PYtw38Nr5-","projectId":"63f4845e476fc83100e3a899","screenId":"I1yGTlAZoOYhde7jNfmw3","attributes":{"label":"Access not allowed","variant":"body1","name":"Label","mandatory":false,"layoutProperties":{"label":{"//":"Use this class to style label component.","font-size":"18px","font-weight":"400","color":"#000000","letter-spacing":"0.54px"},"mainContainer":"label","xl":12,"lg":12,"md":12,"sm":12,"xs":12},"hideCondition":{"logic":{"and":[{">":[{"var":"currentScreen.dashboardData.error.length"},1]},{">":[{"var":"currentScreen.allTransaction.error.length"},1]},{">":[{"var":"currentScreen.fullStatement.error.length"},0]},{">":[{"var":"currentScreen.miniStatement.error.length"},1]},{">":[{"var":"currentScreen.accountSummary.error.length"},1]},{">":[{"var":"currentScreen.accounts.error.length"},0]},{">":[{"var":"currentScreen.response.error.length"},1]},{">":[{"var":"currentScreen.banks.error.length"},1]},{">":[{"var":"currentScreen.unapprovedTransactionBatches.error.length"},0]},{">":[{"var":"currentScreen.transmitTransactionDetailsData.error.length"},1]},{">":[{"var":"currentScreen.transactionHistoryData.error.length"},1]},{">":[{"var":"currentScreen.transactionRecordDetailsData.error.length"},1]},{">":[{"var":"currentScreen.pendingTransactionDetailsModalData.error.length"},1]},{">":[{"var":"currentScreen.checkerRequestData.error.length"},0]},{">":[{"var":"currentScreen.checkerRequestTransactionList.error.length"},1]},{">":[{"var":"currentScreen.searchUserActivity.error.length"},1]},{">":[{"var":"currentScreen.userActivationData.error.length"},1]},{">":[{"var":"currentScreen.collectionResponse.error.length"},0]}]}},"cssClassNames":[{"cssClassName":"successLabelStykle"}]},"createdAt":"12/25/2022","createdBy":"talha","events":[],"icon":"FaFont","name":"Label","status":"ACTIVE","subType":"component","type":"20002","updatedBy":"talha","version":"1.0.0","updatedTimestamp":"0000-00-00T00:00:00+00:00","updatedAt":"3/6/2023"}]
+[
+  {
+    "id": "I1yGTlAZoOYhde7jNfmw3",
+    "name": "NEW ERROR LOGIN MODAL",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "y00Ji7acrlyyQnAW8YO65",
+          "componentType": "10001",
+          "id": "y00Ji7acrlyyQnAW8YO65",
+          "position": {
+            "i": "y00Ji7acrlyyQnAW8YO65",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "y00Ji7acrlyyQnAW8YO65",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "NEW ERROR LOGIN MODAL"
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": 0,
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "XDnURGxfavbBCJZSvam2f",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "jbLJg0v67EGRfJSeRqdkM",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "F0IUDXBmmLBecJdYxA2sA",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "id": "WrrlGT91aqFBSENIZywPR",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "1vUU2-hsJ484Vy-gIcKg_",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "PNMfsUbdXKAI6n73J0v70",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "h8QlkP_gQKyB7FZCV3xMw",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-0-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12,
+                                  "layoutProperties": null
+                                },
+                                "readOnly": false
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 11,
+                              "lg": 11,
+                              "md": 11,
+                              "sm": 11,
+                              "xs": 11
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "Ztrq0zmQhacnay4moHhZY",
+                            "gridProps": [
+                              {
+                                "id": "YljZiV8WbCmDoDN1pDkh-",
+                                "type": "20012",
+                                "name": "Image",
+                                "component": {
+                                  "content": "Image",
+                                  "type": "20012"
+                                },
+                                "attributes": {
+                                  "name": "Image",
+                                  "contentType": false,
+                                  "defaultImageAssetIdTemp": {
+                                    "name": "dracaena-cinnabari.jpg",
+                                    "id": "CNIz67fi824LHr0ae-pOV"
+                                  },
+                                  "layoutProperties": {
+                                    "image": {
+                                      "//": "Use this class to style image component.",
+                                      "float": "right",
+                                      "height": "15px",
+                                      "cursor": "pointer"
+                                    },
+                                    "mainContainer": "image",
+                                    "xl": 1,
+                                    "lg": 1,
+                                    "md": 1,
+                                    "sm": 1,
+                                    "xs": 1
+                                  },
+                                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                  "imageAssetIdTemp": {
+                                    "createdBy": "haseeb",
+                                    "_id": "63872b7f08099543289ac3e8",
+                                    "name": "cross.png",
+                                    "type": "png",
+                                    "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+                                    "id": "AxEXLS-R7-3lF6bybb8u0",
+                                    "gitBranchName": "Sprint1",
+                                    "folderType": "web",
+                                    "platform": "web",
+                                    "url": "web/cross.png",
+                                    "canvasUrl": "web/cross.png",
+                                    "createdAt": "2022-11-30T10:07:59.891Z",
+                                    "updatedAt": "2022-11-30T10:07:59.891Z",
+                                    "__v": 0,
+                                    "uri": "web/cross.png"
+                                  },
+                                  "imageAssetId": "AxEXLS-R7-3lF6bybb8u0",
+                                  "stateName": null,
+                                  "storeType": null
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+                                    "triggerName": "Hide Modal",
+                                    "serviceType": "9",
+                                    "attributes": {
+                                      "modalId": "438b2SqQghyEM0HS-tgt4"
+                                    },
+                                    "type": "2",
+                                    "name": "On click"
+                                  },
+                                  {
+                                    "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                                    "triggerName": "Clear Form Data",
+                                    "serviceType": "14",
+                                    "type": "2",
+                                    "name": "On click"
+                                  }
+                                ],
+                                "path": "0-0-0-0-0-1-0",
+                                "version": "1.0.0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 1,
+                              "lg": 1,
+                              "md": 1,
+                              "sm": 1,
+                              "xs": 1
+                            }
+                          }
+                        ],
+                        "path": "0-0-0-0-0",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "18px",
+                              "spacing": 0,
+                              "background": "#00bd5f !important"
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 11,
+                          "colSize0sm": 11,
+                          "colSize0md": 11,
+                          "colSize0lg": 11,
+                          "colSize0xl": 11,
+                          "colSize1xs": 1,
+                          "colSize1sm": 1,
+                          "colSize1md": 1,
+                          "colSize1lg": 1,
+                          "colSize1xl": 1
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "id": "W8zBbnINyPhClye3Pg5Lv",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "4CiIYfqrairhfpCij87mq",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "HOMlG_WRD78kMHbWEU9HQ",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "83tWGuJfCsm1mGPpvCkdw",
+                                    "gridProps": [
+                                      {
+                                        "id": "pOpXzbrBbdVWpgFZVe1MI",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "height": "54px",
+                                              "width": "54px",
+                                              "margin": "0px auto",
+                                              "display": "flex"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "haseeb",
+                                            "_id": "63872b7208099543289ac3b2",
+                                            "name": "Group 67.png",
+                                            "type": "png",
+                                            "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+                                            "id": "fTuKFpUKn7FtDUxdgn8Zy",
+                                            "gitBranchName": "Sprint1",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/Group 67.png",
+                                            "canvasUrl": "web/Group 67.png",
+                                            "createdAt": "2022-11-30T10:07:46.678Z",
+                                            "updatedAt": "2022-11-30T10:07:46.678Z",
+                                            "__v": 0,
+                                            "uri": "web/Group 67.png"
+                                          },
+                                          "imageAssetId": "fTuKFpUKn7FtDUxdgn8Zy",
+                                          "stateName": null,
+                                          "storeType": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-0-0-1-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-1-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "margin": "40px 0px 0px 0px"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-1-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12,
+                                  "layoutProperties": null
+                                },
+                                "readOnly": true
+                              },
+                              {
+                                "id": "hhGQk4k0ZV5PYtw38Nr5-",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "Access not allowed",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "and": [
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.dashboardData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.allTransaction.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.fullStatement.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.miniStatement.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.accountSummary.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.accounts.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.response.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.banks.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.unapprovedTransactionBatches.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transmitTransactionDetailsData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transactionHistoryData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transactionRecordDetailsData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.checkerRequestData.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.checkerRequestTransactionList.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.searchUserActivity.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.userActivationData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.collectionResponse.error.length"
+                                            },
+                                            0
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-1"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-0-0-1-0"
+                          }
+                        ],
+                        "path": "0-0-0-0-1",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "0px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0"
+                  }
+                ],
+                "path": "0-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0,
+                      "borderRadius": "15px",
+                      "background": "#ffffff",
+                      "margin": "0px auto",
+                      "min-height": "200px",
+                      "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "I1yGTlAZoOYhde7jNfmw3",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/9/2023",
+    "createdAt": "8/9/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "y00Ji7acrlyyQnAW8YO65",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "jbLJg0v67EGRfJSeRqdkM",
+          "componentType": "10001",
+          "id": "jbLJg0v67EGRfJSeRqdkM",
+          "position": {
+            "i": "jbLJg0v67EGRfJSeRqdkM",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "NEW ERROR LOGIN MODAL"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "jbLJg0v67EGRfJSeRqdkM",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "WrrlGT91aqFBSENIZywPR",
+          "componentType": "10001",
+          "id": "WrrlGT91aqFBSENIZywPR",
+          "position": {
+            "i": "WrrlGT91aqFBSENIZywPR",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "W8zBbnINyPhClye3Pg5Lv",
+          "componentType": "10001",
+          "id": "W8zBbnINyPhClye3Pg5Lv",
+          "position": {
+            "i": "W8zBbnINyPhClye3Pg5Lv",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0,
+          "borderRadius": "15px",
+          "background": "#ffffff",
+          "margin": "0px auto",
+          "min-height": "200px",
+          "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WrrlGT91aqFBSENIZywPR",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "PNMfsUbdXKAI6n73J0v70",
+          "componentType": "10001",
+          "id": "PNMfsUbdXKAI6n73J0v70",
+          "position": {
+            "i": "PNMfsUbdXKAI6n73J0v70",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 11,
+            "lg": 11,
+            "md": 11,
+            "sm": 11,
+            "xs": 11
+          }
+        },
+        {
+          "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 1, "xs": 1 },
+          "componentId": "YljZiV8WbCmDoDN1pDkh-",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "18px",
+          "spacing": 0,
+          "background": "#00bd5f !important"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "PNMfsUbdXKAI6n73J0v70",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "YljZiV8WbCmDoDN1pDkh-",
+    "type": "20012",
+    "name": "Image",
+    "component": { "content": "Image", "type": "20012" },
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "float": "right",
+          "height": "15px",
+          "cursor": "pointer"
+        },
+        "mainContainer": "image",
+        "xl": 1,
+        "lg": 1,
+        "md": 1,
+        "sm": 1,
+        "xs": 1
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "63872b7f08099543289ac3e8",
+        "name": "cross.png",
+        "type": "png",
+        "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+        "id": "AxEXLS-R7-3lF6bybb8u0",
+        "gitBranchName": "Sprint1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/cross.png",
+        "canvasUrl": "web/cross.png",
+        "createdAt": "2022-11-30T10:07:59.891Z",
+        "updatedAt": "2022-11-30T10:07:59.891Z",
+        "__v": 0,
+        "uri": "web/cross.png"
+      },
+      "imageAssetId": "AxEXLS-R7-3lF6bybb8u0",
+      "stateName": null,
+      "storeType": null
+    },
+    "events": [
+      {
+        "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+        "triggerName": "Hide Modal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
+      },
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
+      }
+    ],
+    "path": "0-0-0-0-0-1-0",
+    "version": "1.0.0",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "W8zBbnINyPhClye3Pg5Lv",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "HOMlG_WRD78kMHbWEU9HQ",
+          "componentType": "10001",
+          "id": "HOMlG_WRD78kMHbWEU9HQ",
+          "position": {
+            "i": "HOMlG_WRD78kMHbWEU9HQ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "hhGQk4k0ZV5PYtw38Nr5-",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "HOMlG_WRD78kMHbWEU9HQ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "pOpXzbrBbdVWpgFZVe1MI",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "margin": "40px 0px 0px 0px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "pOpXzbrBbdVWpgFZVe1MI",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "height": "54px",
+          "width": "54px",
+          "margin": "0px auto",
+          "display": "flex"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "63872b7208099543289ac3b2",
+        "name": "Group 67.png",
+        "type": "png",
+        "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+        "id": "fTuKFpUKn7FtDUxdgn8Zy",
+        "gitBranchName": "Sprint1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/Group 67.png",
+        "canvasUrl": "web/Group 67.png",
+        "createdAt": "2022-11-30T10:07:46.678Z",
+        "updatedAt": "2022-11-30T10:07:46.678Z",
+        "__v": 0,
+        "uri": "web/Group 67.png"
+      },
+      "imageAssetId": "fTuKFpUKn7FtDUxdgn8Zy",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0-0-1-0-0-0-0",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "hhGQk4k0ZV5PYtw38Nr5-",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Access not allowed",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "and": [
+            { ">": [{ "var": "currentScreen.dashboardData.error.length" }, 1] },
+            {
+              ">": [{ "var": "currentScreen.allTransaction.error.length" }, 1]
+            },
+            { ">": [{ "var": "currentScreen.fullStatement.error.length" }, 0] },
+            { ">": [{ "var": "currentScreen.miniStatement.error.length" }, 1] },
+            {
+              ">": [{ "var": "currentScreen.accountSummary.error.length" }, 1]
+            },
+            { ">": [{ "var": "currentScreen.accounts.error.length" }, 0] },
+            { ">": [{ "var": "currentScreen.response.error.length" }, 1] },
+            { ">": [{ "var": "currentScreen.banks.error.length" }, 1] },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.unapprovedTransactionBatches.error.length"
+                },
+                0
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.transmitTransactionDetailsData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.transactionHistoryData.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.transactionRecordDetailsData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.checkerRequestData.error.length" },
+                0
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.checkerRequestTransactionList.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.searchUserActivity.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.userActivationData.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.collectionResponse.error.length" },
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-1",
+    "screenId": "I1yGTlAZoOYhde7jNfmw3",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

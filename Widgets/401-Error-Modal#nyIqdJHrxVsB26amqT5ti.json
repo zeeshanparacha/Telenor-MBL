@@ -43,7 +43,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "0EJEajKyV2yrBer4Tx03q",
+                            "id": "gCBKuLd1UWH6We7w8iKr1",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -119,7 +119,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "unMGO-5oZdKK47zcHS5Z-",
+                            "id": "Lh3YCxIX7qC0nx_MczyVZ",
                             "gridProps": [
                               {
                                 "id": "e4xsTLo6lkOBc1hcojRKr",
@@ -215,7 +215,7 @@
                               "//": "Use this class to style grid layout component.",
                               "padding": "18px",
                               "spacing": 0,
-                              "background": "#d23838"
+                              "background": "#00bd5f !important"
                             },
                             "mainContainer": "gridLayout"
                           },
@@ -2038,9 +2038,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nyIqdJHrxVsB26amqT5ti",
-    "createdBy": "telenor",
-    "updatedAt": "7/6/2023",
-    "createdAt": "7/6/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/9/2023",
+    "createdAt": "8/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2229,7 +2229,7 @@
           "//": "Use this class to style grid layout component.",
           "padding": "18px",
           "spacing": 0,
-          "background": "#d23838"
+          "background": "#00bd5f !important"
         },
         "mainContainer": "gridLayout"
       },

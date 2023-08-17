@@ -1,0 +1,27 @@
+{
+  "id": "-mVUvGzWyitC0FqGbwEAa",
+  "name": "Clear View Beneficiary Data table List BindingKey",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "accounts",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.kx05u8maqca9GaXihxmVMrJw31ER_dn",
+  "_id": "ZVHVxNcfYoEDZMAAdDCHW",
+  "updatedAt": "8/15/2023",
+  "createdAt": "8/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
