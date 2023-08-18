@@ -1,0 +1,53 @@
+{
+  "id": "BlIizoEmN6RQQ3XDDAgmK",
+  "_id": "eL12QAk7676uuWJq2rXOy",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "Download Transaction History Detail Report",
+  "old_name": "Download Transaction History Detail Report",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/financial-service/api/v1/batch-transactions/transaction-records/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Transaction History Detail Report",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionId",
+              "value": "selectedObject.id"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.ms30vknpespf12XNyNT8aMm6z_f8226q",
+  "updatedAt": "8/18/2023",
+  "createdAt": "8/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

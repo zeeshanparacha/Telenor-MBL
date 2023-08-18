@@ -32,7 +32,12 @@
           "label": "Header",
           "layoutProperties": {
             "gridLayout": {
-              "//": "Use this class to style grid layout component."
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0,
+              "background": "url(http://172.16.11.67:9996/web/Tel-background.png) fixed no-repeat ",
+              "background-size": "cover",
+              "background-position": "left",
+              "height": "100vh"
             },
             "mainContainer": "gridLayout"
           },
@@ -77,11 +82,11 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "BDlC9s89sLd-HMEeLZRC_",
+            "id": "lTrf-5fRUrC9CLgc2IFDq",
             "gridProps": [
               {
                 "type": "10001",
@@ -89,78 +94,123 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "uwsLkPng4euYgnmyBBY7I",
+                    "id": "O3u0g7XjlUK39wDtdP-uW",
                     "gridProps": [
                       {
                         "type": "10001",
-                        "name": "Grid layout",
+                        "name": "tel-header1 grid",
                         "id": "SVZr2KjkBGSGuyiKeIdHk",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "Gmpv653zFZx_bTLodHBI4",
+                            "id": "gaaMc1Y4i-3wAi0gLBSpe",
                             "gridProps": [
                               {
-                                "id": "8QU06AN0BY94bBhAysJdk",
-                                "status": "ACTIVE",
-                                "name": "Image",
-                                "icon": "FaImage",
-                                "attributes": {
-                                  "name": "Image",
-                                  "contentType": false,
-                                  "defaultImageAssetIdTemp": {
-                                    "name": "dracaena-cinnabari.jpg",
-                                    "id": "CNIz67fi824LHr0ae-pOV"
-                                  },
-                                  "layoutProperties": {
-                                    "image": {
-                                      "//": "Use this class to style image component.",
-                                      "width": "60%",
-                                      "height": "70%"
+                                "type": "10001",
+                                "id": "mGpe6xrcCob7vgttUghPv",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "u_rb5ZZkK9ZpldhPZi-ZZ",
+                                    "gridProps": [
+                                      {
+                                        "id": "Cr3S7v__wf8ejRtdLbaOa",
+                                        "type": "20012",
+                                        "name": "Image",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "width": "70%",
+                                              "height": "65%"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "user",
+                                            "_id": "64dee7d68aa7f73e0cb31bc1",
+                                            "name": "TMB Logo-04.jpeg",
+                                            "type": "jpeg",
+                                            "projectId": "6458cf08badaaa2d6406a720",
+                                            "id": "P4591jNE577H2gvrAqc-d",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/TMB Logo-04.jpeg",
+                                            "canvasUrl": "web/TMB Logo-04.jpeg",
+                                            "createdAt": "2023-08-18T03:39:02.196Z",
+                                            "updatedAt": "2023-08-18T03:39:02.196Z",
+                                            "__v": 0,
+                                            "uri": "web/TMB Logo-04.jpeg"
+                                          },
+                                          "imageAssetId": "P4591jNE577H2gvrAqc-d",
+                                          "stateName": null,
+                                          "storeType": null
+                                        },
+                                        "events": [],
+                                        "path": "0-0-0-0-0-0-0-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
                                     },
-                                    "mainContainer": "image",
-                                    "xl": 4,
-                                    "lg": 4,
-                                    "md": 4,
-                                    "sm": 4,
-                                    "xs": 4
-                                  },
-                                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
-                                  "imageAssetIdTemp": {
-                                    "createdBy": "telenor",
-                                    "_id": "6463354df167eb3ddc3992bb",
-                                    "name": "Telenor_Microfinance_Bank.webp",
-                                    "type": "webp",
-                                    "projectId": "6458cf08badaaa2d6406a720",
-                                    "id": "kcfSpYLSm8KRXR_lIXhhr",
-                                    "gitBranchName": "master",
-                                    "folderType": "web",
-                                    "platform": "web",
-                                    "url": "web/Telenor_Microfinance_Bank.webp",
-                                    "canvasUrl": "web/Telenor_Microfinance_Bank.webp",
-                                    "createdAt": "2023-05-16T07:48:29.952Z",
-                                    "updatedAt": "2023-05-16T07:48:29.952Z",
-                                    "__v": 0,
-                                    "uri": "web/Telenor_Microfinance_Bank.webp"
-                                  },
-                                  "imageAssetId": "kcfSpYLSm8KRXR_lIXhhr",
-                                  "stateName": null,
-                                  "storeType": null
-                                },
-                                "group": "Form",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 0,
-                                "type": "20012",
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
-                                "component": {
-                                  "content": "Image",
-                                  "type": "20012"
-                                },
+                                    "path": "0-0-0-0-0-0-0-0"
+                                  }
+                                ],
+                                "path": "0-0-0-0-0-0-0",
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0"
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
                               }
                             ],
                             "layoutProperties": {
@@ -169,12 +219,11 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "AQDKo0db0qkkd0KXe9eT6",
+                            "id": "9iZSdv2z75NKI59JsuZTn",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -191,7 +240,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-1-0-0"
                                   }
                                 ],
                                 "allowedContainers": [
@@ -224,7 +274,8 @@
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
-                                }
+                                },
+                                "path": "0-0-0-0-0-1-0"
                               }
                             ],
                             "layoutProperties": {
@@ -233,12 +284,11 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "SrkThZKdzpHbY8iykalOg",
+                            "id": "2fhqh4U8syVCpNm5cH3HA",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -246,7 +296,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "5T40PPhbgbpAdyvpStJm-",
+                                    "id": "i-w6D1j0csZSkXImrVeQ_",
                                     "gridProps": [
                                       {
                                         "id": "jQ13RIdEfQIOuSuPEa7XW",
@@ -266,8 +316,8 @@
                                           "layoutProperties": {
                                             "image": {
                                               "//": "Use this class to style image component.",
-                                              "width": "60%",
-                                              "height": "70%"
+                                              "width": "50%",
+                                              "height": "65%"
                                             },
                                             "mainContainer": "image",
                                             "xl": 12,
@@ -309,7 +359,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-2-0-0"
                                   }
                                 ],
                                 "path": "0-0-0-0-0-2-0",
@@ -320,7 +371,7 @@
                                   "layoutProperties": {
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
-                                      "padding": "0px",
+                                      "padding": "5px",
                                       "spacing": 0,
                                       "textAlign": "right"
                                     },
@@ -364,8 +415,7 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-2"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -381,8 +431,9 @@
                           "layoutProperties": {
                             "gridLayout": {
                               "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
+                              "spacing": 0,
+                              "background": "#FFFFFF",
+                              "height": "65%"
                             },
                             "mainContainer": "gridLayout"
                           },
@@ -399,7 +450,27 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-0"
+                        "path": "0-0-0-0-0",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 4,
+                          "colSize0sm": 4,
+                          "colSize0md": 4,
+                          "colSize0lg": 4,
+                          "colSize0xl": 4,
+                          "colSize1xs": 4,
+                          "colSize1sm": 4,
+                          "colSize1md": 4,
+                          "colSize1lg": 4,
+                          "colSize1xl": 4,
+                          "colSize2xs": 4,
+                          "colSize2sm": 4,
+                          "colSize2md": 4,
+                          "colSize2lg": 4,
+                          "colSize2xl": 4
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -408,7 +479,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "z17nPxRlv26FcrtqLBUvl",
+                            "id": "fEpK70UfCS904EHGN8k8L",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -473,7 +544,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "8HDXSbY9NhRFrxSrjDww5",
+                            "id": "vSirk7k6l6Q2LfH4H8III",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -481,7 +552,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "YwLB5nqnJ2XC3KmOTeKOx",
+                                    "id": "APJEwElmYhmivRicDjdhq",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -489,7 +560,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "SIFIm_ri-t2Z_OtfYZBoe",
+                                            "id": "OqCIMzS28ZfHq4LQGlced",
                                             "gridProps": [
                                               {
                                                 "id": "uH6HDpWeIbXc9j6uOoyl4",
@@ -510,7 +581,7 @@
                                                     "image": {
                                                       "//": "Use this class to style image component.",
                                                       "width": "60%",
-                                                      "height": "82%",
+                                                      "height": "70%",
                                                       "textAlign": "left"
                                                     },
                                                     "mainContainer": "image",
@@ -553,8 +624,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-1-1-0-0-0-0"
+                                            }
                                           }
                                         ],
                                         "path": "0-0-0-0-1-1-0-0-0",
@@ -566,6 +636,7 @@
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
                                               "padding": "5px",
+                                              "textAlign": "center",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -589,7 +660,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       },
                                       {
                                         "type": "10001",
@@ -1358,7 +1439,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "BKk4GW_31gT8iyxHcvAAV",
+                                                    "id": "YBAyhNHwlUtQx5931M2uP",
                                                     "gridProps": [
                                                       {
                                                         "id": "lMK4m5WkJLB16bnbUq1uO",
@@ -1423,8 +1504,7 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    },
-                                                    "path": "0-0-0-0-1-1-0-0-2-0-4-0"
+                                                    }
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -1440,7 +1520,7 @@
                                                   "layoutProperties": {
                                                     "gridLayout": {
                                                       "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
+                                                      "padding": "5px 5px 5px 20px",
                                                       "spacing": 0
                                                     },
                                                     "mainContainer": "gridLayout"
@@ -1467,7 +1547,8 @@
                                                   "colSize0sm": 12,
                                                   "colSize0md": 12,
                                                   "colSize0lg": 12,
-                                                  "colSize0xl": 12
+                                                  "colSize0xl": 12,
+                                                  "layoutProperties": null
                                                 },
                                                 "readOnly": true
                                               },
@@ -1864,7 +1945,7 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "spacing": 0,
-                                      "margin-left": "25px"
+                                      "margin-top": "35px"
                                     },
                                     "mainContainer": "gridLayout"
                                   },
@@ -1913,7 +1994,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "Q419UF0w8B_FSyvcVnuwz",
+                            "id": "CCzmOSILPVL27WP2oi4TF",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 4,
@@ -1973,7 +2054,8 @@
                           "colSize2sm": 0,
                           "colSize2md": 0,
                           "colSize2lg": 4,
-                          "colSize2xl": 4
+                          "colSize2xl": 4,
+                          "layoutProperties": null
                         },
                         "readOnly": true
                       },
@@ -2017,7 +2099,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "LZSOhoxxu7BvbMwwq2nW3",
+                            "id": "8yhlW2F3C7oVU5ncvpO9L",
                             "gridProps": [
                               {
                                 "id": "YJofD6KIHyZNdRq29_XES",
@@ -2105,8 +2187,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-4-0"
+                            }
                           }
                         ],
                         "path": "0-0-0-0-4",
@@ -2117,7 +2198,7 @@
                           "layoutProperties": {
                             "gridLayout": {
                               "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
+                              "padding": "60px 5px 5px 5px",
                               "spacing": 0
                             },
                             "mainContainer": "gridLayout"
@@ -2149,7 +2230,8 @@
                           "colSize0sm": 12,
                           "colSize0md": 12,
                           "colSize0lg": 12,
-                          "colSize0xl": 12
+                          "colSize0xl": 12,
+                          "layoutProperties": null
                         },
                         "readOnly": true
                       }
@@ -2160,8 +2242,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "path": "0-0-0",
@@ -2172,10 +2253,7 @@
                   "layoutProperties": {
                     "gridLayout": {
                       "//": "Use this class to style grid layout component.",
-                      "padding": "5px",
-                      "spacing": 0,
-                      "background-size": "cover",
-                      "height": "100vh"
+                      "spacing": 0
                     },
                     "mainContainer": "gridLayout"
                   },
@@ -2214,8 +2292,7 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
         "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -2238,9 +2315,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/15/2023",
-    "createdAt": "8/15/2023",
+    "createdBy": "ajk",
+    "updatedAt": "8/18/2023",
+    "createdAt": "8/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2272,7 +2349,12 @@
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
-          "//": "Use this class to style grid layout component."
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "background": "url(http://172.16.11.67:9996/web/Tel-background.png) fixed no-repeat ",
+          "background-size": "cover",
+          "background-position": "left",
+          "height": "100vh"
         },
         "mainContainer": "gridLayout"
       },
@@ -2398,10 +2480,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0,
-          "background-size": "cover",
-          "height": "100vh"
+          "spacing": 0
         },
         "mainContainer": "gridLayout"
       },
@@ -2424,15 +2503,22 @@
   },
   {
     "id": "SVZr2KjkBGSGuyiKeIdHk",
-    "name": "Grid layout",
+    "name": "tel-header1 grid",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
-          "componentId": "8QU06AN0BY94bBhAysJdk",
-          "componentType": "20012",
-          "order": 1
+          "componentId": "mGpe6xrcCob7vgttUghPv",
+          "componentType": "10001",
+          "id": "mGpe6xrcCob7vgttUghPv",
+          "position": {
+            "i": "mGpe6xrcCob7vgttUghPv",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
           "componentId": "b3gX9yHj282ko4jiY9kVb",
@@ -2465,6 +2551,52 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "background": "#FFFFFF",
+          "height": "65%"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "mGpe6xrcCob7vgttUghPv",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "Cr3S7v__wf8ejRtdLbaOa",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
           "padding": "5px",
           "spacing": 0
         },
@@ -2488,10 +2620,10 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "8QU06AN0BY94bBhAysJdk",
-    "status": "ACTIVE",
+    "id": "Cr3S7v__wf8ejRtdLbaOa",
+    "type": "20012",
     "name": "Image",
-    "icon": "FaImage",
+    "component": { "content": "Image", "type": "20012" },
     "attributes": {
       "name": "Image",
       "contentType": false,
@@ -2502,49 +2634,41 @@
       "layoutProperties": {
         "image": {
           "//": "Use this class to style image component.",
-          "width": "60%",
-          "height": "70%"
+          "width": "70%",
+          "height": "65%"
         },
         "mainContainer": "image",
-        "xl": 4,
-        "lg": 4,
-        "md": 4,
-        "sm": 4,
-        "xs": 4
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
       },
       "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
       "imageAssetIdTemp": {
-        "createdBy": "telenor",
-        "_id": "6463354df167eb3ddc3992bb",
-        "name": "Telenor_Microfinance_Bank.webp",
-        "type": "webp",
+        "createdBy": "user",
+        "_id": "64dee7d68aa7f73e0cb31bc1",
+        "name": "TMB Logo-04.jpeg",
+        "type": "jpeg",
         "projectId": "6458cf08badaaa2d6406a720",
-        "id": "kcfSpYLSm8KRXR_lIXhhr",
+        "id": "P4591jNE577H2gvrAqc-d",
         "gitBranchName": "master",
         "folderType": "web",
         "platform": "web",
-        "url": "web/Telenor_Microfinance_Bank.webp",
-        "canvasUrl": "web/Telenor_Microfinance_Bank.webp",
-        "createdAt": "2023-05-16T07:48:29.952Z",
-        "updatedAt": "2023-05-16T07:48:29.952Z",
+        "url": "web/TMB Logo-04.jpeg",
+        "canvasUrl": "web/TMB Logo-04.jpeg",
+        "createdAt": "2023-08-18T03:39:02.196Z",
+        "updatedAt": "2023-08-18T03:39:02.196Z",
         "__v": 0,
-        "uri": "web/Telenor_Microfinance_Bank.webp"
+        "uri": "web/TMB Logo-04.jpeg"
       },
-      "imageAssetId": "kcfSpYLSm8KRXR_lIXhhr",
+      "imageAssetId": "P4591jNE577H2gvrAqc-d",
       "stateName": null,
       "storeType": null
     },
-    "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 0,
-    "type": "20012",
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Image", "type": "20012" },
     "events": [],
-    "path": "0-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-0",
+    "version": "1.0.0",
     "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
@@ -2606,7 +2730,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0,
           "textAlign": "right"
         },
@@ -2644,8 +2768,8 @@
       "layoutProperties": {
         "image": {
           "//": "Use this class to style image component.",
-          "width": "60%",
-          "height": "70%"
+          "width": "50%",
+          "height": "65%"
         },
         "mainContainer": "image",
         "xl": 12,
@@ -2851,7 +2975,7 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "spacing": 0,
-          "margin-left": "25px"
+          "margin-top": "35px"
         },
         "mainContainer": "gridLayout"
       },
@@ -2897,6 +3021,7 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
+          "textAlign": "center",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -2934,7 +3059,7 @@
         "image": {
           "//": "Use this class to style image component.",
           "width": "60%",
-          "height": "82%",
+          "height": "70%",
           "textAlign": "left"
         },
         "mainContainer": "image",
@@ -3757,7 +3882,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "5px 5px 5px 20px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -4158,7 +4283,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "60px 5px 5px 5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
