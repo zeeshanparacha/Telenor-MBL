@@ -2210,9 +2210,19 @@
                                     "sm": 12,
                                     "xs": 12,
                                     "headerStyles": {
-                                      "background-color": "#293642",
-                                      "color": "#FFFFFF"
-                                    }
+                                      "background-color": "#00bd5f",
+                                      "color": "#FFFFFF",
+                                      "border-radius": "8px"
+                                    },
+                                    "tableStyles": {
+                                      "border-color": "transparent",
+                                      "--ag-background-color": "transparent"
+                                    },
+                                    "rowsStyles": {
+                                      "border-radius": "8px",
+                                      "border-bottom-color": "transparent"
+                                    },
+                                    "rowsOdd": { "background": "#3030300C" }
                                   },
                                   "defaultColDef": {
                                     "sortable": true,
@@ -2741,6 +2751,21 @@
                         "component": { "type": "20031" }
                       },
                       {
+                        "id": "pVRB8jpfEXCgmqDfYuCPP",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "RmAjRy_j9LqDO67RDQMBs",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "id": "g79Gn_WnjnyQhqYX-4GxT",
                         "status": "ACTIVE",
                         "name": "Data table",
@@ -2777,9 +2802,19 @@
                             "sm": 12,
                             "xs": 12,
                             "headerStyles": {
-                              "background-color": "#DA0006",
-                              "color": "#FFFFFF"
-                            }
+                              "background-color": "#00bd5f",
+                              "color": "#FFFFFF",
+                              "border-radius": "8px"
+                            },
+                            "tableStyles": {
+                              "border-color": "transparent",
+                              "--ag-background-color": "transparent"
+                            },
+                            "rowsStyles": {
+                              "border-radius": "8px",
+                              "border-bottom-color": "transparent"
+                            },
+                            "rowsOdd": { "background": "#3030300C" }
                           },
                           "defaultColDef": {
                             "sortable": true,
@@ -3395,8 +3430,8 @@
     "gitBranchName": "master",
     "_id": "8YgbcuCPHV7H1hTs9gug1",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/18/2023",
-    "createdAt": "8/18/2023",
+    "updatedAt": "8/22/2023",
+    "createdAt": "8/22/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5627,7 +5662,20 @@
         "md": 12,
         "sm": 12,
         "xs": 12,
-        "headerStyles": { "background-color": "#293642", "color": "#FFFFFF" }
+        "headerStyles": {
+          "background-color": "#00bd5f",
+          "color": "#FFFFFF",
+          "border-radius": "8px"
+        },
+        "tableStyles": {
+          "border-color": "transparent",
+          "--ag-background-color": "transparent"
+        },
+        "rowsStyles": {
+          "border-radius": "8px",
+          "border-bottom-color": "transparent"
+        },
+        "rowsOdd": { "background": "#3030300C" }
       },
       "defaultColDef": {
         "sortable": true,
@@ -6109,7 +6157,20 @@
         "md": 12,
         "sm": 12,
         "xs": 12,
-        "headerStyles": { "background-color": "#DA0006", "color": "#FFFFFF" }
+        "headerStyles": {
+          "background-color": "#00bd5f",
+          "color": "#FFFFFF",
+          "border-radius": "8px"
+        },
+        "tableStyles": {
+          "border-color": "transparent",
+          "--ag-background-color": "transparent"
+        },
+        "rowsStyles": {
+          "border-radius": "8px",
+          "border-bottom-color": "transparent"
+        },
+        "rowsOdd": { "background": "#3030300C" }
       },
       "defaultColDef": {
         "sortable": true,

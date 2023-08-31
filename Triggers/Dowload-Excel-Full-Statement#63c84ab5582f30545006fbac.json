@@ -1,1 +1,61 @@
-{"createdBy":"ahmarnew","updatedBy":"ahmarnew","_id":"63c84ab5582f30545006fbac","id":"z-EfyxqqAplYJzPfCmN5l","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"Dowload Excel Full Statement","status":"ACTIVE","services":[{"_id":"63c84e71582f30545007102c","type":"8","command":{"responseHandler":[],"returns":[],"_id":"63c84e71582f30545007102d","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"response","url":"/account-statement/full-statement/export/excel","checksum":true,"encryption":true,"fileName":"Full Statement.xlsx","isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":2,"name":"Current screen","key":"name","value":"fullStatement.name"}],"baseURL":"631b0ff6d005932c10ce3bbe","storeType":2},"type":"2"}}],"createdAt":"19-Jan-2023","updatedAt":"19-Jan-2023","__v":2}
+{
+  "id": "z-EfyxqqAplYJzPfCmN5l",
+  "_id": "63c84ab5582f30545006fbac",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "Dowload Excel Full Statement",
+  "old_name": "Dowload Excel Full Statement",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/branchless-account/statement/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Full Statement.xlsx",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromDate",
+              "value": "fromDate"
+            },
+            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountId",
+              "value": "branchless.id"
+            },
+            { "type": 1, "name": "Form", "key": "days", "value": "radiokey" }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.kwp7oy0bhuNLNXvVTdeOYk24nxHq74i",
+  "updatedAt": "8/30/2023",
+  "createdAt": "8/30/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
