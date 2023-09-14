@@ -1,0 +1,35 @@
+{
+  "id": "YVe2DSVX86G-saXX2aheP",
+  "name": "map array object trigger",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "object",
+          "destinationBindingKey": "mapArray",
+          "sourceBindingKey": "test",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            {
+              "key": "name",
+              "changeValueConditonally": true,
+              "logic": { "cat": ["mr.", { "var": "name" }] }
+            }
+          ],
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "csrf": "0.o2433jxa3gjuO3lUaZHFz0Wfc_BTIEYe",
+  "_id": "Kvcg-ZFgkgFFeSF2LIOqu",
+  "updatedAt": "9/5/2023",
+  "createdAt": "9/5/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}
