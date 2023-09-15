@@ -15,7 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "refreshResponse",
-          "url": "/oauth/token",
+          "url": "/oauth/token/refresh",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": false,
@@ -46,16 +46,15 @@
               "storeTypeName": "Static",
               "value": "Basic dHJ1c3RlZC1hcHA6c2VjcmV0"
             }
-          },
-          "securityConfiguration": "631dd603967b3c4df8e281a0"
+          }
         },
         "responseHandler": []
       }
     }
   ],
-  "csrf": "0.ri36fkafhcc6oVxosYVfyiz8PC2mEI6",
-  "updatedAt": "9/14/2023",
-  "createdAt": "9/14/2023",
+  "csrf": "0.zzvrpgc6aa9aMD9pQB3zPp2IAjTw_it-",
+  "updatedAt": "9/15/2023",
+  "createdAt": "9/15/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
