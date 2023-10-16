@@ -1,1 +1,60 @@
-{"createdBy":"talib","updatedBy":"talib","_id":"6318a02bd005932c10cd8bb0","id":"KZnU-HzzLLAcuifPtoaXK","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"Get pending-requests-batch-details","status":"ACTIVE","services":[{"_id":"633eb71fcf613b736c2d98af","type":"8","command":{"responseHandler":[{"httpStatus":200,"triggerName":"Open Pending Request View Details","triggerId":"aOo_v_-7CM4m-fw-xJKVp","logic":{"==":[{"var":"status"},1]}}],"returns":[],"_id":"633eb71fcf613b736c2d98b0","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"pendingRequestBatchDetails","responseReturnValue":"data.batchDetails","url":" /batches/get-batch-details","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":2,"name":"Current screen","key":"data","value":"batchObject.batchId"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}],"createdAt":"07-Sep-2022","updatedAt":"06-Oct-2022","__v":8}
+{
+  "id": "KZnU-HzzLLAcuifPtoaXK",
+  "_id": "6318a02bd005932c10cd8bb0",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "master",
+  "name": "Get pending-requests-batch-details",
+  "old_name": "Get pending-requests-batch-details",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "pendingRequestBatchDetails",
+          "responseReturnValue": "data.batchDetails",
+          "url": "/batches/get-batch-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "data",
+              "value": "batchObject.batchId"
+            }
+          ],
+          "baseURL": "631e018a967b3c4df8e29773",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "Open Pending Request View Details",
+            "triggerId": "aOo_v_-7CM4m-fw-xJKVp",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.z6iuecfcjfr_Lx1W8afWLmv2SnYEoHW",
+  "updatedAt": "9/21/2023",
+  "createdAt": "9/21/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

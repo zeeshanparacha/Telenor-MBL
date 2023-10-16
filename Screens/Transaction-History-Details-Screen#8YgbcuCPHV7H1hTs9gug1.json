@@ -43,7 +43,7 @@
                         "name": "Label",
                         "component": { "content": "Label", "type": "20002" },
                         "attributes": {
-                          "label": "Transaction History Details",
+                          "label": "Transaction History Detail",
                           "variant": "body1",
                           "name": "Label",
                           "mandatory": false,
@@ -2247,7 +2247,7 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "User Name",
+                                      "headerName": "User Nam",
                                       "field": "userName",
                                       "type": "text",
                                       "triggerId": null
@@ -3429,9 +3429,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "8YgbcuCPHV7H1hTs9gug1",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/22/2023",
-    "createdAt": "8/22/2023",
+    "createdBy": "areeb",
+    "updatedAt": "10/16/2023",
+    "createdAt": "10/16/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3659,7 +3659,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Transaction History Details",
+      "label": "Transaction History Detail",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -5697,7 +5697,7 @@
       "columnDefinition": [
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "User Name",
+          "headerName": "User Nam",
           "field": "userName",
           "type": "text",
           "triggerId": null
