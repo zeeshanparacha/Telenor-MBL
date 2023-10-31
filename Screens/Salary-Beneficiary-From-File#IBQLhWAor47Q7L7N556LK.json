@@ -883,7 +883,7 @@
                                                 "status": "ACTIVE",
                                                 "name": "File Upload",
                                                 "attributes": {
-                                                  "label": "Upload File (csv,xlsx)",
+                                                  "label": "Upload File (xlsx)",
                                                   "stateName": "file",
                                                   "accept": "image/*",
                                                   "maxSize": "4096",
@@ -2475,9 +2475,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "IBQLhWAor47Q7L7N556LK",
-    "createdBy": "talha",
-    "updatedAt": "10/24/2023",
-    "createdAt": "10/24/2023",
+    "createdBy": "areeb",
+    "updatedAt": "10/30/2023",
+    "createdAt": "10/30/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3471,7 +3471,7 @@
     "status": "ACTIVE",
     "name": "File Upload",
     "attributes": {
-      "label": "Upload File (csv,xlsx)",
+      "label": "Upload File (xlsx)",
       "stateName": "file",
       "accept": "image/*",
       "maxSize": "4096",
