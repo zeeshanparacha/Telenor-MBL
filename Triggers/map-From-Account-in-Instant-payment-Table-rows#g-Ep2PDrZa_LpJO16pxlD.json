@@ -4,7 +4,7 @@
   "name": "map From Account in Instant payment Table rows",
   "old_name": "map From Account in Instant payment Table rows",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "services": [
     {
       "type": "11",
@@ -16,7 +16,7 @@
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "object",
           "destinationBindingKey": "instantPayment",
-          "sourceBindingKey": "instantPayment",
+          "sourceBindingKey": "instantPayment1.data.instantPayments.instantPayments",
           "sourceStoreType": 2,
           "destinationStoreType": 2,
           "filterList": [
@@ -49,8 +49,9 @@
       }
     }
   ],
-  "updatedAt": "6/20/2023",
-  "createdAt": "6/20/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

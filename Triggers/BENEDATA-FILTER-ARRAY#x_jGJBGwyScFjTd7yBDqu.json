@@ -1,0 +1,33 @@
+{
+  "id": "aQRRkFJzUPu-N4HAyhK_B",
+  "_id": "x_jGJBGwyScFjTd7yBDqu",
+  "name": "BENEDATA FILTER ARRAY",
+  "old_name": "BENEDATA FILTER ARRAY",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "10",
+        "attributes": {
+          "stateName": "Idb",
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedBeneIds",
+          "dataType": "",
+          "destinationBindingKey": "beneID",
+          "sourceBindingKey": "accounts.page",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targetValue": "id"
+        }
+      }
+    }
+  ],
+  "csrf": "0.jg73ljkjpuqJimbcRiS9mFvpHmD7tjMw",
+  "updatedAt": "1/16/2024",
+  "createdAt": "1/16/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

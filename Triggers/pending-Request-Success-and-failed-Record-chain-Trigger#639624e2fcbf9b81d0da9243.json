@@ -1,1 +1,251 @@
-{"createdBy":"ahmerjavedkhan","updatedBy":"ahmarnew","_id":"639624e2fcbf9b81d0da9243","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"pending Request Success and failed Record chain Trigger","status":"ACTIVE","services":[{"_id":"63a2f4a6137cd44b9ce98bf4","type":"2","command":{"responseHandler":[],"returns":[],"_id":"63a2f4a6137cd44b9ce98bf5","attributes":{"triggers":[{"createdBy":"ahmerjavedkhan","updatedBy":"ahmerjavedkhan","_id":"639ee2d6137cd44b9cde3ddd","projectId":"62dfaa1ecc4a8a55e4d8a02b","gitBranchName":"Sprint1","name":"conditionally call salary bene and salary payment Get batch List API","status":"ACTIVE","services":[{"_id":"639ee2d6137cd44b9cde3dde","type":"13","command":{"responseHandler":[],"returns":[],"_id":"639ee2d6137cd44b9cde3ddf","attributes":{"triggers":[{"logic":{"==":[{"var":"currentScreen.selectedObject.type"},"Salary Beneficiaries"]},"triggerName":"Get Pending Request Salary Beneficiary","triggerId":"2zmhvZrV-fsj9FEabXUVr","services":[{"_id":"6357e8f7e8be5c21445038a2","type":"8","command":{"responseHandler":[{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Save salary beneficiary var","triggerId":"BeieRMTyRUZCHvfNXNjpt"},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Open Pending Requestion in dashbaord","triggerId":"TSWSFJa1tS4O_8KuNQPUv"}],"returns":[],"_id":"6357e8f7e8be5c21445038a3","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"pendingRequestsbatches","responseReturnValue":"data.batches","url":"/batches/get-batch-list","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":4,"name":"Static","key":"data","value":"SALARY_BENEFICIARY"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}]},{"logic":{"==":[{"var":"currentScreen.selectedObject.type"},"Salary Payments"]},"triggerName":"Get Pending Request Salary Payment","triggerId":"lf6skGUiT4cKMyPUfcwLF","services":[{"_id":"6357ee7be8be5c2144504ec0","type":"8","command":{"responseHandler":[{"httpStatus":200,"logic":{"==":[4,4]},"triggerName":"Save salary payment var","triggerId":"_Yp-D5wHn3-Xbm3t2ZiDg"},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Open Pending Requestion in dashbaord","triggerId":"TSWSFJa1tS4O_8KuNQPUv"}],"returns":[],"_id":"6357ee7be8be5c2144504ec1","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"pendingRequestsbatches","responseReturnValue":"data.batches","url":"/batches/get-batch-list","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":4,"name":"Static","key":"data","value":"SALARY_PAYMENT"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}]}]},"type":"1"}}],"id":"6xbWDNqG1cLsKmruyFKfW","createdAt":"18-Dec-2022","updatedAt":"18-Dec-2022","__v":0},{"createdBy":"talib","updatedBy":"talib","_id":"6305b99ab2d1671fbc4b09bf","id":"TSWSFJa1tS4O_8KuNQPUv","name":"Open Pending Requestion in dashbaord","projectId":"62dfaa1ecc4a8a55e4d8a02b","gitBranchName":"Sprint1","services":[{"_id":"6305b99ab2d1671fbc4b09c0","type":"1","command":{"responseHandler":[],"returns":[],"_id":"6305b99ab2d1671fbc4b09c1","attributes":{"nextWidgetId":"sLk_GJEnNdcLK6CP1DTDY","gridRadioValue":"","editableForm":false},"type":"3"}}],"createdAt":"24-Aug-2022","updatedAt":"24-Aug-2022","__v":0},{"createdBy":"ahmarnew","updatedBy":"ahmarnew","_id":"63a2f42e137cd44b9ce98ace","id":"WjJDiwaC9fXPk3swDKDZT","name":"Clear Pending Requests Batch Details Trigger","projectId":"62dfaa1ecc4a8a55e4d8a02b","gitBranchName":"Sprint1","services":[{"_id":"63a2f42e137cd44b9ce98acf","type":"11","command":{"responseHandler":[],"returns":[],"_id":"63a2f42e137cd44b9ce98ad0","attributes":{"stateName":"pendingRequestBatchDetails","storeType":2,"selectedObjectBindingKey":"selectedObject","dataType":"","sourceBindingKey":""},"type":"4"}}],"createdAt":"21-Dec-2022","updatedAt":"21-Dec-2022","__v":0}],"triggerIds":["6xbWDNqG1cLsKmruyFKfW","TSWSFJa1tS4O_8KuNQPUv","WjJDiwaC9fXPk3swDKDZT"]},"type":"1"}}],"id":"jgDYNagK5rSt38gNvZl0C","createdAt":"11-Dec-2022","updatedAt":"21-Dec-2022","__v":4}
+{
+  "_id": "639624e2fcbf9b81d0da9243",
+  "id": "jgDYNagK5rSt38gNvZl0C",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "pending Request Success and failed Record chain Trigger",
+  "old_name": "pending Request Success and failed Record chain Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan",
+              "_id": "639ee2d6137cd44b9cde3ddd",
+              "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+              "gitBranchName": "Sprint1",
+              "name": "conditionally call salary bene and salary payment Get batch List API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "_id": "639ee2d6137cd44b9cde3dde",
+                  "type": "13",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "639ee2d6137cd44b9cde3ddf",
+                    "attributes": {
+                      "triggers": [
+                        {
+                          "logic": {
+                            "==": [
+                              { "var": "currentScreen.selectedObject.type" },
+                              "Salary Beneficiaries"
+                            ]
+                          },
+                          "triggerName": "Get Pending Request Salary Beneficiary",
+                          "triggerId": "2zmhvZrV-fsj9FEabXUVr",
+                          "services": [
+                            {
+                              "_id": "6357e8f7e8be5c21445038a2",
+                              "type": "8",
+                              "command": {
+                                "responseHandler": [
+                                  {
+                                    "logic": { "==": [{ "var": "status" }, 1] },
+                                    "httpStatus": 200,
+                                    "triggerName": "Save salary beneficiary var",
+                                    "triggerId": "BeieRMTyRUZCHvfNXNjpt"
+                                  },
+                                  {
+                                    "logic": { "==": [{ "var": "status" }, 1] },
+                                    "httpStatus": 200,
+                                    "triggerName": "Open Pending Requestion in dashbaord",
+                                    "triggerId": "TSWSFJa1tS4O_8KuNQPUv"
+                                  }
+                                ],
+                                "returns": [],
+                                "_id": "6357e8f7e8be5c21445038a3",
+                                "attributes": {
+                                  "loaderWidgetIds": [906070],
+                                  "messageWidgetIds": [906070],
+                                  "responseStateKey": "pendingRequestsbatches",
+                                  "responseReturnValue": "data.batches",
+                                  "url": "/batches/get-batch-list",
+                                  "checksum": true,
+                                  "encryption": true,
+                                  "isDeviceDetails": true,
+                                  "loginTrigger": false,
+                                  "formData": false,
+                                  "logoutTrigger": false,
+                                  "headers": {
+                                    "Content-Type": "application/json",
+                                    "Accept": "application/json",
+                                    "channel_key": "001",
+                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                    "locale": "en-ltr"
+                                  },
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "data",
+                                      "value": "SALARY_BENEFICIARY"
+                                    }
+                                  ],
+                                  "baseURL": "631e018a967b3c4df8e29773",
+                                  "storeType": 2
+                                },
+                                "type": "1"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "==": [
+                              { "var": "currentScreen.selectedObject.type" },
+                              "Salary Payments"
+                            ]
+                          },
+                          "triggerName": "Get Pending Request Salary Payment",
+                          "triggerId": "lf6skGUiT4cKMyPUfcwLF",
+                          "services": [
+                            {
+                              "_id": "6357ee7be8be5c2144504ec0",
+                              "type": "8",
+                              "command": {
+                                "responseHandler": [
+                                  {
+                                    "httpStatus": 200,
+                                    "logic": { "==": [4, 4] },
+                                    "triggerName": "Save salary payment var",
+                                    "triggerId": "_Yp-D5wHn3-Xbm3t2ZiDg"
+                                  },
+                                  {
+                                    "logic": { "==": [{ "var": "status" }, 1] },
+                                    "httpStatus": 200,
+                                    "triggerName": "Open Pending Requestion in dashbaord",
+                                    "triggerId": "TSWSFJa1tS4O_8KuNQPUv"
+                                  }
+                                ],
+                                "returns": [],
+                                "_id": "6357ee7be8be5c2144504ec1",
+                                "attributes": {
+                                  "loaderWidgetIds": [906070],
+                                  "messageWidgetIds": [906070],
+                                  "responseStateKey": "pendingRequestsbatches",
+                                  "responseReturnValue": "data.batches",
+                                  "url": "/batches/get-batch-list",
+                                  "checksum": true,
+                                  "encryption": true,
+                                  "isDeviceDetails": true,
+                                  "loginTrigger": false,
+                                  "formData": false,
+                                  "logoutTrigger": false,
+                                  "headers": {
+                                    "Content-Type": "application/json",
+                                    "Accept": "application/json",
+                                    "channel_key": "001",
+                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                    "locale": "en-ltr"
+                                  },
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "data",
+                                      "value": "SALARY_PAYMENT"
+                                    }
+                                  ],
+                                  "baseURL": "631e018a967b3c4df8e29773",
+                                  "storeType": 2
+                                },
+                                "type": "1"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "1"
+                  }
+                }
+              ],
+              "id": "6xbWDNqG1cLsKmruyFKfW",
+              "createdAt": "18-Dec-2022",
+              "updatedAt": "18-Dec-2022",
+              "__v": 0
+            },
+            {
+              "createdBy": "talib",
+              "updatedBy": "talib",
+              "_id": "6305b99ab2d1671fbc4b09bf",
+              "id": "TSWSFJa1tS4O_8KuNQPUv",
+              "name": "Open Pending Requestion in dashbaord",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "_id": "6305b99ab2d1671fbc4b09c0",
+                  "type": "1",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6305b99ab2d1671fbc4b09c1",
+                    "attributes": {
+                      "nextWidgetId": "sLk_GJEnNdcLK6CP1DTDY",
+                      "gridRadioValue": "",
+                      "editableForm": false
+                    },
+                    "type": "3"
+                  }
+                }
+              ],
+              "createdAt": "24-Aug-2022",
+              "updatedAt": "24-Aug-2022",
+              "__v": 0
+            },
+            {
+              "createdBy": "ahmarnew",
+              "updatedBy": "ahmarnew",
+              "_id": "63a2f42e137cd44b9ce98ace",
+              "id": "WjJDiwaC9fXPk3swDKDZT",
+              "name": "Clear Pending Requests Batch Details Trigger",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "_id": "63a2f42e137cd44b9ce98acf",
+                  "type": "11",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "63a2f42e137cd44b9ce98ad0",
+                    "attributes": {
+                      "stateName": "pendingRequestBatchDetails",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    },
+                    "type": "4"
+                  }
+                }
+              ],
+              "createdAt": "21-Dec-2022",
+              "updatedAt": "21-Dec-2022",
+              "__v": 0
+            }
+          ],
+          "triggerIds": [
+            "6xbWDNqG1cLsKmruyFKfW",
+            "TSWSFJa1tS4O_8KuNQPUv",
+            "WjJDiwaC9fXPk3swDKDZT"
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.tx2wrxcds5lW0fB4teVqycoy-oTNbb-_",
+  "updatedAt": "1/30/2024",
+  "createdAt": "1/30/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

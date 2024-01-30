@@ -1,1 +1,66 @@
-{"createdBy":"talib","updatedBy":"talib","_id":"63189cddd005932c10cd85c3","id":"lf6skGUiT4cKMyPUfcwLF","projectId":"63f4845e476fc83100e3a899","gitBranchName":"master","name":"Get Pending Request Salary Payment","status":"ACTIVE","services":[{"_id":"6357ee7be8be5c2144504ec0","type":"8","command":{"responseHandler":[{"httpStatus":200,"logic":{"==":[4,4]},"triggerName":"Save salary payment var","triggerId":"_Yp-D5wHn3-Xbm3t2ZiDg"},{"logic":{"==":[{"var":"status"},1]},"httpStatus":200,"triggerName":"Open Pending Requestion in dashbaord","triggerId":"TSWSFJa1tS4O_8KuNQPUv"}],"returns":[],"_id":"6357ee7be8be5c2144504ec1","attributes":{"loaderWidgetIds":[906070],"messageWidgetIds":[906070],"responseStateKey":"pendingRequestsbatches","responseReturnValue":"data.batches","url":"/batches/get-batch-list","checksum":true,"encryption":true,"isDeviceDetails":true,"loginTrigger":false,"formData":false,"logoutTrigger":false,"headers":{"Content-Type":"application/json","Accept":"application/json","channel_key":"001","CSRF_TOKEN":"4c6e939d-db00-4697-82d8-b69bb05aef5a","locale":"en-ltr"},"requestBody":[{"type":4,"name":"Static","key":"data","value":"SALARY_PAYMENT"}],"baseURL":"631e018a967b3c4df8e29773","storeType":2},"type":"1"}}],"createdAt":"07-Sep-2022","updatedAt":"25-Oct-2022","__v":8}
+{
+  "id": "lf6skGUiT4cKMyPUfcwLF",
+  "_id": "63189cddd005932c10cd85c3",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "Get Pending Request Salary Payment",
+  "old_name": "Get Pending Request Salary Payment",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "pendingRequestsbatches",
+          "responseReturnValue": "data.batches",
+          "url": "/batches/get-batch-list",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "data",
+              "value": "SALARY_PAYMENT"
+            }
+          ],
+          "baseURL": "631e018a967b3c4df8e29773",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [4, 4] },
+            "triggerName": "Save salary payment var",
+            "triggerId": "_Yp-D5wHn3-Xbm3t2ZiDg"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Pending Requestion in dashbaord",
+            "triggerId": "TSWSFJa1tS4O_8KuNQPUv"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.tx2wrxcds5lW0fB4teVqycoy-oTNbb-_",
+  "updatedAt": "1/30/2024",
+  "createdAt": "1/30/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

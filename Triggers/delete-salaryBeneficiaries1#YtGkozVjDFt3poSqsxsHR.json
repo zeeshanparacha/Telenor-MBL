@@ -1,0 +1,21 @@
+{
+  "id": "orFj9nEOZgDhExoBwanPl",
+  "name": "delete salaryBeneficiaries1",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": { "stateName": "salaryBeneficiaries1", "storeType": 2 }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "_id": "YtGkozVjDFt3poSqsxsHR",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

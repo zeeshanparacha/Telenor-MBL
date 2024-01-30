@@ -2,7 +2,7 @@
   "id": "sk5z95VF0lmBiqCcK0a-p",
   "_id": "nrPk1_OA_jcTyjK9CT931",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "name": "upload file instant payment trigger",
   "old_name": "upload file instant payment trigger",
   "status": "ACTIVE",
@@ -14,8 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "instantPayment",
-          "responseReturnValue": "data.instantPayments.instantPayments",
+          "responseStateKey": "instantPayment1",
           "url": "/file-upload?type=INSTANT_SALARY_PAYMENT",
           "checksum": true,
           "encryption": true,
@@ -33,17 +32,24 @@
         },
         "responseHandler": [
           {
-            "logic": true,
+            "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
             "triggerName": "map From Account in Instant payment Table rows",
             "triggerId": "TATOrIQGEbe3M7XpVilDc"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "FileuploadFail Modal",
+            "triggerId": "IZBCHxxVyWS_P91u0fFY2"
           }
         ]
       }
     }
   ],
-  "updatedAt": "6/23/2023",
-  "createdAt": "6/23/2023",
-  "createdBy": "telenor",
-  "updatedBy": "telenor"
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

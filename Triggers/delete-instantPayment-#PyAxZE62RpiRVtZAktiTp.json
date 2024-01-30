@@ -1,0 +1,27 @@
+{
+  "id": "HG7TymoiDnnrHIscusf18",
+  "name": "delete instantPayment ",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "instantPayment",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "_id": "PyAxZE62RpiRVtZAktiTp",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

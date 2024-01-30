@@ -1,0 +1,29 @@
+{
+  "id": "xNrIDk1MA5w0tvonF5erA",
+  "_id": "QnUTle8RaRmD20Nv7PkJ_",
+  "name": "delete selectedBeneRows",
+  "old_name": "delete selectedBeneRows",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "beneficiaries",
+          "requestBody": [],
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.dnf813bsfm9Nl61t8P0vGzkdXwmQKhFA",
+  "updatedAt": "1/24/2024",
+  "createdAt": "1/24/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

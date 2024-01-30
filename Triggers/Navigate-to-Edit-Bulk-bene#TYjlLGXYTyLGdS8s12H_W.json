@@ -1,0 +1,26 @@
+{
+  "id": "ZSUgFZDNSRmCj3kh4f_vI",
+  "name": "Navigate to Edit Bulk bene",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "IofIA_oXNuo0fCyTD-RZJ",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "_id": "TYjlLGXYTyLGdS8s12H_W",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "IZBCHxxVyWS_P91u0fFY2",
+  "gitBranchName": "dev",
+  "name": "FileuploadFail Modal",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "qyHyAlVlUfP2UJtww0Lsq",
+          "content": "",
+          "type": "",
+          "modalId": "BtEdQWb8BJcDwOPfXVYOP",
+          "toastContentType": "custom"
+        }
+      }
+    }
+  ],
+  "csrf": "0.xf7onocacirkLWlvQd88dUISY4e1ft3T",
+  "_id": "tZc1N_jM2759RMufhX8pC",
+  "updatedAt": "1/18/2024",
+  "createdAt": "1/18/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

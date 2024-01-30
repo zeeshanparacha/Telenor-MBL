@@ -1,10 +1,10 @@
 {
-  "id": "UaatMGoZ-NgyM-QL82JPM",
-  "_id": "631a2338d005932c10ce0afe",
+  "id": "o853aDSx3actZRJIXaa6x",
+  "_id": "1RAg280udVIpIiHBw0y3u",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
-  "name": "add-salary-beneficiary-manual Api",
-  "old_name": "add-salary-beneficiary-manual Api",
+  "gitBranchName": "dev",
+  "name": "add-bene-data",
+  "old_name": "add-bene-data",
   "status": "ACTIVE",
   "services": [
     {
@@ -78,14 +78,20 @@
             "triggerId": "JUh-C4wZ4q66zhdsrSC8r",
             "httpStatus": 409,
             "logic": { "==": [{ "var": "status" }, 0] }
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "delete selectedBeneRows",
+            "triggerId": "xNrIDk1MA5w0tvonF5erA"
           }
         ]
       }
     }
   ],
-  "csrf": "0.umh535oayhm5URPizp6rbcg5nRRZ4iav",
-  "updatedAt": "10/16/2023",
-  "createdAt": "10/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.nxml0yp48tfTT323zxoypcpIaV9u6DDb",
+  "updatedAt": "1/25/2024",
+  "createdAt": "1/25/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

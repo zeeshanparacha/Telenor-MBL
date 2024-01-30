@@ -1,0 +1,148 @@
+{
+  "id": "avz9E1J1wpCGdqXITEtkL",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "upload file instant payment trigger Chain Trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "HG7TymoiDnnrHIscusf18",
+              "name": "delete instantPayment ",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "instantPayment",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+              "_id": "PyAxZE62RpiRVtZAktiTp",
+              "updatedAt": "1/22/2024",
+              "createdAt": "1/22/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            },
+            {
+              "id": "o8CbNfWS6DRgSJVvDyAU9",
+              "name": "delete instantPaymen1 ",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "instantPayment1",
+                      "storeType": 2
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+              "_id": "5HtMFMnc8rvQIrExCszLE",
+              "updatedAt": "1/22/2024",
+              "createdAt": "1/22/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            },
+            {
+              "id": "sk5z95VF0lmBiqCcK0a-p",
+              "_id": "nrPk1_OA_jcTyjK9CT931",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "name": "upload file instant payment trigger",
+              "old_name": "upload file instant payment trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "instantPayment1",
+                      "url": "/file-upload?type=INSTANT_SALARY_PAYMENT",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": true,
+                      "logoutTrigger": false,
+                      "headers": {},
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "file",
+                          "value": "file"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "uuid",
+                          "value": "123"
+                        }
+                      ],
+                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": { "==": [{ "var": "status" }, 1] },
+                        "httpStatus": 200,
+                        "triggerName": "map From Account in Instant payment Table rows",
+                        "triggerId": "TATOrIQGEbe3M7XpVilDc"
+                      },
+                      {
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "httpStatus": 200,
+                        "triggerName": "FileuploadFail Modal",
+                        "triggerId": "IZBCHxxVyWS_P91u0fFY2"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+              "updatedAt": "1/22/2024",
+              "createdAt": "1/22/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            }
+          ],
+          "triggerIds": [
+            "HG7TymoiDnnrHIscusf18",
+            "o8CbNfWS6DRgSJVvDyAU9",
+            "sk5z95VF0lmBiqCcK0a-p"
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "_id": "cU5znLI189qnjz8rHHqdO",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

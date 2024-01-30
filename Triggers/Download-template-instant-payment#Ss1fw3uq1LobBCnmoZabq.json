@@ -2,7 +2,7 @@
   "id": "DlVHuwHiHS9x6aESNb1v2",
   "_id": "Ss1fw3uq1LobBCnmoZabq",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "name": "Download template instant payment",
   "old_name": "Download template instant payment",
   "status": "ACTIVE",
@@ -18,7 +18,7 @@
           "url": "/template-download",
           "checksum": true,
           "encryption": true,
-          "fileName": "INSTANT_SALARY_PAYMENT.csv",
+          "fileName": "INSTANT_SALARY_PAYMENT.xlsx",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -45,8 +45,9 @@
       }
     }
   ],
-  "updatedAt": "6/23/2023",
-  "createdAt": "6/23/2023",
-  "createdBy": "telenor",
-  "updatedBy": "telenor"
+  "csrf": "0.ds0tl9o2r3CBLXZ1TvXvpcmOSEMfwTi",
+  "updatedAt": "1/19/2024",
+  "createdAt": "1/19/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

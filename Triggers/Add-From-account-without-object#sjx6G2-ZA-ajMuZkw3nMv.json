@@ -1,0 +1,58 @@
+{
+  "id": "-0w32NOZa4iC71xtwMSke",
+  "_id": "sjx6G2-ZA-ajMuZkw3nMv",
+  "name": "Add From account without object",
+  "old_name": "Add From account without object",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "salaryPayments",
+          "sourceBindingKey": "salaryPayments",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "amount", "changeValueConditonally": false },
+            { "key": "bookingDate" },
+            { "key": "comments" },
+            { "key": "customerRef1" },
+            { "key": "customerRef2" },
+            { "key": "employeeId" },
+            { "key": "ibftBankImd" },
+            { "key": "id" },
+            { "key": "preferredPaymentMode" },
+            { "key": "purposeOfPayment" },
+            { "key": "toAccountNo" },
+            { "key": "type" },
+            {
+              "key": "fromAccountNo",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  false,
+                  { "var": "currentScreen.form.fromAccountIBAN.accountMobile" },
+                  { "var": "currentScreen.form.fromAccountIBAN.accountMobile" }
+                ]
+              }
+            },
+            { "key": "beneficiary", "changeValueConditonally": false }
+          ],
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

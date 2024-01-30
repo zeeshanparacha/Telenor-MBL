@@ -1,0 +1,53 @@
+{
+  "id": "TOyxoTRHuPZZVAA0JKNzB",
+  "_id": "3rTbRhVSQT80JsOde0nww",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "Download File BENE",
+  "old_name": "Download File BENE",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "makePaymentResponse",
+          "url": "/company-beneficiary/beneficiary-records/salary-payment/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "beneficiaryPayment.xlsx",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "beneficiaryIds",
+              "value": "beneId"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.xgkexv77d2jgBVkaNCGB223MxiM-Hdc",
+  "updatedAt": "1/17/2024",
+  "createdAt": "1/17/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

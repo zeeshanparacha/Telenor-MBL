@@ -1,0 +1,42 @@
+{
+  "id": "C7avoSJp0Dh2OSbLgHNRY",
+  "name": "status DropDown Mapping",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "statusd",
+          "sourceBindingKey": "status",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "code",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.status" }
+            },
+            {
+              "key": "name",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.status" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "csrf": "0.ggicyj9x5egBXu84s9AmKYb_dSydYMCZ",
+  "_id": "vl8Wtb6nvQde-lPxI_5oK",
+  "updatedAt": "1/18/2024",
+  "createdAt": "1/18/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

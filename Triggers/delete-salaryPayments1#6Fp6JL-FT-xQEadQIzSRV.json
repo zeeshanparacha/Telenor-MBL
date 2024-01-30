@@ -1,0 +1,21 @@
+{
+  "id": "yTiPXE8zVKXkX9fauRD5M",
+  "name": "delete salaryPayments1",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": { "stateName": "salaryPayments1", "storeType": 2 }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "_id": "6Fp6JL-FT-xQEadQIzSRV",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

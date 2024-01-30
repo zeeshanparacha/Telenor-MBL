@@ -4,7 +4,7 @@
   "name": "Add Salary Bene In Table",
   "old_name": "Add Salary Bene In Table",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "services": [
     {
       "type": "11",
@@ -70,6 +70,12 @@
               "name": "Form",
               "key": "accountMobileNumber",
               "value": "accountMobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneficiarySalaryAmount",
+              "value": "beneficiarySalaryAmount"
             }
           ],
           "selectedObjectBindingKey": "selectedObject"
@@ -77,8 +83,9 @@
       }
     }
   ],
-  "updatedAt": "6/7/2023",
-  "createdAt": "6/7/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.l9blp1qgi7gqKEXQZu82athaZtwYL2vr",
+  "updatedAt": "1/17/2024",
+  "createdAt": "1/17/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

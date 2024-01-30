@@ -1,0 +1,60 @@
+{
+  "id": "30JyvKJyGvTuj1LMKMUKj",
+  "_id": "P2aA9DnkDDahPEwum9rDc",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "editBeneficiariesInBulk",
+  "old_name": "editBeneficiariesInBulk",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "beneficiaries",
+          "url": "/file-upload?type=BULK_SALARY_BENEFICIARY_UPDATE",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            { "type": 4, "name": "Static", "key": "uuid", "value": "absdfsdf" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "username",
+              "value": "username"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "FileuploadFail Modal",
+            "triggerId": "IZBCHxxVyWS_P91u0fFY2"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.6yll2few1lxf3jk-YbGXCaUbK2h3Qrh7",
+  "updatedAt": "1/23/2024",
+  "createdAt": "1/23/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

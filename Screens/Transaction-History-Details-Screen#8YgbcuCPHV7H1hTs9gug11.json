@@ -2766,6 +2766,36 @@
                         "component": { "type": "20031" }
                       },
                       {
+                        "id": "pVRB8jpfEXCgmqDfYuCPP",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "RmAjRy_j9LqDO67RDQMBs",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
+                        "id": "pVRB8jpfEXCgmqDfYuCPP",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "RmAjRy_j9LqDO67RDQMBs",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "id": "g79Gn_WnjnyQhqYX-4GxT",
                         "status": "ACTIVE",
                         "name": "Data table",
@@ -2835,107 +2865,94 @@
                           },
                           "columnDefinition": [
                             {
+                              "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Batch Entity Id",
                               "field": "batchTransactionEntityId",
-                              "type": "text",
-                              "triggerId": null
+                              "headerName": "Batch Transaction Id",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Entity Batch Name",
-                              "field": "batchTransactionEntityBatchName",
                               "type": "text",
-                              "triggerId": null
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "id",
+                              "headerName": "Batch Transaction Row Id",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "From Account Number",
-                              "field": "fromAccountNumber",
                               "type": "text",
-                              "triggerId": null
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "status",
+                              "headerName": "Status",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
                               "typeTemp": { "name": "List", "type": "list" },
-                              "headerName": "From Account Title",
-                              "field": "fromAccountTitle",
-                              "type": "list",
-                              "triggerId": null
+                              "field": "statusDescription",
+                              "headerName": "status Description",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""]
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "From Bank Name",
-                              "field": "fromBankName",
                               "type": "text",
-                              "triggerId": null
-                            },
-                            {
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Amount",
                               "field": "amount",
-                              "type": "text",
-                              "triggerId": null
+                              "headerName": "Amount",
+                              "conditional": { "bindingKey": "" },
+                              "values": [],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": []
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Created On",
-                              "field": "createdOn",
                               "type": "text",
-                              "triggerId": null
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "preferredPaymentMode",
+                              "headerName": "Preferred Payment Mode",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "To Account Title",
-                              "field": "toAccountTitle",
                               "type": "text",
-                              "triggerId": null
-                            },
-                            {
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "To Account Number",
                               "field": "toAccountNumber",
-                              "type": "text",
-                              "triggerId": null
+                              "headerName": "To Account ",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "To Bank Name",
                               "field": "toBankName",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Status Description",
-                              "field": "statusDescription",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Status",
-                              "field": "status",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Preferred Payment Mode",
-                              "field": "preferredPaymentMode",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Purpose Of Payment",
-                              "field": "purposeOfPayment",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "stan",
-                              "field": "stan",
                               "type": "text",
                               "triggerId": null
                             },
@@ -3014,7 +3031,7 @@
                           "type": "20014"
                         },
                         "events": [],
-                        "path": "0-0-4-0-1"
+                        "path": "0-0-4-0-3"
                       }
                     ],
                     "layoutProperties": {
@@ -3427,11 +3444,11 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "_id": "8YgbcuCPHV7H1hTs9gug11",
-    "createdBy": "areeb",
-    "updatedAt": "10/16/2023",
-    "createdAt": "10/16/2023",
+    "createdBy": "masood",
+    "updatedAt": "1/30/2024",
+    "createdAt": "1/30/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3592,7 +3609,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3650,7 +3667,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3688,7 +3705,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3734,7 +3751,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3780,7 +3797,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3851,7 +3868,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3917,7 +3934,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3998,7 +4015,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4035,7 +4052,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4072,7 +4089,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4109,7 +4126,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4146,7 +4163,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4227,7 +4244,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4266,7 +4283,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4305,7 +4322,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4344,7 +4361,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4383,7 +4400,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4468,7 +4485,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4538,7 +4555,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4583,7 +4600,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4621,7 +4638,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4666,7 +4683,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4706,7 +4723,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4776,7 +4793,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4821,7 +4838,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4859,7 +4876,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4904,7 +4921,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4944,7 +4961,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5014,7 +5031,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5059,7 +5076,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5097,7 +5114,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5142,7 +5159,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5182,7 +5199,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5252,7 +5269,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5297,7 +5314,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5338,7 +5355,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5383,7 +5400,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5423,7 +5440,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5494,7 +5511,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5539,7 +5556,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5580,7 +5597,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5625,7 +5642,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5740,7 +5757,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5812,7 +5829,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5857,7 +5874,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5898,7 +5915,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5930,7 +5947,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5975,7 +5992,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6031,7 +6048,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6103,7 +6120,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6120,7 +6137,7 @@
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6191,107 +6208,76 @@
       },
       "columnDefinition": [
         {
+          "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Batch Entity Id",
           "field": "batchTransactionEntityId",
-          "type": "text",
-          "triggerId": null
+          "headerName": "Batch Transaction Id",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Entity Batch Name",
-          "field": "batchTransactionEntityBatchName",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "id",
+          "headerName": "Batch Transaction Row Id",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "From Account Number",
-          "field": "fromAccountNumber",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "status",
+          "headerName": "Status",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "List", "type": "list" },
-          "headerName": "From Account Title",
-          "field": "fromAccountTitle",
-          "type": "list",
-          "triggerId": null
+          "field": "statusDescription",
+          "headerName": "status Description",
+          "conditional": { "bindingKey": "" },
+          "values": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "From Bank Name",
-          "field": "fromBankName",
           "type": "text",
-          "triggerId": null
-        },
-        {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Amount",
           "field": "amount",
-          "type": "text",
-          "triggerId": null
+          "headerName": "Amount",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Created On",
-          "field": "createdOn",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "preferredPaymentMode",
+          "headerName": "Preferred Payment Mode",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "To Account Title",
-          "field": "toAccountTitle",
           "type": "text",
-          "triggerId": null
-        },
-        {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "To Account Number",
           "field": "toAccountNumber",
-          "type": "text",
-          "triggerId": null
+          "headerName": "To Account ",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "To Bank Name",
           "field": "toBankName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Status Description",
-          "field": "statusDescription",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Status",
-          "field": "status",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Preferred Payment Mode",
-          "field": "preferredPaymentMode",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Purpose Of Payment",
-          "field": "purposeOfPayment",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "stan",
-          "field": "stan",
           "type": "text",
           "triggerId": null
         },
@@ -6362,11 +6348,11 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-4-0-1",
+    "path": "0-0-4-0-3",
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6419,7 +6405,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6451,7 +6437,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6491,7 +6477,7 @@
     "screenId": "8YgbcuCPHV7H1hTs9gug11",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

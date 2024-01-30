@@ -1169,7 +1169,6 @@
           "layoutProperties": {
             "menuItemClass": {
               "color": "#ffffff",
-              "background-color": "#1c2b5a",
               "height": "40px",
               "fontSize": "13px",
               "background": "#000000 0% 0% no-repeat padding-box"
@@ -1190,7 +1189,8 @@
               "width": "235px",
               "collapsedWidth": "60px",
               "background": "#000000 0% 0% no-repeat padding-box",
-              "fontSize": "500"
+              "fontSize": "500",
+              "color": "#FFFFFF"
             },
             "mainContainer": "sideBarMainContainer",
             "selectedMenuStyle": {
@@ -1200,8 +1200,11 @@
             "sidebarScrollbarStyle": {
               "width": "4px",
               "background": "#293642",
-              "thumbBackground": "#8A949E"
-            }
+              "thumbBackground": "#8A949E",
+              "left": "0px",
+              "height": "100vh"
+            },
+            "sidebarDiv": { "min-height": "calc(100vh - 48px)", "top": "48px" }
           },
           "menuActivityLogTriggerId": "",
           "markFavouriteTriggerId": "",
@@ -1221,7 +1224,7 @@
             "1004": "nqgECqW95uUMgp3qrp15n",
             "1005": "75U4IbX2rXoHZHIajvaW8",
             "1006": "--hRUZITxefERcO74vnzx",
-            "1008": "RrB3Lq4WiN6Dpprkzoz6_",
+            "1008": "no16TPCSYLjDXjaqOIiyp",
             "1009": "aFGc3V8toGxkj30EJUYdI",
             "1010": "IBQLhWAor47Q7L7N556LK",
             "1011": "0q6sF6S6QwJuz5vP4jlyD",
@@ -1286,13 +1289,6 @@
               "screen": {
                 "id": "--hRUZITxefERcO74vnzx",
                 "name": "Account Summary"
-              }
-            },
-            {
-              "permission": "1008",
-              "screen": {
-                "id": "RrB3Lq4WiN6Dpprkzoz6_",
-                "name": "View Beneficiary"
               }
             },
             {
@@ -1515,8 +1511,17 @@
                 "id": "nrXCXTkJR1K_iZnpCIb8D",
                 "name": "instant payment from file"
               }
+            },
+            {
+              "permission": "1008",
+              "screen": {
+                "id": "no16TPCSYLjDXjaqOIiyp",
+                "name": "VIEW BENEFICIARY"
+              }
             }
-          ]
+          ],
+          "headerTextType": "default",
+          "iconType": "static"
         },
         "events": [],
         "path": "1",
@@ -1658,11 +1663,11 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "7/11/2023",
-    "createdAt": "7/11/2023",
+    "createdBy": "muzzamil",
+    "updatedAt": "1/23/2024",
+    "createdAt": "1/23/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1726,7 +1731,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1791,7 +1796,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1837,7 +1842,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1903,7 +1908,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2021,7 +2026,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2074,7 +2079,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2106,7 +2111,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2138,7 +2143,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2170,7 +2175,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2216,7 +2221,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2267,7 +2272,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2313,7 +2318,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2345,7 +2350,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2397,7 +2402,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2429,7 +2434,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2471,7 +2476,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2487,7 +2492,6 @@
       "layoutProperties": {
         "menuItemClass": {
           "color": "#ffffff",
-          "background-color": "#1c2b5a",
           "height": "40px",
           "fontSize": "13px",
           "background": "#000000 0% 0% no-repeat padding-box"
@@ -2508,7 +2512,8 @@
           "width": "235px",
           "collapsedWidth": "60px",
           "background": "#000000 0% 0% no-repeat padding-box",
-          "fontSize": "500"
+          "fontSize": "500",
+          "color": "#FFFFFF"
         },
         "mainContainer": "sideBarMainContainer",
         "selectedMenuStyle": {
@@ -2518,8 +2523,11 @@
         "sidebarScrollbarStyle": {
           "width": "4px",
           "background": "#293642",
-          "thumbBackground": "#8A949E"
-        }
+          "thumbBackground": "#8A949E",
+          "left": "0px",
+          "height": "100vh"
+        },
+        "sidebarDiv": { "min-height": "calc(100vh - 48px)", "top": "48px" }
       },
       "menuActivityLogTriggerId": "",
       "markFavouriteTriggerId": "",
@@ -2539,7 +2547,7 @@
         "1004": "nqgECqW95uUMgp3qrp15n",
         "1005": "75U4IbX2rXoHZHIajvaW8",
         "1006": "--hRUZITxefERcO74vnzx",
-        "1008": "RrB3Lq4WiN6Dpprkzoz6_",
+        "1008": "no16TPCSYLjDXjaqOIiyp",
         "1009": "aFGc3V8toGxkj30EJUYdI",
         "1010": "IBQLhWAor47Q7L7N556LK",
         "1011": "0q6sF6S6QwJuz5vP4jlyD",
@@ -2602,13 +2610,6 @@
         {
           "permission": "1006",
           "screen": { "id": "--hRUZITxefERcO74vnzx", "name": "Account Summary" }
-        },
-        {
-          "permission": "1008",
-          "screen": {
-            "id": "RrB3Lq4WiN6Dpprkzoz6_",
-            "name": "View Beneficiary"
-          }
         },
         {
           "permission": "1009",
@@ -2818,8 +2819,17 @@
             "id": "nrXCXTkJR1K_iZnpCIb8D",
             "name": "instant payment from file"
           }
+        },
+        {
+          "permission": "1008",
+          "screen": {
+            "id": "no16TPCSYLjDXjaqOIiyp",
+            "name": "VIEW BENEFICIARY"
+          }
         }
       ],
+      "headerTextType": "default",
+      "iconType": "static",
       "gridProps": [
         {
           "componentId": "fV-0j3cfCz3wgxE5Y6NP_",
@@ -2842,7 +2852,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2874,7 +2884,7 @@
     "screenId": "r2GYIm_SabTQCUesudBwl",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

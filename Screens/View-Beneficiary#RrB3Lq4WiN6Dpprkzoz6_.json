@@ -1770,7 +1770,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "foum6SzRI8mOX3o4uRvQF",
+                    "id": "16YinTn4HG1RF7ovSJrh2",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -1835,7 +1835,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "GVCBW3YanQvPbUZWkZrVa",
+                    "id": "H1wvm2DA9WV0Oo4lOHu8J",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -1884,8 +1884,114 @@
                                   ],
                                   "buttonIconPosition": "end"
                                 },
-                                "events": [],
-                                "path": "0-0-2-1-0-0-0",
+                                "events": [
+                                  {
+                                    "triggerId": "FlkWYKiDNrYYcgKgpyvcd",
+                                    "triggerName": "Downlaod Bene Data Chain Trigger",
+                                    "serviceType": "2",
+                                    "attributes": {
+                                      "delay": "",
+                                      "triggers": [
+                                        {
+                                          "id": "k2B5us-t_Ga1jAQGs10NJ",
+                                          "_id": "cRtrZfwmmWtJT3elLzhy3",
+                                          "name": "Return beneId Trigger",
+                                          "old_name": "Return beneId Trigger",
+                                          "projectId": "6458cf08badaaa2d6406a720",
+                                          "gitBranchName": "dev",
+                                          "services": [
+                                            {
+                                              "type": "11",
+                                              "command": {
+                                                "type": "6",
+                                                "attributes": {
+                                                  "requestBody": [],
+                                                  "storeType": "",
+                                                  "selectedObjectBindingKey": "selectedObject",
+                                                  "dataType": "value",
+                                                  "destinationBindingKey": "beneId",
+                                                  "sourceBindingKey": "selectedBeneIds",
+                                                  "sourceStoreType": 2,
+                                                  "destinationStoreType": 2,
+                                                  "value": "id",
+                                                  "logic": true,
+                                                  "changeValueConditonally": true,
+                                                  "mapRecursiveInChilds": false,
+                                                  "targettedType": "array"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "csrf": "0.jg73ljkjpuqJimbcRiS9mFvpHmD7tjMw",
+                                          "updatedAt": "1/16/2024",
+                                          "createdAt": "1/16/2024",
+                                          "createdBy": "masood",
+                                          "updatedBy": "masood"
+                                        },
+                                        {
+                                          "id": "lFOeeGk8-UHWYgn5JISkl",
+                                          "projectId": "6458cf08badaaa2d6406a720",
+                                          "gitBranchName": "dev",
+                                          "name": "donwload BeneXLS",
+                                          "status": "ACTIVE",
+                                          "services": [
+                                            {
+                                              "type": "8",
+                                              "command": {
+                                                "type": "2",
+                                                "attributes": {
+                                                  "loaderWidgetIds": [906070],
+                                                  "messageWidgetIds": [906070],
+                                                  "responseStateKey": "benedownloadResponse",
+                                                  "url": "/company-beneficiary/beneficiary-records/export/excel",
+                                                  "checksum": true,
+                                                  "encryption": true,
+                                                  "fileName": "BeneData list.xlsx",
+                                                  "isDeviceDetails": true,
+                                                  "loginTrigger": false,
+                                                  "formData": false,
+                                                  "logoutTrigger": false,
+                                                  "headers": {
+                                                    "Content-Type": "application/json",
+                                                    "Accept": "application/json",
+                                                    "channel_key": "001",
+                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                    "locale": "en-ltr"
+                                                  },
+                                                  "requestBody": [
+                                                    {
+                                                      "type": 2,
+                                                      "name": "Current screen",
+                                                      "key": "beneficiaryIds",
+                                                      "value": "beneId"
+                                                    }
+                                                  ],
+                                                  "baseURL": "631b0ff6d005932c10ce3bbe",
+                                                  "storeType": 2
+                                                },
+                                                "responseHandler": []
+                                              }
+                                            }
+                                          ],
+                                          "csrf": "0.jg73ljkjpuqJimbcRiS9mFvpHmD7tjMw",
+                                          "_id": "MMrRCdQonOgIwIGXwwOOu",
+                                          "updatedAt": "1/16/2024",
+                                          "createdAt": "1/16/2024",
+                                          "createdBy": "masood",
+                                          "updatedBy": "masood"
+                                        }
+                                      ],
+                                      "triggerIds": [
+                                        "k2B5us-t_Ga1jAQGs10NJ",
+                                        "lFOeeGk8-UHWYgn5JISkl"
+                                      ]
+                                    },
+                                    "type": "2",
+                                    "name": "On click",
+                                    "commandType": "1"
+                                  }
+                                ],
+                                "path": "0-0-4-1-0-0-0",
                                 "version": "1.0.0"
                               }
                             ],
@@ -1954,7 +2060,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "Ef_YgtzFG4SvddJhHvrFe",
+                    "id": "VPFUS5FfcU0O0oh3A95-6",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2094,7 +2200,7 @@
                   "direction": "row",
                   "name": "Grid layout",
                   "isSwappable": false,
-                  "hideComponent": true
+                  "hideComponent": false
                 },
                 "component": { "type": "10001", "content": "Grid layout" },
                 "allowedContainers": [
@@ -2196,6 +2302,24 @@
                             "text-align": "left"
                           },
                           "columnDefinition": [
+                            {
+                              "type": "checkbox",
+                              "typeTemp": {
+                                "name": "Checkbox",
+                                "type": "checkbox"
+                              },
+                              "headerName": "  ",
+                              "bindingKeyForSelectedRow": "selectedBeneIds",
+                              "storeType": 2,
+                              "disableConditional": { "bindingKey": "" },
+                              "disableValues": [""],
+                              "checkboxValue": "id",
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
+                            },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "Bene Ref No/Employee Id",
@@ -2358,7 +2482,7 @@
                           "type": "20014"
                         },
                         "events": [],
-                        "path": "0-0-3-0-0"
+                        "path": "0-0-5-0-0"
                       }
                     ],
                     "layoutProperties": {
@@ -2472,11 +2596,11 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "_id": "RrB3Lq4WiN6Dpprkzoz6_",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/15/2023",
-    "createdAt": "8/15/2023",
+    "createdBy": "masood",
+    "updatedAt": "1/17/2024",
+    "createdAt": "1/17/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2609,7 +2733,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2681,7 +2805,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2719,7 +2843,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2751,7 +2875,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2783,7 +2907,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2836,7 +2960,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2889,7 +3013,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2973,7 +3097,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3018,7 +3142,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3077,7 +3201,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3148,7 +3272,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3193,7 +3317,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3234,7 +3358,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3279,7 +3403,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3335,7 +3459,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3406,7 +3530,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3451,7 +3575,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3489,7 +3613,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3534,7 +3658,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3589,7 +3713,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3661,7 +3785,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3693,7 +3817,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3738,7 +3862,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3797,7 +3921,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3842,7 +3966,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3898,7 +4022,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3914,7 +4038,7 @@
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3930,7 +4054,7 @@
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3997,7 +4121,7 @@
       "direction": "row",
       "name": "Grid layout",
       "isSwappable": false,
-      "hideComponent": true
+      "hideComponent": false
     },
     "layout": null,
     "events": [],
@@ -4005,7 +4129,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4037,7 +4161,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4083,7 +4207,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4117,13 +4241,21 @@
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }],
       "buttonIconPosition": "end"
     },
-    "events": [],
-    "path": "0-0-2-1-0-0-0",
+    "events": [
+      {
+        "triggerId": "FlkWYKiDNrYYcgKgpyvcd",
+        "triggerName": "Downlaod Bene Data Chain Trigger",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
+      }
+    ],
+    "path": "0-0-4-1-0-0-0",
     "version": "1.0.0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4169,7 +4301,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4209,7 +4341,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4262,7 +4394,7 @@
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4325,6 +4457,18 @@
         "text-align": "left"
       },
       "columnDefinition": [
+        {
+          "type": "checkbox",
+          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
+          "headerName": "  ",
+          "bindingKeyForSelectedRow": "selectedBeneIds",
+          "storeType": 2,
+          "disableConditional": { "bindingKey": "" },
+          "disableValues": [""],
+          "checkboxValue": "id",
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
         {
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Bene Ref No/Employee Id",
@@ -4479,11 +4623,11 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-3-0-0",
+    "path": "0-0-5-0-0",
     "screenId": "RrB3Lq4WiN6Dpprkzoz6_",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

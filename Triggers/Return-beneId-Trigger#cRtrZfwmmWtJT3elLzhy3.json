@@ -1,0 +1,36 @@
+{
+  "id": "k2B5us-t_Ga1jAQGs10NJ",
+  "_id": "cRtrZfwmmWtJT3elLzhy3",
+  "name": "Return beneId Trigger",
+  "old_name": "Return beneId Trigger",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "beneId",
+          "sourceBindingKey": "selectedBeneIds",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "value": "id",
+          "logic": true,
+          "changeValueConditonally": true,
+          "mapRecursiveInChilds": false,
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "csrf": "0.jg73ljkjpuqJimbcRiS9mFvpHmD7tjMw",
+  "updatedAt": "1/16/2024",
+  "createdAt": "1/16/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

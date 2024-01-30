@@ -1,0 +1,97 @@
+{
+  "id": "UaatMGoZ-NgyM-QL82JPM",
+  "_id": "631a2338d005932c10ce0afe",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "edit-beneficiary-Bulk Api",
+  "old_name": "edit-beneficiary-Bulk Api",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/salary-beneficiaries/bulk/update/maker-request",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "username",
+              "value": "zeeshan"
+            },
+            { "type": 4, "name": "Static", "key": "uuid", "value": "123456" },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "salaryBeneficiaries",
+              "value": "selectedBeneRows"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "batchName",
+              "value": "batchName"
+            }
+          ],
+          "baseURL": "631b0ff6d005932c10ce3bbe",
+          "storeType": 2,
+          "triggerGenericErrorTrigger": true
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "triggerName": "Delete Selected Bene Rows",
+            "triggerId": "HE8wj5TtQqUlPu3rQklgc",
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
+            "triggerName": "Show Error Modal",
+            "triggerId": "JUh-C4wZ4q66zhdsrSC8r",
+            "httpStatus": 409,
+            "logic": { "==": [{ "var": "status" }, 0] }
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "delete selectedBeneRows",
+            "triggerId": "xNrIDk1MA5w0tvonF5erA"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

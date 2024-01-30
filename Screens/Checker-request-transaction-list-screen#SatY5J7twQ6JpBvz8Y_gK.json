@@ -1262,23 +1262,6 @@
                 "readOnly": true
               },
               {
-                "id": "7YpPI2179vSzVBSDeDHCD",
-                "name": "Open Checker Request Detail modal",
-                "type": "20031",
-                "attributes": {
-                  "widgetId": "TqtRYpfZMMGLvumLNdFvM",
-                  "layoutProperties": {
-                    "xl": 12,
-                    "lg": 12,
-                    "md": 12,
-                    "sm": 12,
-                    "xs": 12
-                  }
-                },
-                "component": { "type": "20031" },
-                "path": "0-0-3"
-              },
-              {
                 "type": "10001",
                 "id": "d3g-qlyzDdtEsn5fo817t",
                 "gridProps": [
@@ -1499,7 +1482,7 @@
                     "path": "0-0-4-0"
                   }
                 ],
-                "path": "0-0-4",
+                "path": "0-0-3",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -1768,7 +1751,7 @@
                     "path": "0-0-5-0"
                   }
                 ],
-                "path": "0-0-5",
+                "path": "0-0-4",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -2058,7 +2041,7 @@
                     }
                   }
                 ],
-                "path": "0-0-6",
+                "path": "0-0-5",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -2162,11 +2145,11 @@
                   "widget"
                 ],
                 "component": { "content": "Grid layout", "type": "10001" },
-                "path": "0-0-6",
+                "path": "0-0-5",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "4xJNDAryUfaMMiF8XTIX2",
+                    "id": "4GMWH7XPuob-0a0ML0JN7",
                     "gridProps": [
                       {
                         "id": "7YpPI2179vSzVBSDeDHCD",
@@ -2415,6 +2398,308 @@
                         },
                         "events": [],
                         "path": "0-0-6-0-1"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
+              },
+              {
+                "id": "uSZ0mz0fKtoEoIxk1pYDt",
+                "status": "ACTIVE",
+                "_id": "610134a1d1f5e860b1e8c751",
+                "name": "Instant Salary Payment",
+                "icon": "FaGripHorizontal",
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Instant Salary Payment",
+                  "hideCondition": {
+                    "logic": {
+                      "!=": [
+                        {
+                          "var": "currentScreen.selectedObject.transactionType"
+                        },
+                        "BULK SALARY BENEFICIARY UPDATE"
+                      ]
+                    }
+                  }
+                },
+                "group": "Layout",
+                "type": "10001",
+                "updatedAt": "23-Sep-2021",
+                "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                "createdAt": "24-Aug-2021",
+                "events": [],
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "component": { "content": "Grid layout", "type": "10001" },
+                "path": "0-0-8",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "jn7f43O8IZkcPcsQ186XO",
+                    "gridProps": [
+                      {
+                        "id": "7YpPI2179vSzVBSDeDHCD",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
+                        "id": "7YpPI2179vSzVBSDeDHCD",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
+                        "id": "7YpPI2179vSzVBSDeDHCD",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
+                        "id": "QgynL9JhAe48JyXLJxBO2",
+                        "status": "ACTIVE",
+                        "name": "Data table",
+                        "type": "20014",
+                        "attributes": {
+                          "responseStateKey": "checkerRequestTransactionList",
+                          "layoutProperties": {
+                            "container": {
+                              "//": "Use this class to style data table container."
+                            },
+                            "rowStyle": {
+                              "//": "Use this class to style data table rows.",
+                              "color": "black",
+                              "background-color": "white",
+                              "text-align": "left"
+                            },
+                            "defaultColDefinition": {
+                              "//": "Use this class to define column definition of data table.",
+                              "sortable": true,
+                              "animateRows": false,
+                              "resizable": true,
+                              "enableValue": false,
+                              "enableRowGroup": false,
+                              "enablePivot": false,
+                              "filter": true,
+                              "type": "leftAligned",
+                              "minWidth": 10,
+                              "domLayout": "autoHeight"
+                            },
+                            "mainContainer": "container",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12,
+                            "headerStyles": {
+                              "color": "#FFFFFF ",
+                              "background-color": "#00bd5f"
+                            },
+                            "rowsEven": {
+                              "background": "#3030300C !important"
+                            },
+                            "rowsOdd": { "background": "#FAFAFA !important" }
+                          },
+                          "defaultColDef": {
+                            "sortable": true,
+                            "animateRows": false,
+                            "resizable": false,
+                            "enableValue": false,
+                            "enableRowGroup": false,
+                            "enablePivot": false,
+                            "filter": true,
+                            "type": "leftAligned",
+                            "minWidth": 30,
+                            "domLayout": "autoHeight"
+                          },
+                          "rowStyle": {
+                            "color": "black",
+                            "background-color": "white",
+                            "text-align": "left"
+                          },
+                          "columnDefinition": [
+                            {
+                              "type": "text",
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "batchRequestRowId",
+                              "headerName": "Batch Row ID",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Employee ID",
+                              "field": "employeeId",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Name",
+                              "field": "name",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Mobile No",
+                              "field": "accountMobileNumber",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": {
+                                "name": "Icon Button",
+                                "type": "iconButton"
+                              },
+                              "headerName": "View Detail",
+                              "field": "",
+                              "rowId": "id",
+                              "iconButtons": [
+                                {
+                                  "label": "View Detail",
+                                  "trigger": {
+                                    "createdBy": "muzzamil",
+                                    "updatedBy": "muzzamil",
+                                    "_id": "633bf281b6075f4e58d52982",
+                                    "id": "Y0fesbFhnWVruJ8yCYIzJ",
+                                    "gitBranchName": "master",
+                                    "name": "Open Checker Request Detail modal",
+                                    "projectId": "63f4845e476fc83100e3a899",
+                                    "services": [
+                                      {
+                                        "_id": "633bf281b6075f4e58d52983",
+                                        "type": "9",
+                                        "command": {
+                                          "responseHandler": [],
+                                          "returns": [],
+                                          "_id": "633bf281b6075f4e58d52984",
+                                          "attributes": {
+                                            "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+                                            "modalId": "7YpPI2179vSzVBSDeDHCD"
+                                          },
+                                          "type": "1"
+                                        }
+                                      }
+                                    ],
+                                    "createdAt": "04-Oct-2022",
+                                    "updatedAt": "04-Oct-2022",
+                                    "__v": 0
+                                  },
+                                  "selectedObjectBindingKey": "selectedTransaction",
+                                  "cssClassNames": [
+                                    { "cssClassName": "viewDetailsButton" }
+                                  ],
+                                  "triggerId": "Y0fesbFhnWVruJ8yCYIzJ",
+                                  "conditional": {},
+                                  "values": [],
+                                  "disableConditional": {},
+                                  "disableValues": [],
+                                  "cssConditional": {},
+                                  "cssValues": []
+                                }
+                              ],
+                              "type": "iconButton"
+                            }
+                          ],
+                          "rowDefinition": [],
+                          "debug": false,
+                          "pagination": true,
+                          "paginationPageSize": 5,
+                          "suppressCsvExport": true,
+                          "suppressExcelExport": true,
+                          "name": "Data Grid",
+                          "storeType": 2
+                        },
+                        "icon": "FaTable",
+                        "group": "Advanced",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 12,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": {
+                          "content": "Data table",
+                          "type": "20014"
+                        },
+                        "events": [],
+                        "path": "0-0-6-0-2"
                       }
                     ],
                     "layoutProperties": {
@@ -2854,11 +3139,11 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "_id": "SatY5J7twQ6JpBvz8Y_gK",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "6/20/2023",
-    "createdAt": "6/20/2023",
+    "createdBy": "masood",
+    "updatedAt": "1/26/2024",
+    "createdAt": "1/26/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2904,18 +3189,6 @@
             "sm": 12,
             "xs": 12
           }
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "7YpPI2179vSzVBSDeDHCD",
-          "componentType": "20031",
-          "order": 1
         },
         {
           "componentId": "d3g-qlyzDdtEsn5fo817t",
@@ -2994,6 +3267,25 @@
           }
         },
         {
+          "componentId": "uSZ0mz0fKtoEoIxk1pYDt",
+          "componentType": "10001",
+          "id": "uSZ0mz0fKtoEoIxk1pYDt",
+          "position": {
+            "i": "uSZ0mz0fKtoEoIxk1pYDt",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
           "componentId": "SaSNhFhu0ACgCcg8-WQzE",
           "componentType": "10001",
           "id": "SaSNhFhu0ACgCcg8-WQzE",
@@ -3038,7 +3330,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3084,7 +3376,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3122,7 +3414,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3214,7 +3506,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3284,7 +3576,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3329,7 +3621,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3359,7 +3651,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3404,7 +3696,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3436,7 +3728,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3506,7 +3798,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3551,7 +3843,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3581,7 +3873,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3626,7 +3918,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3658,7 +3950,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3728,7 +4020,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3773,7 +4065,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3811,7 +4103,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3856,7 +4148,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3896,7 +4188,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3966,7 +4258,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4011,7 +4303,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4049,7 +4341,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4094,7 +4386,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4134,22 +4426,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "7YpPI2179vSzVBSDeDHCD",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "TqtRYpfZMMGLvumLNdFvM",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "screenId": "SatY5J7twQ6JpBvz8Y_gK",
-    "subType": "component",
-    "projectId": "6458cf08badaaa2d6406a720",
-    "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4214,7 +4491,22 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "7YpPI2179vSzVBSDeDHCD",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "SatY5J7twQ6JpBvz8Y_gK",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4395,7 +4687,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4460,7 +4752,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4635,7 +4927,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4700,7 +4992,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4900,7 +5192,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4965,7 +5257,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5167,7 +5459,235 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "uSZ0mz0fKtoEoIxk1pYDt",
+    "name": "Instant Salary Payment",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "7YpPI2179vSzVBSDeDHCD",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "QgynL9JhAe48JyXLJxBO2",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Instant Salary Payment",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.selectedObject.transactionType" },
+            "BULK SALARY BENEFICIARY UPDATE"
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "SatY5J7twQ6JpBvz8Y_gK",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "version": "1.0.0",
+    "gitBranchName": "dev",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QgynL9JhAe48JyXLJxBO2",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "checkerRequestTransactionList",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "color": "#FFFFFF ", "background-color": "#00bd5f" },
+        "rowsEven": { "background": "#3030300C !important" },
+        "rowsOdd": { "background": "#FAFAFA !important" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "batchRequestRowId",
+          "headerName": "Batch Row ID",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Employee ID",
+          "field": "employeeId",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Name",
+          "field": "name",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Mobile No",
+          "field": "accountMobileNumber",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "View Detail",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "View Detail",
+              "trigger": {
+                "createdBy": "muzzamil",
+                "updatedBy": "muzzamil",
+                "_id": "633bf281b6075f4e58d52982",
+                "id": "Y0fesbFhnWVruJ8yCYIzJ",
+                "gitBranchName": "master",
+                "name": "Open Checker Request Detail modal",
+                "projectId": "63f4845e476fc83100e3a899",
+                "services": [
+                  {
+                    "_id": "633bf281b6075f4e58d52983",
+                    "type": "9",
+                    "command": {
+                      "responseHandler": [],
+                      "returns": [],
+                      "_id": "633bf281b6075f4e58d52984",
+                      "attributes": {
+                        "widgetId": "TqtRYpfZMMGLvumLNdFvM",
+                        "modalId": "7YpPI2179vSzVBSDeDHCD"
+                      },
+                      "type": "1"
+                    }
+                  }
+                ],
+                "createdAt": "04-Oct-2022",
+                "updatedAt": "04-Oct-2022",
+                "__v": 0
+              },
+              "selectedObjectBindingKey": "selectedTransaction",
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton" }],
+              "triggerId": "Y0fesbFhnWVruJ8yCYIzJ",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": true,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-6-0-2",
+    "screenId": "SatY5J7twQ6JpBvz8Y_gK",
+    "subType": "component",
+    "projectId": "6458cf08badaaa2d6406a720",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5239,7 +5759,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5271,7 +5791,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5304,7 +5824,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5349,7 +5869,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "projectId": "6458cf08badaaa2d6406a720",
     "version": "1.0.0",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5394,7 +5914,7 @@
     "screenId": "SatY5J7twQ6JpBvz8Y_gK",
     "subType": "component",
     "projectId": "6458cf08badaaa2d6406a720",
-    "gitBranchName": "master",
+    "gitBranchName": "dev",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

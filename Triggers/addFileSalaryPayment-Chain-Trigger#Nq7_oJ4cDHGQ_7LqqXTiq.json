@@ -1,0 +1,153 @@
+{
+  "_id": "Nq7_oJ4cDHGQ_7LqqXTiq",
+  "id": "jdwKtCacNy5t8xubGxh3h",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "name": "addFileSalaryPayment Chain Trigger",
+  "old_name": "addFileSalaryPayment Chain Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "yTiPXE8zVKXkX9fauRD5M",
+              "name": "delete salaryPayments1",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "salaryPayments1",
+                      "storeType": 2
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+              "_id": "6Fp6JL-FT-xQEadQIzSRV",
+              "updatedAt": "1/22/2024",
+              "createdAt": "1/22/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            },
+            {
+              "id": "uY4khUBNKDbhCP7BR5k9f",
+              "name": "delete salaryPayments",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "salaryPayments",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+              "_id": "KDjywveH5hEPEh2PoT8K6",
+              "updatedAt": "1/22/2024",
+              "createdAt": "1/22/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            },
+            {
+              "id": "i65JCuuqi_GklpB_vwZ2t",
+              "_id": "6319c1ded005932c10cddac5",
+              "projectId": "6458cf08badaaa2d6406a720",
+              "gitBranchName": "dev",
+              "name": "addFileSalaryPayment",
+              "old_name": "addFileSalaryPayment",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "salaryPayments1",
+                      "url": "/file-upload?type=SALARY_PAYMENT",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": true,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "file",
+                          "value": "file"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "uuid",
+                          "value": "1233"
+                        }
+                      ],
+                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "triggerName": "Add From account",
+                        "triggerId": "5lF9e3Cjsm6kCYj9mhdPa",
+                        "logic": { "==": [{ "var": "status" }, 1] }
+                      },
+                      {
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "httpStatus": 200,
+                        "triggerName": "FailModal Condtional Flow",
+                        "triggerId": "DEogTDEES5kKSfU1nEYV2"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "csrf": "0.9pibf2mjkvshakmaGRXA8tz6UgCC4OZw",
+              "updatedAt": "1/20/2024",
+              "createdAt": "1/20/2024",
+              "createdBy": "masood",
+              "updatedBy": "masood"
+            }
+          ],
+          "triggerIds": [
+            "yTiPXE8zVKXkX9fauRD5M",
+            "uY4khUBNKDbhCP7BR5k9f",
+            "i65JCuuqi_GklpB_vwZ2t"
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.nw24hwtpufqmmssbPFSM-Pofyda6m4Bs",
+  "updatedAt": "1/22/2024",
+  "createdAt": "1/22/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

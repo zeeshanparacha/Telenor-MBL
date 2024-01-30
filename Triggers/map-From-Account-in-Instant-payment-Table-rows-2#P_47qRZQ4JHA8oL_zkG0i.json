@@ -1,0 +1,57 @@
+{
+  "id": "s5Y8GIED2QBp4akkRdLVT",
+  "_id": "P_47qRZQ4JHA8oL_zkG0i",
+  "name": "map From Account in Instant payment Table rows 2",
+  "old_name": "map From Account in Instant payment Table rows 2",
+  "projectId": "6458cf08badaaa2d6406a720",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "instantPayment",
+          "sourceBindingKey": "instantPayment",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "toAccountName", "changeValueConditonally": false },
+            { "key": "toAccountNo" },
+            { "key": "type" },
+            { "key": "receiverMobile" },
+            { "key": "purposeOfPayment" },
+            { "key": "preferredPaymentMode" },
+            { "key": "preferredPaymentModeForm" },
+            { "key": "toAccountBankImd" },
+            {
+              "key": "fromAccountNo",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  false,
+                  { "var": "currentScreen.form.fromAccountIBAN.accountMobile" },
+                  { "var": "currentScreen.form.fromAccountIBAN.accountMobile" }
+                ]
+              }
+            },
+            { "key": "amount" },
+            { "key": "comments" },
+            { "key": "id", "changeValueConditonally": false },
+            { "key": "bankName", "changeValueConditonally": false }
+          ],
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
+}

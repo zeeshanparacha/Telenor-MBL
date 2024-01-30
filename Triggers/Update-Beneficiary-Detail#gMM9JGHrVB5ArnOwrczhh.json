@@ -2,7 +2,7 @@
   "id": "n_3U_-ISxtbD9u8QRQfoD",
   "_id": "gMM9JGHrVB5ArnOwrczhh",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "name": "Update Beneficiary Detail",
   "old_name": "Update Beneficiary Detail",
   "status": "ACTIVE",
@@ -75,6 +75,24 @@
               "name": "Form",
               "key": "preferredPaymentMode",
               "value": "preferredPaymentModeForm.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "beneSalaryAmount",
+              "value": "beneSalaryAmount"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "statusd.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "activateDeactivateReason",
+              "value": "activateDeactivateReason"
             }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
@@ -115,9 +133,9 @@
       }
     }
   ],
-  "csrf": "0.kx05u8maqca9GaXihxmVMrJw31ER_dn",
-  "updatedAt": "8/15/2023",
-  "createdAt": "8/15/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

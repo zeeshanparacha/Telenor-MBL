@@ -4,7 +4,7 @@
   "name": "Add From account",
   "old_name": "Add From account",
   "projectId": "6458cf08badaaa2d6406a720",
-  "gitBranchName": "master",
+  "gitBranchName": "dev",
   "services": [
     {
       "type": "11",
@@ -16,7 +16,7 @@
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "object",
           "destinationBindingKey": "salaryPayments",
-          "sourceBindingKey": "salaryPayments",
+          "sourceBindingKey": "salaryPayments1.data.salaryPayments.salaryPayments",
           "sourceStoreType": 2,
           "destinationStoreType": 2,
           "filterList": [
@@ -50,8 +50,9 @@
       }
     }
   ],
-  "updatedAt": "6/16/2023",
-  "createdAt": "6/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.wqsdspfe0asRRPkyWdlK9Es8DrBVwJTk",
+  "updatedAt": "1/26/2024",
+  "createdAt": "1/26/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }
